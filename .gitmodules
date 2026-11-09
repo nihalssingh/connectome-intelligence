@@ -1,0 +1,7 @@
+[submodule "external/Drosophila_brain_model"]
+	path = external/Drosophila_brain_model
+	url = https://github.com/philshiu/Drosophila_brain_model.git
+[submodule "external/drosophila-brain-mlx"]
+	path = external/drosophila-brain-mlx
+	url = https://github.com/Kisame76/drosophila-brain-mlx.git
+	ignore = untracked

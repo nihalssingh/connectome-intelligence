@@ -1,0 +1,4106 @@
+[
+{
+"sid": "sensory:BM_Ant:left",
+"kind": "sensory",
+"cell_type": "BM_Ant",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 20,
+"n_driven": 20
+},
+{
+"sid": "sensory:BM_Ant:right",
+"kind": "sensory",
+"cell_type": "BM_Ant",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 21,
+"n_driven": 21
+},
+{
+"sid": "sensory:BM_Fr:left",
+"kind": "sensory",
+"cell_type": "BM_Fr",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 6,
+"n_driven": 6
+},
+{
+"sid": "sensory:BM_Fr:right",
+"kind": "sensory",
+"cell_type": "BM_Fr",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 7,
+"n_driven": 7
+},
+{
+"sid": "sensory:BM_FrOr:left",
+"kind": "sensory",
+"cell_type": "BM_FrOr",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 6,
+"n_driven": 6
+},
+{
+"sid": "sensory:BM_FrOr:right",
+"kind": "sensory",
+"cell_type": "BM_FrOr",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 7,
+"n_driven": 7
+},
+{
+"sid": "sensory:BM_Hau:left",
+"kind": "sensory",
+"cell_type": "BM_Hau",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 5,
+"n_driven": 5
+},
+{
+"sid": "sensory:BM_Hau:right",
+"kind": "sensory",
+"cell_type": "BM_Hau",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 5,
+"n_driven": 5
+},
+{
+"sid": "sensory:BM_InOc:left",
+"kind": "sensory",
+"cell_type": "BM_InOc",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 3,
+"n_driven": 3
+},
+{
+"sid": "sensory:BM_InOc:right",
+"kind": "sensory",
+"cell_type": "BM_InOc",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 3,
+"n_driven": 3
+},
+{
+"sid": "sensory:BM_InOm:left",
+"kind": "sensory",
+"cell_type": "BM_InOm",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 555,
+"n_driven": 555
+},
+{
+"sid": "sensory:BM_InOm:right",
+"kind": "sensory",
+"cell_type": "BM_InOm",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 558,
+"n_driven": 558
+},
+{
+"sid": "sensory:BM_MaPa:left",
+"kind": "sensory",
+"cell_type": "BM_MaPa",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 14,
+"n_driven": 14
+},
+{
+"sid": "sensory:BM_MaPa:right",
+"kind": "sensory",
+"cell_type": "BM_MaPa",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 10,
+"n_driven": 10
+},
+{
+"sid": "sensory:BM_Or:left",
+"kind": "sensory",
+"cell_type": "BM_Or",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 3,
+"n_driven": 3
+},
+{
+"sid": "sensory:BM_Or:right",
+"kind": "sensory",
+"cell_type": "BM_Or",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 3,
+"n_driven": 3
+},
+{
+"sid": "sensory:BM_Taste:left",
+"kind": "sensory",
+"cell_type": "BM_Taste",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 35,
+"n_driven": 35
+},
+{
+"sid": "sensory:BM_Taste:right",
+"kind": "sensory",
+"cell_type": "BM_Taste",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 37,
+"n_driven": 37
+},
+{
+"sid": "sensory:BM_Vib:left",
+"kind": "sensory",
+"cell_type": "BM_Vib",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 18,
+"n_driven": 18
+},
+{
+"sid": "sensory:BM_Vib:right",
+"kind": "sensory",
+"cell_type": "BM_Vib",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 19,
+"n_driven": 19
+},
+{
+"sid": "sensory:BM_Vt_PoOc:left",
+"kind": "sensory",
+"cell_type": "BM_Vt_PoOc",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 5,
+"n_driven": 5
+},
+{
+"sid": "sensory:BM_Vt_PoOc:right",
+"kind": "sensory",
+"cell_type": "BM_Vt_PoOc",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 5,
+"n_driven": 5
+},
+{
+"sid": "sensory:BM_dOcci:left",
+"kind": "sensory",
+"cell_type": "BM_dOcci",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 3,
+"n_driven": 3
+},
+{
+"sid": "sensory:BM_dOcci:right",
+"kind": "sensory",
+"cell_type": "BM_dOcci",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 3,
+"n_driven": 3
+},
+{
+"sid": "sensory:BM_dPoOr:left",
+"kind": "sensory",
+"cell_type": "BM_dPoOr",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 4,
+"n_driven": 4
+},
+{
+"sid": "sensory:BM_dPoOr:right",
+"kind": "sensory",
+"cell_type": "BM_dPoOr",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 8,
+"n_driven": 8
+},
+{
+"sid": "sensory:BM_vOcci_vPoOr:left",
+"kind": "sensory",
+"cell_type": "BM_vOcci_vPoOr",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 27,
+"n_driven": 27
+},
+{
+"sid": "sensory:BM_vOcci_vPoOr:right",
+"kind": "sensory",
+"cell_type": "BM_vOcci_vPoOr",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 25,
+"n_driven": 25
+},
+{
+"sid": "sensory:CB4148:left",
+"kind": "sensory",
+"cell_type": "CB4148",
+"side": "left",
+"cell_class": "unknown_sensory",
+"n": 7,
+"n_driven": 7
+},
+{
+"sid": "sensory:CB4148:right",
+"kind": "sensory",
+"cell_type": "CB4148",
+"side": "right",
+"cell_class": "unknown_sensory",
+"n": 8,
+"n_driven": 8
+},
+{
+"sid": "sensory:ENS1:left",
+"kind": "sensory",
+"cell_type": "ENS1",
+"side": "left",
+"cell_class": "unknown_sensory",
+"n": 5,
+"n_driven": 5
+},
+{
+"sid": "sensory:ENS1:right",
+"kind": "sensory",
+"cell_type": "ENS1",
+"side": "right",
+"cell_class": "unknown_sensory",
+"n": 5,
+"n_driven": 5
+},
+{
+"sid": "sensory:ENS3:left",
+"kind": "sensory",
+"cell_type": "ENS3",
+"side": "left",
+"cell_class": "unknown_sensory",
+"n": 13,
+"n_driven": 13
+},
+{
+"sid": "sensory:ENS3:right",
+"kind": "sensory",
+"cell_type": "ENS3",
+"side": "right",
+"cell_class": "unknown_sensory",
+"n": 16,
+"n_driven": 16
+},
+{
+"sid": "sensory:ENS4:left",
+"kind": "sensory",
+"cell_type": "ENS4",
+"side": "left",
+"cell_class": "unknown_sensory",
+"n": 6,
+"n_driven": 6
+},
+{
+"sid": "sensory:ENS4:right",
+"kind": "sensory",
+"cell_type": "ENS4",
+"side": "right",
+"cell_class": "unknown_sensory",
+"n": 6,
+"n_driven": 6
+},
+{
+"sid": "sensory:ENS5:left",
+"kind": "sensory",
+"cell_type": "ENS5",
+"side": "left",
+"cell_class": "unknown_sensory",
+"n": 9,
+"n_driven": 9
+},
+{
+"sid": "sensory:ENS5:right",
+"kind": "sensory",
+"cell_type": "ENS5",
+"side": "right",
+"cell_class": "unknown_sensory",
+"n": 9,
+"n_driven": 9
+},
+{
+"sid": "sensory:HRN_VP1d:left",
+"kind": "sensory",
+"cell_type": "HRN_VP1d",
+"side": "left",
+"cell_class": "hygrosensory",
+"n": 9,
+"n_driven": 9
+},
+{
+"sid": "sensory:HRN_VP1d:right",
+"kind": "sensory",
+"cell_type": "HRN_VP1d",
+"side": "right",
+"cell_class": "hygrosensory",
+"n": 7,
+"n_driven": 7
+},
+{
+"sid": "sensory:HRN_VP1l:left",
+"kind": "sensory",
+"cell_type": "HRN_VP1l",
+"side": "left",
+"cell_class": "hygrosensory",
+"n": 6,
+"n_driven": 6
+},
+{
+"sid": "sensory:HRN_VP1l:right",
+"kind": "sensory",
+"cell_type": "HRN_VP1l",
+"side": "right",
+"cell_class": "hygrosensory",
+"n": 7,
+"n_driven": 7
+},
+{
+"sid": "sensory:HRN_VP4:left",
+"kind": "sensory",
+"cell_type": "HRN_VP4",
+"side": "left",
+"cell_class": "hygrosensory",
+"n": 15,
+"n_driven": 15
+},
+{
+"sid": "sensory:HRN_VP4:right",
+"kind": "sensory",
+"cell_type": "HRN_VP4",
+"side": "right",
+"cell_class": "hygrosensory",
+"n": 14,
+"n_driven": 14
+},
+{
+"sid": "sensory:HRN_VP5:left",
+"kind": "sensory",
+"cell_type": "HRN_VP5",
+"side": "left",
+"cell_class": "hygrosensory",
+"n": 9,
+"n_driven": 9
+},
+{
+"sid": "sensory:HRN_VP5:right",
+"kind": "sensory",
+"cell_type": "HRN_VP5",
+"side": "right",
+"cell_class": "hygrosensory",
+"n": 7,
+"n_driven": 7
+},
+{
+"sid": "sensory:JO-A1:left",
+"kind": "sensory",
+"cell_type": "JO-A1",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 11,
+"n_driven": 11
+},
+{
+"sid": "sensory:JO-A1:right",
+"kind": "sensory",
+"cell_type": "JO-A1",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 10,
+"n_driven": 10
+},
+{
+"sid": "sensory:JO-A2:left",
+"kind": "sensory",
+"cell_type": "JO-A2",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 16,
+"n_driven": 16
+},
+{
+"sid": "sensory:JO-A2:right",
+"kind": "sensory",
+"cell_type": "JO-A2",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 17,
+"n_driven": 17
+},
+{
+"sid": "sensory:JO-A3:left",
+"kind": "sensory",
+"cell_type": "JO-A3",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 3,
+"n_driven": 3
+},
+{
+"sid": "sensory:JO-A3:right",
+"kind": "sensory",
+"cell_type": "JO-A3",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 3,
+"n_driven": 3
+},
+{
+"sid": "sensory:JO-A5:left",
+"kind": "sensory",
+"cell_type": "JO-A5",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 17,
+"n_driven": 17
+},
+{
+"sid": "sensory:JO-A5:right",
+"kind": "sensory",
+"cell_type": "JO-A5",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 20,
+"n_driven": 20
+},
+{
+"sid": "sensory:JO-B1_a:left",
+"kind": "sensory",
+"cell_type": "JO-B1_a",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 78,
+"n_driven": 77
+},
+{
+"sid": "sensory:JO-B1_a:right",
+"kind": "sensory",
+"cell_type": "JO-B1_a",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 28,
+"n_driven": 28
+},
+{
+"sid": "sensory:JO-B1_b:left",
+"kind": "sensory",
+"cell_type": "JO-B1_b",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 14,
+"n_driven": 14
+},
+{
+"sid": "sensory:JO-B1_b:right",
+"kind": "sensory",
+"cell_type": "JO-B1_b",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 13,
+"n_driven": 13
+},
+{
+"sid": "sensory:JO-B1_c:left",
+"kind": "sensory",
+"cell_type": "JO-B1_c",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 11,
+"n_driven": 11
+},
+{
+"sid": "sensory:JO-B1_c:right",
+"kind": "sensory",
+"cell_type": "JO-B1_c",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 11,
+"n_driven": 11
+},
+{
+"sid": "sensory:JO-B2:left",
+"kind": "sensory",
+"cell_type": "JO-B2",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 18,
+"n_driven": 18
+},
+{
+"sid": "sensory:JO-B2:right",
+"kind": "sensory",
+"cell_type": "JO-B2",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 18,
+"n_driven": 18
+},
+{
+"sid": "sensory:JO-B3:left",
+"kind": "sensory",
+"cell_type": "JO-B3",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 14,
+"n_driven": 14
+},
+{
+"sid": "sensory:JO-B3:right",
+"kind": "sensory",
+"cell_type": "JO-B3",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 15,
+"n_driven": 15
+},
+{
+"sid": "sensory:JO-B4_a:left",
+"kind": "sensory",
+"cell_type": "JO-B4_a",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 7,
+"n_driven": 7
+},
+{
+"sid": "sensory:JO-B4_a:right",
+"kind": "sensory",
+"cell_type": "JO-B4_a",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 8,
+"n_driven": 8
+},
+{
+"sid": "sensory:JO-B4_b:left",
+"kind": "sensory",
+"cell_type": "JO-B4_b",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 15,
+"n_driven": 15
+},
+{
+"sid": "sensory:JO-B4_b:right",
+"kind": "sensory",
+"cell_type": "JO-B4_b",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 10,
+"n_driven": 10
+},
+{
+"sid": "sensory:JO-CA1:left",
+"kind": "sensory",
+"cell_type": "JO-CA1",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 12,
+"n_driven": 12
+},
+{
+"sid": "sensory:JO-CA1:right",
+"kind": "sensory",
+"cell_type": "JO-CA1",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 8,
+"n_driven": 8
+},
+{
+"sid": "sensory:JO-CA2:left",
+"kind": "sensory",
+"cell_type": "JO-CA2",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 12,
+"n_driven": 12
+},
+{
+"sid": "sensory:JO-CA2:right",
+"kind": "sensory",
+"cell_type": "JO-CA2",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 4,
+"n_driven": 4
+},
+{
+"sid": "sensory:JO-CL:left",
+"kind": "sensory",
+"cell_type": "JO-CL",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 14,
+"n_driven": 14
+},
+{
+"sid": "sensory:JO-CL:right",
+"kind": "sensory",
+"cell_type": "JO-CL",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 11,
+"n_driven": 11
+},
+{
+"sid": "sensory:JO-CM:left",
+"kind": "sensory",
+"cell_type": "JO-CM",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 18,
+"n_driven": 18
+},
+{
+"sid": "sensory:JO-CM:right",
+"kind": "sensory",
+"cell_type": "JO-CM",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 17,
+"n_driven": 17
+},
+{
+"sid": "sensory:JO-DA:left",
+"kind": "sensory",
+"cell_type": "JO-DA",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 17,
+"n_driven": 17
+},
+{
+"sid": "sensory:JO-DA:right",
+"kind": "sensory",
+"cell_type": "JO-DA",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 15,
+"n_driven": 15
+},
+{
+"sid": "sensory:JO-DP:left",
+"kind": "sensory",
+"cell_type": "JO-DP",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 11,
+"n_driven": 11
+},
+{
+"sid": "sensory:JO-DP:right",
+"kind": "sensory",
+"cell_type": "JO-DP",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 10,
+"n_driven": 10
+},
+{
+"sid": "sensory:JO-ED1:left",
+"kind": "sensory",
+"cell_type": "JO-ED1",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 13,
+"n_driven": 13
+},
+{
+"sid": "sensory:JO-ED1:right",
+"kind": "sensory",
+"cell_type": "JO-ED1",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 14,
+"n_driven": 14
+},
+{
+"sid": "sensory:JO-ED2_a:left",
+"kind": "sensory",
+"cell_type": "JO-ED2_a",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 21,
+"n_driven": 21
+},
+{
+"sid": "sensory:JO-ED2_a:right",
+"kind": "sensory",
+"cell_type": "JO-ED2_a",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 24,
+"n_driven": 24
+},
+{
+"sid": "sensory:JO-ED2_b:left",
+"kind": "sensory",
+"cell_type": "JO-ED2_b",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 11,
+"n_driven": 11
+},
+{
+"sid": "sensory:JO-ED2_b:right",
+"kind": "sensory",
+"cell_type": "JO-ED2_b",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 10,
+"n_driven": 10
+},
+{
+"sid": "sensory:JO-ED2_c:left",
+"kind": "sensory",
+"cell_type": "JO-ED2_c",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 8,
+"n_driven": 8
+},
+{
+"sid": "sensory:JO-ED2_c:right",
+"kind": "sensory",
+"cell_type": "JO-ED2_c",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 9,
+"n_driven": 9
+},
+{
+"sid": "sensory:JO-EV1:left",
+"kind": "sensory",
+"cell_type": "JO-EV1",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 37,
+"n_driven": 37
+},
+{
+"sid": "sensory:JO-EV1:right",
+"kind": "sensory",
+"cell_type": "JO-EV1",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 33,
+"n_driven": 33
+},
+{
+"sid": "sensory:JO-EV2:left",
+"kind": "sensory",
+"cell_type": "JO-EV2",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 23,
+"n_driven": 23
+},
+{
+"sid": "sensory:JO-EV2:right",
+"kind": "sensory",
+"cell_type": "JO-EV2",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 17,
+"n_driven": 17
+},
+{
+"sid": "sensory:JO-EV3:left",
+"kind": "sensory",
+"cell_type": "JO-EV3",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 25,
+"n_driven": 25
+},
+{
+"sid": "sensory:JO-EV3:right",
+"kind": "sensory",
+"cell_type": "JO-EV3",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 21,
+"n_driven": 21
+},
+{
+"sid": "sensory:JO-EV4:left",
+"kind": "sensory",
+"cell_type": "JO-EV4",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 7,
+"n_driven": 7
+},
+{
+"sid": "sensory:JO-EV4:right",
+"kind": "sensory",
+"cell_type": "JO-EV4",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 7,
+"n_driven": 7
+},
+{
+"sid": "sensory:JO-EV5:left",
+"kind": "sensory",
+"cell_type": "JO-EV5",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 14,
+"n_driven": 14
+},
+{
+"sid": "sensory:JO-EV5:right",
+"kind": "sensory",
+"cell_type": "JO-EV5",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 15,
+"n_driven": 15
+},
+{
+"sid": "sensory:JO-EV6:left",
+"kind": "sensory",
+"cell_type": "JO-EV6",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 14,
+"n_driven": 14
+},
+{
+"sid": "sensory:JO-EV6:right",
+"kind": "sensory",
+"cell_type": "JO-EV6",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 14,
+"n_driven": 14
+},
+{
+"sid": "sensory:JO-FD1:left",
+"kind": "sensory",
+"cell_type": "JO-FD1",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 8,
+"n_driven": 8
+},
+{
+"sid": "sensory:JO-FD1:right",
+"kind": "sensory",
+"cell_type": "JO-FD1",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 7,
+"n_driven": 7
+},
+{
+"sid": "sensory:JO-FD2:left",
+"kind": "sensory",
+"cell_type": "JO-FD2",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 10,
+"n_driven": 10
+},
+{
+"sid": "sensory:JO-FD2:right",
+"kind": "sensory",
+"cell_type": "JO-FD2",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 7,
+"n_driven": 7
+},
+{
+"sid": "sensory:JO-FV:left",
+"kind": "sensory",
+"cell_type": "JO-FV",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 88,
+"n_driven": 86
+},
+{
+"sid": "sensory:JO-FV:right",
+"kind": "sensory",
+"cell_type": "JO-FV",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 82,
+"n_driven": 80
+},
+{
+"sid": "sensory:JO-mz:left",
+"kind": "sensory",
+"cell_type": "JO-mz",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 11,
+"n_driven": 11
+},
+{
+"sid": "sensory:JO-mz:right",
+"kind": "sensory",
+"cell_type": "JO-mz",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 10,
+"n_driven": 10
+},
+{
+"sid": "sensory:JO-unclear:left",
+"kind": "sensory",
+"cell_type": "JO-unclear",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 7,
+"n_driven": 6
+},
+{
+"sid": "sensory:JO-unclear:right",
+"kind": "sensory",
+"cell_type": "JO-unclear",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 28,
+"n_driven": 22
+},
+{
+"sid": "sensory:LB1a:left",
+"kind": "sensory",
+"cell_type": "LB1a",
+"side": "left",
+"cell_class": "gustatory",
+"n": 8,
+"n_driven": 8
+},
+{
+"sid": "sensory:LB1a:right",
+"kind": "sensory",
+"cell_type": "LB1a",
+"side": "right",
+"cell_class": "gustatory",
+"n": 8,
+"n_driven": 8
+},
+{
+"sid": "sensory:LB1b:left",
+"kind": "sensory",
+"cell_type": "LB1b",
+"side": "left",
+"cell_class": "gustatory",
+"n": 3,
+"n_driven": 3
+},
+{
+"sid": "sensory:LB1b:right",
+"kind": "sensory",
+"cell_type": "LB1b",
+"side": "right",
+"cell_class": "gustatory",
+"n": 4,
+"n_driven": 4
+},
+{
+"sid": "sensory:LB1c:left",
+"kind": "sensory",
+"cell_type": "LB1c",
+"side": "left",
+"cell_class": "gustatory",
+"n": 5,
+"n_driven": 5
+},
+{
+"sid": "sensory:LB1c:right",
+"kind": "sensory",
+"cell_type": "LB1c",
+"side": "right",
+"cell_class": "gustatory",
+"n": 6,
+"n_driven": 6
+},
+{
+"sid": "sensory:LB1d:left",
+"kind": "sensory",
+"cell_type": "LB1d",
+"side": "left",
+"cell_class": "gustatory",
+"n": 5,
+"n_driven": 5
+},
+{
+"sid": "sensory:LB1d:right",
+"kind": "sensory",
+"cell_type": "LB1d",
+"side": "right",
+"cell_class": "gustatory",
+"n": 3,
+"n_driven": 3
+},
+{
+"sid": "sensory:LB1e:left",
+"kind": "sensory",
+"cell_type": "LB1e",
+"side": "left",
+"cell_class": "gustatory",
+"n": 11,
+"n_driven": 11
+},
+{
+"sid": "sensory:LB1e:right",
+"kind": "sensory",
+"cell_type": "LB1e",
+"side": "right",
+"cell_class": "gustatory",
+"n": 12,
+"n_driven": 12
+},
+{
+"sid": "sensory:LB2c:left",
+"kind": "sensory",
+"cell_type": "LB2c",
+"side": "left",
+"cell_class": "gustatory",
+"n": 3,
+"n_driven": 3
+},
+{
+"sid": "sensory:LB2c:right",
+"kind": "sensory",
+"cell_type": "LB2c",
+"side": "right",
+"cell_class": "gustatory",
+"n": 4,
+"n_driven": 4
+},
+{
+"sid": "sensory:LB3a:left",
+"kind": "sensory",
+"cell_type": "LB3a",
+"side": "left",
+"cell_class": "gustatory",
+"n": 15,
+"n_driven": 15
+},
+{
+"sid": "sensory:LB3a:right",
+"kind": "sensory",
+"cell_type": "LB3a",
+"side": "right",
+"cell_class": "gustatory",
+"n": 15,
+"n_driven": 15
+},
+{
+"sid": "sensory:LB3b:left",
+"kind": "sensory",
+"cell_type": "LB3b",
+"side": "left",
+"cell_class": "gustatory",
+"n": 13,
+"n_driven": 13
+},
+{
+"sid": "sensory:LB3b:right",
+"kind": "sensory",
+"cell_type": "LB3b",
+"side": "right",
+"cell_class": "gustatory",
+"n": 12,
+"n_driven": 12
+},
+{
+"sid": "sensory:LB3c:left",
+"kind": "sensory",
+"cell_type": "LB3c",
+"side": "left",
+"cell_class": "gustatory",
+"n": 20,
+"n_driven": 20
+},
+{
+"sid": "sensory:LB3c:right",
+"kind": "sensory",
+"cell_type": "LB3c",
+"side": "right",
+"cell_class": "gustatory",
+"n": 12,
+"n_driven": 12
+},
+{
+"sid": "sensory:LB3d:left",
+"kind": "sensory",
+"cell_type": "LB3d",
+"side": "left",
+"cell_class": "gustatory",
+"n": 15,
+"n_driven": 15
+},
+{
+"sid": "sensory:LB3d:right",
+"kind": "sensory",
+"cell_type": "LB3d",
+"side": "right",
+"cell_class": "gustatory",
+"n": 14,
+"n_driven": 14
+},
+{
+"sid": "sensory:LB4b:left",
+"kind": "sensory",
+"cell_type": "LB4b",
+"side": "left",
+"cell_class": "gustatory",
+"n": 4,
+"n_driven": 4
+},
+{
+"sid": "sensory:LB4b:right",
+"kind": "sensory",
+"cell_type": "LB4b",
+"side": "right",
+"cell_class": "gustatory",
+"n": 6,
+"n_driven": 6
+},
+{
+"sid": "sensory:ORN_D:left",
+"kind": "sensory",
+"cell_type": "ORN_D",
+"side": "left",
+"cell_class": "olfactory",
+"n": 16,
+"n_driven": 16
+},
+{
+"sid": "sensory:ORN_D:right",
+"kind": "sensory",
+"cell_type": "ORN_D",
+"side": "right",
+"cell_class": "olfactory",
+"n": 15,
+"n_driven": 15
+},
+{
+"sid": "sensory:ORN_DA1:left",
+"kind": "sensory",
+"cell_type": "ORN_DA1",
+"side": "left",
+"cell_class": "olfactory",
+"n": 60,
+"n_driven": 60
+},
+{
+"sid": "sensory:ORN_DA1:right",
+"kind": "sensory",
+"cell_type": "ORN_DA1",
+"side": "right",
+"cell_class": "olfactory",
+"n": 66,
+"n_driven": 66
+},
+{
+"sid": "sensory:ORN_DA2:left",
+"kind": "sensory",
+"cell_type": "ORN_DA2",
+"side": "left",
+"cell_class": "olfactory",
+"n": 16,
+"n_driven": 16
+},
+{
+"sid": "sensory:ORN_DA2:right",
+"kind": "sensory",
+"cell_type": "ORN_DA2",
+"side": "right",
+"cell_class": "olfactory",
+"n": 22,
+"n_driven": 22
+},
+{
+"sid": "sensory:ORN_DA3:left",
+"kind": "sensory",
+"cell_type": "ORN_DA3",
+"side": "left",
+"cell_class": "olfactory",
+"n": 14,
+"n_driven": 14
+},
+{
+"sid": "sensory:ORN_DA3:right",
+"kind": "sensory",
+"cell_type": "ORN_DA3",
+"side": "right",
+"cell_class": "olfactory",
+"n": 16,
+"n_driven": 16
+},
+{
+"sid": "sensory:ORN_DA4l:left",
+"kind": "sensory",
+"cell_type": "ORN_DA4l",
+"side": "left",
+"cell_class": "olfactory",
+"n": 19,
+"n_driven": 19
+},
+{
+"sid": "sensory:ORN_DA4l:right",
+"kind": "sensory",
+"cell_type": "ORN_DA4l",
+"side": "right",
+"cell_class": "olfactory",
+"n": 18,
+"n_driven": 18
+},
+{
+"sid": "sensory:ORN_DA4m:left",
+"kind": "sensory",
+"cell_type": "ORN_DA4m",
+"side": "left",
+"cell_class": "olfactory",
+"n": 20,
+"n_driven": 20
+},
+{
+"sid": "sensory:ORN_DA4m:right",
+"kind": "sensory",
+"cell_type": "ORN_DA4m",
+"side": "right",
+"cell_class": "olfactory",
+"n": 19,
+"n_driven": 19
+},
+{
+"sid": "sensory:ORN_DC1:left",
+"kind": "sensory",
+"cell_type": "ORN_DC1",
+"side": "left",
+"cell_class": "olfactory",
+"n": 21,
+"n_driven": 21
+},
+{
+"sid": "sensory:ORN_DC1:right",
+"kind": "sensory",
+"cell_type": "ORN_DC1",
+"side": "right",
+"cell_class": "olfactory",
+"n": 18,
+"n_driven": 18
+},
+{
+"sid": "sensory:ORN_DC2:left",
+"kind": "sensory",
+"cell_type": "ORN_DC2",
+"side": "left",
+"cell_class": "olfactory",
+"n": 8,
+"n_driven": 8
+},
+{
+"sid": "sensory:ORN_DC2:right",
+"kind": "sensory",
+"cell_type": "ORN_DC2",
+"side": "right",
+"cell_class": "olfactory",
+"n": 12,
+"n_driven": 12
+},
+{
+"sid": "sensory:ORN_DC3:left",
+"kind": "sensory",
+"cell_type": "ORN_DC3",
+"side": "left",
+"cell_class": "olfactory",
+"n": 15,
+"n_driven": 15
+},
+{
+"sid": "sensory:ORN_DC3:right",
+"kind": "sensory",
+"cell_type": "ORN_DC3",
+"side": "right",
+"cell_class": "olfactory",
+"n": 18,
+"n_driven": 18
+},
+{
+"sid": "sensory:ORN_DC4:left",
+"kind": "sensory",
+"cell_type": "ORN_DC4",
+"side": "left",
+"cell_class": "olfactory",
+"n": 11,
+"n_driven": 11
+},
+{
+"sid": "sensory:ORN_DC4:right",
+"kind": "sensory",
+"cell_type": "ORN_DC4",
+"side": "right",
+"cell_class": "olfactory",
+"n": 11,
+"n_driven": 11
+},
+{
+"sid": "sensory:ORN_DL1:left",
+"kind": "sensory",
+"cell_type": "ORN_DL1",
+"side": "left",
+"cell_class": "olfactory",
+"n": 34,
+"n_driven": 34
+},
+{
+"sid": "sensory:ORN_DL1:right",
+"kind": "sensory",
+"cell_type": "ORN_DL1",
+"side": "right",
+"cell_class": "olfactory",
+"n": 34,
+"n_driven": 34
+},
+{
+"sid": "sensory:ORN_DL2d:left",
+"kind": "sensory",
+"cell_type": "ORN_DL2d",
+"side": "left",
+"cell_class": "olfactory",
+"n": 7,
+"n_driven": 7
+},
+{
+"sid": "sensory:ORN_DL2d:right",
+"kind": "sensory",
+"cell_type": "ORN_DL2d",
+"side": "right",
+"cell_class": "olfactory",
+"n": 7,
+"n_driven": 7
+},
+{
+"sid": "sensory:ORN_DL2v:left",
+"kind": "sensory",
+"cell_type": "ORN_DL2v",
+"side": "left",
+"cell_class": "olfactory",
+"n": 8,
+"n_driven": 8
+},
+{
+"sid": "sensory:ORN_DL2v:right",
+"kind": "sensory",
+"cell_type": "ORN_DL2v",
+"side": "right",
+"cell_class": "olfactory",
+"n": 10,
+"n_driven": 10
+},
+{
+"sid": "sensory:ORN_DL3:left",
+"kind": "sensory",
+"cell_type": "ORN_DL3",
+"side": "left",
+"cell_class": "olfactory",
+"n": 36,
+"n_driven": 36
+},
+{
+"sid": "sensory:ORN_DL3:right",
+"kind": "sensory",
+"cell_type": "ORN_DL3",
+"side": "right",
+"cell_class": "olfactory",
+"n": 42,
+"n_driven": 42
+},
+{
+"sid": "sensory:ORN_DL4:left",
+"kind": "sensory",
+"cell_type": "ORN_DL4",
+"side": "left",
+"cell_class": "olfactory",
+"n": 27,
+"n_driven": 27
+},
+{
+"sid": "sensory:ORN_DL4:right",
+"kind": "sensory",
+"cell_type": "ORN_DL4",
+"side": "right",
+"cell_class": "olfactory",
+"n": 25,
+"n_driven": 25
+},
+{
+"sid": "sensory:ORN_DL5:left",
+"kind": "sensory",
+"cell_type": "ORN_DL5",
+"side": "left",
+"cell_class": "olfactory",
+"n": 18,
+"n_driven": 18
+},
+{
+"sid": "sensory:ORN_DL5:right",
+"kind": "sensory",
+"cell_type": "ORN_DL5",
+"side": "right",
+"cell_class": "olfactory",
+"n": 24,
+"n_driven": 24
+},
+{
+"sid": "sensory:ORN_DM1:left",
+"kind": "sensory",
+"cell_type": "ORN_DM1",
+"side": "left",
+"cell_class": "olfactory",
+"n": 35,
+"n_driven": 35
+},
+{
+"sid": "sensory:ORN_DM1:right",
+"kind": "sensory",
+"cell_type": "ORN_DM1",
+"side": "right",
+"cell_class": "olfactory",
+"n": 33,
+"n_driven": 33
+},
+{
+"sid": "sensory:ORN_DM2:left",
+"kind": "sensory",
+"cell_type": "ORN_DM2",
+"side": "left",
+"cell_class": "olfactory",
+"n": 29,
+"n_driven": 29
+},
+{
+"sid": "sensory:ORN_DM2:right",
+"kind": "sensory",
+"cell_type": "ORN_DM2",
+"side": "right",
+"cell_class": "olfactory",
+"n": 25,
+"n_driven": 25
+},
+{
+"sid": "sensory:ORN_DM3:left",
+"kind": "sensory",
+"cell_type": "ORN_DM3",
+"side": "left",
+"cell_class": "olfactory",
+"n": 32,
+"n_driven": 32
+},
+{
+"sid": "sensory:ORN_DM3:right",
+"kind": "sensory",
+"cell_type": "ORN_DM3",
+"side": "right",
+"cell_class": "olfactory",
+"n": 29,
+"n_driven": 29
+},
+{
+"sid": "sensory:ORN_DM4:left",
+"kind": "sensory",
+"cell_type": "ORN_DM4",
+"side": "left",
+"cell_class": "olfactory",
+"n": 21,
+"n_driven": 20
+},
+{
+"sid": "sensory:ORN_DM4:right",
+"kind": "sensory",
+"cell_type": "ORN_DM4",
+"side": "right",
+"cell_class": "olfactory",
+"n": 20,
+"n_driven": 20
+},
+{
+"sid": "sensory:ORN_DM5:left",
+"kind": "sensory",
+"cell_type": "ORN_DM5",
+"side": "left",
+"cell_class": "olfactory",
+"n": 21,
+"n_driven": 21
+},
+{
+"sid": "sensory:ORN_DM5:right",
+"kind": "sensory",
+"cell_type": "ORN_DM5",
+"side": "right",
+"cell_class": "olfactory",
+"n": 21,
+"n_driven": 21
+},
+{
+"sid": "sensory:ORN_DM6:left",
+"kind": "sensory",
+"cell_type": "ORN_DM6",
+"side": "left",
+"cell_class": "olfactory",
+"n": 27,
+"n_driven": 27
+},
+{
+"sid": "sensory:ORN_DM6:right",
+"kind": "sensory",
+"cell_type": "ORN_DM6",
+"side": "right",
+"cell_class": "olfactory",
+"n": 25,
+"n_driven": 25
+},
+{
+"sid": "sensory:ORN_DP1l:left",
+"kind": "sensory",
+"cell_type": "ORN_DP1l",
+"side": "left",
+"cell_class": "olfactory",
+"n": 12,
+"n_driven": 12
+},
+{
+"sid": "sensory:ORN_DP1l:right",
+"kind": "sensory",
+"cell_type": "ORN_DP1l",
+"side": "right",
+"cell_class": "olfactory",
+"n": 12,
+"n_driven": 12
+},
+{
+"sid": "sensory:ORN_DP1m:left",
+"kind": "sensory",
+"cell_type": "ORN_DP1m",
+"side": "left",
+"cell_class": "olfactory",
+"n": 16,
+"n_driven": 16
+},
+{
+"sid": "sensory:ORN_DP1m:right",
+"kind": "sensory",
+"cell_type": "ORN_DP1m",
+"side": "right",
+"cell_class": "olfactory",
+"n": 16,
+"n_driven": 16
+},
+{
+"sid": "sensory:ORN_V:left",
+"kind": "sensory",
+"cell_type": "ORN_V",
+"side": "left",
+"cell_class": "olfactory",
+"n": 34,
+"n_driven": 34
+},
+{
+"sid": "sensory:ORN_V:right",
+"kind": "sensory",
+"cell_type": "ORN_V",
+"side": "right",
+"cell_class": "olfactory",
+"n": 33,
+"n_driven": 33
+},
+{
+"sid": "sensory:ORN_VA1d:left",
+"kind": "sensory",
+"cell_type": "ORN_VA1d",
+"side": "left",
+"cell_class": "olfactory",
+"n": 48,
+"n_driven": 48
+},
+{
+"sid": "sensory:ORN_VA1d:right",
+"kind": "sensory",
+"cell_type": "ORN_VA1d",
+"side": "right",
+"cell_class": "olfactory",
+"n": 45,
+"n_driven": 45
+},
+{
+"sid": "sensory:ORN_VA1v:left",
+"kind": "sensory",
+"cell_type": "ORN_VA1v",
+"side": "left",
+"cell_class": "olfactory",
+"n": 46,
+"n_driven": 46
+},
+{
+"sid": "sensory:ORN_VA1v:right",
+"kind": "sensory",
+"cell_type": "ORN_VA1v",
+"side": "right",
+"cell_class": "olfactory",
+"n": 38,
+"n_driven": 38
+},
+{
+"sid": "sensory:ORN_VA2:left",
+"kind": "sensory",
+"cell_type": "ORN_VA2",
+"side": "left",
+"cell_class": "olfactory",
+"n": 34,
+"n_driven": 34
+},
+{
+"sid": "sensory:ORN_VA2:right",
+"kind": "sensory",
+"cell_type": "ORN_VA2",
+"side": "right",
+"cell_class": "olfactory",
+"n": 33,
+"n_driven": 33
+},
+{
+"sid": "sensory:ORN_VA3:left",
+"kind": "sensory",
+"cell_type": "ORN_VA3",
+"side": "left",
+"cell_class": "olfactory",
+"n": 13,
+"n_driven": 13
+},
+{
+"sid": "sensory:ORN_VA3:right",
+"kind": "sensory",
+"cell_type": "ORN_VA3",
+"side": "right",
+"cell_class": "olfactory",
+"n": 13,
+"n_driven": 13
+},
+{
+"sid": "sensory:ORN_VA4:left",
+"kind": "sensory",
+"cell_type": "ORN_VA4",
+"side": "left",
+"cell_class": "olfactory",
+"n": 15,
+"n_driven": 15
+},
+{
+"sid": "sensory:ORN_VA4:right",
+"kind": "sensory",
+"cell_type": "ORN_VA4",
+"side": "right",
+"cell_class": "olfactory",
+"n": 15,
+"n_driven": 15
+},
+{
+"sid": "sensory:ORN_VA5:left",
+"kind": "sensory",
+"cell_type": "ORN_VA5",
+"side": "left",
+"cell_class": "olfactory",
+"n": 6,
+"n_driven": 6
+},
+{
+"sid": "sensory:ORN_VA5:right",
+"kind": "sensory",
+"cell_type": "ORN_VA5",
+"side": "right",
+"cell_class": "olfactory",
+"n": 5,
+"n_driven": 5
+},
+{
+"sid": "sensory:ORN_VA6:left",
+"kind": "sensory",
+"cell_type": "ORN_VA6",
+"side": "left",
+"cell_class": "olfactory",
+"n": 32,
+"n_driven": 32
+},
+{
+"sid": "sensory:ORN_VA6:right",
+"kind": "sensory",
+"cell_type": "ORN_VA6",
+"side": "right",
+"cell_class": "olfactory",
+"n": 28,
+"n_driven": 28
+},
+{
+"sid": "sensory:ORN_VA7l:left",
+"kind": "sensory",
+"cell_type": "ORN_VA7l",
+"side": "left",
+"cell_class": "olfactory",
+"n": 8,
+"n_driven": 8
+},
+{
+"sid": "sensory:ORN_VA7l:right",
+"kind": "sensory",
+"cell_type": "ORN_VA7l",
+"side": "right",
+"cell_class": "olfactory",
+"n": 8,
+"n_driven": 8
+},
+{
+"sid": "sensory:ORN_VA7m:left",
+"kind": "sensory",
+"cell_type": "ORN_VA7m",
+"side": "left",
+"cell_class": "olfactory",
+"n": 10,
+"n_driven": 10
+},
+{
+"sid": "sensory:ORN_VA7m:right",
+"kind": "sensory",
+"cell_type": "ORN_VA7m",
+"side": "right",
+"cell_class": "olfactory",
+"n": 12,
+"n_driven": 12
+},
+{
+"sid": "sensory:ORN_VC1:left",
+"kind": "sensory",
+"cell_type": "ORN_VC1",
+"side": "left",
+"cell_class": "olfactory",
+"n": 13,
+"n_driven": 13
+},
+{
+"sid": "sensory:ORN_VC1:right",
+"kind": "sensory",
+"cell_type": "ORN_VC1",
+"side": "right",
+"cell_class": "olfactory",
+"n": 13,
+"n_driven": 13
+},
+{
+"sid": "sensory:ORN_VC2:left",
+"kind": "sensory",
+"cell_type": "ORN_VC2",
+"side": "left",
+"cell_class": "olfactory",
+"n": 14,
+"n_driven": 14
+},
+{
+"sid": "sensory:ORN_VC2:right",
+"kind": "sensory",
+"cell_type": "ORN_VC2",
+"side": "right",
+"cell_class": "olfactory",
+"n": 15,
+"n_driven": 15
+},
+{
+"sid": "sensory:ORN_VC3:left",
+"kind": "sensory",
+"cell_type": "ORN_VC3",
+"side": "left",
+"cell_class": "olfactory",
+"n": 14,
+"n_driven": 14
+},
+{
+"sid": "sensory:ORN_VC3:right",
+"kind": "sensory",
+"cell_type": "ORN_VC3",
+"side": "right",
+"cell_class": "olfactory",
+"n": 17,
+"n_driven": 17
+},
+{
+"sid": "sensory:ORN_VC4:left",
+"kind": "sensory",
+"cell_type": "ORN_VC4",
+"side": "left",
+"cell_class": "olfactory",
+"n": 9,
+"n_driven": 9
+},
+{
+"sid": "sensory:ORN_VC4:right",
+"kind": "sensory",
+"cell_type": "ORN_VC4",
+"side": "right",
+"cell_class": "olfactory",
+"n": 14,
+"n_driven": 14
+},
+{
+"sid": "sensory:ORN_VC5:left",
+"kind": "sensory",
+"cell_type": "ORN_VC5",
+"side": "left",
+"cell_class": "olfactory",
+"n": 13,
+"n_driven": 13
+},
+{
+"sid": "sensory:ORN_VC5:right",
+"kind": "sensory",
+"cell_type": "ORN_VC5",
+"side": "right",
+"cell_class": "olfactory",
+"n": 12,
+"n_driven": 12
+},
+{
+"sid": "sensory:ORN_VL1:left",
+"kind": "sensory",
+"cell_type": "ORN_VL1",
+"side": "left",
+"cell_class": "olfactory",
+"n": 39,
+"n_driven": 39
+},
+{
+"sid": "sensory:ORN_VL1:right",
+"kind": "sensory",
+"cell_type": "ORN_VL1",
+"side": "right",
+"cell_class": "olfactory",
+"n": 39,
+"n_driven": 39
+},
+{
+"sid": "sensory:ORN_VL2a:left",
+"kind": "sensory",
+"cell_type": "ORN_VL2a",
+"side": "left",
+"cell_class": "olfactory",
+"n": 33,
+"n_driven": 33
+},
+{
+"sid": "sensory:ORN_VL2a:right",
+"kind": "sensory",
+"cell_type": "ORN_VL2a",
+"side": "right",
+"cell_class": "olfactory",
+"n": 38,
+"n_driven": 38
+},
+{
+"sid": "sensory:ORN_VL2p:left",
+"kind": "sensory",
+"cell_type": "ORN_VL2p",
+"side": "left",
+"cell_class": "olfactory",
+"n": 14,
+"n_driven": 13
+},
+{
+"sid": "sensory:ORN_VL2p:right",
+"kind": "sensory",
+"cell_type": "ORN_VL2p",
+"side": "right",
+"cell_class": "olfactory",
+"n": 13,
+"n_driven": 13
+},
+{
+"sid": "sensory:ORN_VM1:left",
+"kind": "sensory",
+"cell_type": "ORN_VM1",
+"side": "left",
+"cell_class": "olfactory",
+"n": 12,
+"n_driven": 12
+},
+{
+"sid": "sensory:ORN_VM1:right",
+"kind": "sensory",
+"cell_type": "ORN_VM1",
+"side": "right",
+"cell_class": "olfactory",
+"n": 13,
+"n_driven": 13
+},
+{
+"sid": "sensory:ORN_VM2:left",
+"kind": "sensory",
+"cell_type": "ORN_VM2",
+"side": "left",
+"cell_class": "olfactory",
+"n": 19,
+"n_driven": 19
+},
+{
+"sid": "sensory:ORN_VM2:right",
+"kind": "sensory",
+"cell_type": "ORN_VM2",
+"side": "right",
+"cell_class": "olfactory",
+"n": 18,
+"n_driven": 18
+},
+{
+"sid": "sensory:ORN_VM3:left",
+"kind": "sensory",
+"cell_type": "ORN_VM3",
+"side": "left",
+"cell_class": "olfactory",
+"n": 18,
+"n_driven": 18
+},
+{
+"sid": "sensory:ORN_VM3:right",
+"kind": "sensory",
+"cell_type": "ORN_VM3",
+"side": "right",
+"cell_class": "olfactory",
+"n": 17,
+"n_driven": 17
+},
+{
+"sid": "sensory:ORN_VM4:left",
+"kind": "sensory",
+"cell_type": "ORN_VM4",
+"side": "left",
+"cell_class": "olfactory",
+"n": 35,
+"n_driven": 35
+},
+{
+"sid": "sensory:ORN_VM4:right",
+"kind": "sensory",
+"cell_type": "ORN_VM4",
+"side": "right",
+"cell_class": "olfactory",
+"n": 40,
+"n_driven": 40
+},
+{
+"sid": "sensory:ORN_VM5d:left",
+"kind": "sensory",
+"cell_type": "ORN_VM5d",
+"side": "left",
+"cell_class": "olfactory",
+"n": 36,
+"n_driven": 36
+},
+{
+"sid": "sensory:ORN_VM5d:right",
+"kind": "sensory",
+"cell_type": "ORN_VM5d",
+"side": "right",
+"cell_class": "olfactory",
+"n": 31,
+"n_driven": 31
+},
+{
+"sid": "sensory:ORN_VM5v:left",
+"kind": "sensory",
+"cell_type": "ORN_VM5v",
+"side": "left",
+"cell_class": "olfactory",
+"n": 9,
+"n_driven": 9
+},
+{
+"sid": "sensory:ORN_VM5v:right",
+"kind": "sensory",
+"cell_type": "ORN_VM5v",
+"side": "right",
+"cell_class": "olfactory",
+"n": 14,
+"n_driven": 14
+},
+{
+"sid": "sensory:ORN_VM6l:left",
+"kind": "sensory",
+"cell_type": "ORN_VM6l",
+"side": "left",
+"cell_class": "olfactory",
+"n": 10,
+"n_driven": 10
+},
+{
+"sid": "sensory:ORN_VM6l:right",
+"kind": "sensory",
+"cell_type": "ORN_VM6l",
+"side": "right",
+"cell_class": "olfactory",
+"n": 11,
+"n_driven": 11
+},
+{
+"sid": "sensory:ORN_VM6m:left",
+"kind": "sensory",
+"cell_type": "ORN_VM6m",
+"side": "left",
+"cell_class": "olfactory",
+"n": 17,
+"n_driven": 17
+},
+{
+"sid": "sensory:ORN_VM6m:right",
+"kind": "sensory",
+"cell_type": "ORN_VM6m",
+"side": "right",
+"cell_class": "olfactory",
+"n": 16,
+"n_driven": 16
+},
+{
+"sid": "sensory:ORN_VM6v:left",
+"kind": "sensory",
+"cell_type": "ORN_VM6v",
+"side": "left",
+"cell_class": "olfactory",
+"n": 13,
+"n_driven": 13
+},
+{
+"sid": "sensory:ORN_VM6v:right",
+"kind": "sensory",
+"cell_type": "ORN_VM6v",
+"side": "right",
+"cell_class": "olfactory",
+"n": 13,
+"n_driven": 13
+},
+{
+"sid": "sensory:ORN_VM7d:left",
+"kind": "sensory",
+"cell_type": "ORN_VM7d",
+"side": "left",
+"cell_class": "olfactory",
+"n": 16,
+"n_driven": 16
+},
+{
+"sid": "sensory:ORN_VM7d:right",
+"kind": "sensory",
+"cell_type": "ORN_VM7d",
+"side": "right",
+"cell_class": "olfactory",
+"n": 17,
+"n_driven": 17
+},
+{
+"sid": "sensory:ORN_VM7v:left",
+"kind": "sensory",
+"cell_type": "ORN_VM7v",
+"side": "left",
+"cell_class": "olfactory",
+"n": 13,
+"n_driven": 13
+},
+{
+"sid": "sensory:ORN_VM7v:right",
+"kind": "sensory",
+"cell_type": "ORN_VM7v",
+"side": "right",
+"cell_class": "olfactory",
+"n": 13,
+"n_driven": 13
+},
+{
+"sid": "sensory:R1-6:left",
+"kind": "sensory",
+"cell_type": "R1-6",
+"side": "left",
+"cell_class": "visual",
+"n": 4423,
+"n_driven": 4044
+},
+{
+"sid": "sensory:R1-6:right",
+"kind": "sensory",
+"cell_type": "R1-6",
+"side": "right",
+"cell_class": "visual",
+"n": 4029,
+"n_driven": 3888
+},
+{
+"sid": "sensory:R7:left",
+"kind": "sensory",
+"cell_type": "R7",
+"side": "left",
+"cell_class": "visual",
+"n": 672,
+"n_driven": 668
+},
+{
+"sid": "sensory:R7:right",
+"kind": "sensory",
+"cell_type": "R7",
+"side": "right",
+"cell_class": "visual",
+"n": 670,
+"n_driven": 668
+},
+{
+"sid": "sensory:R8:left",
+"kind": "sensory",
+"cell_type": "R8",
+"side": "left",
+"cell_class": "visual",
+"n": 670,
+"n_driven": 662
+},
+{
+"sid": "sensory:R8:right",
+"kind": "sensory",
+"cell_type": "R8",
+"side": "right",
+"cell_class": "visual",
+"n": 654,
+"n_driven": 652
+},
+{
+"sid": "sensory:TPMN1:left",
+"kind": "sensory",
+"cell_type": "TPMN1",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 33,
+"n_driven": 33
+},
+{
+"sid": "sensory:TPMN1:right",
+"kind": "sensory",
+"cell_type": "TPMN1",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 30,
+"n_driven": 30
+},
+{
+"sid": "sensory:TPMN2:left",
+"kind": "sensory",
+"cell_type": "TPMN2",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 6,
+"n_driven": 6
+},
+{
+"sid": "sensory:TPMN2:right",
+"kind": "sensory",
+"cell_type": "TPMN2",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 6,
+"n_driven": 6
+},
+{
+"sid": "sensory:TRN_VP1m:left",
+"kind": "sensory",
+"cell_type": "TRN_VP1m",
+"side": "left",
+"cell_class": "thermosensory",
+"n": 6,
+"n_driven": 6
+},
+{
+"sid": "sensory:TRN_VP1m:right",
+"kind": "sensory",
+"cell_type": "TRN_VP1m",
+"side": "right",
+"cell_class": "thermosensory",
+"n": 7,
+"n_driven": 7
+},
+{
+"sid": "sensory:TRN_VP2:left",
+"kind": "sensory",
+"cell_type": "TRN_VP2",
+"side": "left",
+"cell_class": "thermosensory",
+"n": 3,
+"n_driven": 3
+},
+{
+"sid": "sensory:TRN_VP2:right",
+"kind": "sensory",
+"cell_type": "TRN_VP2",
+"side": "right",
+"cell_class": "thermosensory",
+"n": 4,
+"n_driven": 4
+},
+{
+"sid": "sensory:TRN_VP3a:left",
+"kind": "sensory",
+"cell_type": "TRN_VP3a",
+"side": "left",
+"cell_class": "thermosensory",
+"n": 3,
+"n_driven": 3
+},
+{
+"sid": "sensory:TRN_VP3a:right",
+"kind": "sensory",
+"cell_type": "TRN_VP3a",
+"side": "right",
+"cell_class": "thermosensory",
+"n": 4,
+"n_driven": 4
+},
+{
+"sid": "sensory:aPhM1:left",
+"kind": "sensory",
+"cell_type": "aPhM1",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 13,
+"n_driven": 13
+},
+{
+"sid": "sensory:aPhM1:right",
+"kind": "sensory",
+"cell_type": "aPhM1",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 12,
+"n_driven": 12
+},
+{
+"sid": "sensory:aPhM3:left",
+"kind": "sensory",
+"cell_type": "aPhM3",
+"side": "left",
+"cell_class": "mechanosensory",
+"n": 4,
+"n_driven": 4
+},
+{
+"sid": "sensory:aPhM3:right",
+"kind": "sensory",
+"cell_type": "aPhM3",
+"side": "right",
+"cell_class": "mechanosensory",
+"n": 4,
+"n_driven": 4
+},
+{
+"sid": "sensory:claw_tpGRN:left",
+"kind": "sensory",
+"cell_type": "claw_tpGRN",
+"side": "left",
+"cell_class": "gustatory",
+"n": 31,
+"n_driven": 31
+},
+{
+"sid": "sensory:claw_tpGRN:right",
+"kind": "sensory",
+"cell_type": "claw_tpGRN",
+"side": "right",
+"cell_class": "gustatory",
+"n": 29,
+"n_driven": 29
+},
+{
+"sid": "sensory:dorsal_tpGRN:left",
+"kind": "sensory",
+"cell_type": "dorsal_tpGRN",
+"side": "left",
+"cell_class": "gustatory",
+"n": 5,
+"n_driven": 5
+},
+{
+"sid": "sensory:dorsal_tpGRN:right",
+"kind": "sensory",
+"cell_type": "dorsal_tpGRN",
+"side": "right",
+"cell_class": "gustatory",
+"n": 6,
+"n_driven": 6
+},
+{
+"sid": "vpn:LC10a:left",
+"kind": "vpn",
+"cell_type": "LC10a",
+"side": "left",
+"cell_class": "",
+"n": 115,
+"n_driven": 115
+},
+{
+"sid": "vpn:LC10a:right",
+"kind": "vpn",
+"cell_type": "LC10a",
+"side": "right",
+"cell_class": "",
+"n": 119,
+"n_driven": 119
+},
+{
+"sid": "vpn:LC10b:left",
+"kind": "vpn",
+"cell_type": "LC10b",
+"side": "left",
+"cell_class": "",
+"n": 40,
+"n_driven": 40
+},
+{
+"sid": "vpn:LC10b:right",
+"kind": "vpn",
+"cell_type": "LC10b",
+"side": "right",
+"cell_class": "",
+"n": 44,
+"n_driven": 44
+},
+{
+"sid": "vpn:LC10c-1:left",
+"kind": "vpn",
+"cell_type": "LC10c-1",
+"side": "left",
+"cell_class": "",
+"n": 46,
+"n_driven": 46
+},
+{
+"sid": "vpn:LC10c-1:right",
+"kind": "vpn",
+"cell_type": "LC10c-1",
+"side": "right",
+"cell_class": "",
+"n": 56,
+"n_driven": 56
+},
+{
+"sid": "vpn:LC10c-2:left",
+"kind": "vpn",
+"cell_type": "LC10c-2",
+"side": "left",
+"cell_class": "",
+"n": 55,
+"n_driven": 55
+},
+{
+"sid": "vpn:LC10c-2:right",
+"kind": "vpn",
+"cell_type": "LC10c-2",
+"side": "right",
+"cell_class": "",
+"n": 46,
+"n_driven": 46
+},
+{
+"sid": "vpn:LC10d:left",
+"kind": "vpn",
+"cell_type": "LC10d",
+"side": "left",
+"cell_class": "",
+"n": 93,
+"n_driven": 93
+},
+{
+"sid": "vpn:LC10d:right",
+"kind": "vpn",
+"cell_type": "LC10d",
+"side": "right",
+"cell_class": "",
+"n": 95,
+"n_driven": 95
+},
+{
+"sid": "vpn:LC10e:left",
+"kind": "vpn",
+"cell_type": "LC10e",
+"side": "left",
+"cell_class": "",
+"n": 52,
+"n_driven": 52
+},
+{
+"sid": "vpn:LC10e:right",
+"kind": "vpn",
+"cell_type": "LC10e",
+"side": "right",
+"cell_class": "",
+"n": 51,
+"n_driven": 51
+},
+{
+"sid": "vpn:LC11:left",
+"kind": "vpn",
+"cell_type": "LC11",
+"side": "left",
+"cell_class": "",
+"n": 66,
+"n_driven": 66
+},
+{
+"sid": "vpn:LC11:right",
+"kind": "vpn",
+"cell_type": "LC11",
+"side": "right",
+"cell_class": "",
+"n": 61,
+"n_driven": 61
+},
+{
+"sid": "vpn:LC12:left",
+"kind": "vpn",
+"cell_type": "LC12",
+"side": "left",
+"cell_class": "",
+"n": 198,
+"n_driven": 198
+},
+{
+"sid": "vpn:LC12:right",
+"kind": "vpn",
+"cell_type": "LC12",
+"side": "right",
+"cell_class": "",
+"n": 182,
+"n_driven": 182
+},
+{
+"sid": "vpn:LC13:left",
+"kind": "vpn",
+"cell_type": "LC13",
+"side": "left",
+"cell_class": "",
+"n": 75,
+"n_driven": 75
+},
+{
+"sid": "vpn:LC13:right",
+"kind": "vpn",
+"cell_type": "LC13",
+"side": "right",
+"cell_class": "",
+"n": 70,
+"n_driven": 70
+},
+{
+"sid": "vpn:LC15:left",
+"kind": "vpn",
+"cell_type": "LC15",
+"side": "left",
+"cell_class": "",
+"n": 52,
+"n_driven": 52
+},
+{
+"sid": "vpn:LC15:right",
+"kind": "vpn",
+"cell_type": "LC15",
+"side": "right",
+"cell_class": "",
+"n": 54,
+"n_driven": 54
+},
+{
+"sid": "vpn:LC16:left",
+"kind": "vpn",
+"cell_type": "LC16",
+"side": "left",
+"cell_class": "",
+"n": 77,
+"n_driven": 77
+},
+{
+"sid": "vpn:LC16:right",
+"kind": "vpn",
+"cell_type": "LC16",
+"side": "right",
+"cell_class": "",
+"n": 74,
+"n_driven": 74
+},
+{
+"sid": "vpn:LC17:left",
+"kind": "vpn",
+"cell_type": "LC17",
+"side": "left",
+"cell_class": "",
+"n": 134,
+"n_driven": 134
+},
+{
+"sid": "vpn:LC17:right",
+"kind": "vpn",
+"cell_type": "LC17",
+"side": "right",
+"cell_class": "",
+"n": 142,
+"n_driven": 142
+},
+{
+"sid": "vpn:LC18:left",
+"kind": "vpn",
+"cell_type": "LC18",
+"side": "left",
+"cell_class": "",
+"n": 96,
+"n_driven": 96
+},
+{
+"sid": "vpn:LC18:right",
+"kind": "vpn",
+"cell_type": "LC18",
+"side": "right",
+"cell_class": "",
+"n": 92,
+"n_driven": 92
+},
+{
+"sid": "vpn:LC19:left",
+"kind": "vpn",
+"cell_type": "LC19",
+"side": "left",
+"cell_class": "",
+"n": 8,
+"n_driven": 8
+},
+{
+"sid": "vpn:LC19:right",
+"kind": "vpn",
+"cell_type": "LC19",
+"side": "right",
+"cell_class": "",
+"n": 7,
+"n_driven": 7
+},
+{
+"sid": "vpn:LC20a:left",
+"kind": "vpn",
+"cell_type": "LC20a",
+"side": "left",
+"cell_class": "",
+"n": 20,
+"n_driven": 20
+},
+{
+"sid": "vpn:LC20a:right",
+"kind": "vpn",
+"cell_type": "LC20a",
+"side": "right",
+"cell_class": "",
+"n": 26,
+"n_driven": 26
+},
+{
+"sid": "vpn:LC20b:left",
+"kind": "vpn",
+"cell_type": "LC20b",
+"side": "left",
+"cell_class": "",
+"n": 24,
+"n_driven": 24
+},
+{
+"sid": "vpn:LC20b:right",
+"kind": "vpn",
+"cell_type": "LC20b",
+"side": "right",
+"cell_class": "",
+"n": 22,
+"n_driven": 22
+},
+{
+"sid": "vpn:LC21:left",
+"kind": "vpn",
+"cell_type": "LC21",
+"side": "left",
+"cell_class": "",
+"n": 68,
+"n_driven": 68
+},
+{
+"sid": "vpn:LC21:right",
+"kind": "vpn",
+"cell_type": "LC21",
+"side": "right",
+"cell_class": "",
+"n": 62,
+"n_driven": 62
+},
+{
+"sid": "vpn:LC22:left",
+"kind": "vpn",
+"cell_type": "LC22",
+"side": "left",
+"cell_class": "",
+"n": 43,
+"n_driven": 43
+},
+{
+"sid": "vpn:LC22:right",
+"kind": "vpn",
+"cell_type": "LC22",
+"side": "right",
+"cell_class": "",
+"n": 46,
+"n_driven": 46
+},
+{
+"sid": "vpn:LC24:left",
+"kind": "vpn",
+"cell_type": "LC24",
+"side": "left",
+"cell_class": "",
+"n": 40,
+"n_driven": 40
+},
+{
+"sid": "vpn:LC24:right",
+"kind": "vpn",
+"cell_type": "LC24",
+"side": "right",
+"cell_class": "",
+"n": 35,
+"n_driven": 35
+},
+{
+"sid": "vpn:LC25:left",
+"kind": "vpn",
+"cell_type": "LC25",
+"side": "left",
+"cell_class": "",
+"n": 32,
+"n_driven": 32
+},
+{
+"sid": "vpn:LC25:right",
+"kind": "vpn",
+"cell_type": "LC25",
+"side": "right",
+"cell_class": "",
+"n": 28,
+"n_driven": 28
+},
+{
+"sid": "vpn:LC26:left",
+"kind": "vpn",
+"cell_type": "LC26",
+"side": "left",
+"cell_class": "",
+"n": 26,
+"n_driven": 26
+},
+{
+"sid": "vpn:LC26:right",
+"kind": "vpn",
+"cell_type": "LC26",
+"side": "right",
+"cell_class": "",
+"n": 31,
+"n_driven": 31
+},
+{
+"sid": "vpn:LC27:left",
+"kind": "vpn",
+"cell_type": "LC27",
+"side": "left",
+"cell_class": "",
+"n": 18,
+"n_driven": 18
+},
+{
+"sid": "vpn:LC27:right",
+"kind": "vpn",
+"cell_type": "LC27",
+"side": "right",
+"cell_class": "",
+"n": 19,
+"n_driven": 19
+},
+{
+"sid": "vpn:LC28a:left",
+"kind": "vpn",
+"cell_type": "LC28a",
+"side": "left",
+"cell_class": "",
+"n": 19,
+"n_driven": 19
+},
+{
+"sid": "vpn:LC28a:right",
+"kind": "vpn",
+"cell_type": "LC28a",
+"side": "right",
+"cell_class": "",
+"n": 26,
+"n_driven": 26
+},
+{
+"sid": "vpn:LC28b:left",
+"kind": "vpn",
+"cell_type": "LC28b",
+"side": "left",
+"cell_class": "",
+"n": 7,
+"n_driven": 7
+},
+{
+"sid": "vpn:LC28b:right",
+"kind": "vpn",
+"cell_type": "LC28b",
+"side": "right",
+"cell_class": "",
+"n": 9,
+"n_driven": 9
+},
+{
+"sid": "vpn:LC28c:left",
+"kind": "vpn",
+"cell_type": "LC28c",
+"side": "left",
+"cell_class": "",
+"n": 11,
+"n_driven": 11
+},
+{
+"sid": "vpn:LC28c:right",
+"kind": "vpn",
+"cell_type": "LC28c",
+"side": "right",
+"cell_class": "",
+"n": 13,
+"n_driven": 13
+},
+{
+"sid": "vpn:LC28d:left",
+"kind": "vpn",
+"cell_type": "LC28d",
+"side": "left",
+"cell_class": "",
+"n": 10,
+"n_driven": 10
+},
+{
+"sid": "vpn:LC28d:right",
+"kind": "vpn",
+"cell_type": "LC28d",
+"side": "right",
+"cell_class": "",
+"n": 8,
+"n_driven": 8
+},
+{
+"sid": "vpn:LC29:left",
+"kind": "vpn",
+"cell_type": "LC29",
+"side": "left",
+"cell_class": "",
+"n": 22,
+"n_driven": 22
+},
+{
+"sid": "vpn:LC29:right",
+"kind": "vpn",
+"cell_type": "LC29",
+"side": "right",
+"cell_class": "",
+"n": 23,
+"n_driven": 23
+},
+{
+"sid": "vpn:LC31a:left",
+"kind": "vpn",
+"cell_type": "LC31a",
+"side": "left",
+"cell_class": "",
+"n": 18,
+"n_driven": 18
+},
+{
+"sid": "vpn:LC31a:right",
+"kind": "vpn",
+"cell_type": "LC31a",
+"side": "right",
+"cell_class": "",
+"n": 17,
+"n_driven": 17
+},
+{
+"sid": "vpn:LC31b:left",
+"kind": "vpn",
+"cell_type": "LC31b",
+"side": "left",
+"cell_class": "",
+"n": 5,
+"n_driven": 5
+},
+{
+"sid": "vpn:LC31b:right",
+"kind": "vpn",
+"cell_type": "LC31b",
+"side": "right",
+"cell_class": "",
+"n": 5,
+"n_driven": 5
+},
+{
+"sid": "vpn:LC33:left",
+"kind": "vpn",
+"cell_type": "LC33",
+"side": "left",
+"cell_class": "",
+"n": 14,
+"n_driven": 14
+},
+{
+"sid": "vpn:LC33:right",
+"kind": "vpn",
+"cell_type": "LC33",
+"side": "right",
+"cell_class": "",
+"n": 15,
+"n_driven": 15
+},
+{
+"sid": "vpn:LC34:left",
+"kind": "vpn",
+"cell_type": "LC34",
+"side": "left",
+"cell_class": "",
+"n": 7,
+"n_driven": 7
+},
+{
+"sid": "vpn:LC34:right",
+"kind": "vpn",
+"cell_type": "LC34",
+"side": "right",
+"cell_class": "",
+"n": 7,
+"n_driven": 7
+},
+{
+"sid": "vpn:LC36:left",
+"kind": "vpn",
+"cell_type": "LC36",
+"side": "left",
+"cell_class": "",
+"n": 18,
+"n_driven": 18
+},
+{
+"sid": "vpn:LC36:right",
+"kind": "vpn",
+"cell_type": "LC36",
+"side": "right",
+"cell_class": "",
+"n": 17,
+"n_driven": 17
+},
+{
+"sid": "vpn:LC37:left",
+"kind": "vpn",
+"cell_type": "LC37",
+"side": "left",
+"cell_class": "",
+"n": 9,
+"n_driven": 9
+},
+{
+"sid": "vpn:LC37:right",
+"kind": "vpn",
+"cell_type": "LC37",
+"side": "right",
+"cell_class": "",
+"n": 9,
+"n_driven": 9
+},
+{
+"sid": "vpn:LC4:left",
+"kind": "vpn",
+"cell_type": "LC4",
+"side": "left",
+"cell_class": "",
+"n": 54,
+"n_driven": 54
+},
+{
+"sid": "vpn:LC4:right",
+"kind": "vpn",
+"cell_type": "LC4",
+"side": "right",
+"cell_class": "",
+"n": 50,
+"n_driven": 50
+},
+{
+"sid": "vpn:LC40:left",
+"kind": "vpn",
+"cell_type": "LC40",
+"side": "left",
+"cell_class": "",
+"n": 19,
+"n_driven": 19
+},
+{
+"sid": "vpn:LC40:right",
+"kind": "vpn",
+"cell_type": "LC40",
+"side": "right",
+"cell_class": "",
+"n": 18,
+"n_driven": 18
+},
+{
+"sid": "vpn:LC41:left",
+"kind": "vpn",
+"cell_type": "LC41",
+"side": "left",
+"cell_class": "",
+"n": 6,
+"n_driven": 6
+},
+{
+"sid": "vpn:LC41:right",
+"kind": "vpn",
+"cell_type": "LC41",
+"side": "right",
+"cell_class": "",
+"n": 6,
+"n_driven": 6
+},
+{
+"sid": "vpn:LC43:left",
+"kind": "vpn",
+"cell_type": "LC43",
+"side": "left",
+"cell_class": "",
+"n": 6,
+"n_driven": 6
+},
+{
+"sid": "vpn:LC43:right",
+"kind": "vpn",
+"cell_type": "LC43",
+"side": "right",
+"cell_class": "",
+"n": 6,
+"n_driven": 6
+},
+{
+"sid": "vpn:LC45a:left",
+"kind": "vpn",
+"cell_type": "LC45a",
+"side": "left",
+"cell_class": "",
+"n": 7,
+"n_driven": 7
+},
+{
+"sid": "vpn:LC45a:right",
+"kind": "vpn",
+"cell_type": "LC45a",
+"side": "right",
+"cell_class": "",
+"n": 7,
+"n_driven": 7
+},
+{
+"sid": "vpn:LC45b:left",
+"kind": "vpn",
+"cell_type": "LC45b",
+"side": "left",
+"cell_class": "",
+"n": 5,
+"n_driven": 5
+},
+{
+"sid": "vpn:LC45b:right",
+"kind": "vpn",
+"cell_type": "LC45b",
+"side": "right",
+"cell_class": "",
+"n": 5,
+"n_driven": 5
+},
+{
+"sid": "vpn:LC46:left",
+"kind": "vpn",
+"cell_type": "LC46",
+"side": "left",
+"cell_class": "",
+"n": 7,
+"n_driven": 7
+},
+{
+"sid": "vpn:LC46:right",
+"kind": "vpn",
+"cell_type": "LC46",
+"side": "right",
+"cell_class": "",
+"n": 7,
+"n_driven": 7
+},
+{
+"sid": "vpn:LC6:left",
+"kind": "vpn",
+"cell_type": "LC6",
+"side": "left",
+"cell_class": "",
+"n": 65,
+"n_driven": 65
+},
+{
+"sid": "vpn:LC6:right",
+"kind": "vpn",
+"cell_type": "LC6",
+"side": "right",
+"cell_class": "",
+"n": 60,
+"n_driven": 60
+},
+{
+"sid": "vpn:LC9:left",
+"kind": "vpn",
+"cell_type": "LC9",
+"side": "left",
+"cell_class": "",
+"n": 87,
+"n_driven": 87
+},
+{
+"sid": "vpn:LC9:right",
+"kind": "vpn",
+"cell_type": "LC9",
+"side": "right",
+"cell_class": "",
+"n": 92,
+"n_driven": 92
+},
+{
+"sid": "vpn:LCe01a:left",
+"kind": "vpn",
+"cell_type": "LCe01a",
+"side": "left",
+"cell_class": "",
+"n": 10,
+"n_driven": 10
+},
+{
+"sid": "vpn:LCe01a:right",
+"kind": "vpn",
+"cell_type": "LCe01a",
+"side": "right",
+"cell_class": "",
+"n": 12,
+"n_driven": 12
+},
+{
+"sid": "vpn:LCe01b:left",
+"kind": "vpn",
+"cell_type": "LCe01b",
+"side": "left",
+"cell_class": "",
+"n": 22,
+"n_driven": 22
+},
+{
+"sid": "vpn:LCe01b:right",
+"kind": "vpn",
+"cell_type": "LCe01b",
+"side": "right",
+"cell_class": "",
+"n": 23,
+"n_driven": 23
+},
+{
+"sid": "vpn:LCe02:left",
+"kind": "vpn",
+"cell_type": "LCe02",
+"side": "left",
+"cell_class": "",
+"n": 25,
+"n_driven": 25
+},
+{
+"sid": "vpn:LCe02:right",
+"kind": "vpn",
+"cell_type": "LCe02",
+"side": "right",
+"cell_class": "",
+"n": 28,
+"n_driven": 28
+},
+{
+"sid": "vpn:LCe03:left",
+"kind": "vpn",
+"cell_type": "LCe03",
+"side": "left",
+"cell_class": "",
+"n": 12,
+"n_driven": 12
+},
+{
+"sid": "vpn:LCe03:right",
+"kind": "vpn",
+"cell_type": "LCe03",
+"side": "right",
+"cell_class": "",
+"n": 25,
+"n_driven": 25
+},
+{
+"sid": "vpn:LCe04:left",
+"kind": "vpn",
+"cell_type": "LCe04",
+"side": "left",
+"cell_class": "",
+"n": 19,
+"n_driven": 19
+},
+{
+"sid": "vpn:LCe04:right",
+"kind": "vpn",
+"cell_type": "LCe04",
+"side": "right",
+"cell_class": "",
+"n": 18,
+"n_driven": 18
+},
+{
+"sid": "vpn:LCe05:left",
+"kind": "vpn",
+"cell_type": "LCe05",
+"side": "left",
+"cell_class": "",
+"n": 11,
+"n_driven": 11
+},
+{
+"sid": "vpn:LCe05:right",
+"kind": "vpn",
+"cell_type": "LCe05",
+"side": "right",
+"cell_class": "",
+"n": 8,
+"n_driven": 8
+},
+{
+"sid": "vpn:LCe06:left",
+"kind": "vpn",
+"cell_type": "LCe06",
+"side": "left",
+"cell_class": "",
+"n": 5,
+"n_driven": 5
+},
+{
+"sid": "vpn:LCe06:right",
+"kind": "vpn",
+"cell_type": "LCe06",
+"side": "right",
+"cell_class": "",
+"n": 6,
+"n_driven": 6
+},
+{
+"sid": "vpn:LCe07:left",
+"kind": "vpn",
+"cell_type": "LCe07",
+"side": "left",
+"cell_class": "",
+"n": 5,
+"n_driven": 5
+},
+{
+"sid": "vpn:LCe07:right",
+"kind": "vpn",
+"cell_type": "LCe07",
+"side": "right",
+"cell_class": "",
+"n": 5,
+"n_driven": 5
+},
+{
+"sid": "vpn:LCe09:left",
+"kind": "vpn",
+"cell_type": "LCe09",
+"side": "left",
+"cell_class": "",
+"n": 8,
+"n_driven": 8
+},
+{
+"sid": "vpn:LCe09:right",
+"kind": "vpn",
+"cell_type": "LCe09",
+"side": "right",
+"cell_class": "",
+"n": 8,
+"n_driven": 8
+},
+{
+"sid": "vpn:LLPC1:left",
+"kind": "vpn",
+"cell_type": "LLPC1",
+"side": "left",
+"cell_class": "",
+"n": 106,
+"n_driven": 106
+},
+{
+"sid": "vpn:LLPC1:right",
+"kind": "vpn",
+"cell_type": "LLPC1",
+"side": "right",
+"cell_class": "",
+"n": 113,
+"n_driven": 113
+},
+{
+"sid": "vpn:LLPC2:left",
+"kind": "vpn",
+"cell_type": "LLPC2",
+"side": "left",
+"cell_class": "",
+"n": 120,
+"n_driven": 120
+},
+{
+"sid": "vpn:LLPC2:right",
+"kind": "vpn",
+"cell_type": "LLPC2",
+"side": "right",
+"cell_class": "",
+"n": 115,
+"n_driven": 115
+},
+{
+"sid": "vpn:LLPC3:left",
+"kind": "vpn",
+"cell_type": "LLPC3",
+"side": "left",
+"cell_class": "",
+"n": 102,
+"n_driven": 102
+},
+{
+"sid": "vpn:LLPC3:right",
+"kind": "vpn",
+"cell_type": "LLPC3",
+"side": "right",
+"cell_class": "",
+"n": 102,
+"n_driven": 102
+},
+{
+"sid": "vpn:LPC1:left",
+"kind": "vpn",
+"cell_type": "LPC1",
+"side": "left",
+"cell_class": "",
+"n": 82,
+"n_driven": 82
+},
+{
+"sid": "vpn:LPC1:right",
+"kind": "vpn",
+"cell_type": "LPC1",
+"side": "right",
+"cell_class": "",
+"n": 82,
+"n_driven": 82
+},
+{
+"sid": "vpn:LPC2:left",
+"kind": "vpn",
+"cell_type": "LPC2",
+"side": "left",
+"cell_class": "",
+"n": 54,
+"n_driven": 54
+},
+{
+"sid": "vpn:LPC2:right",
+"kind": "vpn",
+"cell_type": "LPC2",
+"side": "right",
+"cell_class": "",
+"n": 62,
+"n_driven": 62
+},
+{
+"sid": "vpn:LPLC1:left",
+"kind": "vpn",
+"cell_type": "LPLC1",
+"side": "left",
+"cell_class": "",
+"n": 68,
+"n_driven": 68
+},
+{
+"sid": "vpn:LPLC1:right",
+"kind": "vpn",
+"cell_type": "LPLC1",
+"side": "right",
+"cell_class": "",
+"n": 72,
+"n_driven": 72
+},
+{
+"sid": "vpn:LPLC2:left",
+"kind": "vpn",
+"cell_type": "LPLC2",
+"side": "left",
+"cell_class": "",
+"n": 108,
+"n_driven": 108
+},
+{
+"sid": "vpn:LPLC2:right",
+"kind": "vpn",
+"cell_type": "LPLC2",
+"side": "right",
+"cell_class": "",
+"n": 102,
+"n_driven": 102
+},
+{
+"sid": "vpn:LPLC4:left",
+"kind": "vpn",
+"cell_type": "LPLC4",
+"side": "left",
+"cell_class": "",
+"n": 56,
+"n_driven": 56
+},
+{
+"sid": "vpn:LPLC4:right",
+"kind": "vpn",
+"cell_type": "LPLC4",
+"side": "right",
+"cell_class": "",
+"n": 54,
+"n_driven": 54
+},
+{
+"sid": "vpn:LPTe01:left",
+"kind": "vpn",
+"cell_type": "LPTe01",
+"side": "left",
+"cell_class": "",
+"n": 18,
+"n_driven": 18
+},
+{
+"sid": "vpn:LPTe01:right",
+"kind": "vpn",
+"cell_type": "LPTe01",
+"side": "right",
+"cell_class": "",
+"n": 20,
+"n_driven": 20
+},
+{
+"sid": "vpn:LPTe02:left",
+"kind": "vpn",
+"cell_type": "LPTe02",
+"side": "left",
+"cell_class": "",
+"n": 5,
+"n_driven": 5
+},
+{
+"sid": "vpn:LPTe02:right",
+"kind": "vpn",
+"cell_type": "LPTe02",
+"side": "right",
+"cell_class": "",
+"n": 6,
+"n_driven": 6
+},
+{
+"sid": "vpn:LT51:left",
+"kind": "vpn",
+"cell_type": "LT51",
+"side": "left",
+"cell_class": "",
+"n": 11,
+"n_driven": 11
+},
+{
+"sid": "vpn:LT51:right",
+"kind": "vpn",
+"cell_type": "LT51",
+"side": "right",
+"cell_class": "",
+"n": 11,
+"n_driven": 11
+},
+{
+"sid": "vpn:LT52:left",
+"kind": "vpn",
+"cell_type": "LT52",
+"side": "left",
+"cell_class": "",
+"n": 15,
+"n_driven": 15
+},
+{
+"sid": "vpn:LT52:right",
+"kind": "vpn",
+"cell_type": "LT52",
+"side": "right",
+"cell_class": "",
+"n": 16,
+"n_driven": 16
+},
+{
+"sid": "vpn:LT57:left",
+"kind": "vpn",
+"cell_type": "LT57",
+"side": "left",
+"cell_class": "",
+"n": 11,
+"n_driven": 11
+},
+{
+"sid": "vpn:LT57:right",
+"kind": "vpn",
+"cell_type": "LT57",
+"side": "right",
+"cell_class": "",
+"n": 11,
+"n_driven": 11
+},
+{
+"sid": "vpn:LT81:left",
+"kind": "vpn",
+"cell_type": "LT81",
+"side": "left",
+"cell_class": "",
+"n": 5,
+"n_driven": 5
+},
+{
+"sid": "vpn:LT81:right",
+"kind": "vpn",
+"cell_type": "LT81",
+"side": "right",
+"cell_class": "",
+"n": 6,
+"n_driven": 6
+},
+{
+"sid": "vpn:LTe09:left",
+"kind": "vpn",
+"cell_type": "LTe09",
+"side": "left",
+"cell_class": "",
+"n": 8,
+"n_driven": 8
+},
+{
+"sid": "vpn:LTe09:right",
+"kind": "vpn",
+"cell_type": "LTe09",
+"side": "right",
+"cell_class": "",
+"n": 7,
+"n_driven": 7
+},
+{
+"sid": "vpn:LTe49:left",
+"kind": "vpn",
+"cell_type": "LTe49",
+"side": "left",
+"cell_class": "",
+"n": 13,
+"n_driven": 13
+},
+{
+"sid": "vpn:LTe49:right",
+"kind": "vpn",
+"cell_type": "LTe49",
+"side": "right",
+"cell_class": "",
+"n": 14,
+"n_driven": 14
+},
+{
+"sid": "vpn:LTe58:left",
+"kind": "vpn",
+"cell_type": "LTe58",
+"side": "left",
+"cell_class": "",
+"n": 6,
+"n_driven": 6
+},
+{
+"sid": "vpn:LTe58:right",
+"kind": "vpn",
+"cell_type": "LTe58",
+"side": "right",
+"cell_class": "",
+"n": 6,
+"n_driven": 6
+},
+{
+"sid": "vpn:LTe64:left",
+"kind": "vpn",
+"cell_type": "LTe64",
+"side": "left",
+"cell_class": "",
+"n": 8,
+"n_driven": 8
+},
+{
+"sid": "vpn:LTe64:right",
+"kind": "vpn",
+"cell_type": "LTe64",
+"side": "right",
+"cell_class": "",
+"n": 8,
+"n_driven": 8
+},
+{
+"sid": "vpn:MTe01a:left",
+"kind": "vpn",
+"cell_type": "MTe01a",
+"side": "left",
+"cell_class": "",
+"n": 41,
+"n_driven": 41
+},
+{
+"sid": "vpn:MTe01a:right",
+"kind": "vpn",
+"cell_type": "MTe01a",
+"side": "right",
+"cell_class": "",
+"n": 46,
+"n_driven": 46
+},
+{
+"sid": "vpn:MTe01b:left",
+"kind": "vpn",
+"cell_type": "MTe01b",
+"side": "left",
+"cell_class": "",
+"n": 23,
+"n_driven": 23
+},
+{
+"sid": "vpn:MTe01b:right",
+"kind": "vpn",
+"cell_type": "MTe01b",
+"side": "right",
+"cell_class": "",
+"n": 25,
+"n_driven": 25
+},
+{
+"sid": "vpn:MTe02:left",
+"kind": "vpn",
+"cell_type": "MTe02",
+"side": "left",
+"cell_class": "",
+"n": 37,
+"n_driven": 37
+},
+{
+"sid": "vpn:MTe02:right",
+"kind": "vpn",
+"cell_type": "MTe02",
+"side": "right",
+"cell_class": "",
+"n": 37,
+"n_driven": 37
+},
+{
+"sid": "vpn:MTe03:left",
+"kind": "vpn",
+"cell_type": "MTe03",
+"side": "left",
+"cell_class": "",
+"n": 23,
+"n_driven": 23
+},
+{
+"sid": "vpn:MTe03:right",
+"kind": "vpn",
+"cell_type": "MTe03",
+"side": "right",
+"cell_class": "",
+"n": 24,
+"n_driven": 24
+},
+{
+"sid": "vpn:MTe04:left",
+"kind": "vpn",
+"cell_type": "MTe04",
+"side": "left",
+"cell_class": "",
+"n": 12,
+"n_driven": 12
+},
+{
+"sid": "vpn:MTe04:right",
+"kind": "vpn",
+"cell_type": "MTe04",
+"side": "right",
+"cell_class": "",
+"n": 18,
+"n_driven": 18
+},
+{
+"sid": "vpn:MTe05:left",
+"kind": "vpn",
+"cell_type": "MTe05",
+"side": "left",
+"cell_class": "",
+"n": 13,
+"n_driven": 13
+},
+{
+"sid": "vpn:MTe05:right",
+"kind": "vpn",
+"cell_type": "MTe05",
+"side": "right",
+"cell_class": "",
+"n": 10,
+"n_driven": 10
+},
+{
+"sid": "vpn:MTe06:left",
+"kind": "vpn",
+"cell_type": "MTe06",
+"side": "left",
+"cell_class": "",
+"n": 10,
+"n_driven": 10
+},
+{
+"sid": "vpn:MTe06:right",
+"kind": "vpn",
+"cell_type": "MTe06",
+"side": "right",
+"cell_class": "",
+"n": 8,
+"n_driven": 8
+},
+{
+"sid": "vpn:MTe07:left",
+"kind": "vpn",
+"cell_type": "MTe07",
+"side": "left",
+"cell_class": "bilateral",
+"n": 9,
+"n_driven": 9
+},
+{
+"sid": "vpn:MTe07:right",
+"kind": "vpn",
+"cell_type": "MTe07",
+"side": "right",
+"cell_class": "bilateral",
+"n": 6,
+"n_driven": 6
+},
+{
+"sid": "vpn:MTe08:left",
+"kind": "vpn",
+"cell_type": "MTe08",
+"side": "left",
+"cell_class": "",
+"n": 6,
+"n_driven": 6
+},
+{
+"sid": "vpn:MTe08:right",
+"kind": "vpn",
+"cell_type": "MTe08",
+"side": "right",
+"cell_class": "",
+"n": 6,
+"n_driven": 6
+},
+{
+"sid": "vpn:MTe50:left",
+"kind": "vpn",
+"cell_type": "MTe50",
+"side": "left",
+"cell_class": "",
+"n": 25,
+"n_driven": 25
+},
+{
+"sid": "vpn:MTe50:right",
+"kind": "vpn",
+"cell_type": "MTe50",
+"side": "right",
+"cell_class": "",
+"n": 29,
+"n_driven": 29
+},
+{
+"sid": "vpn:MTe51:left",
+"kind": "vpn",
+"cell_type": "MTe51",
+"side": "left",
+"cell_class": "",
+"n": 48,
+"n_driven": 48
+},
+{
+"sid": "vpn:MTe51:right",
+"kind": "vpn",
+"cell_type": "MTe51",
+"side": "right",
+"cell_class": "",
+"n": 50,
+"n_driven": 50
+},
+{
+"sid": "vpn:MTe52:left",
+"kind": "vpn",
+"cell_type": "MTe52",
+"side": "left",
+"cell_class": "",
+"n": 18,
+"n_driven": 18
+},
+{
+"sid": "vpn:MTe52:right",
+"kind": "vpn",
+"cell_type": "MTe52",
+"side": "right",
+"cell_class": "",
+"n": 24,
+"n_driven": 24
+},
+{
+"sid": "vpn:MTe53:left",
+"kind": "vpn",
+"cell_type": "MTe53",
+"side": "left",
+"cell_class": "",
+"n": 7,
+"n_driven": 7
+},
+{
+"sid": "vpn:MTe53:right",
+"kind": "vpn",
+"cell_type": "MTe53",
+"side": "right",
+"cell_class": "",
+"n": 7,
+"n_driven": 7
+},
+{
+"sid": "vpn:MTe54:left",
+"kind": "vpn",
+"cell_type": "MTe54",
+"side": "left",
+"cell_class": "",
+"n": 27,
+"n_driven": 27
+},
+{
+"sid": "vpn:MTe54:right",
+"kind": "vpn",
+"cell_type": "MTe54",
+"side": "right",
+"cell_class": "",
+"n": 27,
+"n_driven": 27
+},
+{
+"sid": "vpn:MeMe_e07:left",
+"kind": "vpn",
+"cell_type": "MeMe_e07",
+"side": "left",
+"cell_class": "bilateral",
+"n": 5,
+"n_driven": 5
+},
+{
+"sid": "vpn:MeMe_e07:right",
+"kind": "vpn",
+"cell_type": "MeMe_e07",
+"side": "right",
+"cell_class": "bilateral",
+"n": 5,
+"n_driven": 5
+},
+{
+"sid": "vpn:MeMe_e08:left",
+"kind": "vpn",
+"cell_type": "MeMe_e08",
+"side": "left",
+"cell_class": "bilateral",
+"n": 6,
+"n_driven": 6
+},
+{
+"sid": "vpn:MeMe_e08:right",
+"kind": "vpn",
+"cell_type": "MeMe_e08",
+"side": "right",
+"cell_class": "bilateral",
+"n": 6,
+"n_driven": 6
+},
+{
+"sid": "vpn:MeTu1:left",
+"kind": "vpn",
+"cell_type": "MeTu1",
+"side": "left",
+"cell_class": "",
+"n": 120,
+"n_driven": 120
+},
+{
+"sid": "vpn:MeTu1:right",
+"kind": "vpn",
+"cell_type": "MeTu1",
+"side": "right",
+"cell_class": "",
+"n": 124,
+"n_driven": 124
+},
+{
+"sid": "vpn:MeTu2a:left",
+"kind": "vpn",
+"cell_type": "MeTu2a",
+"side": "left",
+"cell_class": "",
+"n": 33,
+"n_driven": 33
+},
+{
+"sid": "vpn:MeTu2a:right",
+"kind": "vpn",
+"cell_type": "MeTu2a",
+"side": "right",
+"cell_class": "",
+"n": 36,
+"n_driven": 36
+},
+{
+"sid": "vpn:MeTu2b:left",
+"kind": "vpn",
+"cell_type": "MeTu2b",
+"side": "left",
+"cell_class": "",
+"n": 17,
+"n_driven": 17
+},
+{
+"sid": "vpn:MeTu2b:right",
+"kind": "vpn",
+"cell_type": "MeTu2b",
+"side": "right",
+"cell_class": "",
+"n": 14,
+"n_driven": 14
+},
+{
+"sid": "vpn:MeTu3a:left",
+"kind": "vpn",
+"cell_type": "MeTu3a",
+"side": "left",
+"cell_class": "",
+"n": 20,
+"n_driven": 20
+},
+{
+"sid": "vpn:MeTu3a:right",
+"kind": "vpn",
+"cell_type": "MeTu3a",
+"side": "right",
+"cell_class": "",
+"n": 19,
+"n_driven": 19
+},
+{
+"sid": "vpn:MeTu3b:left",
+"kind": "vpn",
+"cell_type": "MeTu3b",
+"side": "left",
+"cell_class": "",
+"n": 44,
+"n_driven": 44
+},
+{
+"sid": "vpn:MeTu3b:right",
+"kind": "vpn",
+"cell_type": "MeTu3b",
+"side": "right",
+"cell_class": "",
+"n": 41,
+"n_driven": 41
+},
+{
+"sid": "vpn:MeTu3c:left",
+"kind": "vpn",
+"cell_type": "MeTu3c",
+"side": "left",
+"cell_class": "",
+"n": 81,
+"n_driven": 81
+},
+{
+"sid": "vpn:MeTu3c:right",
+"kind": "vpn",
+"cell_type": "MeTu3c",
+"side": "right",
+"cell_class": "",
+"n": 70,
+"n_driven": 70
+},
+{
+"sid": "vpn:MeTu4a:left",
+"kind": "vpn",
+"cell_type": "MeTu4a",
+"side": "left",
+"cell_class": "",
+"n": 71,
+"n_driven": 71
+},
+{
+"sid": "vpn:MeTu4a:right",
+"kind": "vpn",
+"cell_type": "MeTu4a",
+"side": "right",
+"cell_class": "",
+"n": 60,
+"n_driven": 60
+},
+{
+"sid": "vpn:MeTu4b:left",
+"kind": "vpn",
+"cell_type": "MeTu4b",
+"side": "left",
+"cell_class": "",
+"n": 9,
+"n_driven": 9
+},
+{
+"sid": "vpn:MeTu4b:right",
+"kind": "vpn",
+"cell_type": "MeTu4b",
+"side": "right",
+"cell_class": "",
+"n": 12,
+"n_driven": 12
+},
+{
+"sid": "vpn:MeTu4c:left",
+"kind": "vpn",
+"cell_type": "MeTu4c",
+"side": "left",
+"cell_class": "",
+"n": 41,
+"n_driven": 41
+},
+{
+"sid": "vpn:MeTu4c:right",
+"kind": "vpn",
+"cell_type": "MeTu4c",
+"side": "right",
+"cell_class": "",
+"n": 48,
+"n_driven": 48
+},
+{
+"sid": "vpn:MeTu4d:left",
+"kind": "vpn",
+"cell_type": "MeTu4d",
+"side": "left",
+"cell_class": "",
+"n": 19,
+"n_driven": 19
+},
+{
+"sid": "vpn:MeTu4d:right",
+"kind": "vpn",
+"cell_type": "MeTu4d",
+"side": "right",
+"cell_class": "",
+"n": 18,
+"n_driven": 18
+},
+{
+"sid": "vpn:TmY14:left",
+"kind": "vpn",
+"cell_type": "TmY14",
+"side": "left",
+"cell_class": "",
+"n": 185,
+"n_driven": 185
+},
+{
+"sid": "vpn:TmY14:right",
+"kind": "vpn",
+"cell_type": "TmY14",
+"side": "right",
+"cell_class": "",
+"n": 185,
+"n_driven": 185
+},
+{
+"sid": "vpn:aMe5:left",
+"kind": "vpn",
+"cell_type": "aMe5",
+"side": "left",
+"cell_class": "",
+"n": 27,
+"n_driven": 27
+},
+{
+"sid": "vpn:aMe5:right",
+"kind": "vpn",
+"cell_type": "aMe5",
+"side": "right",
+"cell_class": "",
+"n": 28,
+"n_driven": 28
+}
+]

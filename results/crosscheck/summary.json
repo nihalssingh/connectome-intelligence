@@ -1,0 +1,89 @@
+[
+ {
+  "condition": "shiu21_100Hz",
+  "wiring": "v783_alfix_all",
+  "rate_Hz": 100,
+  "trials": 30,
+  "n_stimulated": 21,
+  "perm_p": 0.823088455772114,
+  "fdr_hits": 0,
+  "r_mean_rates": 0.9997285754913073,
+  "neurons_compared": 415,
+  "active_brian2": {
+   "median": 334.0,
+   "min": 308,
+   "max": 346
+  },
+  "MN9_brian2_Hz": {
+   "720575940660219265 (right)": 67.5,
+   "720575940618238523 (left)": 48.8
+  },
+  "active_mlx": {
+   "median": 333.5,
+   "min": 321,
+   "max": 343
+  },
+  "MN9_mlx_Hz": {
+   "720575940660219265 (right)": 67.56666666666666,
+   "720575940618238523 (left)": 50.233333333333334
+  }
+ },
+ {
+  "condition": "LB3bc_right_150Hz",
+  "wiring": "v783",
+  "rate_Hz": 150,
+  "trials": 10,
+  "n_stimulated": 24,
+  "perm_p": 0.6936531734132934,
+  "fdr_hits": 0,
+  "r_mean_rates": 0.9999299353877075,
+  "neurons_compared": 8881,
+  "active_brian2": {
+   "median": 8418.0,
+   "min": 8393,
+   "max": 8482
+  },
+  "MN9_brian2_Hz": {
+   "720575940660219265 (right)": 0.5,
+   "720575940618238523 (left)": 1.1
+  },
+  "active_mlx": {
+   "median": 8421.0,
+   "min": 8381,
+   "max": 8440
+  },
+  "MN9_mlx_Hz": {
+   "720575940660219265 (right)": 0.1,
+   "720575940618238523 (left)": 0.6
+  }
+ },
+ {
+  "condition": "LB3bc_right_150Hz",
+  "wiring": "v783_alfix_all",
+  "rate_Hz": 150,
+  "trials": 10,
+  "n_stimulated": 24,
+  "perm_p": 0.5362318840579711,
+  "fdr_hits": 0,
+  "r_mean_rates": 0.9992959749020349,
+  "neurons_compared": 294,
+  "active_brian2": {
+   "median": 195.5,
+   "min": 186,
+   "max": 212
+  },
+  "MN9_brian2_Hz": {
+   "720575940660219265 (right)": 23.0,
+   "720575940618238523 (left)": 28.7
+  },
+  "active_mlx": {
+   "median": 194.0,
+   "min": 161,
+   "max": 207
+  },
+  "MN9_mlx_Hz": {
+   "720575940660219265 (right)": 20.0,
+   "720575940618238523 (left)": 26.2
+  }
+ }
+]

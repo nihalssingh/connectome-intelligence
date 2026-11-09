@@ -1,0 +1,13 @@
+{
+ "level": "type_x_side",
+ "kind": "weights_shuffled",
+ "seed": 0,
+ "n_groups": 19577,
+ "edges": 15091983,
+ "frac_edges_same_weight": 0.5096526414057053,
+ "weight_r_vs_real": 0.6368494191409241,
+ "frac_edges_also_in_real": 1.0,
+ "seconds": 28.5,
+ "pack_ok": true,
+ "seconds_total": 108.5
+}

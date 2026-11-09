@@ -1,0 +1,14 @@
+{
+ "level": "supertype",
+ "seed": 2,
+ "n_groups": 11722,
+ "edges_in": 15091983,
+ "edges_out": 14011054,
+ "self_loops_dropped": 10898,
+ "synapses_dropped_self_loops": 38489,
+ "duplicates_merged": 1070031,
+ "frac_edges_also_in_real": 0.201923781037458,
+ "seconds": 66.3,
+ "pack_ok": true,
+ "seconds_total": 121.5
+}

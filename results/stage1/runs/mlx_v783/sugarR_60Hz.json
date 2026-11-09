@@ -1,0 +1,13 @@
+{
+ "exp_name": "sugarR_60Hz",
+ "r_poi_Hz": 60,
+ "n_run": 30,
+ "seed": 60000,
+ "engine": "fused",
+ "pack": "external/drosophila-brain-mlx/data/pack/v783",
+ "mlx_port_commit": "e417b33616513ef350b1b1c3cdf2b5b7a1799c8e",
+ "walltime_s": 10.0,
+ "machine": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+ "python": "3.13.15",
+ "finished": "2026-10-18 20:49:47"
+}

@@ -1,0 +1,14 @@
+{
+ "level": "cell_class",
+ "seed": 2,
+ "n_groups": 3572,
+ "edges_in": 15091983,
+ "edges_out": 14536784,
+ "self_loops_dropped": 4540,
+ "synapses_dropped_self_loops": 14334,
+ "duplicates_merged": 550659,
+ "frac_edges_also_in_real": 0.07307579172944992,
+ "seconds": 84.2,
+ "pack_ok": true,
+ "seconds_total": 190.4
+}

@@ -1,0 +1,1575 @@
+{
+ "brains": {
+  "regrow_type_x_side_s0": {
+   "all": {
+    "edges": 0.29106761050983443,
+    "synapses": 0.4921019413359263
+   },
+   "central_to_central": {
+    "edges": 0.6084461817096956,
+    "synapses": 0.8296469712157519
+   },
+   "optic_lobe": {
+    "edges": 0.0865482679404707,
+    "synapses": 0.1687224876417124
+   },
+   "other": {
+    "edges": 0.446650889436702,
+    "synapses": 0.7236523066466471
+   },
+   "readout_input_synapses_on_real_edges": {
+    "paired_DNs": 0.9450652257637306,
+    "MN9": 0.9975577845617095,
+    "aBN1": 0.9154391707583197
+   },
+   "battery_neuron_output_synapses_on_real_edges": 0.9043148992132054,
+   "same_pair_and_count": {
+    "central_to_central_synapses": 0.42440796127625996,
+    "paired_DN_inputs": 0.7080356084082521,
+    "MN9_inputs": 0.9026602703881378,
+    "aBN1_inputs": 0.5275504637206765,
+    "battery_neuron_outputs": 0.7339410017459129
+   },
+   "probe_cell_output_synapses_on_real_edges": {
+    "all": 0.5875443268489747,
+    "onto_central": 0.7556230375144605
+   },
+   "real_synapses_on_unchanged_counts": {
+    "all": 0.5029254648753642,
+    "paired_DN_inputs": 0.81689973726587,
+    "MN9_inputs": 0.9471035050791617,
+    "aBN1_inputs": 0.6997105643994211
+   }
+  },
+  "regrow_type_x_side_s1": {
+   "all": {
+    "edges": 0.2910301715814479,
+    "synapses": 0.4920412497303649
+   },
+   "central_to_central": {
+    "edges": 0.6084643520082468,
+    "synapses": 0.8294577428456149
+   },
+   "optic_lobe": {
+    "edges": 0.08663107977282047,
+    "synapses": 0.16900182933010433
+   },
+   "other": {
+    "edges": 0.4460996962971151,
+    "synapses": 0.7224972570202197
+   },
+   "readout_input_synapses_on_real_edges": {
+    "paired_DNs": 0.9444828060248436,
+    "MN9": 0.9978194505015264,
+    "aBN1": 0.9034369885433715
+   },
+   "battery_neuron_output_synapses_on_real_edges": 0.9095299639480308,
+   "same_pair_and_count": {
+    "central_to_central_synapses": 0.42432693035558244,
+    "paired_DN_inputs": 0.708374566202235,
+    "MN9_inputs": 0.9456607064980375,
+    "aBN1_inputs": 0.5008183306055647,
+    "battery_neuron_outputs": 0.7307439403215201
+   },
+   "probe_cell_output_synapses_on_real_edges": {
+    "all": 0.5854035776674135,
+    "onto_central": 0.7544269542224425
+   },
+   "real_synapses_on_unchanged_counts": {
+    "all": 0.5033834080874574,
+    "paired_DN_inputs": 0.8186194464033316,
+    "MN9_inputs": 0.968987398337653,
+    "aBN1_inputs": 0.6075446724023825
+   }
+  },
+  "regrow_type_x_side_s2": {
+   "all": {
+    "edges": 0.2910659915518831,
+    "synapses": 0.49214669492570434
+   },
+   "central_to_central": {
+    "edges": 0.6084081987294285,
+    "synapses": 0.8295402250801939
+   },
+   "optic_lobe": {
+    "edges": 0.08668719166141177,
+    "synapses": 0.1690499502049593
+   },
+   "other": {
+    "edges": 0.44602537401230546,
+    "synapses": 0.7230452470745411
+   },
+   "readout_input_synapses_on_real_edges": {
+    "paired_DNs": 0.9445137634704242,
+    "MN9": 0.996947230702137,
+    "aBN1": 0.9176213857064921
+   },
+   "battery_neuron_output_synapses_on_real_edges": 0.9080334671110809,
+   "same_pair_and_count": {
+    "central_to_central_synapses": 0.4247116444249265,
+    "paired_DN_inputs": 0.7103463980749716,
+    "MN9_inputs": 0.911818578281727,
+    "aBN1_inputs": 0.5155482815057283,
+    "battery_neuron_outputs": 0.7330793823549419
+   },
+   "probe_cell_output_synapses_on_real_edges": {
+    "all": 0.587030009969953,
+    "onto_central": 0.7560052057511155
+   },
+   "real_synapses_on_unchanged_counts": {
+    "all": 0.503683270312196,
+    "paired_DN_inputs": 0.8213149940970987,
+    "MN9_inputs": 0.9547031963470319,
+    "aBN1_inputs": 0.6994818652849741
+   }
+  },
+  "regrow_supertype_s0": {
+   "all": {
+    "edges": 0.20184524049957558,
+    "synapses": 0.3821731794217475
+   },
+   "central_to_central": {
+    "edges": 0.35563098727617337,
+    "synapses": 0.580453428709341
+   },
+   "optic_lobe": {
+    "edges": 0.08667428277523083,
+    "synapses": 0.16893725823891426
+   },
+   "other": {
+    "edges": 0.3715986042673067,
+    "synapses": 0.6261532724317872
+   },
+   "readout_input_synapses_on_real_edges": {
+    "paired_DNs": 0.7681668760685734,
+    "MN9": 0.9882250327082425,
+    "aBN1": 0.7921440261865794
+   },
+   "battery_neuron_output_synapses_on_real_edges": 0.732807292020951,
+   "same_pair_and_count": {
+    "central_to_central_synapses": 0.22298305904583623,
+    "paired_DN_inputs": 0.43213918512137084,
+    "MN9_inputs": 0.899345835150458,
+    "aBN1_inputs": 0.353518821603928,
+    "battery_neuron_outputs": 0.5414144162528626
+   },
+   "probe_cell_output_synapses_on_real_edges": {
+    "all": 0.500774143470933,
+    "onto_central": 0.6265080152040985
+   },
+   "real_synapses_on_unchanged_counts": {
+    "all": 0.37755894042194044,
+    "paired_DN_inputs": 0.6407773485585475,
+    "MN9_inputs": 0.9380458515283843,
+    "aBN1_inputs": 0.4726477024070022
+   }
+  },
+  "regrow_supertype_s1": {
+   "all": {
+    "edges": 0.20193138453479267,
+    "synapses": 0.38229215283467527
+   },
+   "central_to_central": {
+    "edges": 0.3558724447444664,
+    "synapses": 0.5805018613979733
+   },
+   "optic_lobe": {
+    "edges": 0.08667957062319581,
+    "synapses": 0.1690078154937412
+   },
+   "other": {
+    "edges": 0.3715769007540446,
+    "synapses": 0.6267795618707909
+   },
+   "readout_input_synapses_on_real_edges": {
+    "paired_DNs": 0.769067930708199,
+    "MN9": 0.9862189271696468,
+    "aBN1": 0.7921440261865794
+   },
+   "battery_neuron_output_synapses_on_real_edges": 0.7226946012742897,
+   "same_pair_and_count": {
+    "central_to_central_synapses": 0.22259096251047492,
+    "paired_DN_inputs": 0.4297058624854862,
+    "MN9_inputs": 0.9017880505887483,
+    "aBN1_inputs": 0.3447899618112384,
+    "battery_neuron_outputs": 0.5312337029227037
+   },
+   "probe_cell_output_synapses_on_real_edges": {
+    "all": 0.5025689333887297,
+    "onto_central": 0.6269459593455627
+   },
+   "real_synapses_on_unchanged_counts": {
+    "all": 0.3764612206259684,
+    "paired_DN_inputs": 0.6356332193815131,
+    "MN9_inputs": 0.9223837987331609,
+    "aBN1_inputs": 0.5539000876424189
+   }
+  },
+  "regrow_supertype_s2": {
+   "all": {
+    "edges": 0.201923781037458,
+    "synapses": 0.3821748910690154
+   },
+   "central_to_central": {
+    "edges": 0.35595322206808605,
+    "synapses": 0.5802456590332884
+   },
+   "optic_lobe": {
+    "edges": 0.08662800092528748,
+    "synapses": 0.16882683713567456
+   },
+   "other": {
+    "edges": 0.37178234563186263,
+    "synapses": 0.6273804512065638
+   },
+   "readout_input_synapses_on_real_edges": {
+    "paired_DNs": 0.7701718321093497,
+    "MN9": 0.9868294810292194,
+    "aBN1": 0.7937806873977087
+   },
+   "battery_neuron_output_synapses_on_real_edges": 0.725732943337188,
+   "same_pair_and_count": {
+    "central_to_central_synapses": 0.22262548987648323,
+    "paired_DN_inputs": 0.43239165634215393,
+    "MN9_inputs": 0.8934147405146097,
+    "aBN1_inputs": 0.36552100381887614,
+    "battery_neuron_outputs": 0.5312563771172029
+   },
+   "probe_cell_output_synapses_on_real_edges": {
+    "all": 0.5019760515172126,
+    "onto_central": 0.6273611799702529
+   },
+   "real_synapses_on_unchanged_counts": {
+    "all": 0.3768502226596449,
+    "paired_DN_inputs": 0.6418931543243211,
+    "MN9_inputs": 0.9424050050602631,
+    "aBN1_inputs": 0.49962714392244595
+   }
+  },
+  "regrow_hemilineage_s0": {
+   "all": {
+    "edges": 0.08407326409348355,
+    "synapses": 0.14262989412487648
+   },
+   "central_to_central": {
+    "edges": 0.06121963826980421,
+    "synapses": 0.09447689905615236
+   },
+   "optic_lobe": {
+    "edges": 0.08631453311247717,
+    "synapses": 0.16848790632485217
+   },
+   "other": {
+    "edges": 0.15399627887188916,
+    "synapses": 0.2035726951591448
+   },
+   "readout_input_synapses_on_real_edges": {
+    "paired_DNs": 0.07028561974904149,
+    "MN9": 0.0784125599651112,
+    "aBN1": 0.014063656550703183
+   },
+   "battery_neuron_output_synapses_on_real_edges": 0.13241729587556403,
+   "same_pair_and_count": {
+    "central_to_central_synapses": 0.00600337757701841,
+    "paired_DN_inputs": 0.005633030452377812,
+    "MN9_inputs": 0.039511556912341914,
+    "aBN1_inputs": 0.0007401924500370096,
+    "battery_neuron_outputs": 0.08310092283971612
+   },
+   "probe_cell_output_synapses_on_real_edges": {
+    "all": 0.16448275956636327,
+    "onto_central": 0.11911057493678835
+   },
+   "real_synapses_on_unchanged_counts": {
+    "all": 0.1285545239495209,
+    "paired_DN_inputs": 0.07106991680046708,
+    "MN9_inputs": 0.4140767824497258,
+    "aBN1_inputs": 0.125
+   }
+  },
+  "regrow_hemilineage_s1": {
+   "all": {
+    "edges": 0.08414408694257136,
+    "synapses": 0.14258639908562454
+   },
+   "central_to_central": {
+    "edges": 0.061341203208031374,
+    "synapses": 0.09458296803812913
+   },
+   "optic_lobe": {
+    "edges": 0.0863733633658507,
+    "synapses": 0.16844121646767138
+   },
+   "other": {
+    "edges": 0.1539513337932411,
+    "synapses": 0.20298159725200696
+   },
+   "readout_input_synapses_on_real_edges": {
+    "paired_DNs": 0.07107368440555865,
+    "MN9": 0.07527256868730921,
+    "aBN1": 0.01787538304392237
+   },
+   "battery_neuron_output_synapses_on_real_edges": 0.13525157018796907,
+   "same_pair_and_count": {
+    "central_to_central_synapses": 0.0059213287149093375,
+    "paired_DN_inputs": 0.005918561017283796,
+    "MN9_inputs": 0.032272132577409504,
+    "aBN1_inputs": 0.004596527068437181,
+    "battery_neuron_outputs": 0.08010792916581638
+   },
+   "probe_cell_output_synapses_on_real_edges": {
+    "all": 0.16566148580267737,
+    "onto_central": 0.1190930649545954
+   },
+   "real_synapses_on_unchanged_counts": {
+    "all": 0.12898279013588512,
+    "paired_DN_inputs": 0.07417512644312055,
+    "MN9_inputs": 0.6583629893238434,
+    "aBN1_inputs": 0.2571428571428571
+   }
+  },
+  "regrow_hemilineage_s2": {
+   "all": {
+    "edges": 0.08401985426846294,
+    "synapses": 0.14261228725146655
+   },
+   "central_to_central": {
+    "edges": 0.06109954465203985,
+    "synapses": 0.09478050404441206
+   },
+   "optic_lobe": {
+    "edges": 0.086303619877169,
+    "synapses": 0.1683186876734838
+   },
+   "other": {
+    "edges": 0.15392471305017988,
+    "synapses": 0.20305723413475682
+   },
+   "readout_input_synapses_on_real_edges": {
+    "paired_DNs": 0.06945894042499895,
+    "MN9": 0.07152202354993459,
+    "aBN1": 0.0025391451544646637
+   },
+   "battery_neuron_output_synapses_on_real_edges": 0.1382899122508673,
+   "same_pair_and_count": {
+    "central_to_central_synapses": 0.006028286554182231,
+    "paired_DN_inputs": 0.005805930131693084,
+    "MN9_inputs": 0.035412123855211516,
+    "aBN1_inputs": 0.00042319085907744394,
+    "battery_neuron_outputs": 0.08233000022674195
+   },
+   "probe_cell_output_synapses_on_real_edges": {
+    "all": 0.16186742576945543,
+    "onto_central": 0.11580880454294751
+   },
+   "real_synapses_on_unchanged_counts": {
+    "all": 0.1295188238207441,
+    "paired_DN_inputs": 0.07200696122425497,
+    "MN9_inputs": 0.5471698113207547,
+    "aBN1_inputs": 0.09090909090909091
+   }
+  },
+  "regrow_cell_class_s0": {
+   "all": {
+    "edges": 0.07303276409349126,
+    "synapses": 0.12586780122561575
+   },
+   "central_to_central": {
+    "edges": 0.039916459723377776,
+    "synapses": 0.06800016337334756
+   },
+   "optic_lobe": {
+    "edges": 0.08623563088726431,
+    "synapses": 0.16859583803427414
+   },
+   "other": {
+    "edges": 0.11630860150937831,
+    "synapses": 0.14522920577519688
+   },
+   "readout_input_synapses_on_real_edges": {
+    "paired_DNs": 0.03724748273897813,
+    "MN9": 0.05730484081988661,
+    "aBN1": 0.01169993117687543
+   },
+   "battery_neuron_output_synapses_on_real_edges": 0.08301022606171916,
+   "same_pair_and_count": {
+    "central_to_central_synapses": 0.0034919676300493147,
+    "paired_DN_inputs": 0.0022135936222966446,
+    "MN9_inputs": 0.028259921500218055,
+    "aBN1_inputs": 0.0,
+    "battery_neuron_outputs": 0.06752375121873795
+   },
+   "probe_cell_output_synapses_on_real_edges": {
+    "all": 0.1099602675528406,
+    "onto_central": 0.03538671294000992
+   },
+   "real_synapses_on_unchanged_counts": {
+    "all": 0.12790972772251766,
+    "paired_DN_inputs": 0.05291617877300775,
+    "MN9_inputs": 0.84375,
+    "aBN1_inputs": 0.0
+   }
+  },
+  "regrow_cell_class_s1": {
+   "all": {
+    "edges": 0.07306717894760885,
+    "synapses": 0.1257597796777983
+   },
+   "central_to_central": {
+    "edges": 0.03983313158284005,
+    "synapses": 0.06774932900169274
+   },
+   "optic_lobe": {
+    "edges": 0.08644066979441123,
+    "synapses": 0.16852948556482295
+   },
+   "other": {
+    "edges": 0.11577592292678876,
+    "synapses": 0.1454635649514564
+   },
+   "readout_input_synapses_on_real_edges": {
+    "paired_DNs": 0.03678874946853362,
+    "MN9": 0.03654600959441779,
+    "aBN1": 0.02448210922787194
+   },
+   "battery_neuron_output_synapses_on_real_edges": 0.08103757114028524,
+   "same_pair_and_count": {
+    "central_to_central_synapses": 0.0034648321441850378,
+    "paired_DN_inputs": 0.002178668410628118,
+    "MN9_inputs": 0.031138246838203227,
+    "aBN1_inputs": 0.0012554927809165098,
+    "battery_neuron_outputs": 0.06858943836020226
+   },
+   "probe_cell_output_synapses_on_real_edges": {
+    "all": 0.10866235032578271,
+    "onto_central": 0.03358742356635267
+   },
+   "real_synapses_on_unchanged_counts": {
+    "all": 0.12949553212714895,
+    "paired_DN_inputs": 0.05142419442785553,
+    "MN9_inputs": 0.4747340425531915,
+    "aBN1_inputs": 0.14285714285714285
+   }
+  },
+  "regrow_cell_class_s2": {
+   "all": {
+    "edges": 0.07307579172944992,
+    "synapses": 0.12558605593816052
+   },
+   "central_to_central": {
+    "edges": 0.03991278823405481,
+    "synapses": 0.06766955488622918
+   },
+   "optic_lobe": {
+    "edges": 0.08635271000361695,
+    "synapses": 0.16835058056080515
+   },
+   "other": {
+    "edges": 0.11608299793679225,
+    "synapses": 0.144965070100078
+   },
+   "readout_input_synapses_on_real_edges": {
+    "paired_DNs": 0.03720398177867366,
+    "MN9": 0.041866550370693416,
+    "aBN1": 0.02308707124010554
+   },
+   "battery_neuron_output_synapses_on_real_edges": 0.07911026460784981,
+   "same_pair_and_count": {
+    "central_to_central_synapses": 0.003444662445887471,
+    "paired_DN_inputs": 0.0022565024925969676,
+    "MN9_inputs": 0.028347143480157,
+    "aBN1_inputs": 0.001978891820580475,
+    "battery_neuron_outputs": 0.06666213182776681
+   },
+   "probe_cell_output_synapses_on_real_edges": {
+    "all": 0.10848141921079987,
+    "onto_central": 0.0344653776235333
+   },
+   "real_synapses_on_unchanged_counts": {
+    "all": 0.12791801090684826,
+    "paired_DN_inputs": 0.053157737979617474,
+    "MN9_inputs": 0.25630914826498424,
+    "aBN1_inputs": 0.1875
+   }
+  },
+  "regrow_super_class_s0": {
+   "all": {
+    "edges": 0.06316968211076754,
+    "synapses": 0.10392858062534939
+   },
+   "central_to_central": {
+    "edges": 0.017748629744492594,
+    "synapses": 0.01869851786128757
+   },
+   "optic_lobe": {
+    "edges": 0.08640401125054999,
+    "synapses": 0.1686653399177992
+   },
+   "other": {
+    "edges": 0.09472904896873006,
+    "synapses": 0.12416556074094297
+   },
+   "readout_input_synapses_on_real_edges": {
+    "paired_DNs": 0.03181970139323754,
+    "MN9": 0.14984736153510686,
+    "aBN1": 0.022796352583586626
+   },
+   "battery_neuron_output_synapses_on_real_edges": 0.07738702582590753,
+   "same_pair_and_count": {
+    "central_to_central_synapses": 0.0013674356161716271,
+    "paired_DN_inputs": 0.001411577579764047,
+    "MN9_inputs": 0.03174880069777584,
+    "aBN1_inputs": 0.001519756838905775,
+    "battery_neuron_outputs": 0.06475749948983063
+   },
+   "probe_cell_output_synapses_on_real_edges": {
+    "all": 0.09418755502650872,
+    "onto_central": 0.012307882994546356
+   },
+   "real_synapses_on_unchanged_counts": {
+    "all": 0.14333084093045811,
+    "paired_DN_inputs": 0.03750640228287115,
+    "MN9_inputs": 0.33486660533578655,
+    "aBN1_inputs": 0.06451612903225806
+   }
+  },
+  "regrow_super_class_s1": {
+   "all": {
+    "edges": 0.06318368784688594,
+    "synapses": 0.10379019875651861
+   },
+   "central_to_central": {
+    "edges": 0.017789892288792308,
+    "synapses": 0.018459992682252627
+   },
+   "optic_lobe": {
+    "edges": 0.08637049327495064,
+    "synapses": 0.16857124405828622
+   },
+   "other": {
+    "edges": 0.09487857767282387,
+    "synapses": 0.1241985521699277
+   },
+   "readout_input_synapses_on_real_edges": {
+    "paired_DNs": 0.03251537082757449,
+    "MN9": 0.03235935455734845,
+    "aBN1": 0.00625
+   },
+   "battery_neuron_output_synapses_on_real_edges": 0.07548239348797134,
+   "same_pair_and_count": {
+    "central_to_central_synapses": 0.001358761167306874,
+    "paired_DN_inputs": 0.0015163206591952447,
+    "MN9_inputs": 0.02721325774095072,
+    "aBN1_inputs": 0.0020833333333333333,
+    "battery_neuron_outputs": 0.06500691562932227
+   },
+   "probe_cell_output_synapses_on_real_edges": {
+    "all": 0.09509868718753171,
+    "onto_central": 0.013848950586679887
+   },
+   "real_synapses_on_unchanged_counts": {
+    "all": 0.1428194557604223,
+    "paired_DN_inputs": 0.04013042022677982,
+    "MN9_inputs": 0.6419753086419753,
+    "aBN1_inputs": 0.06382978723404255
+   }
+  },
+  "regrow_super_class_s2": {
+   "all": {
+    "edges": 0.06315364351549023,
+    "synapses": 0.10365267750051448
+   },
+   "central_to_central": {
+    "edges": 0.017730632312019098,
+    "synapses": 0.01839175035239052
+   },
+   "optic_lobe": {
+    "edges": 0.08637941319190102,
+    "synapses": 0.16851644173269925
+   },
+   "other": {
+    "edges": 0.09474166010261213,
+    "synapses": 0.12341926679505616
+   },
+   "readout_input_synapses_on_real_edges": {
+    "paired_DNs": 0.03245895845521129,
+    "MN9": 0.03279546445704318,
+    "aBN1": 0.023299748110831235
+   },
+   "battery_neuron_output_synapses_on_real_edges": 0.07548239348797134,
+   "same_pair_and_count": {
+    "central_to_central_synapses": 0.0013546899676827966,
+    "paired_DN_inputs": 0.0015218052242975165,
+    "MN9_inputs": 0.028085477540340166,
+    "aBN1_inputs": 0.0025188916876574307,
+    "battery_neuron_outputs": 0.06459878012833595
+   },
+   "probe_cell_output_synapses_on_real_edges": {
+    "all": 0.09317206291740376,
+    "onto_central": 0.012144686828623368
+   },
+   "real_synapses_on_unchanged_counts": {
+    "all": 0.14363947973098457,
+    "paired_DN_inputs": 0.04159229650072745,
+    "MN9_inputs": 0.33471933471933474,
+    "aBN1_inputs": 0.2857142857142857
+   }
+  },
+  "regrow_type_sides_pooled_s0": {
+   "all": {
+    "edges": 0.18861608046371534,
+    "synapses": 0.3583200782426957
+   },
+   "central_to_central": {
+    "edges": 0.33081909576185226,
+    "synapses": 0.547452808584346
+   },
+   "optic_lobe": {
+    "edges": 0.08641121660579959,
+    "synapses": 0.16857533383431902
+   },
+   "other": {
+    "edges": 0.3243932987554589,
+    "synapses": 0.5277480311379997
+   },
+   "readout_input_synapses_on_real_edges": {
+    "paired_DNs": 0.6752349892480344,
+    "MN9": 0.9071958133449629,
+    "aBN1": 0.6697490092470277
+   },
+   "battery_neuron_output_synapses_on_real_edges": 0.6486633562342697,
+   "same_pair_and_count": {
+    "central_to_central_synapses": 0.10167165143137896,
+    "paired_DN_inputs": 0.14577995850413278,
+    "MN9_inputs": 0.3502834714348016,
+    "aBN1_inputs": 0.37318361955085866,
+    "battery_neuron_outputs": 0.3455547241684239
+   },
+   "probe_cell_output_synapses_on_real_edges": {
+    "all": 0.40630549951794703,
+    "onto_central": 0.48168277970583373
+   },
+   "real_synapses_on_unchanged_counts": {
+    "all": 0.2244415079957489,
+    "paired_DN_inputs": 0.28252743093427973,
+    "MN9_inputs": 0.45844748858447487,
+    "aBN1_inputs": 0.5897703549060542
+   }
+  },
+  "regrow_type_sides_pooled_s1": {
+   "all": {
+    "edges": 0.18867773821538256,
+    "synapses": 0.35903125991161466
+   },
+   "central_to_central": {
+    "edges": 0.33055141846839425,
+    "synapses": 0.5486232007404125
+   },
+   "optic_lobe": {
+    "edges": 0.08660020141335505,
+    "synapses": 0.16863190385618665
+   },
+   "other": {
+    "edges": 0.325003087849313,
+    "synapses": 0.5297956268950706
+   },
+   "readout_input_synapses_on_real_edges": {
+    "paired_DNs": 0.6770085141594631,
+    "MN9": 0.9106846925425207,
+    "aBN1": 0.6796621182586094
+   },
+   "battery_neuron_output_synapses_on_real_edges": 0.6614969503208399,
+   "same_pair_and_count": {
+    "central_to_central_synapses": 0.10222149020191586,
+    "paired_DN_inputs": 0.14545844989373052,
+    "MN9_inputs": 0.25032708242477103,
+    "aBN1_inputs": 0.30214424951267055,
+    "battery_neuron_outputs": 0.3518354760447135
+   },
+   "probe_cell_output_synapses_on_real_edges": {
+    "all": 0.410522880119365,
+    "onto_central": 0.48896876549330687
+   },
+   "real_synapses_on_unchanged_counts": {
+    "all": 0.22550675686832147,
+    "paired_DN_inputs": 0.27981221890153307,
+    "MN9_inputs": 0.37423392880427697,
+    "aBN1_inputs": 0.49415515409139216
+   }
+  },
+  "regrow_type_sides_pooled_s2": {
+   "all": {
+    "edges": 0.18866011242072495,
+    "synapses": 0.3589169936588065
+   },
+   "central_to_central": {
+    "edges": 0.3305899075861876,
+    "synapses": 0.5485270938201016
+   },
+   "optic_lobe": {
+    "edges": 0.08661296809103924,
+    "synapses": 0.1687286188150224
+   },
+   "other": {
+    "edges": 0.32462329858424,
+    "synapses": 0.528616373597129
+   },
+   "readout_input_synapses_on_real_edges": {
+    "paired_DNs": 0.6756230617504582,
+    "MN9": 0.9131269079808112,
+    "aBN1": 0.580048270313757
+   },
+   "battery_neuron_output_synapses_on_real_edges": 0.6585039566469402,
+   "same_pair_and_count": {
+    "central_to_central_synapses": 0.10183943868637249,
+    "paired_DN_inputs": 0.14421547848611915,
+    "MN9_inputs": 0.45521151330135196,
+    "aBN1_inputs": 0.24778761061946902,
+    "battery_neuron_outputs": 0.35349069224315804
+   },
+   "probe_cell_output_synapses_on_real_edges": {
+    "all": 0.40703609237013877,
+    "onto_central": 0.4852668980333829
+   },
+   "real_synapses_on_unchanged_counts": {
+    "all": 0.22454314823294522,
+    "paired_DN_inputs": 0.2791648246670427,
+    "MN9_inputs": 0.5724470768893276,
+    "aBN1_inputs": 0.49201277955271566
+   }
+  },
+  "regrow_supertype_keep_readouts_s0": {
+   "all": {
+    "edges": 0.20510498050446155,
+    "synapses": 0.38740381472926866
+   },
+   "central_to_central": {
+    "edges": 0.3644959197206079,
+    "synapses": 0.5918281056892266
+   },
+   "optic_lobe": {
+    "edges": 0.08663826914838971,
+    "synapses": 0.1690038261269129
+   },
+   "other": {
+    "edges": 0.37519702853231035,
+    "synapses": 0.6322529959356007
+   },
+   "readout_input_synapses_on_real_edges": {
+    "paired_DNs": 0.8589290192996062,
+    "MN9": 0.9917139119058003,
+    "aBN1": 0.8276050190943808
+   },
+   "battery_neuron_output_synapses_on_real_edges": 0.7432147472961023,
+   "same_pair_and_count": {
+    "central_to_central_synapses": 0.2400309661531676,
+    "paired_DN_inputs": 0.5817329033571513,
+    "MN9_inputs": 0.9491495856955953,
+    "aBN1_inputs": 0.3949809056192035,
+    "battery_neuron_outputs": 0.5525701199464889
+   },
+   "probe_cell_output_synapses_on_real_edges": {
+    "all": 0.5092055080823332,
+    "onto_central": 0.6352545033878698
+   },
+   "real_synapses_on_unchanged_counts": {
+    "all": 0.39424525316733333,
+    "paired_DN_inputs": 0.7534826854566535,
+    "MN9_inputs": 0.9732582058849835,
+    "aBN1_inputs": 0.5123849964614295
+   }
+  },
+  "regrow_supertype_keep_readouts_s1": {
+   "all": {
+    "edges": 0.2051838383780721,
+    "synapses": 0.38757415982984966
+   },
+   "central_to_central": {
+    "edges": 0.3647714804345309,
+    "synapses": 0.5923686280697383
+   },
+   "optic_lobe": {
+    "edges": 0.08654682129522019,
+    "synapses": 0.1688866393251924
+   },
+   "other": {
+    "edges": 0.375623904795997,
+    "synapses": 0.6324036506614361
+   },
+   "readout_input_synapses_on_real_edges": {
+    "paired_DNs": 0.8576240842630186,
+    "MN9": 0.9949411251635412,
+    "aBN1": 0.7850518276050191
+   },
+   "battery_neuron_output_synapses_on_real_edges": 0.7436682311860872,
+   "same_pair_and_count": {
+    "central_to_central_synapses": 0.2403180036196423,
+    "paired_DN_inputs": 0.5856351156076947,
+    "MN9_inputs": 0.9055385957261229,
+    "aBN1_inputs": 0.37315875613747956,
+    "battery_neuron_outputs": 0.5482846971861325
+   },
+   "probe_cell_output_synapses_on_real_edges": {
+    "all": 0.5059381934177938,
+    "onto_central": 0.6323975375970914
+   },
+   "real_synapses_on_unchanged_counts": {
+    "all": 0.3939792628552323,
+    "paired_DN_inputs": 0.7587169365490359,
+    "MN9_inputs": 0.9302867383512545,
+    "aBN1_inputs": 0.5968586387434555
+   }
+  },
+  "regrow_supertype_keep_readouts_s2": {
+   "all": {
+    "edges": 0.2050087697891112,
+    "synapses": 0.3873052372863442
+   },
+   "central_to_central": {
+    "edges": 0.3640922943156481,
+    "synapses": 0.591707418290299
+   },
+   "optic_lobe": {
+    "edges": 0.08665603777140407,
+    "synapses": 0.16905444531121253
+   },
+   "other": {
+    "edges": 0.375289800279958,
+    "synapses": 0.6315999171110407
+   },
+   "readout_input_synapses_on_real_edges": {
+    "paired_DNs": 0.8576707827826231,
+    "MN9": 0.9935455734845181,
+    "aBN1": 0.8041462084015275
+   },
+   "battery_neuron_output_synapses_on_real_edges": 0.7422851053216335,
+   "same_pair_and_count": {
+    "central_to_central_synapses": 0.24029275740972583,
+    "paired_DN_inputs": 0.5813446235312266,
+    "MN9_inputs": 0.9093763628434366,
+    "aBN1_inputs": 0.5695581014729951,
+    "battery_neuron_outputs": 0.5486021359091219
+   },
+   "probe_cell_output_synapses_on_real_edges": {
+    "all": 0.5050689714760637,
+    "onto_central": 0.6328540737068253
+   },
+   "real_synapses_on_unchanged_counts": {
+    "all": 0.3949523965568696,
+    "paired_DN_inputs": 0.7543090448241422,
+    "MN9_inputs": 0.9552867876122412,
+    "aBN1_inputs": 0.7676470588235295
+   }
+  },
+  "regrow_hemilineage_keep_readouts_s0": {
+   "all": {
+    "edges": 0.09000140243469588,
+    "synapses": 0.1546059582572222
+   },
+   "central_to_central": {
+    "edges": 0.07187107567994801,
+    "synapses": 0.11350842770390747
+   },
+   "optic_lobe": {
+    "edges": 0.08656742249485112,
+    "synapses": 0.1687886136510941
+   },
+   "other": {
+    "edges": 0.17655694292338628,
+    "synapses": 0.24314193221541286
+   },
+   "readout_input_synapses_on_real_edges": {
+    "paired_DNs": 0.3229480722956048,
+    "MN9": 0.32088966419537723,
+    "aBN1": 0.23131478450627388
+   },
+   "battery_neuron_output_synapses_on_real_edges": 0.24211504886288915,
+   "same_pair_and_count": {
+    "central_to_central_synapses": 0.017457485038736772,
+    "paired_DN_inputs": 0.1553129797748187,
+    "MN9_inputs": 0.31094635848233754,
+    "aBN1_inputs": 0.15275504637206766,
+    "battery_neuron_outputs": 0.17826451715302813
+   },
+   "probe_cell_output_synapses_on_real_edges": {
+    "all": 0.21417454133567002,
+    "onto_central": 0.19287203078747264
+   },
+   "real_synapses_on_unchanged_counts": {
+    "all": 0.17053073690052872,
+    "paired_DN_inputs": 0.5420507693040189,
+    "MN9_inputs": 0.9767123287671233,
+    "aBN1_inputs": 0.7
+   }
+  },
+  "regrow_hemilineage_keep_readouts_s1": {
+   "all": {
+    "edges": 0.08992021196285885,
+    "synapses": 0.15499260914753205
+   },
+   "central_to_central": {
+    "edges": 0.07181966285597345,
+    "synapses": 0.11435891364403157
+   },
+   "optic_lobe": {
+    "edges": 0.0864793109386499,
+    "synapses": 0.1688126168747888
+   },
+   "other": {
+    "edges": 0.176372369742139,
+    "synapses": 0.2434652403027389
+   },
+   "readout_input_synapses_on_real_edges": {
+    "paired_DNs": 0.32240657934918004,
+    "MN9": 0.36641953772350633,
+    "aBN1": 0.2214948172394981
+   },
+   "battery_neuron_output_synapses_on_real_edges": 0.24501734575879192,
+   "same_pair_and_count": {
+    "central_to_central_synapses": 0.017660787985294888,
+    "paired_DN_inputs": 0.1555863497603684,
+    "MN9_inputs": 0.30824247710423025,
+    "aBN1_inputs": 0.13584288052373159,
+    "battery_neuron_outputs": 0.17994240754597193
+   },
+   "probe_cell_output_synapses_on_real_edges": {
+    "all": 0.21332505009030656,
+    "onto_central": 0.19162473248886575
+   },
+   "real_synapses_on_unchanged_counts": {
+    "all": 0.1714577240678894,
+    "paired_DN_inputs": 0.5452494345659489,
+    "MN9_inputs": 0.8980940279542566,
+    "aBN1_inputs": 0.6897506925207756
+   }
+  },
+  "regrow_hemilineage_keep_readouts_s2": {
+   "all": {
+    "edges": 0.09002897451439501,
+    "synapses": 0.15473589281931463
+   },
+   "central_to_central": {
+    "edges": 0.07187578181567217,
+    "synapses": 0.11379105811751249
+   },
+   "optic_lobe": {
+    "edges": 0.08658429032616174,
+    "synapses": 0.1687094840840218
+   },
+   "other": {
+    "edges": 0.17670132432434413,
+    "synapses": 0.24366632763525156
+   },
+   "readout_input_synapses_on_real_edges": {
+    "paired_DNs": 0.3221977477671287,
+    "MN9": 0.3296118621892717,
+    "aBN1": 0.24768139661756683
+   },
+   "battery_neuron_output_synapses_on_real_edges": 0.24157086819490736,
+   "same_pair_and_count": {
+    "central_to_central_synapses": 0.01744948906407578,
+    "paired_DN_inputs": 0.15413869565263016,
+    "MN9_inputs": 0.3114696903619712,
+    "aBN1_inputs": 0.14729950900163666,
+    "battery_neuron_outputs": 0.1757250073691132
+   },
+   "probe_cell_output_synapses_on_real_edges": {
+    "all": 0.21306709488618678,
+    "onto_central": 0.1902055807573767
+   },
+   "real_synapses_on_unchanged_counts": {
+    "all": 0.1705950737714492,
+    "paired_DN_inputs": 0.5366111175044708,
+    "MN9_inputs": 0.7999551971326165,
+    "aBN1_inputs": 0.675
+   }
+  },
+  "regrow_hemilineage_else_supertype_s0": {
+   "all": {
+    "edges": 0.13221350865049583,
+    "synapses": 0.2503677834815152
+   },
+   "central_to_central": {
+    "edges": 0.17142645751669253,
+    "synapses": 0.2983026311911386
+   },
+   "optic_lobe": {
+    "edges": 0.08655334270975899,
+    "synapses": 0.16880281684115434
+   },
+   "other": {
+    "edges": 0.2654151713413875,
+    "synapses": 0.44817972137110784
+   },
+   "readout_input_synapses_on_real_edges": {
+    "paired_DNs": 0.4412111588092116,
+    "MN9": 0.9448757086785871,
+    "aBN1": 0.5831969448990726
+   },
+   "battery_neuron_output_synapses_on_real_edges": 0.546448087431694,
+   "same_pair_and_count": {
+    "central_to_central_synapses": 0.13009685569505006,
+    "paired_DN_inputs": 0.2689378112706149,
+    "MN9_inputs": 0.9018752725686873,
+    "aBN1_inputs": 0.4920894708128751,
+    "battery_neuron_outputs": 0.4591070902206199
+   },
+   "probe_cell_output_synapses_on_real_edges": {
+    "all": 0.3437551423399704,
+    "onto_central": 0.3880638637617152
+   },
+   "real_synapses_on_unchanged_counts": {
+    "all": 0.35998826951858204,
+    "paired_DN_inputs": 0.6378857382868155,
+    "MN9_inputs": 0.9575847379144286,
+    "aBN1_inputs": 0.878286270691334
+   }
+  },
+  "regrow_hemilineage_else_supertype_s1": {
+   "all": {
+    "edges": 0.13225754144080065,
+    "synapses": 0.25029399428088295
+   },
+   "central_to_central": {
+    "edges": 0.17165865463226399,
+    "synapses": 0.2983062461348516
+   },
+   "optic_lobe": {
+    "edges": 0.0865633715440972,
+    "synapses": 0.16898388962147323
+   },
+   "other": {
+    "edges": 0.26499094005725704,
+    "synapses": 0.4466361958503537
+   },
+   "readout_input_synapses_on_real_edges": {
+    "paired_DNs": 0.44472106201004075,
+    "MN9": 0.9436546009594418,
+    "aBN1": 0.5570103655210038
+   },
+   "battery_neuron_output_synapses_on_real_edges": 0.5483753939641294,
+   "same_pair_and_count": {
+    "central_to_central_synapses": 0.129998628734535,
+    "paired_DN_inputs": 0.2705141620124228,
+    "MN9_inputs": 0.8659398168338421,
+    "aBN1_inputs": 0.27495908346972175,
+    "battery_neuron_outputs": 0.4662948098768791
+   },
+   "probe_cell_output_synapses_on_real_edges": {
+    "all": 0.3388335001851369,
+    "onto_central": 0.38114114908147434
+   },
+   "real_synapses_on_unchanged_counts": {
+    "all": 0.3590608439643303,
+    "paired_DN_inputs": 0.6360763773622023,
+    "MN9_inputs": 0.9381969381969382,
+    "aBN1_inputs": 0.6347607052896725
+   }
+  },
+  "regrow_hemilineage_else_supertype_s2": {
+   "all": {
+    "edges": 0.13206942196169594,
+    "synapses": 0.25003083445432195
+   },
+   "central_to_central": {
+    "edges": 0.17124339249832074,
+    "synapses": 0.2975959403171678
+   },
+   "optic_lobe": {
+    "edges": 0.08646959026971708,
+    "synapses": 0.16903634214171315
+   },
+   "other": {
+    "edges": 0.26496608769562124,
+    "synapses": 0.44659138647591873
+   },
+   "readout_input_synapses_on_real_edges": {
+    "paired_DNs": 0.4387965636243144,
+    "MN9": 0.9542084605320541,
+    "aBN1": 0.563011456628478
+   },
+   "battery_neuron_output_synapses_on_real_edges": 0.5440446228147745,
+   "same_pair_and_count": {
+    "central_to_central_synapses": 0.1300829248580188,
+    "paired_DN_inputs": 0.26882665993365984,
+    "MN9_inputs": 0.9251635412123855,
+    "aBN1_inputs": 0.281505728314239,
+    "battery_neuron_outputs": 0.46955989388476976
+   },
+   "probe_cell_output_synapses_on_real_edges": {
+    "all": 0.34291678267106823,
+    "onto_central": 0.38612002239239157
+   },
+   "real_synapses_on_unchanged_counts": {
+    "all": 0.3595117747228186,
+    "paired_DN_inputs": 0.6420422086255289,
+    "MN9_inputs": 0.9793186224725325,
+    "aBN1_inputs": 0.6099290780141844
+   }
+  },
+  "regrow_type_sides_pooled_keep_readouts_s0": {
+   "all": {
+    "edges": 0.19284436173639194,
+    "synapses": 0.3626356419005712
+   },
+   "central_to_central": {
+    "edges": 0.3402454684935184,
+    "synapses": 0.554135878859414
+   },
+   "optic_lobe": {
+    "edges": 0.08658541425340768,
+    "synapses": 0.16881384363326776
+   },
+   "other": {
+    "edges": 0.33423184760249747,
+    "synapses": 0.5420477308575911
+   },
+   "readout_input_synapses_on_real_edges": {
+    "paired_DNs": 0.7569462736155463,
+    "MN9": 0.9315307457479285,
+    "aBN1": 0.7632296781232951
+   },
+   "battery_neuron_output_synapses_on_real_edges": 0.6908600321973561,
+   "same_pair_and_count": {
+    "central_to_central_synapses": 0.12492490867420175,
+    "paired_DN_inputs": 0.3805551561986775,
+    "MN9_inputs": 0.38674225904928045,
+    "aBN1_inputs": 0.4702673213311511,
+    "battery_neuron_outputs": 0.41949527243044693
+   },
+   "probe_cell_output_synapses_on_real_edges": {
+    "all": 0.429014974169934,
+    "onto_central": 0.5167720211535284
+   },
+   "real_synapses_on_unchanged_counts": {
+    "all": 0.2567727817999642,
+    "paired_DN_inputs": 0.5964996833595144,
+    "MN9_inputs": 0.5073807071747339,
+    "aBN1_inputs": 0.6857597454256166
+   }
+  },
+  "regrow_type_sides_pooled_keep_readouts_s1": {
+   "all": {
+    "edges": 0.19283991823380203,
+    "synapses": 0.36249046091748577
+   },
+   "central_to_central": {
+    "edges": 0.34031885489529345,
+    "synapses": 0.5537785730192644
+   },
+   "optic_lobe": {
+    "edges": 0.08658941621315033,
+    "synapses": 0.16867132614276786
+   },
+   "other": {
+    "edges": 0.33395443773943767,
+    "synapses": 0.5426692223773174
+   },
+   "readout_input_synapses_on_real_edges": {
+    "paired_DNs": 0.7558092433685478,
+    "MN9": 0.9207152202354993,
+    "aBN1": 0.7506819421713039
+   },
+   "battery_neuron_output_synapses_on_real_edges": 0.6969593905176519,
+   "same_pair_and_count": {
+    "central_to_central_synapses": 0.12501492915221524,
+    "paired_DN_inputs": 0.37615132838923687,
+    "MN9_inputs": 0.5120802442215439,
+    "aBN1_inputs": 0.23076923076923078,
+    "battery_neuron_outputs": 0.4149604335305988
+   },
+   "probe_cell_output_synapses_on_real_edges": {
+    "all": 0.4278313548735655,
+    "onto_central": 0.5146070897372336
+   },
+   "real_synapses_on_unchanged_counts": {
+    "all": 0.25793025148879656,
+    "paired_DN_inputs": 0.5925252152897682,
+    "MN9_inputs": 0.6356647899523603,
+    "aBN1_inputs": 0.3814247069431921
+   }
+  },
+  "regrow_type_sides_pooled_keep_readouts_s2": {
+   "all": {
+    "edges": 0.1928624238251426,
+    "synapses": 0.3626381782891963
+   },
+   "central_to_central": {
+    "edges": 0.34034142123107475,
+    "synapses": 0.5542400965163005
+   },
+   "optic_lobe": {
+    "edges": 0.0866409936124841,
+    "synapses": 0.16885745198592497
+   },
+   "other": {
+    "edges": 0.3336804218865229,
+    "synapses": 0.5414119538041063
+   },
+   "readout_input_synapses_on_real_edges": {
+    "paired_DNs": 0.7566802494645412,
+    "MN9": 0.9550806803314436,
+    "aBN1": 0.7823240589198036
+   },
+   "battery_neuron_output_synapses_on_real_edges": 0.6856903158515294,
+   "same_pair_and_count": {
+    "central_to_central_synapses": 0.12437071038600778,
+    "paired_DN_inputs": 0.3772657964301343,
+    "MN9_inputs": 0.4563453990405582,
+    "aBN1_inputs": 0.3055100927441353,
+    "battery_neuron_outputs": 0.3989524522141351
+   },
+   "probe_cell_output_synapses_on_real_edges": {
+    "all": 0.4280056282245036,
+    "onto_central": 0.5151111386547678
+   },
+   "real_synapses_on_unchanged_counts": {
+    "all": 0.2563020688862043,
+    "paired_DN_inputs": 0.5928582501088405,
+    "MN9_inputs": 0.5254594757457065,
+    "aBN1_inputs": 0.43613707165109034
+   }
+  },
+  "regrow_wshuffle_type_x_side_s0": {
+   "all": {
+    "edges": 1.0,
+    "synapses": 1.0
+   },
+   "central_to_central": {
+    "edges": 1.0,
+    "synapses": 1.0
+   },
+   "optic_lobe": {
+    "edges": 1.0,
+    "synapses": 1.0
+   },
+   "other": {
+    "edges": 1.0,
+    "synapses": 1.0
+   },
+   "readout_input_synapses_on_real_edges": {
+    "paired_DNs": 1.0,
+    "MN9": 1.0,
+    "aBN1": 1.0
+   },
+   "battery_neuron_output_synapses_on_real_edges": 1.0,
+   "same_pair_and_count": {
+    "central_to_central_synapses": 0.6103872058065709,
+    "paired_DN_inputs": 0.7972203362083531,
+    "MN9_inputs": 0.9783689489751417,
+    "aBN1_inputs": 0.9018003273322422,
+    "battery_neuron_outputs": 0.8408271546153323
+   },
+   "probe_cell_output_synapses_on_real_edges": {
+    "all": 1.0,
+    "onto_central": 1.0
+   },
+   "real_synapses_on_unchanged_counts": {
+    "all": 0.3687889777685256,
+    "paired_DN_inputs": 0.7972203362083531,
+    "MN9_inputs": 0.9783689489751417,
+    "aBN1_inputs": 0.9018003273322422
+   }
+  },
+  "regrow_wshuffle_type_x_side_s1": {
+   "all": {
+    "edges": 1.0,
+    "synapses": 1.0
+   },
+   "central_to_central": {
+    "edges": 1.0,
+    "synapses": 1.0
+   },
+   "optic_lobe": {
+    "edges": 1.0,
+    "synapses": 1.0
+   },
+   "other": {
+    "edges": 1.0,
+    "synapses": 1.0
+   },
+   "readout_input_synapses_on_real_edges": {
+    "paired_DNs": 1.0,
+    "MN9": 1.0,
+    "aBN1": 1.0
+   },
+   "battery_neuron_output_synapses_on_real_edges": 1.0,
+   "same_pair_and_count": {
+    "central_to_central_synapses": 0.6105867862802566,
+    "paired_DN_inputs": 0.7955759186753152,
+    "MN9_inputs": 0.9802006105538595,
+    "aBN1_inputs": 0.5804691762138571,
+    "battery_neuron_outputs": 0.8442509579847176
+   },
+   "probe_cell_output_synapses_on_real_edges": {
+    "all": 1.0,
+    "onto_central": 1.0
+   },
+   "real_synapses_on_unchanged_counts": {
+    "all": 0.36848629625697077,
+    "paired_DN_inputs": 0.7955759186753152,
+    "MN9_inputs": 0.9802006105538595,
+    "aBN1_inputs": 0.5804691762138571
+   }
+  }
+ },
+ "levels": {
+  "type_x_side": {
+   "groups": 19577,
+   "frac_central_regrouped": 0.0,
+   "MN9_input_synapses_from_regrouped_DNs": 0.0,
+   "frac_DNs_regrouped": 0.0,
+   "frac_paired_DNs_regrouped": 0.0,
+   "MN9_input_synapses_from_unregrouped_neurons": 1.0,
+   "sugar_output_synapses_to_unregrouped_neurons": 1.0,
+   "DN_group_context_median": {
+    "DN_types": 1.0,
+    "neurons": 1.0
+   }
+  },
+  "supertype": {
+   "groups": 11722,
+   "frac_central_regrouped": 0.6796601558089647,
+   "MN9_input_synapses_from_regrouped_DNs": 0.018839947666812035,
+   "frac_DNs_regrouped": 0.5219399538106235,
+   "frac_paired_DNs_regrouped": 0.3198433420365535,
+   "MN9_input_synapses_from_unregrouped_neurons": 0.9674662014827736,
+   "sugar_output_synapses_to_unregrouped_neurons": 0.7954270342972428,
+   "DN_group_context_median": {
+    "DN_types": 1.0,
+    "neurons": 2.0
+   }
+  },
+  "hemilineage": {
+   "groups": 4140,
+   "frac_central_regrouped": 0.9959354183131987,
+   "MN9_input_synapses_from_regrouped_DNs": 0.2783253379851723,
+   "frac_DNs_regrouped": 0.9884526558891455,
+   "frac_paired_DNs_regrouped": 0.9830287206266318,
+   "MN9_input_synapses_from_unregrouped_neurons": 0.028870475359790666,
+   "sugar_output_synapses_to_unregrouped_neurons": 0.15870880968392737,
+   "DN_group_context_median": {
+    "DN_types": 24.0,
+    "neurons": 75.0
+   },
+   "hemilineage_fallback": {
+    "central_neurons_without_hemilineage": 5411,
+    "frac_of_central": 0.15273230213390537,
+    "largest_fallback_group": 781,
+    "MN9_input_synapses_from_fallback_neurons": 0.9119930222416048,
+    "sugar_output_synapses_to_fallback_neurons": 0.7967720242098184,
+    "paired_DNs_without_hemilineage": 350,
+    "aBN1_without_hemilineage": true,
+    "putative_primary": {
+     "neurons": 3574,
+     "MN9_input_synapses": 0.8890536415176624,
+     "sugar_output_synapses": 0.7032952252858103
+    },
+    "unannotated": {
+     "neurons": 1837,
+     "MN9_input_synapses": 0.022939380723942433,
+     "sugar_output_synapses": 0.09347679892400806
+    },
+    "aBN1_putative_primary": true
+   }
+  },
+  "cell_class": {
+   "groups": 3572,
+   "frac_central_regrouped": 0.9996330585977193,
+   "MN9_input_synapses_from_regrouped_DNs": 0.2785870039249891,
+   "frac_DNs_regrouped": 0.9984603541185527,
+   "frac_paired_DNs_regrouped": 0.9973890339425587,
+   "MN9_input_synapses_from_unregrouped_neurons": 0.02773658962058439,
+   "sugar_output_synapses_to_unregrouped_neurons": 0.1589778076664425,
+   "DN_group_context_median": {
+    "DN_types": 353.0,
+    "neurons": 491.0
+   }
+  },
+  "super_class": {
+   "groups": 3523,
+   "frac_central_regrouped": 1.0,
+   "MN9_input_synapses_from_regrouped_DNs": 0.2785870039249891,
+   "frac_DNs_regrouped": 1.0,
+   "frac_paired_DNs_regrouped": 1.0,
+   "MN9_input_synapses_from_unregrouped_neurons": 0.02773658962058439,
+   "sugar_output_synapses_to_unregrouped_neurons": 0.1589778076664425,
+   "DN_group_context_median": {
+    "DN_types": 354.0,
+    "neurons": 492.0
+   }
+  },
+  "type_sides_pooled": {
+   "groups": 11893,
+   "frac_central_regrouped": 0.9760923563283279,
+   "MN9_input_synapses_from_regrouped_DNs": 0.2782381160052333,
+   "frac_DNs_regrouped": 0.9484218629715165,
+   "frac_paired_DNs_regrouped": 0.9556135770234987,
+   "MN9_input_synapses_from_unregrouped_neurons": 0.03907544701264719,
+   "sugar_output_synapses_to_unregrouped_neurons": 0.1601882985877606,
+   "DN_group_context_median": {
+    "DN_types": 1.0,
+    "neurons": 2.0
+   }
+  },
+  "supertype_keep_readouts": {
+   "groups": 12007,
+   "frac_central_regrouped": 0.6599017726092357,
+   "MN9_input_synapses_from_regrouped_DNs": 0.0,
+   "frac_DNs_regrouped": 0.0,
+   "frac_paired_DNs_regrouped": 0.0,
+   "MN9_input_synapses_from_unregrouped_neurons": 0.9863061491495857,
+   "sugar_output_synapses_to_unregrouped_neurons": 0.7982515131136516,
+   "DN_group_context_median": {
+    "DN_types": 1.0,
+    "neurons": 1.0
+   }
+  },
+  "hemilineage_keep_readouts": {
+   "groups": 5053,
+   "frac_central_regrouped": 0.959354183131986,
+   "MN9_input_synapses_from_regrouped_DNs": 0.0,
+   "frac_DNs_regrouped": 0.0,
+   "frac_paired_DNs_regrouped": 0.0,
+   "MN9_input_synapses_from_unregrouped_neurons": 0.3080680331443524,
+   "sugar_output_synapses_to_unregrouped_neurons": 0.21667787491593812,
+   "DN_group_context_median": {
+    "DN_types": 1.0,
+    "neurons": 1.0
+   },
+   "hemilineage_fallback": {
+    "central_neurons_without_hemilineage": 5411,
+    "frac_of_central": 0.15273230213390537,
+    "largest_fallback_group": 780,
+    "MN9_input_synapses_from_fallback_neurons": 0.9119930222416048,
+    "sugar_output_synapses_to_fallback_neurons": 0.7967720242098184,
+    "paired_DNs_without_hemilineage": 350,
+    "aBN1_without_hemilineage": true,
+    "putative_primary": {
+     "neurons": 3574,
+     "MN9_input_synapses": 0.8890536415176624,
+     "sugar_output_synapses": 0.7032952252858103
+    },
+    "unannotated": {
+     "neurons": 1837,
+     "MN9_input_synapses": 0.022939380723942433,
+     "sugar_output_synapses": 0.09347679892400806
+    },
+    "aBN1_putative_primary": true
+   }
+  },
+  "hemilineage_else_supertype": {
+   "groups": 8566,
+   "frac_central_regrouped": 0.8469289827255279,
+   "MN9_input_synapses_from_regrouped_DNs": 0.03497601395551679,
+   "frac_DNs_regrouped": 0.6843725943033102,
+   "frac_paired_DNs_regrouped": 0.54177545691906,
+   "MN9_input_synapses_from_unregrouped_neurons": 0.937025730484082,
+   "sugar_output_synapses_to_unregrouped_neurons": 0.7889710827168797,
+   "DN_group_context_median": {
+    "DN_types": 10.0,
+    "neurons": 44.0
+   }
+  },
+  "type_sides_pooled_keep_readouts": {
+   "groups": 12339,
+   "frac_central_regrouped": 0.9412046968499492,
+   "MN9_input_synapses_from_regrouped_DNs": 0.0,
+   "frac_DNs_regrouped": 0.0,
+   "frac_paired_DNs_regrouped": 0.0,
+   "MN9_input_synapses_from_unregrouped_neurons": 0.3173135630178805,
+   "sugar_output_synapses_to_unregrouped_neurons": 0.21815736381977135,
+   "DN_group_context_median": {
+    "DN_types": 1.0,
+    "neurons": 1.0
+   }
+  }
+ },
+ "n_paired_DNs": 766,
+ "n_battery_neurons": 208,
+ "n_sugar_GRNs": 21,
+ "n_probe_cells": 2123,
+ "n_probe_cells_also_battery_singletons": 92,
+ "dn_word_splits": {
+  "supertype": {
+   "pairs_regrouped": {
+    "n_pairs": 126,
+    "yardstick": {
+     "median_r": 0.7152073765945002,
+     "ci95": [
+      0.588556493041358,
+      0.7891958321954481
+     ],
+     "n": 16
+    },
+    "brains": [
+     0.30523967387466444,
+     0.19653228415068608,
+     0.3221981793338659
+    ]
+   },
+   "pairs_left_alone": {
+    "n_pairs": 257,
+    "yardstick": {
+     "median_r": 0.6070556533894038,
+     "ci95": [
+      0.3544845472076854,
+      0.7133391427908365
+     ],
+     "n": 20
+    },
+    "brains": [
+     0.8710577639332967,
+     0.8518703972704355,
+     0.8453720661324932
+    ]
+   }
+  },
+  "hemilineage": {
+   "pairs_fallback": {
+    "n_pairs": 175,
+    "yardstick": {
+     "median_r": 0.5900383936687528,
+     "ci95": [
+      0.4274545067772496,
+      0.7011072476057858
+     ],
+     "n": 20
+    },
+    "brains": [
+     -0.23883449061495504,
+     -0.22593936527392788,
+     -0.26391990841093044
+    ]
+   },
+   "pairs_with_hemilineage": {
+    "n_pairs": 208,
+    "yardstick": {
+     "median_r": 0.6938184262964635,
+     "ci95": [
+      0.5066111976572581,
+      0.7940441736004484
+     ],
+     "n": 18
+    },
+    "brains": [
+     -0.08236958514252009,
+     -0.11848189742155128,
+     -0.07079643547449224
+    ]
+   }
+  },
+  "multi_DN_relabelled_within_type_vs_rerun": {
+   "median": 0.9375503881685368,
+   "min": 0.8713311366923934,
+   "max": 0.982363167853089
+  }
+ },
+ "MN9_input_synapses_by_super_class": {
+  "central": 0.6707370257304841,
+  "descending": 0.2785870039249891,
+  "sensory": 0.026079372001744438,
+  "ascending": 0.022939380723942433,
+  "motor": 0.0016572176188399477
+ }
+}

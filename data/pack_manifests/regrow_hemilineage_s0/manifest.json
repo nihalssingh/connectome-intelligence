@@ -1,0 +1,85 @@
+{
+  "pack_format": "source-major-csr/1",
+  "dataset": "flywire-v630",
+  "neurons": 138639,
+  "edges": 14454393,
+  "arrays": {
+    "neuron_ids": {
+      "file": "neuron_ids.npy",
+      "dtype": "int64",
+      "shape": [
+        138639
+      ],
+      "bytes": 1109112,
+      "sha256": "8d668e8a17a0ac68e794a380266a48be5a2b8fa671d8d4814b261fc43d9ac787",
+      "file_sha256": "9aa291f1324759a92ad5bb9a1cbfb3d799fcfb9a818220ef07316ecd3f644832"
+    },
+    "row_ptr": {
+      "file": "row_ptr.npy",
+      "dtype": "int32",
+      "shape": [
+        138640
+      ],
+      "bytes": 554560,
+      "sha256": "fc20836042e3bc21dc7d962d115df0a88b61ee9e73abd5368a27a141140a39c2",
+      "file_sha256": "2204621f0e7fa9de15a3d358b102bfc86add4e1542c090c8423e6794b168a1d1"
+    },
+    "destinations": {
+      "file": "destinations.npy",
+      "dtype": "int32",
+      "shape": [
+        14454393
+      ],
+      "bytes": 57817572,
+      "sha256": "3921727ba477ff5b5f92b4b86fc0ce40d3251b4476102d7f8d1766df987ac109",
+      "file_sha256": "057bfe65de51bd15f25c40de4be90dabf1195d04f1b694fd6eb895dba201a6d5"
+    },
+    "signed_counts": {
+      "file": "signed_counts.npy",
+      "dtype": "int32",
+      "shape": [
+        14454393
+      ],
+      "bytes": 57817572,
+      "sha256": "77da51742cc06cb580a67c8be6192afe3837c6c2dfb5ab628ab630609f102790",
+      "file_sha256": "d3425b2d4cf30f48059f4459d4fed9603b1546ad2a7a93fc6a4433d589ba1701"
+    }
+  },
+  "stats": {
+    "edges_in": 14454393,
+    "edges_out": 14454393,
+    "parallel_edges_merged": 0,
+    "self_loops": 0,
+    "max_out_degree": 6671,
+    "mean_out_degree": 104.25921277562591,
+    "max_in_degree": 6834,
+    "neurons_without_outputs": 635,
+    "neurons_without_inputs": 1549,
+    "excitatory_edges": 8647159,
+    "inhibitory_edges": 5807234,
+    "zero_count_edges": 0,
+    "total_signed_count": 9506834,
+    "total_abs_count": 54470208,
+    "min_count": -2405,
+    "max_count": 2701
+  },
+  "sources": {
+    "completeness_csv": {
+      "path": "Completeness_783.csv",
+      "sha256": "bbb847a4cc2caaa7a16349722d220c087317b946d148d4d592d94d250617a311",
+      "bytes": 3327347
+    },
+    "connectivity_parquet": {
+      "path": "Connectivity_783.parquet",
+      "sha256": "1edf786ea9c681093ec937d11df77fd4ec79ffda2f2b323000b7ab1d003a0caf",
+      "bytes": 105734508
+    }
+  },
+  "semantics": {
+    "index_mapping": "model index i == row i of the completeness CSV, in file order",
+    "signed_counts": "signed synaptic contact count == 'Excitatory x Connectivity'; sign is the neurotransmitter polarity, magnitude the contact count",
+    "weight_application": "runtime multiplies accumulated int32 counts by w_syn = 0.275 mV; never accumulate in float",
+    "row_ptr": "int32[N+1], row_ptr[i]..row_ptr[i+1] are the outgoing edges of source neuron i",
+    "destinations": "int32[E], ascending within each row"
+  }
+}

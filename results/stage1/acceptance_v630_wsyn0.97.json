@@ -1,0 +1,33 @@
+{
+ "rows": [
+  {
+   "rate_Hz": 50,
+   "perm_p": 0.0004997501249375312,
+   "fdr_hits": 196,
+   "pearson_r": 0.9950008136155912,
+   "MN9_contra_z": -4.40236439101161
+  },
+  {
+   "rate_Hz": 100,
+   "perm_p": 0.0004997501249375312,
+   "fdr_hits": 199,
+   "pearson_r": 0.9989570471535453,
+   "MN9_contra_z": -0.13555898208442035
+  },
+  {
+   "rate_Hz": 200,
+   "perm_p": 0.0004997501249375312,
+   "fdr_hits": 208,
+   "pearson_r": 0.9996121583717985,
+   "MN9_contra_z": -1.7014785764375422
+  }
+ ],
+ "ks_p": 2.4962537468772605e-10,
+ "checks": {
+  "p-values uniform (KS p > 0.01)": false,
+  "no FDR hits at any rate": false,
+  "MN9 contra |z| < 3.5 at every rate": false,
+  "per-neuron rate r > 0.99 at every rate": true
+ },
+ "pass": false
+}

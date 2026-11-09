@@ -1,0 +1,14 @@
+{
+ "level": "super_class",
+ "seed": 0,
+ "n_groups": 3523,
+ "edges_in": 15091983,
+ "edges_out": 14614210,
+ "self_loops_dropped": 3947,
+ "synapses_dropped_self_loops": 9555,
+ "duplicates_merged": 473826,
+ "frac_edges_also_in_real": 0.06316968211076754,
+ "seconds": 72.1,
+ "pack_ok": true,
+ "seconds_total": 151.4
+}

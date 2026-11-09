@@ -1,0 +1,306 @@
+{
+ "variant": "v783_alfix_all",
+ "n_stimuli": 456,
+ "doses": [
+  25.0,
+  50.0,
+  100.0,
+  200.0
+ ],
+ "n_DN": 1299,
+ "saturation_by_dose": {
+  "25Hz": [
+   {
+    "n_stimuli": 15,
+    "n_conditions": 15,
+    "rank_mean": 4.4,
+    "rank_sd": 1.0198039027185568,
+    "pr_mean": 1.8111372709274292,
+    "n_rep": 5
+   },
+   {
+    "n_stimuli": 30,
+    "n_conditions": 30,
+    "rank_mean": 9.4,
+    "rank_sd": 2.727636339397171,
+    "pr_mean": 2.6074622631073,
+    "n_rep": 5
+   },
+   {
+    "n_stimuli": 60,
+    "n_conditions": 60,
+    "rank_mean": 21.2,
+    "rank_sd": 3.1240998703626617,
+    "pr_mean": 4.66088342666626,
+    "n_rep": 5
+   },
+   {
+    "n_stimuli": 120,
+    "n_conditions": 120,
+    "rank_mean": 38.2,
+    "rank_sd": 4.955804677345547,
+    "pr_mean": 5.299546146392823,
+    "n_rep": 5
+   },
+   {
+    "n_stimuli": 240,
+    "n_conditions": 240,
+    "rank_mean": 79.4,
+    "rank_sd": 6.7111846942250075,
+    "pr_mean": 6.510370254516602,
+    "n_rep": 5
+   },
+   {
+    "n_stimuli": 456,
+    "n_conditions": 456,
+    "rank_mean": 145.0,
+    "rank_sd": 0.0,
+    "pr_mean": 6.941490650177002,
+    "n_rep": 1
+   }
+  ],
+  "50Hz": [
+   {
+    "n_stimuli": 15,
+    "n_conditions": 15,
+    "rank_mean": 6.0,
+    "rank_sd": 1.4142135623730951,
+    "pr_mean": 2.0306006908416747,
+    "n_rep": 5
+   },
+   {
+    "n_stimuli": 30,
+    "n_conditions": 30,
+    "rank_mean": 13.8,
+    "rank_sd": 1.7204650534085253,
+    "pr_mean": 3.2859464645385743,
+    "n_rep": 5
+   },
+   {
+    "n_stimuli": 60,
+    "n_conditions": 60,
+    "rank_mean": 28.4,
+    "rank_sd": 1.854723699099141,
+    "pr_mean": 5.280972290039062,
+    "n_rep": 5
+   },
+   {
+    "n_stimuli": 120,
+    "n_conditions": 120,
+    "rank_mean": 47.8,
+    "rank_sd": 3.1240998703626617,
+    "pr_mean": 6.806107234954834,
+    "n_rep": 5
+   },
+   {
+    "n_stimuli": 240,
+    "n_conditions": 240,
+    "rank_mean": 103.6,
+    "rank_sd": 5.122499389946279,
+    "pr_mean": 7.5950608253479,
+    "n_rep": 5
+   },
+   {
+    "n_stimuli": 456,
+    "n_conditions": 456,
+    "rank_mean": 188.0,
+    "rank_sd": 0.0,
+    "pr_mean": 7.884396076202393,
+    "n_rep": 1
+   }
+  ],
+  "100Hz": [
+   {
+    "n_stimuli": 15,
+    "n_conditions": 15,
+    "rank_mean": 7.6,
+    "rank_sd": 0.8,
+    "pr_mean": 2.5588710784912108,
+    "n_rep": 5
+   },
+   {
+    "n_stimuli": 30,
+    "n_conditions": 30,
+    "rank_mean": 18.4,
+    "rank_sd": 1.7435595774162693,
+    "pr_mean": 4.322391366958618,
+    "n_rep": 5
+   },
+   {
+    "n_stimuli": 60,
+    "n_conditions": 60,
+    "rank_mean": 33.2,
+    "rank_sd": 2.039607805437114,
+    "pr_mean": 5.9923913955688475,
+    "n_rep": 5
+   },
+   {
+    "n_stimuli": 120,
+    "n_conditions": 120,
+    "rank_mean": 63.8,
+    "rank_sd": 3.249615361854384,
+    "pr_mean": 8.603475570678711,
+    "n_rep": 5
+   },
+   {
+    "n_stimuli": 240,
+    "n_conditions": 240,
+    "rank_mean": 131.8,
+    "rank_sd": 3.487119154832538,
+    "pr_mean": 9.460479354858398,
+    "n_rep": 5
+   },
+   {
+    "n_stimuli": 456,
+    "n_conditions": 456,
+    "rank_mean": 231.0,
+    "rank_sd": 0.0,
+    "pr_mean": 9.943252563476562,
+    "n_rep": 1
+   }
+  ],
+  "200Hz": [
+   {
+    "n_stimuli": 15,
+    "n_conditions": 15,
+    "rank_mean": 9.0,
+    "rank_sd": 0.6324555320336759,
+    "pr_mean": 3.220606231689453,
+    "n_rep": 5
+   },
+   {
+    "n_stimuli": 30,
+    "n_conditions": 30,
+    "rank_mean": 21.6,
+    "rank_sd": 1.7435595774162693,
+    "pr_mean": 5.808489608764648,
+    "n_rep": 5
+   },
+   {
+    "n_stimuli": 60,
+    "n_conditions": 60,
+    "rank_mean": 39.0,
+    "rank_sd": 2.1908902300206643,
+    "pr_mean": 7.502643013000489,
+    "n_rep": 5
+   },
+   {
+    "n_stimuli": 120,
+    "n_conditions": 120,
+    "rank_mean": 76.2,
+    "rank_sd": 3.3105890714493698,
+    "pr_mean": 11.140482330322266,
+    "n_rep": 5
+   },
+   {
+    "n_stimuli": 240,
+    "n_conditions": 240,
+    "rank_mean": 158.8,
+    "rank_sd": 4.707440918375927,
+    "pr_mean": 12.613874626159667,
+    "n_rep": 5
+   },
+   {
+    "n_stimuli": 456,
+    "n_conditions": 456,
+    "rank_mean": 291.0,
+    "rank_sd": 0.0,
+    "pr_mean": 13.106409072875977,
+    "n_rep": 1
+   }
+  ]
+ },
+ "saturation_all_doses": [
+  {
+   "n_stimuli": 15,
+   "n_conditions": 60,
+   "rank_mean": 27.0,
+   "rank_sd": 6.2289646009589745,
+   "pr_mean": 3.804731035232544,
+   "n_rep": 5
+  },
+  {
+   "n_stimuli": 30,
+   "n_conditions": 120,
+   "rank_mean": 49.8,
+   "rank_sd": 6.43117407632541,
+   "pr_mean": 4.880817079544068,
+   "n_rep": 5
+  },
+  {
+   "n_stimuli": 60,
+   "n_conditions": 240,
+   "rank_mean": 103.6,
+   "rank_sd": 16.85941873256608,
+   "pr_mean": 6.3253508567810055,
+   "n_rep": 5
+  },
+  {
+   "n_stimuli": 120,
+   "n_conditions": 480,
+   "rank_mean": 203.4,
+   "rank_sd": 11.499565209172042,
+   "pr_mean": 8.294269943237305,
+   "n_rep": 5
+  },
+  {
+   "n_stimuli": 240,
+   "n_conditions": 960,
+   "rank_mean": 395.2,
+   "rank_sd": 9.96794863550169,
+   "pr_mean": 10.459177589416504,
+   "n_rep": 5
+  },
+  {
+   "n_stimuli": 456,
+   "n_conditions": 1824,
+   "rank_mean": 641.0,
+   "rank_sd": 0.0,
+   "pr_mean": 10.554821968078613,
+   "n_rep": 1
+  }
+ ],
+ "bottleneck": {
+  "all_stimuli": {
+   "n_stimuli": 456,
+   "n_conditions": 1824,
+   "n_DN_responding": 729,
+   "n_rest_responding": 19964,
+   "pr_DN": 10.140028329718856,
+   "pr_rest_of_brain": 26.808101979787967,
+   "pr_random_rest_matched_mean": 24.372487697980556,
+   "pr_random_rest_matched_sd": 5.419298081650756
+  },
+  "without_ignition": {
+   "n_stimuli": 438,
+   "n_conditions": 1752,
+   "n_DN_responding": 729,
+   "n_rest_responding": 18895,
+   "pr_DN": 10.367875373447536,
+   "pr_rest_of_brain": 39.72347474616165,
+   "pr_random_rest_matched_mean": 31.96676771216721,
+   "pr_random_rest_matched_sd": 4.269290563858662
+  },
+  "flagged": [
+   "sensory:ORN_DC4:left",
+   "sensory:ORN_DC4:right",
+   "sensory:ORN_DL2d:right",
+   "sensory:ORN_DL2v:left",
+   "sensory:ORN_DL2v:right",
+   "sensory:ORN_DM1:left",
+   "sensory:ORN_DM1:right",
+   "sensory:ORN_DM2:left",
+   "sensory:ORN_DM2:right",
+   "sensory:ORN_DM4:left",
+   "sensory:ORN_DM4:right",
+   "sensory:ORN_DP1l:left",
+   "sensory:ORN_DP1l:right",
+   "sensory:ORN_DP1m:left",
+   "sensory:ORN_DP1m:right",
+   "sensory:ORN_V:left",
+   "sensory:ORN_V:right",
+   "sensory:ORN_VA3:left"
+  ],
+  "note": "trial means, sqrt(mean count); participation ratio over stimulus x dose conditions; matched = random sets of responding non-DN neurons, as many as responding DNs"
+ }
+}

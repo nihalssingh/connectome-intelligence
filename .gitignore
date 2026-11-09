@@ -1,0 +1,22 @@
+# Python environments (rebuilt from requirements-brian2.txt and requirements-mlx.txt) and caches
+.venv/
+.venv-mlx/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+
+# Third-party inputs, downloaded by fetch_data.py
+data/flywire_annotations/
+data/flywire_annotations_v1.1.0/
+data/shiu_archive/
+
+# Wiring tables written by expression/wiring.py and expression/regrow.py (the regrowth statistics regrow.json stay)
+data/wiring/*/*.parquet
+data/wiring/*/*.csv
+data/wiring/regrow/*/*.parquet
+data/wiring/regrow/*/*.csv
+
+# Generated reports
+results/expression/numbers.md
+results/expression/dictionary_*.md

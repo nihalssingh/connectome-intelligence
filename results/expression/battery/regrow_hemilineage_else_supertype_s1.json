@@ -1,0 +1,89 @@
+{
+ "variant": "regrow_hemilineage_else_supertype_s1",
+ "seed_offset": 0,
+ "conditions": {
+  "sugar_50": {
+   "MN9_contra": 5.5,
+   "MN9_ipsi": 4.5,
+   "aBN1": 0.0,
+   "MN9_contra_sd": 3.9812058474788765,
+   "MN9_ipsi_sd": 3.8013155617496426,
+   "aBN1_sd": 0.0,
+   "n_active": 96.5
+  },
+  "sugar_100": {
+   "MN9_contra": 39.3,
+   "MN9_ipsi": 36.1,
+   "aBN1": 0.0,
+   "MN9_contra_sd": 7.79807668595276,
+   "MN9_ipsi_sd": 7.422263805605403,
+   "aBN1_sd": 0.0,
+   "n_active": 272.0
+  },
+  "sugar_200": {
+   "MN9_contra": 81.3,
+   "MN9_ipsi": 61.1,
+   "aBN1": 0.0,
+   "MN9_contra_sd": 7.470609078247905,
+   "MN9_ipsi_sd": 3.0805843601498726,
+   "aBN1_sd": 0.0,
+   "n_active": 378.5
+  },
+  "sugar_bitter_100": {
+   "MN9_contra": 0.3,
+   "MN9_ipsi": 1.9,
+   "aBN1": 0.0,
+   "MN9_contra_sd": 0.45825756949558394,
+   "MN9_ipsi_sd": 0.9433981132056604,
+   "aBN1_sd": 0.0,
+   "n_active": 138.5
+  },
+  "sugar_ir94e_100": {
+   "MN9_contra": 0.0,
+   "MN9_ipsi": 0.0,
+   "aBN1": 0.0,
+   "MN9_contra_sd": 0.0,
+   "MN9_ipsi_sd": 0.0,
+   "aBN1_sd": 0.0,
+   "n_active": 122.0
+  },
+  "bitter_100": {
+   "MN9_contra": 0.0,
+   "MN9_ipsi": 0.0,
+   "aBN1": 0.0,
+   "MN9_contra_sd": 0.0,
+   "MN9_ipsi_sd": 0.0,
+   "aBN1_sd": 0.0,
+   "n_active": 45.0
+  },
+  "water_100": {
+   "MN9_contra": 0.0,
+   "MN9_ipsi": 0.0,
+   "aBN1": 0.0,
+   "MN9_contra_sd": 0.0,
+   "MN9_ipsi_sd": 0.0,
+   "aBN1_sd": 0.0,
+   "n_active": 54.5
+  },
+  "JON_CE_100": {
+   "MN9_contra": 0.0,
+   "MN9_ipsi": 0.0,
+   "aBN1": 23.3,
+   "MN9_contra_sd": 0.0,
+   "MN9_ipsi_sd": 0.0,
+   "aBN1_sd": 2.1931712199461306,
+   "n_active": 404.0
+  },
+  "JON_F_100": {
+   "MN9_contra": 0.0,
+   "MN9_ipsi": 0.0,
+   "aBN1": 2.3,
+   "MN9_contra_sd": 0.0,
+   "MN9_ipsi_sd": 0.0,
+   "aBN1_sd": 1.4177446878757827,
+   "n_active": 79.5
+  }
+ },
+ "probe_median_active": 97.5,
+ "seconds": 184.1
+}

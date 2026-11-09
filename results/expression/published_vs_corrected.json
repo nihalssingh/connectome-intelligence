@@ -1,0 +1,43 @@
+{
+ "a": "v783_published100",
+ "b": "v783_alfix_all",
+ "dose_Hz": 100.0,
+ "trials": 5,
+ "n_common_stimuli": 456,
+ "v783_published100": {
+  "n_classes": 456,
+  "accuracy": 0.4986842105263158,
+  "chance": 0.0021929824561403508,
+  "fano_bits_lower_bound": 3.4064155858785456,
+  "partition_bits": 5.3034073490232,
+  "vocabulary_lower_bound_fano": 10.603110051477968,
+  "MI_plugin_bits": 6.113359678298935,
+  "MI_pt_corrected_bits": 6.092794946356439,
+  "max_bits": 8.832890014164741,
+  "n_silent_classes": 129,
+  "frac_silent": 0.28289473684210525,
+  "accuracy_non_silent": 0.692354740061162,
+  "n_decoded_ge50pct_non_silent": 222,
+  "distinguishable_patterns": 223,
+  "median_active": 56.0,
+  "frac_runaway_gt3000": 0.24561403508771928
+ },
+ "v783_alfix_all": {
+  "n_classes": 456,
+  "accuracy": 0.5267543859649123,
+  "chance": 0.0021929824561403508,
+  "fano_bits_lower_bound": 3.6563287974030674,
+  "partition_bits": 5.399679030759245,
+  "vocabulary_lower_bound_fano": 12.608535397536826,
+  "MI_plugin_bits": 5.29555856609962,
+  "MI_pt_corrected_bits": 5.296507707573889,
+  "max_bits": 8.832890014164741,
+  "n_silent_classes": 197,
+  "frac_silent": 0.43201754385964913,
+  "accuracy_non_silent": 0.9243243243243243,
+  "n_decoded_ge50pct_non_silent": 243,
+  "distinguishable_patterns": 244,
+  "median_active": 35.0,
+  "frac_runaway_gt3000": 0.0
+ }
+}

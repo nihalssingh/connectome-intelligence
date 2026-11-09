@@ -1,0 +1,6044 @@
+{
+ "dose_Hz": 100.0,
+ "known": {
+  "DNp01": [
+   "escape take-off (giant fibre)",
+   "von Reyn et al. 2014"
+  ],
+  "DNp09": [
+   "forward walking",
+   "Bidaye et al. 2020; Sapkal et al. 2024; Braun et al. 2024"
+  ],
+  "DNg100": [
+   "forward walking (BDN2)",
+   "Sapkal et al. 2024"
+  ],
+  "DNg97": [
+   "forward walking (oDN1)",
+   "Sapkal et al. 2024"
+  ],
+  "MDN": [
+   "backward walking",
+   "Bidaye et al. 2014"
+  ],
+  "DNp42": [
+   "backing up",
+   "Braun et al. 2024"
+  ],
+  "DNg62": [
+   "antennal grooming (aDN1)",
+   "Hampel et al. 2015; Braun et al. 2024 (their aDN1 IDs are DNg62 in v3.2.0)"
+  ],
+  "DNge078": [
+   "antennal grooming (aDN2)",
+   "Hampel et al. 2015; Braun et al. 2024"
+  ],
+  "DNa01": [
+   "in-place turning",
+   "Braun et al. 2024"
+  ],
+  "DNa02": [
+   "turning (graded with rotation)",
+   "Braun et al. 2024; Rayshubskiy et al. 2025"
+  ],
+  "DNb02": [
+   "turning",
+   "Braun et al. 2024"
+  ],
+  "DNg11": [
+   "foreleg rubbing",
+   "Braun et al. 2024"
+  ],
+  "DNg14": [
+   "abdominal dipping",
+   "Braun et al. 2024"
+  ],
+  "oviDNa_a": [
+   "oviposition / abdomen curling",
+   "Braun et al. 2024; Wang et al. 2020"
+  ],
+  "oviDNa_b": [
+   "oviposition",
+   "Wang et al. 2020"
+  ],
+  "oviDNb": [
+   "oviposition",
+   "Wang et al. 2020"
+  ]
+ },
+ "rows": [
+  {
+   "stimulus": "sensory:BM_Ant:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 33,
+   "total_DN_rate_Hz": 857.5,
+   "top_DNs": [
+    "DNg15(r) 89 Hz",
+    "DNg35(l) 80 Hz",
+    "DNg84(l) 79 Hz",
+    "DNg35(r) 55 Hz",
+    "DNge054(l) 45 Hz"
+   ],
+   "known_behaviour_share": 0.008163264952600002,
+   "behaviours": {
+    "turning (graded with rotation)": 5.599999904632568,
+    "antennal grooming (aDN2)": 1.399999976158142
+   }
+  },
+  {
+   "stimulus": "sensory:BM_Ant:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 40,
+   "total_DN_rate_Hz": 806.2000122070312,
+   "top_DNs": [
+    "DNg15(l) 73 Hz",
+    "DNg35(r) 73 Hz",
+    "DNg84(r) 73 Hz",
+    "DNg15(r) 61 Hz",
+    "DNg84(l) 55 Hz"
+   ],
+   "known_behaviour_share": 0.030513519421219826,
+   "behaviours": {
+    "turning (graded with rotation)": 14.500000238418579,
+    "in-place turning": 6.0,
+    "forward walking (oDN1)": 4.099999904632568
+   }
+  },
+  {
+   "stimulus": "sensory:BM_Fr:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 9,
+   "total_DN_rate_Hz": 219.39999389648438,
+   "top_DNs": [
+    "DNg35(l) 47 Hz",
+    "DNg84(l) 41 Hz",
+    "DNg15(r) 36 Hz",
+    "DNg59(l) 28 Hz",
+    "DNge054(l) 26 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:BM_Fr:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 19,
+   "total_DN_rate_Hz": 250.80001831054688,
+   "top_DNs": [
+    "DNg35(r) 52 Hz",
+    "DNg84(r) 38 Hz",
+    "DNge054(r) 30 Hz",
+    "DNg15(l) 27 Hz",
+    "DNp55(r) 24 Hz"
+   ],
+   "known_behaviour_share": 0.011961721815168858,
+   "behaviours": {
+    "turning (graded with rotation)": 3.0
+   }
+  },
+  {
+   "stimulus": "sensory:BM_FrOr:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 7,
+   "total_DN_rate_Hz": 157.0,
+   "top_DNs": [
+    "DNg35(l) 57 Hz",
+    "DNg84(l) 50 Hz",
+    "DNge132(l) 17 Hz",
+    "DNg15(r) 15 Hz",
+    "DNge054(l) 12 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:BM_FrOr:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 7,
+   "total_DN_rate_Hz": 102.60000610351562,
+   "top_DNs": [
+    "DNg35(r) 45 Hz",
+    "DNg84(r) 30 Hz",
+    "DNp55(r) 13 Hz",
+    "DNge132(r) 5 Hz",
+    "DNg81(l) 2 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:BM_Hau:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 38,
+   "total_DN_rate_Hz": 798.60009765625,
+   "top_DNs": [
+    "DNge067(l) 76 Hz",
+    "DNge100(l) 65 Hz",
+    "DNg31(r) 64 Hz",
+    "DNg96(r) 49 Hz",
+    "DNge067(r) 43 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:BM_Hau:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 6,
+   "total_DN_rate_Hz": 61.30000305175781,
+   "top_DNs": [
+    "DNge067(r) 28 Hz",
+    "DNg48(l) 9 Hz",
+    "DNg85(r) 8 Hz",
+    "DNge100(r) 5 Hz",
+    "DNg31(l) 5 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:BM_InOc:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 3,
+   "total_DN_rate_Hz": 22.200000762939453,
+   "top_DNs": [
+    "DNg84(l) 9 Hz",
+    "DNg35(l) 8 Hz",
+    "DNge132(l) 6 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:BM_InOc:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 2,
+   "total_DN_rate_Hz": 5.799999713897705,
+   "top_DNs": [
+    "DNge132(r) 4 Hz",
+    "DNg84(r) 1 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:BM_InOm:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 75,
+   "total_DN_rate_Hz": 2728.699951171875,
+   "top_DNs": [
+    "DNg84(l) 186 Hz",
+    "DNg35(l) 146 Hz",
+    "DNge132(l) 142 Hz",
+    "DNg87(l) 125 Hz",
+    "DNge104(r) 115 Hz"
+   ],
+   "known_behaviour_share": 0.04980393499135971,
+   "behaviours": {
+    "antennal grooming (aDN1)": 84.0999984741211,
+    "antennal grooming (aDN2)": 46.29999923706055,
+    "turning (graded with rotation)": 3.200000047683716,
+    "in-place turning": 2.299999952316284
+   }
+  },
+  {
+   "stimulus": "sensory:BM_InOm:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 63,
+   "total_DN_rate_Hz": 2635.800048828125,
+   "top_DNs": [
+    "DNg84(r) 176 Hz",
+    "DNg35(r) 153 Hz",
+    "DNge132(r) 143 Hz",
+    "DNg87(r) 124 Hz",
+    "DNge104(l) 108 Hz"
+   ],
+   "known_behaviour_share": 0.030199559405446053,
+   "behaviours": {
+    "antennal grooming (aDN1)": 77.69999694824219,
+    "turning (graded with rotation)": 1.899999976158142
+   }
+  },
+  {
+   "stimulus": "sensory:BM_MaPa:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 30,
+   "total_DN_rate_Hz": 760.3999633789062,
+   "top_DNs": [
+    "DNg48(r) 76 Hz",
+    "DNg57(l) 60 Hz",
+    "DNge104(r) 45 Hz",
+    "DNge100(l) 42 Hz",
+    "DNg31(r) 42 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:BM_MaPa:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 4,
+   "total_DN_rate_Hz": 45.79999923706055,
+   "top_DNs": [
+    "DNg48(l) 32 Hz",
+    "DNp55(r) 10 Hz",
+    "DNg57(r) 2 Hz",
+    "DNg85(r) 1 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:BM_Or:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 10,
+   "total_DN_rate_Hz": 198.6999969482422,
+   "top_DNs": [
+    "DNg35(l) 60 Hz",
+    "DNg84(l) 41 Hz",
+    "DNge132(l) 30 Hz",
+    "DNge122(r) 23 Hz",
+    "DNge054(l) 16 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:BM_Or:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 9,
+   "total_DN_rate_Hz": 210.1999969482422,
+   "top_DNs": [
+    "DNg35(r) 53 Hz",
+    "DNg84(r) 37 Hz",
+    "DNge132(r) 31 Hz",
+    "DNge122(l) 30 Hz",
+    "DNg15(l) 17 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:BM_Taste:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 56,
+   "total_DN_rate_Hz": 2645.300048828125,
+   "top_DNs": [
+    "DNge036(l) 188 Hz",
+    "DNg85(l) 148 Hz",
+    "DNg37(r) 143 Hz",
+    "DNg48(r) 130 Hz",
+    "DNge067(l) 109 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:BM_Taste:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 15,
+   "total_DN_rate_Hz": 456.9000244140625,
+   "top_DNs": [
+    "DNg85(r) 69 Hz",
+    "DNge036(r) 66 Hz",
+    "DNg48(l) 60 Hz",
+    "DNg15(l) 47 Hz",
+    "DNg37(l) 44 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:BM_Vib:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 36,
+   "total_DN_rate_Hz": 1029.5,
+   "top_DNs": [
+    "DNg85(l) 92 Hz",
+    "DNg84(l) 91 Hz",
+    "DNg15(r) 77 Hz",
+    "DNg37(r) 66 Hz",
+    "DNge128(l) 65 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:BM_Vib:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 31,
+   "total_DN_rate_Hz": 626.5,
+   "top_DNs": [
+    "DNg85(r) 85 Hz",
+    "DNg84(r) 65 Hz",
+    "DNg57(r) 53 Hz",
+    "DNge065(r) 47 Hz",
+    "DNg15(l) 42 Hz"
+   ],
+   "known_behaviour_share": 0.0076616122387349606,
+   "behaviours": {
+    "turning (graded with rotation)": 4.800000190734863
+   }
+  },
+  {
+   "stimulus": "sensory:BM_Vt_PoOc:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 6,
+   "total_DN_rate_Hz": 173.3000030517578,
+   "top_DNs": [
+    "DNg35(l) 63 Hz",
+    "DNge132(l) 38 Hz",
+    "DNg84(l) 23 Hz",
+    "DNge122(l) 22 Hz",
+    "DNge122(r) 16 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:BM_Vt_PoOc:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 14,
+   "total_DN_rate_Hz": 292.1999816894531,
+   "top_DNs": [
+    "DNg35(r) 80 Hz",
+    "DNge132(r) 53 Hz",
+    "DNge122(l) 48 Hz",
+    "DNg84(r) 46 Hz",
+    "DNge122(r) 20 Hz"
+   ],
+   "known_behaviour_share": 0.005475702229887247,
+   "behaviours": {
+    "turning (graded with rotation)": 1.600000023841858
+   }
+  },
+  {
+   "stimulus": "sensory:BM_dOcci:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 1,
+   "total_DN_rate_Hz": 16.100000381469727,
+   "top_DNs": [
+    "DNg59(l) 16 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:BM_dOcci:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 1,
+   "total_DN_rate_Hz": 16.700000762939453,
+   "top_DNs": [
+    "DNg59(r) 17 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:BM_dPoOr:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 2,
+   "total_DN_rate_Hz": 28.299999237060547,
+   "top_DNs": [
+    "DNg35(l) 18 Hz",
+    "DNge132(l) 10 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:BM_dPoOr:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 11,
+   "total_DN_rate_Hz": 131.10000610351562,
+   "top_DNs": [
+    "DNg35(r) 44 Hz",
+    "DNge132(r) 39 Hz",
+    "DNp55(r) 29 Hz",
+    "DNp13(r) 5 Hz",
+    "DNp34(l) 3 Hz"
+   ],
+   "known_behaviour_share": 0.010678870603442192,
+   "behaviours": {
+    "turning (graded with rotation)": 1.399999976158142
+   }
+  },
+  {
+   "stimulus": "sensory:BM_vOcci_vPoOr:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 24,
+   "total_DN_rate_Hz": 432.1000061035156,
+   "top_DNs": [
+    "DNg48(r) 78 Hz",
+    "DNge132(l) 54 Hz",
+    "DNg35(l) 31 Hz",
+    "DNg85(l) 30 Hz",
+    "DNg59(l) 29 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:BM_vOcci_vPoOr:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 17,
+   "total_DN_rate_Hz": 324.5,
+   "top_DNs": [
+    "DNg48(l) 76 Hz",
+    "DNge132(r) 49 Hz",
+    "DNg59(r) 36 Hz",
+    "DNp55(r) 35 Hz",
+    "DNg85(r) 24 Hz"
+   ],
+   "known_behaviour_share": 0.015408320352435112,
+   "behaviours": {
+    "turning (graded with rotation)": 5.0
+   }
+  },
+  {
+   "stimulus": "sensory:CB4148:left",
+   "cell_class": "unknown_sensory",
+   "n_DN_responding": 21,
+   "total_DN_rate_Hz": 157.5,
+   "top_DNs": [
+    "DNge055(l) 38 Hz",
+    "DNge055(r) 24 Hz",
+    "DNg35(l) 17 Hz",
+    "DNge067(r) 11 Hz",
+    "DNg96(r) 8 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:CB4148:right",
+   "cell_class": "unknown_sensory",
+   "n_DN_responding": 19,
+   "total_DN_rate_Hz": 186.09999084472656,
+   "top_DNs": [
+    "DNge055(l) 36 Hz",
+    "DNge067(r) 25 Hz",
+    "DNge055(r) 24 Hz",
+    "DNge100(r) 17 Hz",
+    "DNg31(l) 17 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ENS1:left",
+   "cell_class": "unknown_sensory",
+   "n_DN_responding": 5,
+   "total_DN_rate_Hz": 43.099998474121094,
+   "top_DNs": [
+    "DNge059(l) 14 Hz",
+    "DNg61(l) 12 Hz",
+    "DNge059(r) 11 Hz",
+    "DNg61(r) 4 Hz",
+    "DNge055(l) 1 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ENS1:right",
+   "cell_class": "unknown_sensory",
+   "n_DN_responding": 2,
+   "total_DN_rate_Hz": 9.399999618530273,
+   "top_DNs": [
+    "DNge059(r) 7 Hz",
+    "DNge059(l) 3 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ENS3:left",
+   "cell_class": "unknown_sensory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.20000000298023224,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ENS3:right",
+   "cell_class": "unknown_sensory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ENS4:left",
+   "cell_class": "unknown_sensory",
+   "n_DN_responding": 4,
+   "total_DN_rate_Hz": 104.0999984741211,
+   "top_DNs": [
+    "DNp65(l) 51 Hz",
+    "DNpe036(r) 33 Hz",
+    "DNp65(r) 12 Hz",
+    "DNpe036(l) 9 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ENS4:right",
+   "cell_class": "unknown_sensory",
+   "n_DN_responding": 4,
+   "total_DN_rate_Hz": 167.1999969482422,
+   "top_DNs": [
+    "DNp65(r) 66 Hz",
+    "DNpe036(r) 55 Hz",
+    "DNpe036(l) 28 Hz",
+    "DNp65(l) 18 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ENS5:left",
+   "cell_class": "unknown_sensory",
+   "n_DN_responding": 4,
+   "total_DN_rate_Hz": 7.200000286102295,
+   "top_DNs": [
+    "DNg61(l) 2 Hz",
+    "DNg70(l) 1 Hz",
+    "DNge055(l) 1 Hz",
+    "DNg61(r) 1 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ENS5:right",
+   "cell_class": "unknown_sensory",
+   "n_DN_responding": 1,
+   "total_DN_rate_Hz": 3.8999998569488525,
+   "top_DNs": [
+    "DNge038(l) 3 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:HRN_VP1d:left",
+   "cell_class": "hygrosensory",
+   "n_DN_responding": 3,
+   "total_DN_rate_Hz": 42.69999694824219,
+   "top_DNs": [
+    "DNb05(l) 20 Hz",
+    "DNbe007(l) 10 Hz",
+    "DNp56(l) 9 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:HRN_VP1d:right",
+   "cell_class": "hygrosensory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.5,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:HRN_VP1l:left",
+   "cell_class": "hygrosensory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:HRN_VP1l:right",
+   "cell_class": "hygrosensory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:HRN_VP4:left",
+   "cell_class": "hygrosensory",
+   "n_DN_responding": 1,
+   "total_DN_rate_Hz": 9.300000190734863,
+   "top_DNs": [
+    "DNp12(l) 9 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:HRN_VP4:right",
+   "cell_class": "hygrosensory",
+   "n_DN_responding": 1,
+   "total_DN_rate_Hz": 6.400000095367432,
+   "top_DNs": [
+    "DNp12(l) 6 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:HRN_VP5:left",
+   "cell_class": "hygrosensory",
+   "n_DN_responding": 4,
+   "total_DN_rate_Hz": 84.40000915527344,
+   "top_DNs": [
+    "DNb05(l) 66 Hz",
+    "DNp12(l) 15 Hz",
+    "DNp44(l) 2 Hz",
+    "DNg56(l) 1 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:HRN_VP5:right",
+   "cell_class": "hygrosensory",
+   "n_DN_responding": 4,
+   "total_DN_rate_Hz": 111.60000610351562,
+   "top_DNs": [
+    "DNb05(r) 68 Hz",
+    "DNp12(r) 30 Hz",
+    "DNg56(r) 12 Hz",
+    "DNg35(r) 1 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-A1:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 3,
+   "total_DN_rate_Hz": 18.200000762939453,
+   "top_DNs": [
+    "DNg29(l) 8 Hz",
+    "DNg15(r) 5 Hz",
+    "DNg84(l) 5 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-A1:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 1,
+   "total_DN_rate_Hz": 2.200000047683716,
+   "top_DNs": [
+    "DNg29(r) 2 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-A2:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-A2:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 10,
+   "total_DN_rate_Hz": 76.19999694824219,
+   "top_DNs": [
+    "DNg29(r) 15 Hz",
+    "DNp35(r) 13 Hz",
+    "DNg74_a(l) 13 Hz",
+    "DNg24(r) 10 Hz",
+    "DNp06(r) 10 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-A3:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-A3:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-A5:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-A5:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 4,
+   "total_DN_rate_Hz": 107.19999694824219,
+   "top_DNs": [
+    "DNg24(r) 47 Hz",
+    "DNp01(r) 35 Hz",
+    "DNp02(r) 23 Hz",
+    "DNg29(r) 2 Hz"
+   ],
+   "known_behaviour_share": 0.3264925479888916,
+   "behaviours": {
+    "escape take-off (giant fibre)": 35.0
+   }
+  },
+  {
+   "stimulus": "sensory:JO-B1_a:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-B1_a:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 1,
+   "total_DN_rate_Hz": 7.599999904632568,
+   "top_DNs": [
+    "DNp01(r) 8 Hz"
+   ],
+   "known_behaviour_share": 1.0,
+   "behaviours": {
+    "escape take-off (giant fibre)": 7.599999904632568
+   }
+  },
+  {
+   "stimulus": "sensory:JO-B1_b:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-B1_b:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 2,
+   "total_DN_rate_Hz": 16.5,
+   "top_DNs": [
+    "DNge113(r) 9 Hz",
+    "DNge145(r) 8 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-B1_c:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-B1_c:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-B2:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-B2:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 3,
+   "total_DN_rate_Hz": 12.100000381469727,
+   "top_DNs": [
+    "DNb06(r) 10 Hz",
+    "DNpe014(r) 1 Hz",
+    "DNpe014(r) 1 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-B3:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-B3:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 2,
+   "total_DN_rate_Hz": 25.899999618530273,
+   "top_DNs": [
+    "DNg29(r) 25 Hz",
+    "DNg99(r) 1 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-B4_a:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-B4_a:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 1,
+   "total_DN_rate_Hz": 2.4000000953674316,
+   "top_DNs": [
+    "DNp12(r) 2 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-B4_b:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 8,
+   "total_DN_rate_Hz": 161.39999389648438,
+   "top_DNs": [
+    "DNp12(l) 50 Hz",
+    "DNb05(l) 43 Hz",
+    "DNg56(l) 30 Hz",
+    "DNg99(l) 14 Hz",
+    "DNge091(l) 10 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-B4_b:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.10000000149011612,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-CA1:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-CA1:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.6000000238418579,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-CA2:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-CA2:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-CL:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 2,
+   "total_DN_rate_Hz": 39.0,
+   "top_DNs": [
+    "DNp33(l) 32 Hz",
+    "DNg99(l) 6 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-CL:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 2,
+   "total_DN_rate_Hz": 16.100000381469727,
+   "top_DNs": [
+    "DNp73(r) 10 Hz",
+    "DNp33(r) 6 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-CM:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-CM:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 5,
+   "total_DN_rate_Hz": 156.8000030517578,
+   "top_DNs": [
+    "DNp33(r) 57 Hz",
+    "DNg29(r) 57 Hz",
+    "DNg99(r) 31 Hz",
+    "DNg24(r) 7 Hz",
+    "DNp18(r) 5 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-DA:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-DA:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-DP:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.30000001192092896,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-DP:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-ED1:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 5,
+   "total_DN_rate_Hz": 60.19999694824219,
+   "top_DNs": [
+    "DNge107(r) 25 Hz",
+    "DNg11(r) 16 Hz",
+    "DNp41(r) 12 Hz",
+    "DNg07(l) 4 Hz",
+    "DNpe027(r) 2 Hz"
+   ],
+   "known_behaviour_share": 0.2657807469367981,
+   "behaviours": {
+    "foreleg rubbing": 16.0
+   }
+  },
+  {
+   "stimulus": "sensory:JO-ED1:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 3,
+   "total_DN_rate_Hz": 48.099998474121094,
+   "top_DNs": [
+    "DNg07(r) 26 Hz",
+    "DNge107(l) 19 Hz",
+    "DNg11(l) 3 Hz"
+   ],
+   "known_behaviour_share": 0.06444906443357468,
+   "behaviours": {
+    "foreleg rubbing": 3.0999999046325684
+   }
+  },
+  {
+   "stimulus": "sensory:JO-ED2_a:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 15,
+   "total_DN_rate_Hz": 482.5999755859375,
+   "top_DNs": [
+    "DNb06(l) 77 Hz",
+    "DNp19(l) 66 Hz",
+    "DNpe014(l) 53 Hz",
+    "DNbe001(l) 40 Hz",
+    "DNpe014(l) 38 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-ED2_a:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 16,
+   "total_DN_rate_Hz": 565.0999755859375,
+   "top_DNs": [
+    "DNb06(r) 81 Hz",
+    "DNp19(r) 72 Hz",
+    "DNpe014(r) 49 Hz",
+    "DNp40(r) 41 Hz",
+    "DNp18(r) 41 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-ED2_b:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 9,
+   "total_DN_rate_Hz": 108.70000457763672,
+   "top_DNs": [
+    "DNbe001(l) 34 Hz",
+    "DNge084(l) 31 Hz",
+    "DNg07(l) 10 Hz",
+    "DNg07(l) 9 Hz",
+    "DNp12(l) 9 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-ED2_b:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 3,
+   "total_DN_rate_Hz": 10.699999809265137,
+   "top_DNs": [
+    "DNge084(r) 5 Hz",
+    "DNp12(r) 4 Hz",
+    "DNg99(r) 1 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-ED2_c:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 5,
+   "total_DN_rate_Hz": 33.599998474121094,
+   "top_DNs": [
+    "DNg07(l) 16 Hz",
+    "DNg07(l) 6 Hz",
+    "DNge091(l) 5 Hz",
+    "DNp12(l) 3 Hz",
+    "DNg07(l) 2 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-ED2_c:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-EV1:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 11,
+   "total_DN_rate_Hz": 278.3999938964844,
+   "top_DNs": [
+    "DNp73(l) 99 Hz",
+    "DNp06(l) 41 Hz",
+    "DNp11(l) 40 Hz",
+    "DNge113(l) 26 Hz",
+    "DNge111(l) 19 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-EV1:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 8,
+   "total_DN_rate_Hz": 188.5,
+   "top_DNs": [
+    "DNp73(r) 100 Hz",
+    "DNge111(r) 26 Hz",
+    "DNp11(r) 21 Hz",
+    "DNp06(r) 19 Hz",
+    "DNg07(r) 8 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-EV2:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 3,
+   "total_DN_rate_Hz": 55.20000076293945,
+   "top_DNs": [
+    "DNp33(r) 27 Hz",
+    "DNp18(l) 25 Hz",
+    "DNb05(r) 2 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-EV2:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 10,
+   "total_DN_rate_Hz": 92.69999694824219,
+   "top_DNs": [
+    "DNp18(r) 38 Hz",
+    "DNb06(r) 19 Hz",
+    "DNpe014(r) 11 Hz",
+    "DNpe014(r) 11 Hz",
+    "DNp12(l) 5 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-EV3:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 14,
+   "total_DN_rate_Hz": 200.10000610351562,
+   "top_DNs": [
+    "DNb06(l) 36 Hz",
+    "DNg29(l) 28 Hz",
+    "DNp33(r) 28 Hz",
+    "DNbe001(l) 20 Hz",
+    "DNg15(r) 18 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-EV3:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 19,
+   "total_DN_rate_Hz": 414.0,
+   "top_DNs": [
+    "DNb06(r) 63 Hz",
+    "DNpe017(r) 45 Hz",
+    "DNpe014(r) 37 Hz",
+    "DNg29(r) 34 Hz",
+    "DNpe014(r) 32 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-EV4:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-EV4:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 1,
+   "total_DN_rate_Hz": 9.90000057220459,
+   "top_DNs": [
+    "DNb06(r) 8 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-EV5:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 5,
+   "total_DN_rate_Hz": 55.70000076293945,
+   "top_DNs": [
+    "DNp33(r) 26 Hz",
+    "DNbe001(l) 21 Hz",
+    "DNp15(r) 6 Hz",
+    "DNp18(l) 1 Hz",
+    "DNp12(r) 1 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-EV5:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 8,
+   "total_DN_rate_Hz": 82.70000457763672,
+   "top_DNs": [
+    "DNb06(r) 26 Hz",
+    "DNp18(r) 15 Hz",
+    "DNpe017(r) 10 Hz",
+    "DNpe014(r) 9 Hz",
+    "DNpe014(r) 9 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-EV6:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 3,
+   "total_DN_rate_Hz": 23.0,
+   "top_DNs": [
+    "DNge091(l) 12 Hz",
+    "DNge091(l) 8 Hz",
+    "DNge091(l) 2 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-EV6:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 9,
+   "total_DN_rate_Hz": 159.39999389648438,
+   "top_DNs": [
+    "DNge091(r) 34 Hz",
+    "DNge091(r) 31 Hz",
+    "DNge091(r) 21 Hz",
+    "DNg29(r) 20 Hz",
+    "DNp12(r) 19 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-FD1:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-FD1:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-FD2:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 2,
+   "total_DN_rate_Hz": 18.700000762939453,
+   "top_DNs": [
+    "DNg29(l) 15 Hz",
+    "DNg35(l) 4 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-FD2:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 1,
+   "total_DN_rate_Hz": 22.600000381469727,
+   "top_DNs": [
+    "DNg29(r) 23 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-FV:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 9,
+   "total_DN_rate_Hz": 196.20001220703125,
+   "top_DNs": [
+    "DNg84(l) 64 Hz",
+    "DNg35(l) 55 Hz",
+    "DNg57(l) 22 Hz",
+    "DNge054(l) 18 Hz",
+    "DNge011(l) 17 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-FV:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 4,
+   "total_DN_rate_Hz": 84.69999694824219,
+   "top_DNs": [
+    "DNg35(r) 44 Hz",
+    "DNg29(r) 28 Hz",
+    "DNg84(r) 7 Hz",
+    "DNg15(l) 6 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-mz:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 14,
+   "total_DN_rate_Hz": 207.6999969482422,
+   "top_DNs": [
+    "DNg15(r) 43 Hz",
+    "DNg84(l) 40 Hz",
+    "DNg29(l) 34 Hz",
+    "DNg35(l) 26 Hz",
+    "DNge054(l) 21 Hz"
+   ],
+   "known_behaviour_share": 0.025517575442790985,
+   "behaviours": {
+    "forward walking (oDN1)": 5.300000190734863
+   }
+  },
+  {
+   "stimulus": "sensory:JO-mz:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 6,
+   "total_DN_rate_Hz": 127.80000305175781,
+   "top_DNs": [
+    "DNg29(r) 42 Hz",
+    "DNp33(r) 32 Hz",
+    "DNg99(r) 28 Hz",
+    "DNg24(r) 16 Hz",
+    "DNg51(r) 8 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-unclear:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:JO-unclear:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 4,
+   "total_DN_rate_Hz": 23.200000762939453,
+   "top_DNs": [
+    "DNp33(r) 11 Hz",
+    "DNg51(r) 8 Hz",
+    "DNge091(r) 3 Hz",
+    "DNp15(r) 1 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:LB1a:left",
+   "cell_class": "gustatory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:LB1a:right",
+   "cell_class": "gustatory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.20000000298023224,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:LB1b:left",
+   "cell_class": "gustatory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:LB1b:right",
+   "cell_class": "gustatory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:LB1c:left",
+   "cell_class": "gustatory",
+   "n_DN_responding": 1,
+   "total_DN_rate_Hz": 1.899999976158142,
+   "top_DNs": [
+    "DNpe049(l) 1 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:LB1c:right",
+   "cell_class": "gustatory",
+   "n_DN_responding": 1,
+   "total_DN_rate_Hz": 1.7999999523162842,
+   "top_DNs": [
+    "DNpe007(r) 2 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:LB1d:left",
+   "cell_class": "gustatory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:LB1d:right",
+   "cell_class": "gustatory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:LB1e:left",
+   "cell_class": "gustatory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:LB1e:right",
+   "cell_class": "gustatory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:LB2c:left",
+   "cell_class": "gustatory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:LB2c:right",
+   "cell_class": "gustatory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:LB3a:left",
+   "cell_class": "gustatory",
+   "n_DN_responding": 7,
+   "total_DN_rate_Hz": 166.89999389648438,
+   "top_DNs": [
+    "DNg67(l) 52 Hz",
+    "DNg67(r) 49 Hz",
+    "DNp44(l) 33 Hz",
+    "DNp58(l) 18 Hz",
+    "DNpe030(l) 10 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:LB3a:right",
+   "cell_class": "gustatory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:LB3b:left",
+   "cell_class": "gustatory",
+   "n_DN_responding": 52,
+   "total_DN_rate_Hz": 542.6000366210938,
+   "top_DNs": [
+    "DNge031(l) 73 Hz",
+    "DNge042(l) 27 Hz",
+    "DNpe030(l) 24 Hz",
+    "DNg96(l) 20 Hz",
+    "DNg31(l) 20 Hz"
+   ],
+   "known_behaviour_share": 0.008661996573209763,
+   "behaviours": {
+    "forward walking (BDN2)": 2.899999976158142,
+    "in-place turning": 1.7999999523162842
+   }
+  },
+  {
+   "stimulus": "sensory:LB3b:right",
+   "cell_class": "gustatory",
+   "n_DN_responding": 2,
+   "total_DN_rate_Hz": 11.700000762939453,
+   "top_DNs": [
+    "DNg96(r) 2 Hz",
+    "DNg16(r) 2 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:LB3c:left",
+   "cell_class": "gustatory",
+   "n_DN_responding": 58,
+   "total_DN_rate_Hz": 1012.2999877929688,
+   "top_DNs": [
+    "DNge059(l) 63 Hz",
+    "DNge031(l) 61 Hz",
+    "DNge059(r) 59 Hz",
+    "DNge023(l) 49 Hz",
+    "DNge106(l) 41 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:LB3c:right",
+   "cell_class": "gustatory",
+   "n_DN_responding": 2,
+   "total_DN_rate_Hz": 35.20000076293945,
+   "top_DNs": [
+    "DNge023(r) 24 Hz",
+    "DNge173(r) 12 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:LB3d:left",
+   "cell_class": "gustatory",
+   "n_DN_responding": 59,
+   "total_DN_rate_Hz": 1172.5,
+   "top_DNs": [
+    "DNge031(l) 103 Hz",
+    "DNge059(l) 56 Hz",
+    "DNge059(r) 53 Hz",
+    "DNge042(l) 47 Hz",
+    "DNg31(l) 42 Hz"
+   ],
+   "known_behaviour_share": 0.013901918195188046,
+   "behaviours": {
+    "forward walking (BDN2)": 14.699999809265137,
+    "in-place turning": 1.600000023841858
+   }
+  },
+  {
+   "stimulus": "sensory:LB3d:right",
+   "cell_class": "gustatory",
+   "n_DN_responding": 19,
+   "total_DN_rate_Hz": 219.89999389648438,
+   "top_DNs": [
+    "DNge031(r) 26 Hz",
+    "DNg16(r) 23 Hz",
+    "DNg96(r) 23 Hz",
+    "DNg31(r) 21 Hz",
+    "DNge042(r) 19 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:LB4b:left",
+   "cell_class": "gustatory",
+   "n_DN_responding": 6,
+   "total_DN_rate_Hz": 36.89999771118164,
+   "top_DNs": [
+    "DNg103(r) 24 Hz",
+    "DNg103(l) 4 Hz",
+    "DNg28(l) 3 Hz",
+    "DNge173(l) 3 Hz",
+    "DNg28(l) 2 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:LB4b:right",
+   "cell_class": "gustatory",
+   "n_DN_responding": 18,
+   "total_DN_rate_Hz": 62.79999542236328,
+   "top_DNs": [
+    "DNg103(r) 10 Hz",
+    "DNge031(l) 6 Hz",
+    "DNg96(l) 6 Hz",
+    "DNge042(l) 6 Hz",
+    "DNg96(r) 4 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_D:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_D:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_DA1:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 17,
+   "total_DN_rate_Hz": 169.5,
+   "top_DNs": [
+    "DNpe002(l) 30 Hz",
+    "DNge037(l) 30 Hz",
+    "DNge041(l) 25 Hz",
+    "DNbe007(l) 14 Hz",
+    "DNb05(l) 14 Hz"
+   ],
+   "known_behaviour_share": 0.04483775794506073,
+   "behaviours": {
+    "turning (graded with rotation)": 6.199999809265137,
+    "forward walking (oDN1)": 1.399999976158142
+   }
+  },
+  {
+   "stimulus": "sensory:ORN_DA1:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 13,
+   "total_DN_rate_Hz": 126.69999694824219,
+   "top_DNs": [
+    "DNpe002(r) 27 Hz",
+    "DNge037(r) 27 Hz",
+    "DNge054(r) 25 Hz",
+    "DNg35(r) 18 Hz",
+    "DNge041(r) 14 Hz"
+   ],
+   "known_behaviour_share": 0.012628256343305111,
+   "behaviours": {
+    "turning (graded with rotation)": 1.600000023841858
+   }
+  },
+  {
+   "stimulus": "sensory:ORN_DA2:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_DA2:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_DA3:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_DA3:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_DA4l:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_DA4l:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_DA4m:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_DA4m:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_DC1:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_DC1:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_DC2:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_DC2:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_DC3:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_DC3:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_DC4:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 71,
+   "total_DN_rate_Hz": 725.300048828125,
+   "top_DNs": [
+    "DNge053(l) 41 Hz",
+    "DNge053(r) 34 Hz",
+    "DNg35(r) 31 Hz",
+    "DNbe007(l) 30 Hz",
+    "DNbe007(r) 29 Hz"
+   ],
+   "known_behaviour_share": 0.1640700250864029,
+   "behaviours": {
+    "forward walking (BDN2)": 42.900001525878906,
+    "forward walking (oDN1)": 28.59999942779541,
+    "turning (graded with rotation)": 26.300000190734863,
+    "in-place turning": 21.199999809265137
+   }
+  },
+  {
+   "stimulus": "sensory:ORN_DC4:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 73,
+   "total_DN_rate_Hz": 752.0999755859375,
+   "top_DNs": [
+    "DNge053(l) 43 Hz",
+    "DNge053(r) 36 Hz",
+    "DNg35(r) 32 Hz",
+    "DNbe007(l) 30 Hz",
+    "DNbe007(r) 30 Hz"
+   ],
+   "known_behaviour_share": 0.16792979836463928,
+   "behaviours": {
+    "forward walking (BDN2)": 44.70000076293945,
+    "forward walking (oDN1)": 31.499999046325684,
+    "turning (graded with rotation)": 28.100000858306885,
+    "in-place turning": 22.0
+   }
+  },
+  {
+   "stimulus": "sensory:ORN_DL1:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 2,
+   "total_DN_rate_Hz": 10.699999809265137,
+   "top_DNs": [
+    "DNp10(l) 6 Hz",
+    "DNb05(l) 5 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_DL1:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.4000000059604645,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_DL2d:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_DL2d:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 2,
+   "total_DN_rate_Hz": 12.700000762939453,
+   "top_DNs": [
+    "DNge053(r) 1 Hz",
+    "DNge053(l) 1 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_DL2v:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 12.500000953674316,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_DL2v:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 50,
+   "total_DN_rate_Hz": 177.0,
+   "top_DNs": [
+    "DNge053(l) 12 Hz",
+    "DNge053(r) 10 Hz",
+    "DNg35(r) 8 Hz",
+    "DNg84(r) 8 Hz",
+    "DNbe007(l) 7 Hz"
+   ],
+   "known_behaviour_share": 0.16327685117721558,
+   "behaviours": {
+    "forward walking (BDN2)": 9.700000286102295,
+    "forward walking (oDN1)": 8.599999904632568,
+    "in-place turning": 5.399999976158142,
+    "turning (graded with rotation)": 5.200000047683716
+   }
+  },
+  {
+   "stimulus": "sensory:ORN_DL3:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_DL3:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_DL4:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_DL4:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_DL5:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_DL5:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_DM1:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 67,
+   "total_DN_rate_Hz": 866.8999633789062,
+   "top_DNs": [
+    "DNge053(l) 50 Hz",
+    "DNge053(r) 42 Hz",
+    "DNg35(r) 37 Hz",
+    "DNbe007(r) 36 Hz",
+    "DNa02(l) 36 Hz"
+   ],
+   "known_behaviour_share": 0.15457376837730408,
+   "behaviours": {
+    "forward walking (BDN2)": 49.79999923706055,
+    "turning (graded with rotation)": 36.400001525878906,
+    "in-place turning": 24.59999918937683,
+    "forward walking (oDN1)": 23.200000405311584
+   }
+  },
+  {
+   "stimulus": "sensory:ORN_DM1:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 69,
+   "total_DN_rate_Hz": 840.2999877929688,
+   "top_DNs": [
+    "DNge053(l) 52 Hz",
+    "DNge053(r) 43 Hz",
+    "DNbe007(l) 40 Hz",
+    "DNbe007(r) 40 Hz",
+    "DNb05(l) 37 Hz"
+   ],
+   "known_behaviour_share": 0.14066404104232788,
+   "behaviours": {
+    "forward walking (BDN2)": 43.79999923706055,
+    "turning (graded with rotation)": 25.999999046325684,
+    "in-place turning": 25.200000762939453,
+    "forward walking (oDN1)": 23.199999570846558
+   }
+  },
+  {
+   "stimulus": "sensory:ORN_DM2:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 64,
+   "total_DN_rate_Hz": 638.7000122070312,
+   "top_DNs": [
+    "DNge053(l) 43 Hz",
+    "DNge053(r) 36 Hz",
+    "DNg35(r) 29 Hz",
+    "DNg84(r) 28 Hz",
+    "DNbe007(l) 27 Hz"
+   ],
+   "known_behaviour_share": 0.15594175457954407,
+   "behaviours": {
+    "forward walking (BDN2)": 34.20000076293945,
+    "turning (graded with rotation)": 25.600000381469727,
+    "forward walking (oDN1)": 22.799999952316284,
+    "in-place turning": 17.00000023841858
+   }
+  },
+  {
+   "stimulus": "sensory:ORN_DM2:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 63,
+   "total_DN_rate_Hz": 475.20001220703125,
+   "top_DNs": [
+    "DNge053(l) 31 Hz",
+    "DNge053(r) 26 Hz",
+    "DNg35(r) 22 Hz",
+    "DNbe007(r) 20 Hz",
+    "DNg84(r) 20 Hz"
+   ],
+   "known_behaviour_share": 0.15467171370983124,
+   "behaviours": {
+    "forward walking (BDN2)": 26.0,
+    "forward walking (oDN1)": 18.199999809265137,
+    "turning (graded with rotation)": 15.999999761581421,
+    "in-place turning": 13.299999952316284
+   }
+  },
+  {
+   "stimulus": "sensory:ORN_DM3:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_DM3:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_DM4:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 64,
+   "total_DN_rate_Hz": 499.1999816894531,
+   "top_DNs": [
+    "DNge053(l) 37 Hz",
+    "DNge053(r) 31 Hz",
+    "DNg84(r) 25 Hz",
+    "DNg35(r) 25 Hz",
+    "DNbe007(r) 21 Hz"
+   ],
+   "known_behaviour_share": 0.1690705269575119,
+   "behaviours": {
+    "forward walking (BDN2)": 27.699999809265137,
+    "forward walking (oDN1)": 22.300000190734863,
+    "turning (graded with rotation)": 19.799999237060547,
+    "in-place turning": 14.599999904632568
+   }
+  },
+  {
+   "stimulus": "sensory:ORN_DM4:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 64,
+   "total_DN_rate_Hz": 496.70001220703125,
+   "top_DNs": [
+    "DNge053(l) 36 Hz",
+    "DNge053(r) 31 Hz",
+    "DNg84(r) 25 Hz",
+    "DNg35(r) 25 Hz",
+    "DNbe007(r) 21 Hz"
+   ],
+   "known_behaviour_share": 0.17032413184642792,
+   "behaviours": {
+    "forward walking (BDN2)": 27.800000190734863,
+    "forward walking (oDN1)": 22.999999523162842,
+    "turning (graded with rotation)": 19.199999809265137,
+    "in-place turning": 14.600000381469727
+   }
+  },
+  {
+   "stimulus": "sensory:ORN_DM5:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_DM5:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_DM6:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_DM6:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_DP1l:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 63,
+   "total_DN_rate_Hz": 554.2000122070312,
+   "top_DNs": [
+    "DNge053(l) 37 Hz",
+    "DNge053(r) 31 Hz",
+    "DNg84(r) 26 Hz",
+    "DNg35(r) 26 Hz",
+    "DNbe007(r) 24 Hz"
+   ],
+   "known_behaviour_share": 0.15987005829811096,
+   "behaviours": {
+    "forward walking (BDN2)": 32.400001525878906,
+    "turning (graded with rotation)": 21.0,
+    "forward walking (oDN1)": 19.59999918937683,
+    "in-place turning": 15.599999904632568
+   }
+  },
+  {
+   "stimulus": "sensory:ORN_DP1l:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 67,
+   "total_DN_rate_Hz": 605.4000244140625,
+   "top_DNs": [
+    "DNge053(l) 42 Hz",
+    "DNge053(r) 36 Hz",
+    "DNg84(r) 28 Hz",
+    "DNbe007(l) 27 Hz",
+    "DNg35(r) 26 Hz"
+   ],
+   "known_behaviour_share": 0.16864880919456482,
+   "behaviours": {
+    "forward walking (BDN2)": 36.69999885559082,
+    "forward walking (oDN1)": 26.700000762939453,
+    "turning (graded with rotation)": 19.90000009536743,
+    "in-place turning": 18.800000190734863
+   }
+  },
+  {
+   "stimulus": "sensory:ORN_DP1m:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 69,
+   "total_DN_rate_Hz": 916.2999877929688,
+   "top_DNs": [
+    "DNge053(l) 51 Hz",
+    "DNa02(l) 42 Hz",
+    "DNge053(r) 40 Hz",
+    "DNg35(r) 38 Hz",
+    "DNbe007(l) 35 Hz"
+   ],
+   "known_behaviour_share": 0.15638983249664307,
+   "behaviours": {
+    "forward walking (BDN2)": 56.69999885559082,
+    "turning (graded with rotation)": 41.599998474121094,
+    "in-place turning": 24.600000381469727,
+    "forward walking (oDN1)": 20.399999618530273
+   }
+  },
+  {
+   "stimulus": "sensory:ORN_DP1m:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 58,
+   "total_DN_rate_Hz": 754.9000244140625,
+   "top_DNs": [
+    "DNge053(l) 51 Hz",
+    "DNge053(r) 42 Hz",
+    "DNbe007(r) 39 Hz",
+    "DNbe007(l) 37 Hz",
+    "DNg35(r) 36 Hz"
+   ],
+   "known_behaviour_share": 0.11378989368677139,
+   "behaviours": {
+    "forward walking (BDN2)": 36.29999923706055,
+    "in-place turning": 21.80000066757202,
+    "forward walking (oDN1)": 14.5,
+    "turning (graded with rotation)": 13.300000190734863
+   }
+  },
+  {
+   "stimulus": "sensory:ORN_V:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 69,
+   "total_DN_rate_Hz": 652.5999755859375,
+   "top_DNs": [
+    "DNge053(l) 41 Hz",
+    "DNb05(l) 40 Hz",
+    "DNge053(r) 34 Hz",
+    "DNp32(l) 34 Hz",
+    "DNg35(r) 29 Hz"
+   ],
+   "known_behaviour_share": 0.12151394039392471,
+   "behaviours": {
+    "forward walking (BDN2)": 25.59999942779541,
+    "turning (graded with rotation)": 21.299999237060547,
+    "forward walking (oDN1)": 18.200000286102295,
+    "in-place turning": 14.200000047683716
+   }
+  },
+  {
+   "stimulus": "sensory:ORN_V:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 57,
+   "total_DN_rate_Hz": 354.0,
+   "top_DNs": [
+    "DNge053(l) 22 Hz",
+    "DNge053(r) 19 Hz",
+    "DNbe007(r) 15 Hz",
+    "DNg35(r) 15 Hz",
+    "DNbe007(l) 15 Hz"
+   ],
+   "known_behaviour_share": 0.1550847440958023,
+   "behaviours": {
+    "forward walking (BDN2)": 20.199999809265137,
+    "forward walking (oDN1)": 13.000000238418579,
+    "turning (graded with rotation)": 11.800000429153442,
+    "in-place turning": 9.900000095367432
+   }
+  },
+  {
+   "stimulus": "sensory:ORN_VA1d:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VA1d:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VA1v:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VA1v:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VA2:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VA2:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VA3:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 61,
+   "total_DN_rate_Hz": 378.3000183105469,
+   "top_DNs": [
+    "DNge053(l) 25 Hz",
+    "DNge053(r) 21 Hz",
+    "DNg35(r) 18 Hz",
+    "DNb05(l) 18 Hz",
+    "DNbe007(l) 16 Hz"
+   ],
+   "known_behaviour_share": 0.13983610272407532,
+   "behaviours": {
+    "forward walking (BDN2)": 17.799999237060547,
+    "forward walking (oDN1)": 12.800000429153442,
+    "turning (graded with rotation)": 12.5,
+    "in-place turning": 9.800000071525574
+   }
+  },
+  {
+   "stimulus": "sensory:ORN_VA3:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VA4:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VA4:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VA5:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VA5:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VA6:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 1,
+   "total_DN_rate_Hz": 9.199999809265137,
+   "top_DNs": [
+    "DNb05(r) 8 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VA6:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 1,
+   "total_DN_rate_Hz": 16.299999237060547,
+   "top_DNs": [
+    "DNb05(r) 16 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VA7l:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VA7l:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VA7m:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VA7m:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VC1:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 1,
+   "total_DN_rate_Hz": 12.100000381469727,
+   "top_DNs": [
+    "DNb05(l) 12 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VC1:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.10000000149011612,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VC2:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VC2:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VC3:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VC3:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VC4:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VC4:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VC5:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 5,
+   "total_DN_rate_Hz": 51.5,
+   "top_DNs": [
+    "DNp35(l) 16 Hz",
+    "DNg74_a(r) 14 Hz",
+    "DNp06(l) 13 Hz",
+    "DNg74_a(l) 6 Hz",
+    "DNg108(l) 2 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VC5:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VL1:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VL1:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VL2a:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VL2a:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VL2p:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VL2p:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VM1:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VM1:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VM2:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VM2:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VM3:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VM3:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VM4:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.10000000149011612,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VM4:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.6000000238418579,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VM5d:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VM5d:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VM5v:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VM5v:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VM6l:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 5,
+   "total_DN_rate_Hz": 57.80000305175781,
+   "top_DNs": [
+    "DNp35(l) 17 Hz",
+    "DNg74_a(r) 17 Hz",
+    "DNp06(l) 14 Hz",
+    "DNg74_a(l) 6 Hz",
+    "DNg108(l) 1 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VM6l:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 5,
+   "total_DN_rate_Hz": 39.70000076293945,
+   "top_DNs": [
+    "DNp06(r) 8 Hz",
+    "DNg74_a(l) 8 Hz",
+    "DNp35(r) 8 Hz",
+    "DNg74_a(r) 7 Hz",
+    "DNp71(r) 7 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VM6m:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 15,
+   "total_DN_rate_Hz": 106.19999694824219,
+   "top_DNs": [
+    "DNp35(l) 20 Hz",
+    "DNp06(l) 19 Hz",
+    "DNg74_a(r) 18 Hz",
+    "DNg74_a(l) 9 Hz",
+    "DNp103(l) 5 Hz"
+   ],
+   "known_behaviour_share": 0.06779661029577255,
+   "behaviours": {
+    "forward walking (BDN2)": 4.400000095367432,
+    "forward walking (oDN1)": 1.7999999523162842,
+    "escape take-off (giant fibre)": 1.0
+   }
+  },
+  {
+   "stimulus": "sensory:ORN_VM6m:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 5,
+   "total_DN_rate_Hz": 42.79999542236328,
+   "top_DNs": [
+    "DNp35(r) 9 Hz",
+    "DNp06(r) 9 Hz",
+    "DNg74_a(l) 9 Hz",
+    "DNp71(r) 8 Hz",
+    "DNg74_a(r) 8 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VM6v:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 54,
+   "total_DN_rate_Hz": 734.9999389648438,
+   "top_DNs": [
+    "DNbe001(l) 47 Hz",
+    "DNp06(l) 43 Hz",
+    "DNp35(l) 39 Hz",
+    "DNp26(l) 32 Hz",
+    "DNpe037(l) 30 Hz"
+   ],
+   "known_behaviour_share": 0.08204082399606705,
+   "behaviours": {
+    "forward walking (BDN2)": 17.0,
+    "in-place turning": 14.300000190734863,
+    "escape take-off (giant fibre)": 14.300000190734863,
+    "forward walking (oDN1)": 10.40000033378601,
+    "turning (graded with rotation)": 4.300000190734863
+   }
+  },
+  {
+   "stimulus": "sensory:ORN_VM6v:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 42,
+   "total_DN_rate_Hz": 545.0999755859375,
+   "top_DNs": [
+    "DNp06(r) 51 Hz",
+    "DNp05(r) 45 Hz",
+    "DNbe001(r) 41 Hz",
+    "DNp35(r) 29 Hz",
+    "DNb09(l) 25 Hz"
+   ],
+   "known_behaviour_share": 0.06585947424173355,
+   "behaviours": {
+    "forward walking (BDN2)": 10.399999618530273,
+    "in-place turning": 9.899999618530273,
+    "escape take-off (giant fibre)": 8.099999904632568,
+    "forward walking (oDN1)": 5.5,
+    "turning (graded with rotation)": 2.0
+   }
+  },
+  {
+   "stimulus": "sensory:ORN_VM7d:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 3,
+   "total_DN_rate_Hz": 18.100000381469727,
+   "top_DNs": [
+    "DNp32(l) 16 Hz",
+    "DNb05(l) 1 Hz",
+    "DNp10(l) 1 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VM7d:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 1,
+   "total_DN_rate_Hz": 10.100000381469727,
+   "top_DNs": [
+    "DNp32(l) 10 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VM7v:left",
+   "cell_class": "olfactory",
+   "n_DN_responding": 2,
+   "total_DN_rate_Hz": 34.900001525878906,
+   "top_DNs": [
+    "DNp32(l) 19 Hz",
+    "DNp32(r) 16 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:ORN_VM7v:right",
+   "cell_class": "olfactory",
+   "n_DN_responding": 2,
+   "total_DN_rate_Hz": 38.5,
+   "top_DNs": [
+    "DNp32(r) 20 Hz",
+    "DNp32(l) 19 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:R1-6:left",
+   "cell_class": "visual",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:R1-6:right",
+   "cell_class": "visual",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:R7:left",
+   "cell_class": "visual",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:R7:right",
+   "cell_class": "visual",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:R8:left",
+   "cell_class": "visual",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:R8:right",
+   "cell_class": "visual",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:TPMN1:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 23,
+   "total_DN_rate_Hz": 237.89999389648438,
+   "top_DNs": [
+    "DNg47(l) 31 Hz",
+    "DNge023(l) 31 Hz",
+    "DNge023(r) 24 Hz",
+    "DNge031(l) 18 Hz",
+    "DNge036(r) 17 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:TPMN1:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 32,
+   "total_DN_rate_Hz": 223.39999389648438,
+   "top_DNs": [
+    "DNge023(r) 34 Hz",
+    "DNge031(r) 16 Hz",
+    "DNge042(r) 16 Hz",
+    "DNg31(l) 15 Hz",
+    "DNge023(l) 14 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:TPMN2:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 2,
+   "total_DN_rate_Hz": 9.399999618530273,
+   "top_DNs": [
+    "DNg54(r) 6 Hz",
+    "DNge036(l) 3 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:TPMN2:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:TRN_VP1m:left",
+   "cell_class": "thermosensory",
+   "n_DN_responding": 2,
+   "total_DN_rate_Hz": 42.5,
+   "top_DNs": [
+    "DNb05(l) 21 Hz",
+    "DNp10(l) 21 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:TRN_VP1m:right",
+   "cell_class": "thermosensory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:TRN_VP2:left",
+   "cell_class": "thermosensory",
+   "n_DN_responding": 51,
+   "total_DN_rate_Hz": 385.5,
+   "top_DNs": [
+    "DNb05(l) 69 Hz",
+    "DNp35(l) 24 Hz",
+    "DNg74_a(r) 22 Hz",
+    "DNp06(l) 22 Hz",
+    "DNbe001(l) 17 Hz"
+   ],
+   "known_behaviour_share": 0.08560311049222946,
+   "behaviours": {
+    "forward walking (BDN2)": 12.5,
+    "escape take-off (giant fibre)": 10.300000190734863,
+    "forward walking (oDN1)": 9.0,
+    "in-place turning": 1.2000000476837158
+   }
+  },
+  {
+   "stimulus": "sensory:TRN_VP2:right",
+   "cell_class": "thermosensory",
+   "n_DN_responding": 35,
+   "total_DN_rate_Hz": 392.0,
+   "top_DNs": [
+    "DNb05(r) 65 Hz",
+    "DNp06(r) 31 Hz",
+    "DNp05(r) 24 Hz",
+    "DNp35(r) 22 Hz",
+    "DNg56(r) 22 Hz"
+   ],
+   "known_behaviour_share": 0.018112244084477425,
+   "behaviours": {
+    "in-place turning": 3.4000000953674316,
+    "turning (graded with rotation)": 2.299999952316284,
+    "escape take-off (giant fibre)": 1.399999976158142
+   }
+  },
+  {
+   "stimulus": "sensory:TRN_VP3a:left",
+   "cell_class": "thermosensory",
+   "n_DN_responding": 1,
+   "total_DN_rate_Hz": 84.89999389648438,
+   "top_DNs": [
+    "DNb05(l) 85 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:TRN_VP3a:right",
+   "cell_class": "thermosensory",
+   "n_DN_responding": 3,
+   "total_DN_rate_Hz": 63.70000076293945,
+   "top_DNs": [
+    "DNb05(r) 59 Hz",
+    "DNg35(r) 2 Hz",
+    "DNp12(r) 2 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:aPhM1:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 4,
+   "total_DN_rate_Hz": 43.20000076293945,
+   "top_DNs": [
+    "DNge036(l) 20 Hz",
+    "DNge037(r) 11 Hz",
+    "DNge037(l) 9 Hz",
+    "DNge003(l) 3 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:aPhM1:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:aPhM3:left",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:aPhM3:right",
+   "cell_class": "mechanosensory",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:claw_tpGRN:left",
+   "cell_class": "gustatory",
+   "n_DN_responding": 8,
+   "total_DN_rate_Hz": 108.30000305175781,
+   "top_DNs": [
+    "DNg48(r) 48 Hz",
+    "DNge023(l) 41 Hz",
+    "DNg47(l) 6 Hz",
+    "DNg38(l) 5 Hz",
+    "DNge023(r) 3 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:claw_tpGRN:right",
+   "cell_class": "gustatory",
+   "n_DN_responding": 9,
+   "total_DN_rate_Hz": 54.900001525878906,
+   "top_DNs": [
+    "DNge023(r) 30 Hz",
+    "DNg48(l) 6 Hz",
+    "DNge059(l) 2 Hz",
+    "DNge059(r) 2 Hz",
+    "DNge031(r) 1 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:dorsal_tpGRN:left",
+   "cell_class": "gustatory",
+   "n_DN_responding": 1,
+   "total_DN_rate_Hz": 5.800000190734863,
+   "top_DNs": [
+    "DNge023(l) 5 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "sensory:dorsal_tpGRN:right",
+   "cell_class": "gustatory",
+   "n_DN_responding": 2,
+   "total_DN_rate_Hz": 8.600000381469727,
+   "top_DNs": [
+    "DNge023(r) 8 Hz",
+    "DNge173(r) 1 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LC10a:left",
+   "cell_class": "",
+   "n_DN_responding": 65,
+   "total_DN_rate_Hz": 1642.39990234375,
+   "top_DNs": [
+    "DNae002(l) 118 Hz",
+    "DNa02(l) 110 Hz",
+    "DNa06(l) 90 Hz",
+    "DNg111(l) 85 Hz",
+    "DNge033(l) 75 Hz"
+   ],
+   "known_behaviour_share": 0.18405991792678833,
+   "behaviours": {
+    "turning (graded with rotation)": 110.0,
+    "forward walking (BDN2)": 58.10000038146973,
+    "forward walking (oDN1)": 57.5,
+    "turning": 57.30000114440918,
+    "in-place turning": 19.40000033378601
+   }
+  },
+  {
+   "stimulus": "vpn:LC10a:right",
+   "cell_class": "",
+   "n_DN_responding": 85,
+   "total_DN_rate_Hz": 1712.9000244140625,
+   "top_DNs": [
+    "DNae002(r) 108 Hz",
+    "aSP22(r) 87 Hz",
+    "DNg111(r) 80 Hz",
+    "DNa06(r) 78 Hz",
+    "DNge033(r) 64 Hz"
+   ],
+   "known_behaviour_share": 0.1486951857805252,
+   "behaviours": {
+    "turning": 82.00000143051147,
+    "forward walking (BDN2)": 62.0,
+    "turning (graded with rotation)": 57.29999923706055,
+    "forward walking (oDN1)": 42.79999923706055,
+    "in-place turning": 10.599999904632568
+   }
+  },
+  {
+   "stimulus": "vpn:LC10b:left",
+   "cell_class": "",
+   "n_DN_responding": 12,
+   "total_DN_rate_Hz": 91.60000610351562,
+   "top_DNs": [
+    "DNb01(r) 22 Hz",
+    "DNg97(l) 15 Hz",
+    "DNb05(l) 12 Hz",
+    "DNa01(r) 7 Hz",
+    "DNa02(r) 6 Hz"
+   ],
+   "known_behaviour_share": 0.30240172147750854,
+   "behaviours": {
+    "forward walking (oDN1)": 14.800000190734863,
+    "in-place turning": 6.699999809265137,
+    "turning (graded with rotation)": 6.199999809265137
+   }
+  },
+  {
+   "stimulus": "vpn:LC10b:right",
+   "cell_class": "",
+   "n_DN_responding": 9,
+   "total_DN_rate_Hz": 62.900001525878906,
+   "top_DNs": [
+    "DNb01(l) 18 Hz",
+    "DNbe001(r) 11 Hz",
+    "DNb09(l) 8 Hz",
+    "DNp18(l) 6 Hz",
+    "DNg97(r) 5 Hz"
+   ],
+   "known_behaviour_share": 0.11764705181121826,
+   "behaviours": {
+    "forward walking (oDN1)": 5.099999904632568,
+    "turning (graded with rotation)": 2.299999952316284
+   }
+  },
+  {
+   "stimulus": "vpn:LC10c-1:left",
+   "cell_class": "",
+   "n_DN_responding": 46,
+   "total_DN_rate_Hz": 840.2000122070312,
+   "top_DNs": [
+    "DNa02(l) 96 Hz",
+    "DNae002(l) 78 Hz",
+    "DNa16(l) 59 Hz",
+    "DNa06(l) 58 Hz",
+    "DNge033(l) 50 Hz"
+   ],
+   "known_behaviour_share": 0.2188764363527298,
+   "behaviours": {
+    "turning (graded with rotation)": 96.19999694824219,
+    "forward walking (oDN1)": 37.20000076293945,
+    "turning": 24.300000190734863,
+    "in-place turning": 19.399999618530273,
+    "forward walking (BDN2)": 6.800000190734863
+   }
+  },
+  {
+   "stimulus": "vpn:LC10c-1:right",
+   "cell_class": "",
+   "n_DN_responding": 29,
+   "total_DN_rate_Hz": 474.3000183105469,
+   "top_DNs": [
+    "DNa10(r) 50 Hz",
+    "DNa02(r) 49 Hz",
+    "DNae002(r) 46 Hz",
+    "DNa16(r) 34 Hz",
+    "DNae009(r) 30 Hz"
+   ],
+   "known_behaviour_share": 0.1764705777168274,
+   "behaviours": {
+    "turning (graded with rotation)": 48.79999923706055,
+    "turning": 16.200000286102295,
+    "forward walking (oDN1)": 12.100000381469727,
+    "in-place turning": 6.599999904632568
+   }
+  },
+  {
+   "stimulus": "vpn:LC10c-2:left",
+   "cell_class": "",
+   "n_DN_responding": 53,
+   "total_DN_rate_Hz": 1242.4000244140625,
+   "top_DNs": [
+    "DNa02(l) 111 Hz",
+    "DNae002(l) 90 Hz",
+    "DNa10(l) 77 Hz",
+    "DNa06(l) 71 Hz",
+    "DNa16(l) 70 Hz"
+   ],
+   "known_behaviour_share": 0.2342240810394287,
+   "behaviours": {
+    "turning (graded with rotation)": 110.9000015258789,
+    "forward walking (oDN1)": 57.20000076293945,
+    "forward walking (BDN2)": 49.20000076293945,
+    "turning": 48.29999923706055,
+    "in-place turning": 25.399999618530273
+   }
+  },
+  {
+   "stimulus": "vpn:LC10c-2:right",
+   "cell_class": "",
+   "n_DN_responding": 60,
+   "total_DN_rate_Hz": 1098.0999755859375,
+   "top_DNs": [
+    "DNa02(r) 76 Hz",
+    "DNa10(r) 75 Hz",
+    "DNa06(r) 67 Hz",
+    "DNge033(r) 59 Hz",
+    "DNae002(r) 55 Hz"
+   ],
+   "known_behaviour_share": 0.19005553424358368,
+   "behaviours": {
+    "turning (graded with rotation)": 76.5,
+    "turning": 52.19999885559082,
+    "forward walking (oDN1)": 38.70000076293945,
+    "forward walking (BDN2)": 25.799999237060547,
+    "in-place turning": 15.5
+   }
+  },
+  {
+   "stimulus": "vpn:LC10d:left",
+   "cell_class": "",
+   "n_DN_responding": 64,
+   "total_DN_rate_Hz": 1473.5,
+   "top_DNs": [
+    "DNa02(l) 109 Hz",
+    "DNae002(l) 100 Hz",
+    "DNa04(l) 84 Hz",
+    "DNa16(l) 69 Hz",
+    "DNp31(l) 55 Hz"
+   ],
+   "known_behaviour_share": 0.18486596643924713,
+   "behaviours": {
+    "turning (graded with rotation)": 109.19999694824219,
+    "forward walking (oDN1)": 44.20000076293945,
+    "forward walking (BDN2)": 42.69999885559082,
+    "turning": 40.80000019073486,
+    "in-place turning": 35.5
+   }
+  },
+  {
+   "stimulus": "vpn:LC10d:right",
+   "cell_class": "",
+   "n_DN_responding": 62,
+   "total_DN_rate_Hz": 1148.5999755859375,
+   "top_DNs": [
+    "DNae002(r) 101 Hz",
+    "DNa02(r) 69 Hz",
+    "aSP22(r) 68 Hz",
+    "DNa04(r) 68 Hz",
+    "DNg111(r) 61 Hz"
+   ],
+   "known_behaviour_share": 0.1724708378314972,
+   "behaviours": {
+    "turning (graded with rotation)": 69.4000015258789,
+    "turning": 59.10000228881836,
+    "forward walking (BDN2)": 25.199999809265137,
+    "forward walking (oDN1)": 24.0,
+    "in-place turning": 20.399999618530273
+   }
+  },
+  {
+   "stimulus": "vpn:LC10e:left",
+   "cell_class": "",
+   "n_DN_responding": 38,
+   "total_DN_rate_Hz": 729.199951171875,
+   "top_DNs": [
+    "DNb05(l) 70 Hz",
+    "DNa02(l) 51 Hz",
+    "DNp56(l) 49 Hz",
+    "DNae002(l) 47 Hz",
+    "DNg13(l) 38 Hz"
+   ],
+   "known_behaviour_share": 0.13727374374866486,
+   "behaviours": {
+    "turning (graded with rotation)": 50.70000076293945,
+    "forward walking (BDN2)": 21.600000381469727,
+    "forward walking (oDN1)": 13.099999904632568,
+    "in-place turning": 12.899999618530273,
+    "turning": 1.7999999523162842
+   }
+  },
+  {
+   "stimulus": "vpn:LC10e:right",
+   "cell_class": "",
+   "n_DN_responding": 53,
+   "total_DN_rate_Hz": 754.300048828125,
+   "top_DNs": [
+    "DNb05(r) 64 Hz",
+    "DNp56(r) 45 Hz",
+    "DNa02(r) 42 Hz",
+    "DNg13(r) 41 Hz",
+    "DNbe007(r) 34 Hz"
+   ],
+   "known_behaviour_share": 0.1449025422334671,
+   "behaviours": {
+    "forward walking (BDN2)": 44.80000114440918,
+    "turning (graded with rotation)": 42.29999923706055,
+    "in-place turning": 11.0,
+    "turning": 7.300000190734863,
+    "forward walking (oDN1)": 3.9000000953674316
+   }
+  },
+  {
+   "stimulus": "vpn:LC11:left",
+   "cell_class": "",
+   "n_DN_responding": 63,
+   "total_DN_rate_Hz": 509.29998779296875,
+   "top_DNs": [
+    "DNg100(r) 38 Hz",
+    "DNa02(r) 33 Hz",
+    "DNg100(l) 31 Hz",
+    "DNp18(r) 25 Hz",
+    "DNbe001(l) 24 Hz"
+   ],
+   "known_behaviour_share": 0.2731199860572815,
+   "behaviours": {
+    "forward walking (BDN2)": 68.9000015258789,
+    "turning (graded with rotation)": 54.70000076293945,
+    "forward walking (oDN1)": 11.0,
+    "in-place turning": 4.5
+   }
+  },
+  {
+   "stimulus": "vpn:LC11:right",
+   "cell_class": "",
+   "n_DN_responding": 92,
+   "total_DN_rate_Hz": 830.7000732421875,
+   "top_DNs": [
+    "DNg100(r) 54 Hz",
+    "DNg100(l) 43 Hz",
+    "DNbe001(r) 35 Hz",
+    "DNg97(r) 32 Hz",
+    "DNpe005(r) 24 Hz"
+   ],
+   "known_behaviour_share": 0.23245452344417572,
+   "behaviours": {
+    "forward walking (BDN2)": 97.20000076293945,
+    "forward walking (oDN1)": 44.29999923706055,
+    "turning (graded with rotation)": 34.29999923706055,
+    "in-place turning": 17.299999713897705
+   }
+  },
+  {
+   "stimulus": "vpn:LC12:left",
+   "cell_class": "",
+   "n_DN_responding": 49,
+   "total_DN_rate_Hz": 350.0,
+   "top_DNs": [
+    "DNg100(r) 41 Hz",
+    "DNpe045(l) 35 Hz",
+    "DNp70(l) 33 Hz",
+    "DNg100(l) 32 Hz",
+    "DNge054(l) 25 Hz"
+   ],
+   "known_behaviour_share": 0.2605714499950409,
+   "behaviours": {
+    "forward walking (BDN2)": 73.0,
+    "turning (graded with rotation)": 6.5,
+    "escape take-off (giant fibre)": 5.900000095367432,
+    "forward walking (oDN1)": 5.800000190734863
+   }
+  },
+  {
+   "stimulus": "vpn:LC12:right",
+   "cell_class": "",
+   "n_DN_responding": 36,
+   "total_DN_rate_Hz": 620.7000122070312,
+   "top_DNs": [
+    "DNpe045(r) 61 Hz",
+    "DNge054(r) 57 Hz",
+    "DNp70(r) 36 Hz",
+    "DNg100(r) 34 Hz",
+    "DNa02(l) 32 Hz"
+   ],
+   "known_behaviour_share": 0.1330755650997162,
+   "behaviours": {
+    "forward walking (BDN2)": 45.60000038146973,
+    "turning (graded with rotation)": 31.799999237060547,
+    "forward walking (oDN1)": 5.199999809265137
+   }
+  },
+  {
+   "stimulus": "vpn:LC13:left",
+   "cell_class": "",
+   "n_DN_responding": 13,
+   "total_DN_rate_Hz": 285.79998779296875,
+   "top_DNs": [
+    "DNge054(l) 66 Hz",
+    "DNa09(r) 47 Hz",
+    "DNp71(l) 43 Hz",
+    "DNge124(l) 38 Hz",
+    "DNp43(l) 38 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LC13:right",
+   "cell_class": "",
+   "n_DN_responding": 49,
+   "total_DN_rate_Hz": 721.0,
+   "top_DNs": [
+    "DNp71(r) 56 Hz",
+    "DNge054(r) 54 Hz",
+    "DNge124(r) 53 Hz",
+    "DNa09(l) 43 Hz",
+    "DNp43(r) 43 Hz"
+   ],
+   "known_behaviour_share": 0.08460471779108047,
+   "behaviours": {
+    "forward walking (BDN2)": 28.899999618530273,
+    "forward walking (oDN1)": 22.90000033378601,
+    "turning (graded with rotation)": 6.400000095367432,
+    "forward walking": 2.799999952316284
+   }
+  },
+  {
+   "stimulus": "vpn:LC15:left",
+   "cell_class": "",
+   "n_DN_responding": 149,
+   "total_DN_rate_Hz": 2354.10009765625,
+   "top_DNs": [
+    "DNp01(r) 86 Hz",
+    "DNp06(r) 70 Hz",
+    "DNp70(l) 66 Hz",
+    "DNp70(r) 65 Hz",
+    "DNg40(r) 64 Hz"
+   ],
+   "known_behaviour_share": 0.18198037147521973,
+   "behaviours": {
+    "escape take-off (giant fibre)": 148.6999969482422,
+    "forward walking (BDN2)": 116.0,
+    "forward walking (oDN1)": 77.4000015258789,
+    "in-place turning": 37.19999837875366,
+    "turning (graded with rotation)": 35.19999957084656,
+    "backing up": 8.399999618530273,
+    "turning": 5.5
+   }
+  },
+  {
+   "stimulus": "vpn:LC15:right",
+   "cell_class": "",
+   "n_DN_responding": 171,
+   "total_DN_rate_Hz": 3061.800048828125,
+   "top_DNs": [
+    "DNg100(l) 79 Hz",
+    "DNg100(r) 76 Hz",
+    "DNge050(l) 70 Hz",
+    "DNg97(r) 68 Hz",
+    "DNp01(l) 62 Hz"
+   ],
+   "known_behaviour_share": 0.1784570962190628,
+   "behaviours": {
+    "forward walking (BDN2)": 155.0,
+    "escape take-off (giant fibre)": 120.89999771118164,
+    "forward walking (oDN1)": 105.30000305175781,
+    "turning (graded with rotation)": 56.10000038146973,
+    "in-place turning": 46.500000953674316,
+    "backing up": 43.79999923706055,
+    "turning": 18.799999833106995
+   }
+  },
+  {
+   "stimulus": "vpn:LC16:left",
+   "cell_class": "",
+   "n_DN_responding": 10,
+   "total_DN_rate_Hz": 151.3000030517578,
+   "top_DNs": [
+    "DNp43(l) 26 Hz",
+    "DNa01(r) 20 Hz",
+    "DNa13(r) 20 Hz",
+    "DNa13(r) 19 Hz",
+    "DNa02(r) 18 Hz"
+   ],
+   "known_behaviour_share": 0.2518175542354584,
+   "behaviours": {
+    "in-place turning": 19.700000762939453,
+    "turning (graded with rotation)": 18.399999618530273
+   }
+  },
+  {
+   "stimulus": "vpn:LC16:right",
+   "cell_class": "",
+   "n_DN_responding": 87,
+   "total_DN_rate_Hz": 822.3999633789062,
+   "top_DNs": [
+    "DNa13(l) 43 Hz",
+    "DNa02(l) 42 Hz",
+    "DNa13(l) 40 Hz",
+    "DNa01(l) 35 Hz",
+    "DNp71(r) 32 Hz"
+   ],
+   "known_behaviour_share": 0.2221546769142151,
+   "behaviours": {
+    "forward walking (BDN2)": 56.39999961853027,
+    "turning (graded with rotation)": 45.30000162124634,
+    "in-place turning": 34.70000076293945,
+    "forward walking (oDN1)": 28.100000381469727,
+    "backward walking": 14.799999952316284,
+    "turning": 3.399999976158142
+   }
+  },
+  {
+   "stimulus": "vpn:LC17:left",
+   "cell_class": "",
+   "n_DN_responding": 141,
+   "total_DN_rate_Hz": 3364.10009765625,
+   "top_DNs": [
+    "DNp70(l) 117 Hz",
+    "DNp01(l) 107 Hz",
+    "DNg100(l) 96 Hz",
+    "DNg100(r) 92 Hz",
+    "DNp70(r) 91 Hz"
+   ],
+   "known_behaviour_share": 0.17362742125988007,
+   "behaviours": {
+    "escape take-off (giant fibre)": 197.0999984741211,
+    "forward walking (BDN2)": 187.9000015258789,
+    "forward walking (oDN1)": 96.5,
+    "in-place turning": 49.30000162124634,
+    "turning (graded with rotation)": 46.29999923706055,
+    "forward walking": 4.900000095367432,
+    "turning": 2.0999999046325684
+   }
+  },
+  {
+   "stimulus": "vpn:LC17:right",
+   "cell_class": "",
+   "n_DN_responding": 166,
+   "total_DN_rate_Hz": 4094.0,
+   "top_DNs": [
+    "DNp70(r) 131 Hz",
+    "DNp01(r) 129 Hz",
+    "DNp70(l) 106 Hz",
+    "DNg100(l) 99 Hz",
+    "DNpe045(r) 99 Hz"
+   ],
+   "known_behaviour_share": 0.15207621455192566,
+   "behaviours": {
+    "forward walking (BDN2)": 197.3000030517578,
+    "escape take-off (giant fibre)": 193.5999984741211,
+    "forward walking (oDN1)": 97.29999923706055,
+    "turning (graded with rotation)": 65.30000019073486,
+    "in-place turning": 53.400001525878906,
+    "turning": 14.700000286102295,
+    "forward walking": 1.0
+   }
+  },
+  {
+   "stimulus": "vpn:LC18:left",
+   "cell_class": "",
+   "n_DN_responding": 144,
+   "total_DN_rate_Hz": 2022.0999755859375,
+   "top_DNs": [
+    "DNg100(l) 73 Hz",
+    "DNg100(r) 70 Hz",
+    "DNge050(l) 52 Hz",
+    "DNa13(r) 40 Hz",
+    "DNa01(r) 40 Hz"
+   ],
+   "known_behaviour_share": 0.1628504991531372,
+   "behaviours": {
+    "forward walking (BDN2)": 142.79999542236328,
+    "forward walking (oDN1)": 62.599998474121094,
+    "turning (graded with rotation)": 58.39999961853027,
+    "in-place turning": 43.70000076293945,
+    "backward walking": 17.0,
+    "escape take-off (giant fibre)": 4.800000190734863
+   }
+  },
+  {
+   "stimulus": "vpn:LC18:right",
+   "cell_class": "",
+   "n_DN_responding": 183,
+   "total_DN_rate_Hz": 3056.000244140625,
+   "top_DNs": [
+    "DNg100(l) 85 Hz",
+    "DNg100(r) 84 Hz",
+    "DNg97(r) 70 Hz",
+    "DNge050(l) 68 Hz",
+    "DNg13(l) 62 Hz"
+   ],
+   "known_behaviour_share": 0.16119109094142914,
+   "behaviours": {
+    "forward walking (BDN2)": 169.0,
+    "forward walking (oDN1)": 97.69999694824219,
+    "turning (graded with rotation)": 80.20000076293945,
+    "escape take-off (giant fibre)": 55.70000076293945,
+    "in-place turning": 54.79999923706055,
+    "backward walking": 29.600000143051147,
+    "turning": 5.600000023841858
+   }
+  },
+  {
+   "stimulus": "vpn:LC19:left",
+   "cell_class": "",
+   "n_DN_responding": 27,
+   "total_DN_rate_Hz": 417.1000061035156,
+   "top_DNs": [
+    "DNb01(r) 70 Hz",
+    "DNg97(l) 58 Hz",
+    "DNae002(r) 46 Hz",
+    "DNa09(r) 33 Hz",
+    "DNa02(r) 26 Hz"
+   ],
+   "known_behaviour_share": 0.2318388819694519,
+   "behaviours": {
+    "forward walking (oDN1)": 57.5,
+    "turning (graded with rotation)": 25.5,
+    "in-place turning": 13.699999809265137
+   }
+  },
+  {
+   "stimulus": "vpn:LC19:right",
+   "cell_class": "",
+   "n_DN_responding": 24,
+   "total_DN_rate_Hz": 339.5999755859375,
+   "top_DNs": [
+    "DNb01(l) 58 Hz",
+    "DNg97(r) 57 Hz",
+    "DNae002(l) 43 Hz",
+    "DNa02(l) 32 Hz",
+    "DNg13(l) 22 Hz"
+   ],
+   "known_behaviour_share": 0.27679622173309326,
+   "behaviours": {
+    "forward walking (oDN1)": 57.099998474121094,
+    "turning (graded with rotation)": 32.29999923706055,
+    "in-place turning": 2.4000000953674316,
+    "forward walking (BDN2)": 2.200000047683716
+   }
+  },
+  {
+   "stimulus": "vpn:LC20a:left",
+   "cell_class": "",
+   "n_DN_responding": 2,
+   "total_DN_rate_Hz": 15.800000190734863,
+   "top_DNs": [
+    "DNae002(l) 9 Hz",
+    "DNa02(l) 7 Hz"
+   ],
+   "known_behaviour_share": 0.4177215099334717,
+   "behaviours": {
+    "turning (graded with rotation)": 6.599999904632568
+   }
+  },
+  {
+   "stimulus": "vpn:LC20a:right",
+   "cell_class": "",
+   "n_DN_responding": 26,
+   "total_DN_rate_Hz": 132.5,
+   "top_DNs": [
+    "DNae002(r) 22 Hz",
+    "DNa02(r) 17 Hz",
+    "DNg97(l) 11 Hz",
+    "DNg13(r) 11 Hz",
+    "DNb08(r) 11 Hz"
+   ],
+   "known_behaviour_share": 0.24150942265987396,
+   "behaviours": {
+    "turning (graded with rotation)": 17.299999237060547,
+    "forward walking (oDN1)": 10.899999618530273,
+    "forward walking (BDN2)": 3.799999952316284
+   }
+  },
+  {
+   "stimulus": "vpn:LC20b:left",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LC20b:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LC21:left",
+   "cell_class": "",
+   "n_DN_responding": 15,
+   "total_DN_rate_Hz": 158.89999389648438,
+   "top_DNs": [
+    "DNp35(l) 52 Hz",
+    "DNge054(l) 16 Hz",
+    "DNg74_b(l) 14 Hz",
+    "DNbe001(r) 12 Hz",
+    "DNbe001(l) 10 Hz"
+   ],
+   "known_behaviour_share": 0.09754563122987747,
+   "behaviours": {
+    "forward walking (BDN2)": 12.599999904632568,
+    "turning (graded with rotation)": 1.600000023841858,
+    "in-place turning": 1.2999999523162842
+   }
+  },
+  {
+   "stimulus": "vpn:LC21:right",
+   "cell_class": "",
+   "n_DN_responding": 52,
+   "total_DN_rate_Hz": 400.70001220703125,
+   "top_DNs": [
+    "DNge054(r) 38 Hz",
+    "DNge050(l) 22 Hz",
+    "DNg100(r) 22 Hz",
+    "DNg97(r) 21 Hz",
+    "DNg100(l) 20 Hz"
+   ],
+   "known_behaviour_share": 0.23209382593631744,
+   "behaviours": {
+    "forward walking (BDN2)": 42.30000114440918,
+    "forward walking (oDN1)": 25.100000381469727,
+    "in-place turning": 11.0,
+    "backing up": 9.300000190734863,
+    "turning (graded with rotation)": 5.300000190734863
+   }
+  },
+  {
+   "stimulus": "vpn:LC22:left",
+   "cell_class": "",
+   "n_DN_responding": 35,
+   "total_DN_rate_Hz": 961.3999633789062,
+   "top_DNs": [
+    "DNp26(l) 131 Hz",
+    "DNp05(l) 78 Hz",
+    "DNae002(r) 68 Hz",
+    "DNp03(l) 63 Hz",
+    "DNbe001(l) 57 Hz"
+   ],
+   "known_behaviour_share": 0.03723736107349396,
+   "behaviours": {
+    "in-place turning": 24.899999618530273,
+    "backing up": 8.300000190734863,
+    "turning (graded with rotation)": 2.5999999046325684
+   }
+  },
+  {
+   "stimulus": "vpn:LC22:right",
+   "cell_class": "",
+   "n_DN_responding": 51,
+   "total_DN_rate_Hz": 1048.300048828125,
+   "top_DNs": [
+    "DNp26(r) 114 Hz",
+    "DNbe001(r) 99 Hz",
+    "DNp05(r) 80 Hz",
+    "DNb09(l) 49 Hz",
+    "DNpe037(r) 49 Hz"
+   ],
+   "known_behaviour_share": 0.05990651622414589,
+   "behaviours": {
+    "in-place turning": 29.899999618530273,
+    "turning (graded with rotation)": 19.5,
+    "backing up": 13.399999618530273
+   }
+  },
+  {
+   "stimulus": "vpn:LC24:left",
+   "cell_class": "",
+   "n_DN_responding": 9,
+   "total_DN_rate_Hz": 140.5,
+   "top_DNs": [
+    "DNae005(l) 25 Hz",
+    "DNa02(l) 24 Hz",
+    "DNbe007(l) 21 Hz",
+    "DNb05(l) 20 Hz",
+    "DNp56(l) 18 Hz"
+   ],
+   "known_behaviour_share": 0.17153024673461914,
+   "behaviours": {
+    "turning (graded with rotation)": 24.100000381469727
+   }
+  },
+  {
+   "stimulus": "vpn:LC24:right",
+   "cell_class": "",
+   "n_DN_responding": 23,
+   "total_DN_rate_Hz": 253.89999389648438,
+   "top_DNs": [
+    "DNbe007(r) 35 Hz",
+    "DNb05(r) 34 Hz",
+    "DNp56(r) 30 Hz",
+    "DNg13(r) 23 Hz",
+    "DNae005(r) 18 Hz"
+   ],
+   "known_behaviour_share": 0.08507286757230759,
+   "behaviours": {
+    "turning (graded with rotation)": 17.399999618530273,
+    "forward walking (BDN2)": 4.199999809265137
+   }
+  },
+  {
+   "stimulus": "vpn:LC25:left",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LC25:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LC26:left",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LC26:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LC27:left",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LC27:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LC28a:left",
+   "cell_class": "",
+   "n_DN_responding": 8,
+   "total_DN_rate_Hz": 39.29999923706055,
+   "top_DNs": [
+    "DNbe007(l) 10 Hz",
+    "DNb05(l) 6 Hz",
+    "DNa13(r) 5 Hz",
+    "DNa01(r) 4 Hz",
+    "DNa02(r) 4 Hz"
+   ],
+   "known_behaviour_share": 0.22900763154029846,
+   "behaviours": {
+    "turning (graded with rotation)": 4.5,
+    "in-place turning": 4.5
+   }
+  },
+  {
+   "stimulus": "vpn:LC28a:right",
+   "cell_class": "",
+   "n_DN_responding": 24,
+   "total_DN_rate_Hz": 195.6999969482422,
+   "top_DNs": [
+    "DNbe001(r) 28 Hz",
+    "DNbe007(r) 15 Hz",
+    "DNb05(r) 13 Hz",
+    "DNb09(l) 12 Hz",
+    "DNa02(r) 11 Hz"
+   ],
+   "known_behaviour_share": 0.12059275060892105,
+   "behaviours": {
+    "turning (graded with rotation)": 19.0,
+    "in-place turning": 4.599999904632568
+   }
+  },
+  {
+   "stimulus": "vpn:LC28b:left",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LC28b:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LC28c:left",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LC28c:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LC28d:left",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LC28d:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LC29:left",
+   "cell_class": "",
+   "n_DN_responding": 4,
+   "total_DN_rate_Hz": 130.0,
+   "top_DNs": [
+    "DNpe037(l) 79 Hz",
+    "DNbe001(l) 30 Hz",
+    "DNp26(l) 11 Hz",
+    "DNp42(l) 10 Hz"
+   ],
+   "known_behaviour_share": 0.07307692617177963,
+   "behaviours": {
+    "backing up": 9.5
+   }
+  },
+  {
+   "stimulus": "vpn:LC29:right",
+   "cell_class": "",
+   "n_DN_responding": 9,
+   "total_DN_rate_Hz": 177.0,
+   "top_DNs": [
+    "DNpe037(r) 68 Hz",
+    "DNbe001(r) 38 Hz",
+    "DNp42(r) 31 Hz",
+    "DNp31(r) 12 Hz",
+    "DNb09(l) 11 Hz"
+   ],
+   "known_behaviour_share": 0.17401129007339478,
+   "behaviours": {
+    "backing up": 30.799999237060547
+   }
+  },
+  {
+   "stimulus": "vpn:LC31a:left",
+   "cell_class": "",
+   "n_DN_responding": 154,
+   "total_DN_rate_Hz": 3408.0,
+   "top_DNs": [
+    "DNp09(l) 104 Hz",
+    "DNg100(l) 98 Hz",
+    "DNg100(r) 91 Hz",
+    "DNp06(l) 87 Hz",
+    "DNpe040(l) 87 Hz"
+   ],
+   "known_behaviour_share": 0.16740024089813232,
+   "behaviours": {
+    "forward walking (BDN2)": 189.0999984741211,
+    "forward walking (oDN1)": 123.0999984741211,
+    "forward walking": 104.4000015258789,
+    "in-place turning": 51.19999837875366,
+    "turning (graded with rotation)": 50.80000114440918,
+    "escape take-off (giant fibre)": 36.60000038146973,
+    "turning": 15.300000190734863
+   }
+  },
+  {
+   "stimulus": "vpn:LC31a:right",
+   "cell_class": "",
+   "n_DN_responding": 169,
+   "total_DN_rate_Hz": 3409.60009765625,
+   "top_DNs": [
+    "DNp06(r) 99 Hz",
+    "DNp09(r) 99 Hz",
+    "DNg100(l) 87 Hz",
+    "DNg100(r) 83 Hz",
+    "DNp43(r) 82 Hz"
+   ],
+   "known_behaviour_share": 0.16154389083385468,
+   "behaviours": {
+    "forward walking (BDN2)": 170.20000457763672,
+    "forward walking (oDN1)": 106.20000076293945,
+    "forward walking": 98.80000305175781,
+    "turning (graded with rotation)": 56.89999961853027,
+    "in-place turning": 48.20000076293945,
+    "escape take-off (giant fibre)": 39.70000076293945,
+    "turning": 28.899999618530273,
+    "backward walking": 1.899999976158142
+   }
+  },
+  {
+   "stimulus": "vpn:LC31b:left",
+   "cell_class": "",
+   "n_DN_responding": 56,
+   "total_DN_rate_Hz": 612.5999755859375,
+   "top_DNs": [
+    "DNpe056(l) 66 Hz",
+    "DNp13(l) 49 Hz",
+    "DNg100(l) 30 Hz",
+    "DNg100(r) 29 Hz",
+    "DNpe050(l) 24 Hz"
+   ],
+   "known_behaviour_share": 0.2182500809431076,
+   "behaviours": {
+    "forward walking (BDN2)": 59.10000038146973,
+    "forward walking (oDN1)": 36.60000038146973,
+    "forward walking": 16.399999618530273,
+    "in-place turning": 12.600000381469727,
+    "turning (graded with rotation)": 8.999999761581421
+   }
+  },
+  {
+   "stimulus": "vpn:LC31b:right",
+   "cell_class": "",
+   "n_DN_responding": 65,
+   "total_DN_rate_Hz": 726.9000244140625,
+   "top_DNs": [
+    "DNpe056(r) 95 Hz",
+    "DNp13(r) 57 Hz",
+    "DNp09(r) 40 Hz",
+    "DNpe050(r) 30 Hz",
+    "DNp34(l) 29 Hz"
+   ],
+   "known_behaviour_share": 0.21392212808132172,
+   "behaviours": {
+    "forward walking (BDN2)": 55.80000114440918,
+    "forward walking": 40.0,
+    "forward walking (oDN1)": 34.70000076293945,
+    "turning (graded with rotation)": 25.00000035762787
+   }
+  },
+  {
+   "stimulus": "vpn:LC33:left",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LC33:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LC34:left",
+   "cell_class": "",
+   "n_DN_responding": 10,
+   "total_DN_rate_Hz": 44.30000305175781,
+   "top_DNs": [
+    "DNa02(l) 8 Hz",
+    "DNa13(l) 4 Hz",
+    "DNa03(l) 4 Hz",
+    "DNa16(l) 4 Hz",
+    "DNa15(l) 4 Hz"
+   ],
+   "known_behaviour_share": 0.17607222497463226,
+   "behaviours": {
+    "turning (graded with rotation)": 7.800000190734863
+   }
+  },
+  {
+   "stimulus": "vpn:LC34:right",
+   "cell_class": "",
+   "n_DN_responding": 3,
+   "total_DN_rate_Hz": 15.5,
+   "top_DNs": [
+    "DNae002(r) 6 Hz",
+    "DNa02(l) 2 Hz",
+    "DNa02(r) 2 Hz"
+   ],
+   "known_behaviour_share": 0.23870965838432312,
+   "behaviours": {
+    "turning (graded with rotation)": 3.6999999284744263
+   }
+  },
+  {
+   "stimulus": "vpn:LC36:left",
+   "cell_class": "",
+   "n_DN_responding": 44,
+   "total_DN_rate_Hz": 960.7000122070312,
+   "top_DNs": [
+    "DNpe055(l) 87 Hz",
+    "DNp31(l) 69 Hz",
+    "DNb05(l) 60 Hz",
+    "DNpe002(l) 48 Hz",
+    "DNge037(l) 47 Hz"
+   ],
+   "known_behaviour_share": 0.05277401953935623,
+   "behaviours": {
+    "turning (graded with rotation)": 49.50000190734863,
+    "in-place turning": 1.2000000476837158
+   }
+  },
+  {
+   "stimulus": "vpn:LC36:right",
+   "cell_class": "",
+   "n_DN_responding": 39,
+   "total_DN_rate_Hz": 841.0,
+   "top_DNs": [
+    "DNp31(r) 76 Hz",
+    "DNpe055(r) 65 Hz",
+    "DNb05(r) 50 Hz",
+    "DNge037(r) 49 Hz",
+    "DNp56(r) 47 Hz"
+   ],
+   "known_behaviour_share": 0.06623067706823349,
+   "behaviours": {
+    "turning (graded with rotation)": 55.69999885559082
+   }
+  },
+  {
+   "stimulus": "vpn:LC37:left",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LC37:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LC4:left",
+   "cell_class": "",
+   "n_DN_responding": 46,
+   "total_DN_rate_Hz": 1377.7000732421875,
+   "top_DNs": [
+    "DNp04(l) 169 Hz",
+    "DNp11(l) 122 Hz",
+    "DNp02(l) 121 Hz",
+    "DNp05(l) 92 Hz",
+    "DNp03(l) 92 Hz"
+   ],
+   "known_behaviour_share": 0.13007186353206635,
+   "behaviours": {
+    "escape take-off (giant fibre)": 133.9000015258789,
+    "in-place turning": 32.099998474121094,
+    "turning (graded with rotation)": 13.199999809265137
+   }
+  },
+  {
+   "stimulus": "vpn:LC4:right",
+   "cell_class": "",
+   "n_DN_responding": 47,
+   "total_DN_rate_Hz": 1222.5,
+   "top_DNs": [
+    "DNp04(r) 149 Hz",
+    "DNp02(r) 112 Hz",
+    "DNp01(r) 93 Hz",
+    "DNp11(r) 92 Hz",
+    "DNp05(r) 82 Hz"
+   ],
+   "known_behaviour_share": 0.1377505213022232,
+   "behaviours": {
+    "escape take-off (giant fibre)": 124.39999771118164,
+    "in-place turning": 30.0,
+    "turning (graded with rotation)": 14.0
+   }
+  },
+  {
+   "stimulus": "vpn:LC40:left",
+   "cell_class": "",
+   "n_DN_responding": 1,
+   "total_DN_rate_Hz": 4.199999809265137,
+   "top_DNs": [
+    "DNb05(l) 4 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LC40:right",
+   "cell_class": "",
+   "n_DN_responding": 1,
+   "total_DN_rate_Hz": 2.4000000953674316,
+   "top_DNs": [
+    "DNb05(r) 2 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LC41:left",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.20000000298023224,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LC41:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LC43:left",
+   "cell_class": "",
+   "n_DN_responding": 2,
+   "total_DN_rate_Hz": 9.59999942779541,
+   "top_DNs": [
+    "DNg74_a(r) 5 Hz",
+    "DNp35(l) 5 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LC43:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LC45a:left",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LC45a:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LC45b:left",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LC45b:right",
+   "cell_class": "",
+   "n_DN_responding": 2,
+   "total_DN_rate_Hz": 3.200000047683716,
+   "top_DNs": [
+    "DNp01(r) 2 Hz",
+    "DNp70(r) 2 Hz"
+   ],
+   "known_behaviour_share": 0.5,
+   "behaviours": {
+    "escape take-off (giant fibre)": 1.600000023841858
+   }
+  },
+  {
+   "stimulus": "vpn:LC46:left",
+   "cell_class": "",
+   "n_DN_responding": 19,
+   "total_DN_rate_Hz": 156.59999084472656,
+   "top_DNs": [
+    "DNa15(r) 18 Hz",
+    "DNa02(r) 16 Hz",
+    "DNa16(r) 14 Hz",
+    "DNa06(r) 14 Hz",
+    "DNge033(r) 13 Hz"
+   ],
+   "known_behaviour_share": 0.1047254204750061,
+   "behaviours": {
+    "turning (graded with rotation)": 16.399999618530273
+   }
+  },
+  {
+   "stimulus": "vpn:LC46:right",
+   "cell_class": "",
+   "n_DN_responding": 11,
+   "total_DN_rate_Hz": 66.9000015258789,
+   "top_DNs": [
+    "DNa15(l) 19 Hz",
+    "DNa02(l) 10 Hz",
+    "DNa16(l) 6 Hz",
+    "DNa06(l) 5 Hz",
+    "DNa03(l) 5 Hz"
+   ],
+   "known_behaviour_share": 0.1494768261909485,
+   "behaviours": {
+    "turning (graded with rotation)": 10.0
+   }
+  },
+  {
+   "stimulus": "vpn:LC6:left",
+   "cell_class": "",
+   "n_DN_responding": 103,
+   "total_DN_rate_Hz": 2317.60009765625,
+   "top_DNs": [
+    "DNp70(l) 139 Hz",
+    "DNp01(l) 124 Hz",
+    "DNp103(l) 99 Hz",
+    "DNp01(r) 94 Hz",
+    "DNp70(r) 94 Hz"
+   ],
+   "known_behaviour_share": 0.14618569612503052,
+   "behaviours": {
+    "escape take-off (giant fibre)": 217.5999984741211,
+    "in-place turning": 42.5,
+    "forward walking (BDN2)": 32.30000019073486,
+    "turning (graded with rotation)": 31.799999237060547,
+    "forward walking (oDN1)": 14.600000381469727
+   }
+  },
+  {
+   "stimulus": "vpn:LC6:right",
+   "cell_class": "",
+   "n_DN_responding": 127,
+   "total_DN_rate_Hz": 2999.60009765625,
+   "top_DNs": [
+    "DNp70(r) 138 Hz",
+    "DNp01(r) 136 Hz",
+    "DNp70(l) 117 Hz",
+    "DNp01(l) 115 Hz",
+    "DNp103(r) 102 Hz"
+   ],
+   "known_behaviour_share": 0.15238697826862335,
+   "behaviours": {
+    "escape take-off (giant fibre)": 251.39999389648438,
+    "in-place turning": 56.0,
+    "forward walking (BDN2)": 51.39999961853027,
+    "forward walking (oDN1)": 36.900001525878906,
+    "turning (graded with rotation)": 35.5,
+    "backward walking": 25.899999618530273
+   }
+  },
+  {
+   "stimulus": "vpn:LC9:left",
+   "cell_class": "",
+   "n_DN_responding": 105,
+   "total_DN_rate_Hz": 2099.10009765625,
+   "top_DNs": [
+    "DNg16(r) 77 Hz",
+    "DNg100(l) 69 Hz",
+    "DNg100(r) 66 Hz",
+    "DNg16(l) 66 Hz",
+    "DNa01(r) 65 Hz"
+   ],
+   "known_behaviour_share": 0.14515744149684906,
+   "behaviours": {
+    "forward walking (BDN2)": 135.5,
+    "in-place turning": 67.40000295639038,
+    "forward walking": 57.5,
+    "forward walking (oDN1)": 21.200000405311584,
+    "backward walking": 17.200000405311584,
+    "turning (graded with rotation)": 5.900000095367432
+   }
+  },
+  {
+   "stimulus": "vpn:LC9:right",
+   "cell_class": "",
+   "n_DN_responding": 141,
+   "total_DN_rate_Hz": 3441.2001953125,
+   "top_DNs": [
+    "DNp09(r) 86 Hz",
+    "DNa01(l) 85 Hz",
+    "DNpe037(r) 85 Hz",
+    "DNpe024(r) 83 Hz",
+    "DNp05(r) 82 Hz"
+   ],
+   "known_behaviour_share": 0.16043822467327118,
+   "behaviours": {
+    "forward walking (BDN2)": 156.5,
+    "forward walking": 85.80000305175781,
+    "in-place turning": 85.30000305175781,
+    "backward walking": 78.60000038146973,
+    "turning (graded with rotation)": 65.39999961853027,
+    "forward walking (oDN1)": 41.79999923706055,
+    "turning": 26.800000190734863,
+    "escape take-off (giant fibre)": 11.899999618530273
+   }
+  },
+  {
+   "stimulus": "vpn:LCe01a:left",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LCe01a:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LCe01b:left",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LCe01b:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LCe02:left",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LCe02:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LCe03:left",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LCe03:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LCe04:left",
+   "cell_class": "",
+   "n_DN_responding": 63,
+   "total_DN_rate_Hz": 931.9000244140625,
+   "top_DNs": [
+    "DNg75(r) 36 Hz",
+    "DNg100(l) 36 Hz",
+    "DNg13(r) 35 Hz",
+    "DNg100(r) 34 Hz",
+    "DNa02(r) 34 Hz"
+   ],
+   "known_behaviour_share": 0.20120184123516083,
+   "behaviours": {
+    "forward walking (BDN2)": 70.0999984741211,
+    "turning (graded with rotation)": 36.5,
+    "forward walking (oDN1)": 36.39999961853027,
+    "in-place turning": 24.100000381469727,
+    "forward walking": 14.399999618530273,
+    "escape take-off (giant fibre)": 6.0
+   }
+  },
+  {
+   "stimulus": "vpn:LCe04:right",
+   "cell_class": "",
+   "n_DN_responding": 65,
+   "total_DN_rate_Hz": 921.2000122070312,
+   "top_DNs": [
+    "DNp09(r) 56 Hz",
+    "DNg100(l) 42 Hz",
+    "DNg100(r) 42 Hz",
+    "DNg97(r) 39 Hz",
+    "DNg13(l) 38 Hz"
+   ],
+   "known_behaviour_share": 0.3119843304157257,
+   "behaviours": {
+    "forward walking (BDN2)": 83.79999923706055,
+    "turning (graded with rotation)": 56.69999885559082,
+    "forward walking (oDN1)": 56.30000114440918,
+    "forward walking": 56.29999923706055,
+    "in-place turning": 26.200000762939453,
+    "turning": 6.799999952316284,
+    "escape take-off (giant fibre)": 1.2999999523162842
+   }
+  },
+  {
+   "stimulus": "vpn:LCe05:left",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LCe05:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LCe06:left",
+   "cell_class": "",
+   "n_DN_responding": 18,
+   "total_DN_rate_Hz": 258.6000061035156,
+   "top_DNs": [
+    "DNp18(r) 63 Hz",
+    "DNb09(r) 47 Hz",
+    "DNb01(r) 35 Hz",
+    "DNpe016(r) 32 Hz",
+    "DNp102(r) 19 Hz"
+   ],
+   "known_behaviour_share": 0.022041762247681618,
+   "behaviours": {
+    "turning (graded with rotation)": 5.699999809265137
+   }
+  },
+  {
+   "stimulus": "vpn:LCe06:right",
+   "cell_class": "",
+   "n_DN_responding": 9,
+   "total_DN_rate_Hz": 287.0999755859375,
+   "top_DNs": [
+    "DNp18(l) 69 Hz",
+    "DNb09(l) 59 Hz",
+    "DNb01(l) 45 Hz",
+    "DNpe017(l) 30 Hz",
+    "DNpe016(l) 29 Hz"
+   ],
+   "known_behaviour_share": 0.020550332963466644,
+   "behaviours": {
+    "forward walking (oDN1)": 5.900000095367432
+   }
+  },
+  {
+   "stimulus": "vpn:LCe07:left",
+   "cell_class": "",
+   "n_DN_responding": 29,
+   "total_DN_rate_Hz": 467.5999755859375,
+   "top_DNs": [
+    "DNp35(l) 52 Hz",
+    "DNbe001(r) 35 Hz",
+    "DNbe001(l) 34 Hz",
+    "DNp05(l) 33 Hz",
+    "DNg74_a(r) 31 Hz"
+   ],
+   "known_behaviour_share": 0.007698887959122658,
+   "behaviours": {
+    "backing up": 3.5999999046325684
+   }
+  },
+  {
+   "stimulus": "vpn:LCe07:right",
+   "cell_class": "",
+   "n_DN_responding": 33,
+   "total_DN_rate_Hz": 493.0999755859375,
+   "top_DNs": [
+    "DNbe001(r) 63 Hz",
+    "DNp05(r) 42 Hz",
+    "DNp31(r) 41 Hz",
+    "DNp35(r) 41 Hz",
+    "DNg74_a(l) 40 Hz"
+   ],
+   "known_behaviour_share": 0.010139931924641132,
+   "behaviours": {
+    "backing up": 2.5999999046325684,
+    "turning (graded with rotation)": 2.4000000953674316
+   }
+  },
+  {
+   "stimulus": "vpn:LCe09:left",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LCe09:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LLPC1:left",
+   "cell_class": "",
+   "n_DN_responding": 90,
+   "total_DN_rate_Hz": 2525.800048828125,
+   "top_DNs": [
+    "DNbe001(l) 156 Hz",
+    "DNa02(l) 129 Hz",
+    "DNae002(l) 127 Hz",
+    "DNa16(l) 113 Hz",
+    "DNa04(l) 104 Hz"
+   ],
+   "known_behaviour_share": 0.16327500343322754,
+   "behaviours": {
+    "turning (graded with rotation)": 132.19999384880066,
+    "forward walking (BDN2)": 101.5999984741211,
+    "turning": 87.5999984741211,
+    "in-place turning": 46.69999885559082,
+    "forward walking (oDN1)": 44.29999923706055
+   }
+  },
+  {
+   "stimulus": "vpn:LLPC1:right",
+   "cell_class": "",
+   "n_DN_responding": 87,
+   "total_DN_rate_Hz": 2510.0,
+   "top_DNs": [
+    "DNbe001(r) 158 Hz",
+    "DNae002(r) 122 Hz",
+    "DNp26(l) 120 Hz",
+    "DNa02(r) 114 Hz",
+    "DNa16(r) 99 Hz"
+   ],
+   "known_behaviour_share": 0.15430279076099396,
+   "behaviours": {
+    "turning (graded with rotation)": 113.9000015258789,
+    "forward walking (BDN2)": 112.9000015258789,
+    "turning": 102.29999923706055,
+    "in-place turning": 23.59999942779541,
+    "forward walking (oDN1)": 21.90000081062317,
+    "backing up": 12.699999809265137
+   }
+  },
+  {
+   "stimulus": "vpn:LLPC2:left",
+   "cell_class": "",
+   "n_DN_responding": 61,
+   "total_DN_rate_Hz": 1399.199951171875,
+   "top_DNs": [
+    "DNp31(l) 167 Hz",
+    "DNb05(l) 138 Hz",
+    "DNp31(r) 99 Hz",
+    "DNa02(l) 68 Hz",
+    "DNb06(r) 60 Hz"
+   ],
+   "known_behaviour_share": 0.11313608288764954,
+   "behaviours": {
+    "forward walking (BDN2)": 82.0999984741211,
+    "turning (graded with rotation)": 69.90000009536743,
+    "in-place turning": 6.300000190734863
+   }
+  },
+  {
+   "stimulus": "vpn:LLPC2:right",
+   "cell_class": "",
+   "n_DN_responding": 78,
+   "total_DN_rate_Hz": 1412.5,
+   "top_DNs": [
+    "DNp31(r) 170 Hz",
+    "DNb05(r) 152 Hz",
+    "DNp31(l) 119 Hz",
+    "DNg100(r) 68 Hz",
+    "DNa02(r) 56 Hz"
+   ],
+   "known_behaviour_share": 0.14123894274234772,
+   "behaviours": {
+    "forward walking (BDN2)": 120.9000015258789,
+    "turning (graded with rotation)": 58.599998474121094,
+    "in-place turning": 7.599999904632568,
+    "forward walking (oDN1)": 6.299999952316284,
+    "backing up": 6.099999904632568
+   }
+  },
+  {
+   "stimulus": "vpn:LLPC3:left",
+   "cell_class": "",
+   "n_DN_responding": 62,
+   "total_DN_rate_Hz": 818.2000732421875,
+   "top_DNs": [
+    "DNa10(l) 116 Hz",
+    "DNa10(r) 67 Hz",
+    "DNp18(r) 47 Hz",
+    "DNg100(r) 47 Hz",
+    "DNg100(l) 38 Hz"
+   ],
+   "known_behaviour_share": 0.1619408279657364,
+   "behaviours": {
+    "forward walking (BDN2)": 84.20000076293945,
+    "turning (graded with rotation)": 34.80000019073486,
+    "in-place turning": 10.699999809265137,
+    "forward walking (oDN1)": 2.8000000715255737
+   }
+  },
+  {
+   "stimulus": "vpn:LLPC3:right",
+   "cell_class": "",
+   "n_DN_responding": 112,
+   "total_DN_rate_Hz": 1387.5,
+   "top_DNs": [
+    "DNa10(r) 118 Hz",
+    "DNa10(l) 72 Hz",
+    "DNg100(r) 62 Hz",
+    "DNg100(l) 50 Hz",
+    "DNge043(r) 42 Hz"
+   ],
+   "known_behaviour_share": 0.1437837779521942,
+   "behaviours": {
+    "forward walking (BDN2)": 111.70000076293945,
+    "turning (graded with rotation)": 45.29999923706055,
+    "forward walking (oDN1)": 28.700000762939453,
+    "in-place turning": 7.1000001430511475,
+    "turning": 4.5,
+    "backing up": 2.200000047683716
+   }
+  },
+  {
+   "stimulus": "vpn:LPC1:left",
+   "cell_class": "",
+   "n_DN_responding": 54,
+   "total_DN_rate_Hz": 1273.699951171875,
+   "top_DNs": [
+    "DNae002(r) 90 Hz",
+    "DNb01(r) 62 Hz",
+    "DNa02(l) 59 Hz",
+    "DNa09(r) 54 Hz",
+    "DNa11(l) 52 Hz"
+   ],
+   "known_behaviour_share": 0.19031170010566711,
+   "behaviours": {
+    "backward walking": 90.70000076293945,
+    "forward walking (BDN2)": 90.19999694824219,
+    "turning (graded with rotation)": 58.70000076293945,
+    "in-place turning": 2.799999952316284
+   }
+  },
+  {
+   "stimulus": "vpn:LPC1:right",
+   "cell_class": "",
+   "n_DN_responding": 73,
+   "total_DN_rate_Hz": 1641.0,
+   "top_DNs": [
+    "DNae002(l) 91 Hz",
+    "DNg100(r) 69 Hz",
+    "DNb01(l) 65 Hz",
+    "DNae003(l) 62 Hz",
+    "DNa13(r) 61 Hz"
+   ],
+   "known_behaviour_share": 0.18141375482082367,
+   "behaviours": {
+    "forward walking (BDN2)": 124.60000228881836,
+    "backward walking": 74.39999866485596,
+    "turning (graded with rotation)": 49.40000009536743,
+    "in-place turning": 34.900001525878906,
+    "backing up": 11.899999618530273,
+    "forward walking (oDN1)": 2.5
+   }
+  },
+  {
+   "stimulus": "vpn:LPC2:left",
+   "cell_class": "",
+   "n_DN_responding": 7,
+   "total_DN_rate_Hz": 183.60000610351562,
+   "top_DNs": [
+    "DNp31(l) 94 Hz",
+    "DNae002(l) 43 Hz",
+    "DNae003(l) 14 Hz",
+    "DNp31(r) 10 Hz",
+    "DNb01(l) 8 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LPC2:right",
+   "cell_class": "",
+   "n_DN_responding": 6,
+   "total_DN_rate_Hz": 188.3000030517578,
+   "top_DNs": [
+    "DNp31(r) 106 Hz",
+    "DNp31(l) 40 Hz",
+    "DNb05(r) 24 Hz",
+    "DNae002(r) 11 Hz",
+    "DNp26(l) 4 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LPLC1:left",
+   "cell_class": "",
+   "n_DN_responding": 146,
+   "total_DN_rate_Hz": 2681.300048828125,
+   "top_DNs": [
+    "DNp03(l) 125 Hz",
+    "DNp11(l) 107 Hz",
+    "DNp06(l) 104 Hz",
+    "DNg100(l) 74 Hz",
+    "DNg100(r) 74 Hz"
+   ],
+   "known_behaviour_share": 0.10297242552042007,
+   "behaviours": {
+    "forward walking (BDN2)": 147.29999542236328,
+    "forward walking (oDN1)": 56.499999046325684,
+    "in-place turning": 54.10000157356262,
+    "turning (graded with rotation)": 12.600000381469727,
+    "forward walking": 5.599999904632568
+   }
+  },
+  {
+   "stimulus": "vpn:LPLC1:right",
+   "cell_class": "",
+   "n_DN_responding": 171,
+   "total_DN_rate_Hz": 3050.300048828125,
+   "top_DNs": [
+    "DNg100(r) 90 Hz",
+    "DNg100(l) 85 Hz",
+    "DNp06(r) 83 Hz",
+    "DNp34(l) 69 Hz",
+    "DNg97(r) 65 Hz"
+   ],
+   "known_behaviour_share": 0.1189391240477562,
+   "behaviours": {
+    "forward walking (BDN2)": 175.4000015258789,
+    "forward walking (oDN1)": 90.69999694824219,
+    "in-place turning": 57.70000076293945,
+    "turning (graded with rotation)": 28.30000078678131,
+    "backward walking": 7.800000190734863,
+    "forward walking": 2.9000000953674316
+   }
+  },
+  {
+   "stimulus": "vpn:LPLC2:left",
+   "cell_class": "",
+   "n_DN_responding": 101,
+   "total_DN_rate_Hz": 2537.0,
+   "top_DNs": [
+    "DNp103(l) 169 Hz",
+    "DNp04(l) 134 Hz",
+    "DNp01(l) 112 Hz",
+    "DNp70(l) 103 Hz",
+    "DNg40(l) 101 Hz"
+   ],
+   "known_behaviour_share": 0.1259755641222,
+   "behaviours": {
+    "escape take-off (giant fibre)": 209.1999969482422,
+    "turning (graded with rotation)": 34.79999923706055,
+    "in-place turning": 29.799999237060547,
+    "forward walking (BDN2)": 23.600000381469727,
+    "forward walking (oDN1)": 22.200000762939453
+   }
+  },
+  {
+   "stimulus": "vpn:LPLC2:right",
+   "cell_class": "",
+   "n_DN_responding": 91,
+   "total_DN_rate_Hz": 2837.0,
+   "top_DNs": [
+    "DNp103(r) 156 Hz",
+    "DNp01(r) 134 Hz",
+    "DNp04(r) 130 Hz",
+    "DNp70(r) 106 Hz",
+    "DNpe042(r) 94 Hz"
+   ],
+   "known_behaviour_share": 0.11811773478984833,
+   "behaviours": {
+    "escape take-off (giant fibre)": 222.5,
+    "turning (graded with rotation)": 39.29999923706055,
+    "in-place turning": 30.299999237060547,
+    "forward walking (oDN1)": 25.0,
+    "forward walking (BDN2)": 16.800000190734863,
+    "backward walking": 1.2000000476837158
+   }
+  },
+  {
+   "stimulus": "vpn:LPLC4:left",
+   "cell_class": "",
+   "n_DN_responding": 116,
+   "total_DN_rate_Hz": 4098.89990234375,
+   "top_DNs": [
+    "DNb05(l) 219 Hz",
+    "DNp07(l) 172 Hz",
+    "DNbe001(l) 156 Hz",
+    "DNp03(l) 154 Hz",
+    "DNp26(l) 152 Hz"
+   ],
+   "known_behaviour_share": 0.03522896766662598,
+   "behaviours": {
+    "turning (graded with rotation)": 90.70000171661377,
+    "in-place turning": 34.20000076293945,
+    "backward walking": 18.200000286102295,
+    "forward walking (oDN1)": 1.2999999523162842
+   }
+  },
+  {
+   "stimulus": "vpn:LPLC4:right",
+   "cell_class": "",
+   "n_DN_responding": 98,
+   "total_DN_rate_Hz": 3593.89990234375,
+   "top_DNs": [
+    "DNb05(r) 225 Hz",
+    "DNp31(r) 172 Hz",
+    "DNbe001(r) 164 Hz",
+    "DNp07(r) 155 Hz",
+    "DNbe007(r) 154 Hz"
+   ],
+   "known_behaviour_share": 0.03803667798638344,
+   "behaviours": {
+    "turning (graded with rotation)": 98.5,
+    "in-place turning": 32.599998474121094,
+    "backward walking": 3.299999952316284,
+    "forward walking (oDN1)": 2.299999952316284
+   }
+  },
+  {
+   "stimulus": "vpn:LPTe01:left",
+   "cell_class": "",
+   "n_DN_responding": 17,
+   "total_DN_rate_Hz": 286.3999938964844,
+   "top_DNs": [
+    "DNae002(l) 66 Hz",
+    "DNae003(l) 41 Hz",
+    "DNb01(l) 31 Hz",
+    "DNpe019(l) 28 Hz",
+    "DNg46(l) 26 Hz"
+   ],
+   "known_behaviour_share": 0.03247206658124924,
+   "behaviours": {
+    "turning (graded with rotation)": 6.8999998569488525,
+    "in-place turning": 2.4000000953674316
+   }
+  },
+  {
+   "stimulus": "vpn:LPTe01:right",
+   "cell_class": "",
+   "n_DN_responding": 27,
+   "total_DN_rate_Hz": 510.79998779296875,
+   "top_DNs": [
+    "DNg46(r) 80 Hz",
+    "DNae002(r) 57 Hz",
+    "DNp22(r) 50 Hz",
+    "DNb01(r) 45 Hz",
+    "DNpe019(r) 44 Hz"
+   ],
+   "known_behaviour_share": 0.030931871384382248,
+   "behaviours": {
+    "turning (graded with rotation)": 10.700000047683716,
+    "in-place turning": 5.099999904632568
+   }
+  },
+  {
+   "stimulus": "vpn:LPTe02:left",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LPTe02:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LT51:left",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LT51:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LT52:left",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LT52:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LT57:left",
+   "cell_class": "",
+   "n_DN_responding": 7,
+   "total_DN_rate_Hz": 22.5,
+   "top_DNs": [
+    "DNbe003(l) 6 Hz",
+    "DNb05(l) 3 Hz",
+    "DNbe007(l) 3 Hz",
+    "DNp56(l) 3 Hz",
+    "DNae005(l) 2 Hz"
+   ],
+   "known_behaviour_share": 0.10222221910953522,
+   "behaviours": {
+    "turning (graded with rotation)": 2.299999952316284
+   }
+  },
+  {
+   "stimulus": "vpn:LT57:right",
+   "cell_class": "",
+   "n_DN_responding": 19,
+   "total_DN_rate_Hz": 91.30000305175781,
+   "top_DNs": [
+    "DNbe003(r) 16 Hz",
+    "DNbe007(r) 10 Hz",
+    "DNb05(r) 10 Hz",
+    "DNg100(r) 6 Hz",
+    "DNg13(r) 5 Hz"
+   ],
+   "known_behaviour_share": 0.15553121268749237,
+   "behaviours": {
+    "forward walking (BDN2)": 11.0,
+    "turning (graded with rotation)": 3.200000047683716
+   }
+  },
+  {
+   "stimulus": "vpn:LT81:left",
+   "cell_class": "",
+   "n_DN_responding": 2,
+   "total_DN_rate_Hz": 21.5,
+   "top_DNs": [
+    "DNae002(r) 13 Hz",
+    "DNa02(r) 8 Hz"
+   ],
+   "known_behaviour_share": 0.36279070377349854,
+   "behaviours": {
+    "turning (graded with rotation)": 7.800000190734863
+   }
+  },
+  {
+   "stimulus": "vpn:LT81:right",
+   "cell_class": "",
+   "n_DN_responding": 2,
+   "total_DN_rate_Hz": 26.30000114440918,
+   "top_DNs": [
+    "DNae002(l) 16 Hz",
+    "DNa02(l) 10 Hz"
+   ],
+   "known_behaviour_share": 0.38403040170669556,
+   "behaviours": {
+    "turning (graded with rotation)": 10.100000381469727
+   }
+  },
+  {
+   "stimulus": "vpn:LTe09:left",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LTe09:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LTe49:left",
+   "cell_class": "",
+   "n_DN_responding": 7,
+   "total_DN_rate_Hz": 222.70001220703125,
+   "top_DNs": [
+    "DNae009(l) 54 Hz",
+    "DNae009(r) 43 Hz",
+    "DNa10(l) 40 Hz",
+    "DNa10(r) 34 Hz",
+    "DNbe004(r) 31 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LTe49:right",
+   "cell_class": "",
+   "n_DN_responding": 16,
+   "total_DN_rate_Hz": 248.10000610351562,
+   "top_DNs": [
+    "DNae009(r) 54 Hz",
+    "DNa10(r) 45 Hz",
+    "DNae009(l) 38 Hz",
+    "DNa10(l) 37 Hz",
+    "DNbe004(r) 31 Hz"
+   ],
+   "known_behaviour_share": 0.013704151846468449,
+   "behaviours": {
+    "forward walking (oDN1)": 3.399999976158142
+   }
+  },
+  {
+   "stimulus": "vpn:LTe58:left",
+   "cell_class": "",
+   "n_DN_responding": 3,
+   "total_DN_rate_Hz": 23.400001525878906,
+   "top_DNs": [
+    "DNp10(l) 9 Hz",
+    "DNpe053(l) 8 Hz",
+    "DNp06(l) 2 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LTe58:right",
+   "cell_class": "",
+   "n_DN_responding": 9,
+   "total_DN_rate_Hz": 43.599998474121094,
+   "top_DNs": [
+    "DNp70(r) 6 Hz",
+    "DNp01(r) 6 Hz",
+    "DNg40(r) 6 Hz",
+    "DNp01(l) 6 Hz",
+    "DNp70(l) 6 Hz"
+   ],
+   "known_behaviour_share": 0.2637614905834198,
+   "behaviours": {
+    "escape take-off (giant fibre)": 11.5
+   }
+  },
+  {
+   "stimulus": "vpn:LTe64:left",
+   "cell_class": "",
+   "n_DN_responding": 10,
+   "total_DN_rate_Hz": 188.5,
+   "top_DNs": [
+    "DNp07(l) 95 Hz",
+    "DNa10(l) 29 Hz",
+    "DNge107(l) 15 Hz",
+    "DNp31(l) 14 Hz",
+    "aSP22(l) 14 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:LTe64:right",
+   "cell_class": "",
+   "n_DN_responding": 10,
+   "total_DN_rate_Hz": 244.20001220703125,
+   "top_DNs": [
+    "DNp07(r) 81 Hz",
+    "aSP22(r) 34 Hz",
+    "DNp31(r) 32 Hz",
+    "DNae009(r) 29 Hz",
+    "DNge107(r) 23 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MTe01a:left",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MTe01a:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MTe01b:left",
+   "cell_class": "",
+   "n_DN_responding": 57,
+   "total_DN_rate_Hz": 1227.2000732421875,
+   "top_DNs": [
+    "DNpe017(l) 98 Hz",
+    "DNp19(l) 84 Hz",
+    "DNp102(l) 78 Hz",
+    "DNpe013(l) 74 Hz",
+    "DNg49(l) 69 Hz"
+   ],
+   "known_behaviour_share": 0.055818118155002594,
+   "behaviours": {
+    "forward walking (oDN1)": 36.79999923706055,
+    "forward walking (BDN2)": 12.600000381469727,
+    "turning (graded with rotation)": 10.499999642372131,
+    "in-place turning": 5.199999809265137,
+    "turning": 3.4000000953674316
+   }
+  },
+  {
+   "stimulus": "vpn:MTe01b:right",
+   "cell_class": "",
+   "n_DN_responding": 48,
+   "total_DN_rate_Hz": 1326.10009765625,
+   "top_DNs": [
+    "DNpe017(r) 95 Hz",
+    "DNp19(r) 82 Hz",
+    "DNge043(r) 78 Hz",
+    "DNp102(r) 75 Hz",
+    "DNp22(r) 72 Hz"
+   ],
+   "known_behaviour_share": 0.0432848185300827,
+   "behaviours": {
+    "forward walking (oDN1)": 43.70000076293945,
+    "turning (graded with rotation)": 13.700000286102295
+   }
+  },
+  {
+   "stimulus": "vpn:MTe02:left",
+   "cell_class": "",
+   "n_DN_responding": 1,
+   "total_DN_rate_Hz": 1.7000000476837158,
+   "top_DNs": [
+    "DNp102(l) 2 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MTe02:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.10000000149011612,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MTe03:left",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MTe03:right",
+   "cell_class": "",
+   "n_DN_responding": 1,
+   "total_DN_rate_Hz": 19.799999237060547,
+   "top_DNs": [
+    "DNp42(r) 20 Hz"
+   ],
+   "known_behaviour_share": 1.0,
+   "behaviours": {
+    "backing up": 19.799999237060547
+   }
+  },
+  {
+   "stimulus": "vpn:MTe04:left",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MTe04:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MTe05:left",
+   "cell_class": "",
+   "n_DN_responding": 1,
+   "total_DN_rate_Hz": 39.900001525878906,
+   "top_DNs": [
+    "DNp27(l) 40 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MTe05:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MTe06:left",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MTe06:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MTe07:left",
+   "cell_class": "bilateral",
+   "n_DN_responding": 4,
+   "total_DN_rate_Hz": 11.100000381469727,
+   "top_DNs": [
+    "DNpe027(r) 3 Hz",
+    "DNpe027(l) 3 Hz",
+    "DNg13(l) 3 Hz",
+    "DNg97(r) 2 Hz"
+   ],
+   "known_behaviour_share": 0.18018017709255219,
+   "behaviours": {
+    "forward walking (oDN1)": 2.0
+   }
+  },
+  {
+   "stimulus": "vpn:MTe07:right",
+   "cell_class": "bilateral",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MTe08:left",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MTe08:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MTe50:left",
+   "cell_class": "",
+   "n_DN_responding": 1,
+   "total_DN_rate_Hz": 10.0,
+   "top_DNs": [
+    "DNp32(l) 10 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MTe50:right",
+   "cell_class": "",
+   "n_DN_responding": 7,
+   "total_DN_rate_Hz": 56.20000076293945,
+   "top_DNs": [
+    "DNb05(r) 20 Hz",
+    "DNp32(r) 16 Hz",
+    "DNp42(r) 7 Hz",
+    "DNp102(l) 5 Hz",
+    "DNpe017(l) 5 Hz"
+   ],
+   "known_behaviour_share": 0.11921707540750504,
+   "behaviours": {
+    "backing up": 6.699999809265137
+   }
+  },
+  {
+   "stimulus": "vpn:MTe51:left",
+   "cell_class": "",
+   "n_DN_responding": 1,
+   "total_DN_rate_Hz": 38.70000076293945,
+   "top_DNs": [
+    "DNp32(l) 38 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MTe51:right",
+   "cell_class": "",
+   "n_DN_responding": 1,
+   "total_DN_rate_Hz": 40.400001525878906,
+   "top_DNs": [
+    "DNp32(r) 40 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MTe52:left",
+   "cell_class": "",
+   "n_DN_responding": 9,
+   "total_DN_rate_Hz": 184.5,
+   "top_DNs": [
+    "DNb05(l) 75 Hz",
+    "DNp10(l) 35 Hz",
+    "DNbe001(l) 22 Hz",
+    "DNp07(l) 17 Hz",
+    "DNp31(l) 17 Hz"
+   ],
+   "known_behaviour_share": 0.03197832033038139,
+   "behaviours": {
+    "turning (graded with rotation)": 5.900000095367432
+   }
+  },
+  {
+   "stimulus": "vpn:MTe52:right",
+   "cell_class": "",
+   "n_DN_responding": 11,
+   "total_DN_rate_Hz": 146.3000030517578,
+   "top_DNs": [
+    "DNb05(r) 62 Hz",
+    "DNp31(r) 26 Hz",
+    "DNbe001(r) 24 Hz",
+    "DNp07(r) 17 Hz",
+    "DNa04(r) 4 Hz"
+   ],
+   "known_behaviour_share": 0.024606971070170403,
+   "behaviours": {
+    "turning (graded with rotation)": 3.5999999046325684
+   }
+  },
+  {
+   "stimulus": "vpn:MTe53:left",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MTe53:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MTe54:left",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MTe54:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MeMe_e07:left",
+   "cell_class": "bilateral",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MeMe_e07:right",
+   "cell_class": "bilateral",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MeMe_e08:left",
+   "cell_class": "bilateral",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MeMe_e08:right",
+   "cell_class": "bilateral",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MeTu1:left",
+   "cell_class": "",
+   "n_DN_responding": 28,
+   "total_DN_rate_Hz": 757.7999877929688,
+   "top_DNs": [
+    "DNpe017(l) 92 Hz",
+    "DNpe014(l) 82 Hz",
+    "DNpe014(l) 81 Hz",
+    "DNg13(l) 50 Hz",
+    "DNg11(l) 50 Hz"
+   ],
+   "known_behaviour_share": 0.11229875683784485,
+   "behaviours": {
+    "foreleg rubbing": 49.5,
+    "forward walking (oDN1)": 32.29999923706055,
+    "turning (graded with rotation)": 3.299999952316284
+   }
+  },
+  {
+   "stimulus": "vpn:MeTu1:right",
+   "cell_class": "",
+   "n_DN_responding": 47,
+   "total_DN_rate_Hz": 981.7000122070312,
+   "top_DNs": [
+    "DNp40(r) 96 Hz",
+    "DNpe014(r) 94 Hz",
+    "DNpe014(r) 86 Hz",
+    "DNpe017(r) 57 Hz",
+    "DNp22(r) 48 Hz"
+   ],
+   "known_behaviour_share": 0.03942141309380531,
+   "behaviours": {
+    "forward walking (oDN1)": 20.100000381469727,
+    "foreleg rubbing": 12.0,
+    "turning (graded with rotation)": 6.599999904632568
+   }
+  },
+  {
+   "stimulus": "vpn:MeTu2a:left",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MeTu2a:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MeTu2b:left",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MeTu2b:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MeTu3a:left",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MeTu3a:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MeTu3b:left",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MeTu3b:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MeTu3c:left",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MeTu3c:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MeTu4a:left",
+   "cell_class": "",
+   "n_DN_responding": 1,
+   "total_DN_rate_Hz": 3.0999999046325684,
+   "top_DNs": [
+    "DNae010(l) 3 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MeTu4a:right",
+   "cell_class": "",
+   "n_DN_responding": 1,
+   "total_DN_rate_Hz": 4.900000095367432,
+   "top_DNs": [
+    "DNb06(l) 5 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MeTu4b:left",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MeTu4b:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MeTu4c:left",
+   "cell_class": "",
+   "n_DN_responding": 2,
+   "total_DN_rate_Hz": 16.299999237060547,
+   "top_DNs": [
+    "DNa02(l) 13 Hz",
+    "DNde002(l) 2 Hz"
+   ],
+   "known_behaviour_share": 0.7852761149406433,
+   "behaviours": {
+    "turning (graded with rotation)": 12.800000190734863
+   }
+  },
+  {
+   "stimulus": "vpn:MeTu4c:right",
+   "cell_class": "",
+   "n_DN_responding": 2,
+   "total_DN_rate_Hz": 27.799999237060547,
+   "top_DNs": [
+    "DNde002(r) 18 Hz",
+    "DNa02(r) 9 Hz"
+   ],
+   "known_behaviour_share": 0.3309352397918701,
+   "behaviours": {
+    "turning (graded with rotation)": 9.199999809265137
+   }
+  },
+  {
+   "stimulus": "vpn:MeTu4d:left",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:MeTu4d:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:TmY14:left",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:TmY14:right",
+   "cell_class": "",
+   "n_DN_responding": 0,
+   "total_DN_rate_Hz": 0.0,
+   "top_DNs": [],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:aMe5:left",
+   "cell_class": "",
+   "n_DN_responding": 3,
+   "total_DN_rate_Hz": 5.700000286102295,
+   "top_DNs": [
+    "DNpe045(l) 2 Hz",
+    "DNg55(c) 2 Hz",
+    "DNp13(l) 2 Hz"
+   ],
+   "known_behaviour_share": 0.0,
+   "behaviours": {}
+  },
+  {
+   "stimulus": "vpn:aMe5:right",
+   "cell_class": "",
+   "n_DN_responding": 5,
+   "total_DN_rate_Hz": 29.599998474121094,
+   "top_DNs": [
+    "DNpe045(r) 19 Hz",
+    "DNp06(r) 5 Hz",
+    "DNg40(r) 1 Hz",
+    "DNp01(r) 1 Hz",
+    "DNp70(r) 1 Hz"
+   ],
+   "known_behaviour_share": 0.04729729890823364,
+   "behaviours": {
+    "escape take-off (giant fibre)": 1.399999976158142
+   }
+  }
+ ]
+}

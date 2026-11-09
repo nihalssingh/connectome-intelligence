@@ -1,0 +1,14 @@
+{
+ "level": "type_sides_pooled_keep_readouts",
+ "seed": 2,
+ "n_groups": 12339,
+ "edges_in": 15091983,
+ "edges_out": 13970653,
+ "self_loops_dropped": 9553,
+ "synapses_dropped_self_loops": 36375,
+ "duplicates_merged": 1111777,
+ "frac_edges_also_in_real": 0.1928624238251426,
+ "seconds": 57.4,
+ "pack_ok": true,
+ "seconds_total": 98.2
+}

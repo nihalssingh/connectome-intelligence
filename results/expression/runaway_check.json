@@ -1,0 +1,236 @@
+[
+ {
+  "variant": "v783",
+  "test": "ORN_VL2p left 20 Hz",
+  "n_driven": 13,
+  "active_per_trial": [
+   8378,
+   8407,
+   8387
+  ],
+  "MN9_contra_Hz": 0.0,
+  "MN9_ipsi_Hz": 0.3333333333333333,
+  "wall_s": 3.2
+ },
+ {
+  "variant": "v783",
+  "test": "all ORNs left 30 Hz",
+  "n_driven": 1116,
+  "active_per_trial": [
+   9509,
+   9479,
+   9477
+  ],
+  "MN9_contra_Hz": 0.0,
+  "MN9_ipsi_Hz": 0.0,
+  "wall_s": 3.4
+ },
+ {
+  "variant": "v783",
+  "test": "LB3b+c right 150 Hz",
+  "n_driven": 24,
+  "active_per_trial": [
+   8405,
+   8488,
+   8464
+  ],
+  "MN9_contra_Hz": 1.3333333333333333,
+  "MN9_ipsi_Hz": 0.6666666666666666,
+  "wall_s": 3.1
+ },
+ {
+  "variant": "v783",
+  "test": "thermosensory left 150 Hz",
+  "n_driven": 13,
+  "active_per_trial": [
+   8458,
+   8388,
+   8403
+  ],
+  "MN9_contra_Hz": 0.0,
+  "MN9_ipsi_Hz": 0.0,
+  "wall_s": 3.2
+ },
+ {
+  "variant": "v783",
+  "test": "hygrosensory left 150 Hz",
+  "n_driven": 39,
+  "active_per_trial": [
+   8435,
+   8426,
+   8428
+  ],
+  "MN9_contra_Hz": 0.0,
+  "MN9_ipsi_Hz": 0.0,
+  "wall_s": 3.2
+ },
+ {
+  "variant": "v783",
+  "test": "Shiu 21 sugar 100 Hz",
+  "n_driven": 21,
+  "active_per_trial": [
+   337,
+   355,
+   354
+  ],
+  "MN9_contra_Hz": 71.0,
+  "MN9_ipsi_Hz": 51.333333333333336,
+  "wall_s": 0.9
+ },
+ {
+  "variant": "v783_alfix_all",
+  "test": "ORN_VL2p left 20 Hz",
+  "n_driven": 13,
+  "active_per_trial": [
+   29,
+   26,
+   34
+  ],
+  "MN9_contra_Hz": 0.0,
+  "MN9_ipsi_Hz": 0.0,
+  "wall_s": 0.9
+ },
+ {
+  "variant": "v783_alfix_all",
+  "test": "all ORNs left 30 Hz",
+  "n_driven": 1116,
+  "active_per_trial": [
+   2199,
+   2071,
+   2147
+  ],
+  "MN9_contra_Hz": 0.0,
+  "MN9_ipsi_Hz": 0.0,
+  "wall_s": 1.5
+ },
+ {
+  "variant": "v783_alfix_all",
+  "test": "LB3b+c right 150 Hz",
+  "n_driven": 24,
+  "active_per_trial": [
+   216,
+   217,
+   225
+  ],
+  "MN9_contra_Hz": 29.333333333333332,
+  "MN9_ipsi_Hz": 24.333333333333332,
+  "wall_s": 0.9
+ },
+ {
+  "variant": "v783_alfix_all",
+  "test": "thermosensory left 150 Hz",
+  "n_driven": 13,
+  "active_per_trial": [
+   475,
+   528,
+   573
+  ],
+  "MN9_contra_Hz": 0.0,
+  "MN9_ipsi_Hz": 0.0,
+  "wall_s": 1.1
+ },
+ {
+  "variant": "v783_alfix_all",
+  "test": "hygrosensory left 150 Hz",
+  "n_driven": 39,
+  "active_per_trial": [
+   373,
+   360,
+   359
+  ],
+  "MN9_contra_Hz": 0.0,
+  "MN9_ipsi_Hz": 0.0,
+  "wall_s": 1.1
+ },
+ {
+  "variant": "v783_alfix_all",
+  "test": "Shiu 21 sugar 100 Hz",
+  "n_driven": 21,
+  "active_per_trial": [
+   337,
+   355,
+   354
+  ],
+  "MN9_contra_Hz": 71.0,
+  "MN9_ipsi_Hz": 51.333333333333336,
+  "wall_s": 0.9
+ },
+ {
+  "variant": "v783_alfix_ach",
+  "test": "ORN_VL2p left 20 Hz",
+  "n_driven": 13,
+  "active_per_trial": [
+   29,
+   26,
+   34
+  ],
+  "MN9_contra_Hz": 0.0,
+  "MN9_ipsi_Hz": 0.0,
+  "wall_s": 0.8
+ },
+ {
+  "variant": "v783_alfix_ach",
+  "test": "all ORNs left 30 Hz",
+  "n_driven": 1116,
+  "active_per_trial": [
+   3581,
+   3627,
+   3456
+  ],
+  "MN9_contra_Hz": 0.0,
+  "MN9_ipsi_Hz": 0.0,
+  "wall_s": 2.2
+ },
+ {
+  "variant": "v783_alfix_ach",
+  "test": "LB3b+c right 150 Hz",
+  "n_driven": 24,
+  "active_per_trial": [
+   216,
+   217,
+   225
+  ],
+  "MN9_contra_Hz": 29.333333333333332,
+  "MN9_ipsi_Hz": 24.333333333333332,
+  "wall_s": 0.8
+ },
+ {
+  "variant": "v783_alfix_ach",
+  "test": "thermosensory left 150 Hz",
+  "n_driven": 13,
+  "active_per_trial": [
+   2412,
+   2315,
+   2410
+  ],
+  "MN9_contra_Hz": 0.0,
+  "MN9_ipsi_Hz": 0.0,
+  "wall_s": 2.0
+ },
+ {
+  "variant": "v783_alfix_ach",
+  "test": "hygrosensory left 150 Hz",
+  "n_driven": 39,
+  "active_per_trial": [
+   2320,
+   2364,
+   2392
+  ],
+  "MN9_contra_Hz": 0.0,
+  "MN9_ipsi_Hz": 0.0,
+  "wall_s": 2.0
+ },
+ {
+  "variant": "v783_alfix_ach",
+  "test": "Shiu 21 sugar 100 Hz",
+  "n_driven": 21,
+  "active_per_trial": [
+   337,
+   355,
+   354
+  ],
+  "MN9_contra_Hz": 71.0,
+  "MN9_ipsi_Hz": 51.333333333333336,
+  "wall_s": 0.9
+ }
+]

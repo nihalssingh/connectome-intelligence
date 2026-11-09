@@ -1,0 +1,33 @@
+{
+ "exp_name": "sugarR_40Hz",
+ "dataset": "783",
+ "r_poi_Hz": 40,
+ "n_excited": 21,
+ "silenced": [],
+ "params": {
+  "t_run": "1. s",
+  "n_run": "30",
+  "v_0": "-52. mV",
+  "v_rst": "-52. mV",
+  "v_th": "-45. mV",
+  "t_mbr": "20. ms",
+  "tau": "5. ms",
+  "t_rfc": "2.2 ms",
+  "t_dly": "1.8 ms",
+  "w_syn": "275. uV",
+  "r_poi": "40 Hz",
+  "r_poi2": "0. Hz",
+  "f_poi": "250",
+  "eq_th": "v > v_th",
+  "eq_rst": "v = v_rst; w = 0; g = 0 * mV"
+ },
+ "eqs": "\ndv/dt = (v_0 - v + g) / t_mbr : volt (unless refractory)\ndg/dt = -g / tau               : volt (unless refractory) \nrfc                            : second\n",
+ "n_proc": 6,
+ "walltime_s": 114.7,
+ "reference_commit": "91bdd1e7dcf193f3e7ca5a8933497fcef63b7960",
+ "brian2": "2.5.1",
+ "numpy": "1.24.4",
+ "python": "3.10.20",
+ "machine": "macOS-26.6.2-arm64-arm-64bit",
+ "finished": "2026-10-18 18:18:06"
+}

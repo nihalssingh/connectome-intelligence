@@ -1,0 +1,8181 @@
+{
+ "variant": "v783_alfix_all",
+ "dose_Hz": 100.0,
+ "summary": {
+  "ascending": {
+   "n_one_per_side_types": 445,
+   "n_stimulus_types": 25,
+   "median_r": 0.41792883113987767,
+   "iqr": [
+    -0.5558070414550335,
+    0.7217874597738713
+   ]
+  },
+  "central": {
+   "n_one_per_side_types": 3314,
+   "n_stimulus_types": 173,
+   "median_r": 0.7240096567754338,
+   "iqr": [
+    0.5631506716602467,
+    0.7830743095285331
+   ]
+  },
+  "descending": {
+   "n_one_per_side_types": 383,
+   "n_stimulus_types": 108,
+   "median_r": 0.6306299074195951,
+   "iqr": [
+    0.46108978430522374,
+    0.7812582862509868
+   ]
+  },
+  "motor": {
+   "n_one_per_side_types": 36,
+   "n_stimulus_types": 37,
+   "median_r": 0.17263183526057352,
+   "iqr": [
+    0.0,
+    0.5921148752320072
+   ]
+  },
+  "optic": {
+   "n_one_per_side_types": 25,
+   "n_stimulus_types": 16,
+   "median_r": 0.48318820619069447,
+   "iqr": [
+    -0.21059133585937856,
+    0.8914525794386338
+   ]
+  },
+  "visual_centrifugal": {
+   "n_one_per_side_types": 68,
+   "n_stimulus_types": 54,
+   "median_r": 0.5404261817902252,
+   "iqr": [
+    0.2656565596333453,
+    0.6953654043454587
+   ]
+  },
+  "visual_projection": {
+   "n_one_per_side_types": 165,
+   "n_stimulus_types": 31,
+   "median_r": 0.8996608278371497,
+   "iqr": [
+    0.8391298513618697,
+    0.9432364907309274
+   ]
+  },
+  "paired_DN_minus_central": {
+   "n": 106,
+   "median_diff": -0.032601664619241966,
+   "frac_DN_more_symmetric": 0.44339622641509435
+  }
+ },
+ "rows": [
+  {
+   "kind": "sensory",
+   "cell_type": "BM_Ant",
+   "n_left": 20,
+   "n_right": 21,
+   "ascending": {
+    "r": 0.5903689576761335,
+    "one_side_silent": false,
+    "n_pairs_responding": 13
+   },
+   "central": {
+    "r": 0.8125447653592218,
+    "one_side_silent": false,
+    "n_pairs_responding": 104
+   },
+   "descending": {
+    "r": 0.7564562531960505,
+    "one_side_silent": false,
+    "n_pairs_responding": 73
+   },
+   "motor": {
+    "r": 0.8505117892612061,
+    "one_side_silent": false,
+    "n_pairs_responding": 7
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "BM_Fr",
+   "n_left": 6,
+   "n_right": 7,
+   "ascending": {
+    "r": 0.5948568682577429,
+    "one_side_silent": false,
+    "n_pairs_responding": 7
+   },
+   "central": {
+    "r": 0.758535677235646,
+    "one_side_silent": false,
+    "n_pairs_responding": 36
+   },
+   "descending": {
+    "r": 0.6582798544658605,
+    "one_side_silent": false,
+    "n_pairs_responding": 21
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "BM_FrOr",
+   "n_left": 6,
+   "n_right": 7,
+   "ascending": {
+    "r": 0.6786407244073502,
+    "one_side_silent": false,
+    "n_pairs_responding": 5
+   },
+   "central": {
+    "r": 0.7824808457985638,
+    "one_side_silent": false,
+    "n_pairs_responding": 26
+   },
+   "descending": {
+    "r": 0.8543303869139791,
+    "one_side_silent": false,
+    "n_pairs_responding": 17
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "BM_Hau",
+   "n_left": 5,
+   "n_right": 5,
+   "ascending": {
+    "r": 0.0,
+    "one_side_silent": true,
+    "n_pairs_responding": 5
+   },
+   "central": {
+    "r": 0.5781263129171726,
+    "one_side_silent": false,
+    "n_pairs_responding": 33
+   },
+   "descending": {
+    "r": 0.6654470760159374,
+    "one_side_silent": false,
+    "n_pairs_responding": 41
+   },
+   "motor": {
+    "r": 0.7159435473593159,
+    "one_side_silent": false,
+    "n_pairs_responding": 11
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "BM_InOc",
+   "n_left": 3,
+   "n_right": 3,
+   "ascending": {
+    "r": -0.6015649074480381,
+    "one_side_silent": false,
+    "n_pairs_responding": 8
+   },
+   "central": {
+    "r": 0.06725894485781889,
+    "one_side_silent": false,
+    "n_pairs_responding": 7
+   },
+   "descending": {
+    "r": 0.6184553879508431,
+    "one_side_silent": false,
+    "n_pairs_responding": 5
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "BM_InOm",
+   "n_left": 555,
+   "n_right": 558,
+   "ascending": {
+    "r": 0.7346953990068471,
+    "one_side_silent": false,
+    "n_pairs_responding": 29
+   },
+   "central": {
+    "r": 0.78909162886823,
+    "one_side_silent": false,
+    "n_pairs_responding": 172
+   },
+   "descending": {
+    "r": 0.8046519213892892,
+    "one_side_silent": false,
+    "n_pairs_responding": 99
+   },
+   "motor": {
+    "r": -0.5166978183022155,
+    "one_side_silent": false,
+    "n_pairs_responding": 7
+   },
+   "visual_centrifugal": {
+    "r": 0.9277175758563315,
+    "one_side_silent": false,
+    "n_pairs_responding": 10
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "BM_MaPa",
+   "n_left": 14,
+   "n_right": 10,
+   "ascending": {
+    "r": 0.41792883113987767,
+    "one_side_silent": false,
+    "n_pairs_responding": 9
+   },
+   "central": {
+    "r": 0.6177761539984531,
+    "one_side_silent": false,
+    "n_pairs_responding": 42
+   },
+   "descending": {
+    "r": 0.4167699128459324,
+    "one_side_silent": false,
+    "n_pairs_responding": 39
+   },
+   "motor": {
+    "r": 0.0,
+    "one_side_silent": true,
+    "n_pairs_responding": 6
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "BM_Or",
+   "n_left": 3,
+   "n_right": 3,
+   "ascending": {
+    "r": 0.7300037693039051,
+    "one_side_silent": false,
+    "n_pairs_responding": 9
+   },
+   "central": {
+    "r": 0.8590089611138896,
+    "one_side_silent": false,
+    "n_pairs_responding": 18
+   },
+   "descending": {
+    "r": 0.9684099755772589,
+    "one_side_silent": false,
+    "n_pairs_responding": 13
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "BM_Taste",
+   "n_left": 35,
+   "n_right": 37,
+   "ascending": {
+    "r": 0.5792275796336153,
+    "one_side_silent": false,
+    "n_pairs_responding": 12
+   },
+   "central": {
+    "r": 0.6196294139887674,
+    "one_side_silent": false,
+    "n_pairs_responding": 114
+   },
+   "descending": {
+    "r": 0.6674221062818684,
+    "one_side_silent": false,
+    "n_pairs_responding": 59
+   },
+   "motor": {
+    "r": 0.6496030275825962,
+    "one_side_silent": false,
+    "n_pairs_responding": 21
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "BM_Vib",
+   "n_left": 18,
+   "n_right": 19,
+   "ascending": {
+    "r": 0.7923548721399077,
+    "one_side_silent": false,
+    "n_pairs_responding": 16
+   },
+   "central": {
+    "r": 0.7638982542276057,
+    "one_side_silent": false,
+    "n_pairs_responding": 103
+   },
+   "descending": {
+    "r": 0.8291920668517369,
+    "one_side_silent": false,
+    "n_pairs_responding": 68
+   },
+   "motor": {
+    "r": 0.0,
+    "one_side_silent": true,
+    "n_pairs_responding": 5
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "BM_Vt_PoOc",
+   "n_left": 5,
+   "n_right": 5,
+   "ascending": {
+    "r": 0.7217874597738713,
+    "one_side_silent": false,
+    "n_pairs_responding": 12
+   },
+   "central": {
+    "r": 0.7638889627522906,
+    "one_side_silent": false,
+    "n_pairs_responding": 37
+   },
+   "descending": {
+    "r": 0.9506702963067651,
+    "one_side_silent": false,
+    "n_pairs_responding": 19
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "BM_dOcci",
+   "n_left": 3,
+   "n_right": 3
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "BM_dPoOr",
+   "n_left": 4,
+   "n_right": 8,
+   "central": {
+    "r": 0.8287813825976494,
+    "one_side_silent": false,
+    "n_pairs_responding": 22
+   },
+   "descending": {
+    "r": 0.7923321254896974,
+    "one_side_silent": false,
+    "n_pairs_responding": 12
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "BM_vOcci_vPoOr",
+   "n_left": 27,
+   "n_right": 25,
+   "ascending": {
+    "r": 0.7444160430146206,
+    "one_side_silent": false,
+    "n_pairs_responding": 8
+   },
+   "central": {
+    "r": 0.7259135269907775,
+    "one_side_silent": false,
+    "n_pairs_responding": 42
+   },
+   "descending": {
+    "r": 0.528584317803751,
+    "one_side_silent": false,
+    "n_pairs_responding": 37
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "CB4148",
+   "n_left": 7,
+   "n_right": 8,
+   "ascending": {
+    "r": 0.9819221090986412,
+    "one_side_silent": false,
+    "n_pairs_responding": 6
+   },
+   "central": {
+    "r": 0.6505527743194786,
+    "one_side_silent": false,
+    "n_pairs_responding": 34
+   },
+   "descending": {
+    "r": 0.557452556515215,
+    "one_side_silent": false,
+    "n_pairs_responding": 30
+   },
+   "motor": {
+    "r": 0.17263183526057352,
+    "one_side_silent": false,
+    "n_pairs_responding": 8
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ENS1",
+   "n_left": 5,
+   "n_right": 5,
+   "central": {
+    "r": 0.8085674859675912,
+    "one_side_silent": false,
+    "n_pairs_responding": 41
+   },
+   "descending": {
+    "r": 0.7124793361945064,
+    "one_side_silent": false,
+    "n_pairs_responding": 9
+   },
+   "motor": {
+    "r": -0.5977397989571812,
+    "one_side_silent": false,
+    "n_pairs_responding": 8
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ENS3",
+   "n_left": 13,
+   "n_right": 16,
+   "central": {
+    "r": 0.8684212318118095,
+    "one_side_silent": false,
+    "n_pairs_responding": 26
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ENS4",
+   "n_left": 6,
+   "n_right": 6,
+   "central": {
+    "r": 0.7689987924240371,
+    "one_side_silent": false,
+    "n_pairs_responding": 24
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ENS5",
+   "n_left": 9,
+   "n_right": 9,
+   "central": {
+    "r": 0.6762886143776157,
+    "one_side_silent": false,
+    "n_pairs_responding": 68
+   },
+   "descending": {
+    "r": -0.8131400022831673,
+    "one_side_silent": false,
+    "n_pairs_responding": 8
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "HRN_VP1d",
+   "n_left": 9,
+   "n_right": 7,
+   "central": {
+    "r": 0.8573473878618645,
+    "one_side_silent": false,
+    "n_pairs_responding": 49
+   },
+   "descending": {
+    "r": -0.010011887072989578,
+    "one_side_silent": false,
+    "n_pairs_responding": 11
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "HRN_VP1l",
+   "n_left": 6,
+   "n_right": 7,
+   "central": {
+    "r": 0.8819508053990577,
+    "one_side_silent": false,
+    "n_pairs_responding": 19
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "HRN_VP4",
+   "n_left": 15,
+   "n_right": 14,
+   "central": {
+    "r": 0.7609212778813602,
+    "one_side_silent": false,
+    "n_pairs_responding": 41
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "HRN_VP5",
+   "n_left": 9,
+   "n_right": 7,
+   "central": {
+    "r": 0.6366069442622775,
+    "one_side_silent": false,
+    "n_pairs_responding": 53
+   },
+   "descending": {
+    "r": 0.9049847459218422,
+    "one_side_silent": false,
+    "n_pairs_responding": 6
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "JO-A1",
+   "n_left": 11,
+   "n_right": 10
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "JO-A2",
+   "n_left": 16,
+   "n_right": 17,
+   "central": {
+    "r": 0.0,
+    "one_side_silent": true,
+    "n_pairs_responding": 18
+   },
+   "descending": {
+    "r": 0.0,
+    "one_side_silent": true,
+    "n_pairs_responding": 11
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "JO-A3",
+   "n_left": 3,
+   "n_right": 3
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "JO-A5",
+   "n_left": 17,
+   "n_right": 20,
+   "descending": {
+    "r": 0.0,
+    "one_side_silent": true,
+    "n_pairs_responding": 5
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "JO-B1_a",
+   "n_left": 78,
+   "n_right": 28
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "JO-B1_b",
+   "n_left": 14,
+   "n_right": 13
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "JO-B1_c",
+   "n_left": 11,
+   "n_right": 11
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "JO-B2",
+   "n_left": 18,
+   "n_right": 18,
+   "central": {
+    "r": 0.0,
+    "one_side_silent": true,
+    "n_pairs_responding": 5
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "JO-B3",
+   "n_left": 14,
+   "n_right": 15,
+   "central": {
+    "r": 0.0,
+    "one_side_silent": true,
+    "n_pairs_responding": 7
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "JO-B4_a",
+   "n_left": 7,
+   "n_right": 8,
+   "central": {
+    "r": 0.925397080457751,
+    "one_side_silent": false,
+    "n_pairs_responding": 8
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "JO-B4_b",
+   "n_left": 15,
+   "n_right": 10,
+   "central": {
+    "r": 0.0,
+    "one_side_silent": true,
+    "n_pairs_responding": 11
+   },
+   "descending": {
+    "r": 0.4613516993424091,
+    "one_side_silent": false,
+    "n_pairs_responding": 6
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "JO-CA1",
+   "n_left": 12,
+   "n_right": 8
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "JO-CA2",
+   "n_left": 12,
+   "n_right": 4
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "JO-CL",
+   "n_left": 14,
+   "n_right": 11
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "JO-CM",
+   "n_left": 18,
+   "n_right": 17,
+   "central": {
+    "r": 0.0,
+    "one_side_silent": true,
+    "n_pairs_responding": 5
+   },
+   "descending": {
+    "r": 0.0,
+    "one_side_silent": true,
+    "n_pairs_responding": 7
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "JO-DA",
+   "n_left": 17,
+   "n_right": 15
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "JO-DP",
+   "n_left": 11,
+   "n_right": 10
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "JO-ED1",
+   "n_left": 13,
+   "n_right": 14
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "JO-ED2_a",
+   "n_left": 21,
+   "n_right": 24,
+   "central": {
+    "r": 0.7482198116043383,
+    "one_side_silent": false,
+    "n_pairs_responding": 26
+   },
+   "descending": {
+    "r": 0.6647791290663143,
+    "one_side_silent": false,
+    "n_pairs_responding": 18
+   },
+   "visual_centrifugal": {
+    "r": 0.668223911256162,
+    "one_side_silent": false,
+    "n_pairs_responding": 5
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "JO-ED2_b",
+   "n_left": 11,
+   "n_right": 10,
+   "central": {
+    "r": 0.9236557083990069,
+    "one_side_silent": false,
+    "n_pairs_responding": 9
+   },
+   "descending": {
+    "r": 0.35382335401227444,
+    "one_side_silent": false,
+    "n_pairs_responding": 7
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "JO-ED2_c",
+   "n_left": 8,
+   "n_right": 9,
+   "descending": {
+    "r": 0.0,
+    "one_side_silent": true,
+    "n_pairs_responding": 5
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "JO-EV1",
+   "n_left": 37,
+   "n_right": 33,
+   "central": {
+    "r": 0.8144168765598848,
+    "one_side_silent": false,
+    "n_pairs_responding": 25
+   },
+   "descending": {
+    "r": 0.9773602081830289,
+    "one_side_silent": false,
+    "n_pairs_responding": 10
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "JO-EV2",
+   "n_left": 23,
+   "n_right": 17,
+   "central": {
+    "r": 0.8061836709529067,
+    "one_side_silent": false,
+    "n_pairs_responding": 52
+   },
+   "descending": {
+    "r": 0.4844783915609699,
+    "one_side_silent": false,
+    "n_pairs_responding": 11
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "JO-EV3",
+   "n_left": 25,
+   "n_right": 21,
+   "central": {
+    "r": 0.7244161199438462,
+    "one_side_silent": false,
+    "n_pairs_responding": 78
+   },
+   "descending": {
+    "r": 0.20307351381721533,
+    "one_side_silent": false,
+    "n_pairs_responding": 25
+   },
+   "visual_centrifugal": {
+    "r": 0.8278929441855539,
+    "one_side_silent": false,
+    "n_pairs_responding": 5
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "JO-EV4",
+   "n_left": 7,
+   "n_right": 7
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "JO-EV5",
+   "n_left": 14,
+   "n_right": 15,
+   "central": {
+    "r": 0.08462809842024001,
+    "one_side_silent": false,
+    "n_pairs_responding": 25
+   },
+   "descending": {
+    "r": -0.26463065245799106,
+    "one_side_silent": false,
+    "n_pairs_responding": 11
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "JO-EV6",
+   "n_left": 14,
+   "n_right": 14,
+   "central": {
+    "r": -0.392414799900004,
+    "one_side_silent": false,
+    "n_pairs_responding": 10
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "JO-FD1",
+   "n_left": 8,
+   "n_right": 7
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "JO-FD2",
+   "n_left": 10,
+   "n_right": 7,
+   "central": {
+    "r": -0.45890171040621364,
+    "one_side_silent": false,
+    "n_pairs_responding": 6
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "JO-FV",
+   "n_left": 88,
+   "n_right": 82,
+   "ascending": {
+    "r": 0.725114395644975,
+    "one_side_silent": false,
+    "n_pairs_responding": 5
+   },
+   "central": {
+    "r": 0.8432529638875933,
+    "one_side_silent": false,
+    "n_pairs_responding": 10
+   },
+   "descending": {
+    "r": 0.35436788902393584,
+    "one_side_silent": false,
+    "n_pairs_responding": 11
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "JO-mz",
+   "n_left": 11,
+   "n_right": 10,
+   "ascending": {
+    "r": 0.0,
+    "one_side_silent": true,
+    "n_pairs_responding": 5
+   },
+   "central": {
+    "r": 0.270288351709934,
+    "one_side_silent": false,
+    "n_pairs_responding": 36
+   },
+   "descending": {
+    "r": 0.22536545627819304,
+    "one_side_silent": false,
+    "n_pairs_responding": 25
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "JO-unclear",
+   "n_left": 7,
+   "n_right": 28,
+   "central": {
+    "r": 0.0,
+    "one_side_silent": true,
+    "n_pairs_responding": 16
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "LB1a",
+   "n_left": 8,
+   "n_right": 8
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "LB1b",
+   "n_left": 3,
+   "n_right": 4,
+   "central": {
+    "r": 0.8744651893362839,
+    "one_side_silent": false,
+    "n_pairs_responding": 9
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "LB1c",
+   "n_left": 5,
+   "n_right": 6,
+   "central": {
+    "r": 0.828928215432345,
+    "one_side_silent": false,
+    "n_pairs_responding": 11
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "LB1d",
+   "n_left": 5,
+   "n_right": 3
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "LB1e",
+   "n_left": 11,
+   "n_right": 12,
+   "central": {
+    "r": 0.8054364770528359,
+    "one_side_silent": false,
+    "n_pairs_responding": 10
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "LB2c",
+   "n_left": 3,
+   "n_right": 4,
+   "central": {
+    "r": 0.8356602028395984,
+    "one_side_silent": false,
+    "n_pairs_responding": 21
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "LB3a",
+   "n_left": 15,
+   "n_right": 15,
+   "central": {
+    "r": 0.705448386839082,
+    "one_side_silent": false,
+    "n_pairs_responding": 35
+   },
+   "descending": {
+    "r": 0.0,
+    "one_side_silent": true,
+    "n_pairs_responding": 7
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "LB3b",
+   "n_left": 13,
+   "n_right": 12,
+   "central": {
+    "r": 0.19752271073937377,
+    "one_side_silent": false,
+    "n_pairs_responding": 98
+   },
+   "descending": {
+    "r": 0.4163405617507555,
+    "one_side_silent": false,
+    "n_pairs_responding": 57
+   },
+   "motor": {
+    "r": 0.0,
+    "one_side_silent": true,
+    "n_pairs_responding": 15
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "LB3c",
+   "n_left": 20,
+   "n_right": 12,
+   "central": {
+    "r": 0.6165121712764218,
+    "one_side_silent": false,
+    "n_pairs_responding": 225
+   },
+   "descending": {
+    "r": 0.22087369862130712,
+    "one_side_silent": false,
+    "n_pairs_responding": 63
+   },
+   "motor": {
+    "r": 0.0,
+    "one_side_silent": true,
+    "n_pairs_responding": 14
+   },
+   "visual_centrifugal": {
+    "r": 0.0,
+    "one_side_silent": true,
+    "n_pairs_responding": 6
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "LB3d",
+   "n_left": 15,
+   "n_right": 14,
+   "central": {
+    "r": 0.5453029362591981,
+    "one_side_silent": false,
+    "n_pairs_responding": 157
+   },
+   "descending": {
+    "r": 0.4603040391936676,
+    "one_side_silent": false,
+    "n_pairs_responding": 70
+   },
+   "motor": {
+    "r": 0.5886116351492832,
+    "one_side_silent": false,
+    "n_pairs_responding": 13
+   },
+   "visual_centrifugal": {
+    "r": 0.0,
+    "one_side_silent": true,
+    "n_pairs_responding": 7
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "LB4b",
+   "n_left": 4,
+   "n_right": 6,
+   "central": {
+    "r": 0.6319717209363841,
+    "one_side_silent": false,
+    "n_pairs_responding": 92
+   },
+   "descending": {
+    "r": 0.10844813391140051,
+    "one_side_silent": false,
+    "n_pairs_responding": 24
+   },
+   "motor": {
+    "r": -0.6604767605092966,
+    "one_side_silent": false,
+    "n_pairs_responding": 11
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_D",
+   "n_left": 16,
+   "n_right": 15,
+   "central": {
+    "r": 0.4063507763647791,
+    "one_side_silent": false,
+    "n_pairs_responding": 36
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_DA1",
+   "n_left": 60,
+   "n_right": 66,
+   "central": {
+    "r": 0.7097431355877523,
+    "one_side_silent": false,
+    "n_pairs_responding": 23
+   },
+   "descending": {
+    "r": 0.8068584397518391,
+    "one_side_silent": false,
+    "n_pairs_responding": 18
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_DA2",
+   "n_left": 16,
+   "n_right": 22,
+   "central": {
+    "r": -0.7885474241070766,
+    "one_side_silent": false,
+    "n_pairs_responding": 5
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_DA3",
+   "n_left": 14,
+   "n_right": 16
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_DA4l",
+   "n_left": 19,
+   "n_right": 18,
+   "central": {
+    "r": 0.9243385093466481,
+    "one_side_silent": false,
+    "n_pairs_responding": 15
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_DA4m",
+   "n_left": 20,
+   "n_right": 19,
+   "central": {
+    "r": 0.7296665224590205,
+    "one_side_silent": false,
+    "n_pairs_responding": 20
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_DC1",
+   "n_left": 21,
+   "n_right": 18,
+   "central": {
+    "r": 0.6981287070739012,
+    "one_side_silent": false,
+    "n_pairs_responding": 67
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_DC2",
+   "n_left": 8,
+   "n_right": 12,
+   "central": {
+    "r": 0.5668899790688697,
+    "one_side_silent": false,
+    "n_pairs_responding": 31
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_DC3",
+   "n_left": 15,
+   "n_right": 18,
+   "central": {
+    "r": 0.5354966407505819,
+    "one_side_silent": false,
+    "n_pairs_responding": 17
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_DC4",
+   "n_left": 11,
+   "n_right": 11,
+   "ascending": {
+    "r": -0.6788331629693073,
+    "one_side_silent": false,
+    "n_pairs_responding": 5
+   },
+   "central": {
+    "r": 0.8144223151744395,
+    "one_side_silent": false,
+    "n_pairs_responding": 437
+   },
+   "descending": {
+    "r": 0.6235861318897586,
+    "one_side_silent": false,
+    "n_pairs_responding": 105
+   },
+   "visual_centrifugal": {
+    "r": 0.3882241730213946,
+    "one_side_silent": false,
+    "n_pairs_responding": 21
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_DL1",
+   "n_left": 34,
+   "n_right": 34,
+   "central": {
+    "r": 0.38359584703409705,
+    "one_side_silent": false,
+    "n_pairs_responding": 66
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_DL2d",
+   "n_left": 7,
+   "n_right": 7,
+   "central": {
+    "r": 0.4108253740187725,
+    "one_side_silent": false,
+    "n_pairs_responding": 266
+   },
+   "descending": {
+    "r": 0.0,
+    "one_side_silent": true,
+    "n_pairs_responding": 42
+   },
+   "visual_centrifugal": {
+    "r": 0.0,
+    "one_side_silent": true,
+    "n_pairs_responding": 6
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_DL2v",
+   "n_left": 8,
+   "n_right": 10,
+   "central": {
+    "r": 0.5116459345547959,
+    "one_side_silent": false,
+    "n_pairs_responding": 374
+   },
+   "descending": {
+    "r": 0.48019647185025205,
+    "one_side_silent": false,
+    "n_pairs_responding": 84
+   },
+   "visual_centrifugal": {
+    "r": 0.09613042183965054,
+    "one_side_silent": false,
+    "n_pairs_responding": 16
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_DL3",
+   "n_left": 36,
+   "n_right": 42
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_DL4",
+   "n_left": 27,
+   "n_right": 25,
+   "central": {
+    "r": 0.6861116776311553,
+    "one_side_silent": false,
+    "n_pairs_responding": 18
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_DL5",
+   "n_left": 18,
+   "n_right": 24,
+   "central": {
+    "r": 0.8845925321925819,
+    "one_side_silent": false,
+    "n_pairs_responding": 39
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_DM1",
+   "n_left": 35,
+   "n_right": 33,
+   "ascending": {
+    "r": -0.5249108541117805,
+    "one_side_silent": false,
+    "n_pairs_responding": 8
+   },
+   "central": {
+    "r": 0.7693678318656404,
+    "one_side_silent": false,
+    "n_pairs_responding": 493
+   },
+   "descending": {
+    "r": 0.509107149312157,
+    "one_side_silent": false,
+    "n_pairs_responding": 112
+   },
+   "optic": {
+    "r": -0.27444208632252204,
+    "one_side_silent": false,
+    "n_pairs_responding": 6
+   },
+   "visual_centrifugal": {
+    "r": 0.07325955395377409,
+    "one_side_silent": false,
+    "n_pairs_responding": 24
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_DM2",
+   "n_left": 29,
+   "n_right": 25,
+   "ascending": {
+    "r": -0.6708302337101409,
+    "one_side_silent": false,
+    "n_pairs_responding": 5
+   },
+   "central": {
+    "r": 0.7257772409435225,
+    "one_side_silent": false,
+    "n_pairs_responding": 423
+   },
+   "descending": {
+    "r": 0.4759874304445098,
+    "one_side_silent": false,
+    "n_pairs_responding": 99
+   },
+   "visual_centrifugal": {
+    "r": 0.14412079843771894,
+    "one_side_silent": false,
+    "n_pairs_responding": 21
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_DM3",
+   "n_left": 32,
+   "n_right": 29,
+   "central": {
+    "r": 0.20182613956094825,
+    "one_side_silent": false,
+    "n_pairs_responding": 19
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_DM4",
+   "n_left": 21,
+   "n_right": 20,
+   "central": {
+    "r": 0.8269484645278473,
+    "one_side_silent": false,
+    "n_pairs_responding": 430
+   },
+   "descending": {
+    "r": 0.5257807100500247,
+    "one_side_silent": false,
+    "n_pairs_responding": 97
+   },
+   "visual_centrifugal": {
+    "r": 0.3784885818752248,
+    "one_side_silent": false,
+    "n_pairs_responding": 20
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_DM5",
+   "n_left": 21,
+   "n_right": 21
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_DM6",
+   "n_left": 27,
+   "n_right": 25,
+   "central": {
+    "r": 0.40816555776053354,
+    "one_side_silent": false,
+    "n_pairs_responding": 21
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_DP1l",
+   "n_left": 12,
+   "n_right": 12,
+   "ascending": {
+    "r": -0.6959801437404609,
+    "one_side_silent": false,
+    "n_pairs_responding": 5
+   },
+   "central": {
+    "r": 0.8243965853517257,
+    "one_side_silent": false,
+    "n_pairs_responding": 442
+   },
+   "descending": {
+    "r": 0.552650640853792,
+    "one_side_silent": false,
+    "n_pairs_responding": 111
+   },
+   "visual_centrifugal": {
+    "r": 0.2592363924457389,
+    "one_side_silent": false,
+    "n_pairs_responding": 21
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_DP1m",
+   "n_left": 16,
+   "n_right": 16,
+   "ascending": {
+    "r": -0.5558070414550335,
+    "one_side_silent": false,
+    "n_pairs_responding": 8
+   },
+   "central": {
+    "r": 0.8248315898712802,
+    "one_side_silent": false,
+    "n_pairs_responding": 540
+   },
+   "descending": {
+    "r": 0.4923174417349182,
+    "one_side_silent": false,
+    "n_pairs_responding": 110
+   },
+   "visual_centrifugal": {
+    "r": -0.12535337341488095,
+    "one_side_silent": false,
+    "n_pairs_responding": 22
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_V",
+   "n_left": 34,
+   "n_right": 33,
+   "ascending": {
+    "r": -0.5542277737012581,
+    "one_side_silent": false,
+    "n_pairs_responding": 6
+   },
+   "central": {
+    "r": 0.7285823532616524,
+    "one_side_silent": false,
+    "n_pairs_responding": 522
+   },
+   "descending": {
+    "r": 0.4869875871646797,
+    "one_side_silent": false,
+    "n_pairs_responding": 111
+   },
+   "visual_centrifugal": {
+    "r": 0.2158137251012713,
+    "one_side_silent": false,
+    "n_pairs_responding": 23
+   },
+   "visual_projection": {
+    "r": -0.46730597689528075,
+    "one_side_silent": false,
+    "n_pairs_responding": 5
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_VA1d",
+   "n_left": 48,
+   "n_right": 45,
+   "central": {
+    "r": 0.7795835569616033,
+    "one_side_silent": false,
+    "n_pairs_responding": 18
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_VA1v",
+   "n_left": 46,
+   "n_right": 38,
+   "central": {
+    "r": -0.14012609174288665,
+    "one_side_silent": false,
+    "n_pairs_responding": 15
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_VA2",
+   "n_left": 34,
+   "n_right": 33,
+   "central": {
+    "r": 0.6217587007749269,
+    "one_side_silent": false,
+    "n_pairs_responding": 33
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_VA3",
+   "n_left": 13,
+   "n_right": 13,
+   "central": {
+    "r": -0.008908126477671427,
+    "one_side_silent": false,
+    "n_pairs_responding": 342
+   },
+   "descending": {
+    "r": 0.0,
+    "one_side_silent": true,
+    "n_pairs_responding": 79
+   },
+   "visual_centrifugal": {
+    "r": 0.0,
+    "one_side_silent": true,
+    "n_pairs_responding": 12
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_VA4",
+   "n_left": 15,
+   "n_right": 15,
+   "central": {
+    "r": 0.4777864278868802,
+    "one_side_silent": false,
+    "n_pairs_responding": 8
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_VA5",
+   "n_left": 6,
+   "n_right": 5
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_VA6",
+   "n_left": 32,
+   "n_right": 28,
+   "central": {
+    "r": 0.518693150414814,
+    "one_side_silent": false,
+    "n_pairs_responding": 59
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_VA7l",
+   "n_left": 8,
+   "n_right": 8,
+   "central": {
+    "r": 0.7382122194286269,
+    "one_side_silent": false,
+    "n_pairs_responding": 11
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_VA7m",
+   "n_left": 10,
+   "n_right": 12
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_VC1",
+   "n_left": 13,
+   "n_right": 13,
+   "central": {
+    "r": 0.7240096567754338,
+    "one_side_silent": false,
+    "n_pairs_responding": 35
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_VC2",
+   "n_left": 14,
+   "n_right": 15,
+   "central": {
+    "r": 0.7760921496558975,
+    "one_side_silent": false,
+    "n_pairs_responding": 22
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_VC3",
+   "n_left": 14,
+   "n_right": 17,
+   "central": {
+    "r": 0.5585369935600967,
+    "one_side_silent": false,
+    "n_pairs_responding": 18
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_VC4",
+   "n_left": 9,
+   "n_right": 14,
+   "central": {
+    "r": 0.49017245048122315,
+    "one_side_silent": false,
+    "n_pairs_responding": 16
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_VC5",
+   "n_left": 13,
+   "n_right": 12,
+   "central": {
+    "r": 0.43787482076970174,
+    "one_side_silent": false,
+    "n_pairs_responding": 54
+   },
+   "descending": {
+    "r": 0.0,
+    "one_side_silent": true,
+    "n_pairs_responding": 9
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_VL1",
+   "n_left": 39,
+   "n_right": 39,
+   "central": {
+    "r": 0.7579643182287752,
+    "one_side_silent": false,
+    "n_pairs_responding": 9
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_VL2a",
+   "n_left": 33,
+   "n_right": 38,
+   "central": {
+    "r": 0.778840707201418,
+    "one_side_silent": false,
+    "n_pairs_responding": 44
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_VL2p",
+   "n_left": 14,
+   "n_right": 13,
+   "central": {
+    "r": 0.7645668665096766,
+    "one_side_silent": false,
+    "n_pairs_responding": 47
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_VM1",
+   "n_left": 12,
+   "n_right": 13,
+   "central": {
+    "r": 0.42765520073084257,
+    "one_side_silent": false,
+    "n_pairs_responding": 16
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_VM2",
+   "n_left": 19,
+   "n_right": 18,
+   "central": {
+    "r": 0.575210541771291,
+    "one_side_silent": false,
+    "n_pairs_responding": 7
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_VM3",
+   "n_left": 18,
+   "n_right": 17,
+   "central": {
+    "r": -0.5754170233995826,
+    "one_side_silent": false,
+    "n_pairs_responding": 6
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_VM4",
+   "n_left": 35,
+   "n_right": 40,
+   "central": {
+    "r": 0.6273415406826671,
+    "one_side_silent": false,
+    "n_pairs_responding": 30
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_VM5d",
+   "n_left": 36,
+   "n_right": 31,
+   "central": {
+    "r": -0.7554615228072746,
+    "one_side_silent": false,
+    "n_pairs_responding": 9
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_VM5v",
+   "n_left": 9,
+   "n_right": 14,
+   "central": {
+    "r": 0.5037415196477538,
+    "one_side_silent": false,
+    "n_pairs_responding": 6
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_VM6l",
+   "n_left": 10,
+   "n_right": 11,
+   "central": {
+    "r": 0.8012654742846813,
+    "one_side_silent": false,
+    "n_pairs_responding": 59
+   },
+   "descending": {
+    "r": 0.8352046577263257,
+    "one_side_silent": false,
+    "n_pairs_responding": 16
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_VM6m",
+   "n_left": 17,
+   "n_right": 16,
+   "central": {
+    "r": 0.8077255362768784,
+    "one_side_silent": false,
+    "n_pairs_responding": 97
+   },
+   "descending": {
+    "r": 0.8068703661555318,
+    "one_side_silent": false,
+    "n_pairs_responding": 40
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_VM6v",
+   "n_left": 13,
+   "n_right": 13,
+   "central": {
+    "r": 0.7732930460804588,
+    "one_side_silent": false,
+    "n_pairs_responding": 263
+   },
+   "descending": {
+    "r": 0.7548103791894158,
+    "one_side_silent": false,
+    "n_pairs_responding": 116
+   },
+   "visual_centrifugal": {
+    "r": 0.5354279495543278,
+    "one_side_silent": false,
+    "n_pairs_responding": 20
+   },
+   "visual_projection": {
+    "r": 0.9616435491551396,
+    "one_side_silent": false,
+    "n_pairs_responding": 5
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_VM7d",
+   "n_left": 16,
+   "n_right": 17,
+   "central": {
+    "r": 0.7026220492964911,
+    "one_side_silent": false,
+    "n_pairs_responding": 64
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "ORN_VM7v",
+   "n_left": 13,
+   "n_right": 13,
+   "central": {
+    "r": 0.4868029972673886,
+    "one_side_silent": false,
+    "n_pairs_responding": 41
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "R1-6",
+   "n_left": 4423,
+   "n_right": 4029
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "R7",
+   "n_left": 672,
+   "n_right": 670
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "R8",
+   "n_left": 670,
+   "n_right": 654
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "TPMN1",
+   "n_left": 33,
+   "n_right": 30,
+   "central": {
+    "r": 0.7908604861690341,
+    "one_side_silent": false,
+    "n_pairs_responding": 162
+   },
+   "descending": {
+    "r": 0.570063429181448,
+    "one_side_silent": false,
+    "n_pairs_responding": 52
+   },
+   "motor": {
+    "r": 0.4522150734289575,
+    "one_side_silent": false,
+    "n_pairs_responding": 22
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "TPMN2",
+   "n_left": 6,
+   "n_right": 6,
+   "central": {
+    "r": 0.8333952275795038,
+    "one_side_silent": false,
+    "n_pairs_responding": 16
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "TRN_VP1m",
+   "n_left": 6,
+   "n_right": 7,
+   "central": {
+    "r": 0.5631506716602467,
+    "one_side_silent": false,
+    "n_pairs_responding": 106
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "TRN_VP2",
+   "n_left": 3,
+   "n_right": 4,
+   "central": {
+    "r": 0.7205491522741513,
+    "one_side_silent": false,
+    "n_pairs_responding": 261
+   },
+   "descending": {
+    "r": 0.625905659254206,
+    "one_side_silent": false,
+    "n_pairs_responding": 101
+   },
+   "visual_centrifugal": {
+    "r": 0.4735425951013766,
+    "one_side_silent": false,
+    "n_pairs_responding": 12
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "TRN_VP3a",
+   "n_left": 3,
+   "n_right": 4,
+   "central": {
+    "r": 0.8356977627756366,
+    "one_side_silent": false,
+    "n_pairs_responding": 31
+   },
+   "descending": {
+    "r": 0.9752794456543823,
+    "one_side_silent": false,
+    "n_pairs_responding": 8
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "aPhM1",
+   "n_left": 13,
+   "n_right": 12,
+   "central": {
+    "r": 0.5965213346149346,
+    "one_side_silent": false,
+    "n_pairs_responding": 38
+   },
+   "descending": {
+    "r": 0.0,
+    "one_side_silent": true,
+    "n_pairs_responding": 6
+   },
+   "motor": {
+    "r": 0.4732328503147548,
+    "one_side_silent": false,
+    "n_pairs_responding": 16
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "aPhM3",
+   "n_left": 4,
+   "n_right": 4,
+   "central": {
+    "r": 0.7597282241593022,
+    "one_side_silent": false,
+    "n_pairs_responding": 24
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "claw_tpGRN",
+   "n_left": 31,
+   "n_right": 29,
+   "central": {
+    "r": 0.7806044353626109,
+    "one_side_silent": false,
+    "n_pairs_responding": 74
+   },
+   "descending": {
+    "r": 0.6750445031163512,
+    "one_side_silent": false,
+    "n_pairs_responding": 36
+   },
+   "motor": {
+    "r": 0.8983197275978954,
+    "one_side_silent": false,
+    "n_pairs_responding": 7
+   }
+  },
+  {
+   "kind": "sensory",
+   "cell_type": "dorsal_tpGRN",
+   "n_left": 5,
+   "n_right": 6,
+   "central": {
+    "r": 0.7747290791052646,
+    "one_side_silent": false,
+    "n_pairs_responding": 50
+   },
+   "descending": {
+    "r": 0.8503127068136492,
+    "one_side_silent": false,
+    "n_pairs_responding": 7
+   },
+   "motor": {
+    "r": 0.787114415175725,
+    "one_side_silent": false,
+    "n_pairs_responding": 11
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC10a",
+   "n_left": 115,
+   "n_right": 119,
+   "central": {
+    "r": 0.7791562150821699,
+    "one_side_silent": false,
+    "n_pairs_responding": 261
+   },
+   "descending": {
+    "r": 0.7090928676581479,
+    "one_side_silent": false,
+    "n_pairs_responding": 98
+   },
+   "motor": {
+    "r": 0.5259573665258374,
+    "one_side_silent": false,
+    "n_pairs_responding": 10
+   },
+   "visual_centrifugal": {
+    "r": 0.5970476343206025,
+    "one_side_silent": false,
+    "n_pairs_responding": 22
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC10b",
+   "n_left": 40,
+   "n_right": 44,
+   "central": {
+    "r": 0.42065455358308335,
+    "one_side_silent": false,
+    "n_pairs_responding": 49
+   },
+   "descending": {
+    "r": 0.5660454117907648,
+    "one_side_silent": false,
+    "n_pairs_responding": 24
+   },
+   "visual_centrifugal": {
+    "r": 0.8857199912488083,
+    "one_side_silent": false,
+    "n_pairs_responding": 6
+   },
+   "visual_projection": {
+    "r": 0.8996608278371497,
+    "one_side_silent": false,
+    "n_pairs_responding": 8
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC10c-1",
+   "n_left": 46,
+   "n_right": 56,
+   "central": {
+    "r": 0.7905785617180989,
+    "one_side_silent": false,
+    "n_pairs_responding": 120
+   },
+   "descending": {
+    "r": 0.7931420186739704,
+    "one_side_silent": false,
+    "n_pairs_responding": 51
+   },
+   "motor": {
+    "r": 0.656369894911117,
+    "one_side_silent": false,
+    "n_pairs_responding": 6
+   },
+   "visual_centrifugal": {
+    "r": 0.6687221641077059,
+    "one_side_silent": false,
+    "n_pairs_responding": 13
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC10c-2",
+   "n_left": 55,
+   "n_right": 46,
+   "central": {
+    "r": 0.8058824439116947,
+    "one_side_silent": false,
+    "n_pairs_responding": 167
+   },
+   "descending": {
+    "r": 0.7576841365596226,
+    "one_side_silent": false,
+    "n_pairs_responding": 71
+   },
+   "motor": {
+    "r": 0.676755733403532,
+    "one_side_silent": false,
+    "n_pairs_responding": 8
+   },
+   "visual_centrifugal": {
+    "r": 0.6241239421566599,
+    "one_side_silent": false,
+    "n_pairs_responding": 14
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC10d",
+   "n_left": 93,
+   "n_right": 95,
+   "central": {
+    "r": 0.7699385032097497,
+    "one_side_silent": false,
+    "n_pairs_responding": 204
+   },
+   "descending": {
+    "r": 0.797585635298008,
+    "one_side_silent": false,
+    "n_pairs_responding": 92
+   },
+   "motor": {
+    "r": 0.1510131327719718,
+    "one_side_silent": false,
+    "n_pairs_responding": 9
+   },
+   "visual_centrifugal": {
+    "r": 0.6635747547466843,
+    "one_side_silent": false,
+    "n_pairs_responding": 16
+   },
+   "visual_projection": {
+    "r": 0.9149743614612789,
+    "one_side_silent": false,
+    "n_pairs_responding": 8
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC10e",
+   "n_left": 52,
+   "n_right": 51,
+   "central": {
+    "r": 0.7649231690392128,
+    "one_side_silent": false,
+    "n_pairs_responding": 116
+   },
+   "descending": {
+    "r": 0.7918465377135042,
+    "one_side_silent": false,
+    "n_pairs_responding": 58
+   },
+   "visual_centrifugal": {
+    "r": 0.5652028900701688,
+    "one_side_silent": false,
+    "n_pairs_responding": 11
+   },
+   "visual_projection": {
+    "r": 0.857916194159277,
+    "one_side_silent": false,
+    "n_pairs_responding": 6
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC11",
+   "n_left": 66,
+   "n_right": 61,
+   "central": {
+    "r": 0.6927483481349832,
+    "one_side_silent": false,
+    "n_pairs_responding": 392
+   },
+   "descending": {
+    "r": 0.568191591504136,
+    "one_side_silent": false,
+    "n_pairs_responding": 131
+   },
+   "motor": {
+    "r": -0.1235094686347616,
+    "one_side_silent": false,
+    "n_pairs_responding": 6
+   },
+   "optic": {
+    "r": -0.5769478991168085,
+    "one_side_silent": false,
+    "n_pairs_responding": 9
+   },
+   "visual_centrifugal": {
+    "r": -0.21838920083336133,
+    "one_side_silent": false,
+    "n_pairs_responding": 30
+   },
+   "visual_projection": {
+    "r": 0.8875006874346936,
+    "one_side_silent": false,
+    "n_pairs_responding": 13
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC12",
+   "n_left": 198,
+   "n_right": 182,
+   "central": {
+    "r": 0.7830743095285331,
+    "one_side_silent": false,
+    "n_pairs_responding": 239
+   },
+   "descending": {
+    "r": 0.4541011717831487,
+    "one_side_silent": false,
+    "n_pairs_responding": 80
+   },
+   "visual_centrifugal": {
+    "r": 0.9342388808314972,
+    "one_side_silent": false,
+    "n_pairs_responding": 14
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC13",
+   "n_left": 75,
+   "n_right": 70,
+   "central": {
+    "r": 0.7961026498402196,
+    "one_side_silent": false,
+    "n_pairs_responding": 151
+   },
+   "descending": {
+    "r": 0.6309122223465546,
+    "one_side_silent": false,
+    "n_pairs_responding": 85
+   },
+   "visual_centrifugal": {
+    "r": 0.46560126032425075,
+    "one_side_silent": false,
+    "n_pairs_responding": 10
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC15",
+   "n_left": 52,
+   "n_right": 54,
+   "central": {
+    "r": 0.6934184083909646,
+    "one_side_silent": false,
+    "n_pairs_responding": 553
+   },
+   "descending": {
+    "r": 0.7293498437822387,
+    "one_side_silent": false,
+    "n_pairs_responding": 202
+   },
+   "motor": {
+    "r": 0.5921148752320072,
+    "one_side_silent": false,
+    "n_pairs_responding": 18
+   },
+   "optic": {
+    "r": -0.18930775237166408,
+    "one_side_silent": false,
+    "n_pairs_responding": 8
+   },
+   "visual_centrifugal": {
+    "r": 0.399393226681924,
+    "one_side_silent": false,
+    "n_pairs_responding": 37
+   },
+   "visual_projection": {
+    "r": 0.924671255317066,
+    "one_side_silent": false,
+    "n_pairs_responding": 9
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC16",
+   "n_left": 77,
+   "n_right": 74,
+   "central": {
+    "r": 0.6892393751977248,
+    "one_side_silent": false,
+    "n_pairs_responding": 234
+   },
+   "descending": {
+    "r": 0.5322618322330088,
+    "one_side_silent": false,
+    "n_pairs_responding": 102
+   },
+   "motor": {
+    "r": 0.0,
+    "one_side_silent": true,
+    "n_pairs_responding": 8
+   },
+   "visual_centrifugal": {
+    "r": 0.4609833605241691,
+    "one_side_silent": false,
+    "n_pairs_responding": 18
+   },
+   "visual_projection": {
+    "r": 0.8679612181670081,
+    "one_side_silent": false,
+    "n_pairs_responding": 6
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC17",
+   "n_left": 134,
+   "n_right": 142,
+   "ascending": {
+    "r": -0.8945734290385661,
+    "one_side_silent": false,
+    "n_pairs_responding": 7
+   },
+   "central": {
+    "r": 0.7644557210867047,
+    "one_side_silent": false,
+    "n_pairs_responding": 839
+   },
+   "descending": {
+    "r": 0.7307018545527646,
+    "one_side_silent": false,
+    "n_pairs_responding": 202
+   },
+   "motor": {
+    "r": 0.2449182954156597,
+    "one_side_silent": false,
+    "n_pairs_responding": 6
+   },
+   "visual_centrifugal": {
+    "r": 0.5790257632371696,
+    "one_side_silent": false,
+    "n_pairs_responding": 36
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC18",
+   "n_left": 96,
+   "n_right": 92,
+   "central": {
+    "r": 0.7997635418992488,
+    "one_side_silent": false,
+    "n_pairs_responding": 721
+   },
+   "descending": {
+    "r": 0.6756954838431432,
+    "one_side_silent": false,
+    "n_pairs_responding": 209
+   },
+   "motor": {
+    "r": 0.17304079675500308,
+    "one_side_silent": false,
+    "n_pairs_responding": 26
+   },
+   "optic": {
+    "r": -0.1134730666314779,
+    "one_side_silent": false,
+    "n_pairs_responding": 7
+   },
+   "visual_centrifugal": {
+    "r": 0.3195628538138114,
+    "one_side_silent": false,
+    "n_pairs_responding": 41
+   },
+   "visual_projection": {
+    "r": 0.9815199284528817,
+    "one_side_silent": false,
+    "n_pairs_responding": 8
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC19",
+   "n_left": 8,
+   "n_right": 7,
+   "central": {
+    "r": 0.6364543014125412,
+    "one_side_silent": false,
+    "n_pairs_responding": 51
+   },
+   "descending": {
+    "r": 0.8976558486375562,
+    "one_side_silent": false,
+    "n_pairs_responding": 45
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC20a",
+   "n_left": 20,
+   "n_right": 26,
+   "central": {
+    "r": 0.6081241822755366,
+    "one_side_silent": false,
+    "n_pairs_responding": 29
+   },
+   "descending": {
+    "r": 0.7706842766459738,
+    "one_side_silent": false,
+    "n_pairs_responding": 25
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC20b",
+   "n_left": 24,
+   "n_right": 22
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC21",
+   "n_left": 68,
+   "n_right": 62,
+   "central": {
+    "r": 0.7677717214288399,
+    "one_side_silent": false,
+    "n_pairs_responding": 314
+   },
+   "descending": {
+    "r": 0.4173636567246891,
+    "one_side_silent": false,
+    "n_pairs_responding": 118
+   },
+   "motor": {
+    "r": 0.0,
+    "one_side_silent": true,
+    "n_pairs_responding": 6
+   },
+   "visual_centrifugal": {
+    "r": 0.2545124682806411,
+    "one_side_silent": false,
+    "n_pairs_responding": 18
+   },
+   "visual_projection": {
+    "r": 0.9680189651563,
+    "one_side_silent": false,
+    "n_pairs_responding": 6
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC22",
+   "n_left": 43,
+   "n_right": 46,
+   "central": {
+    "r": 0.7273620764961498,
+    "one_side_silent": false,
+    "n_pairs_responding": 134
+   },
+   "descending": {
+    "r": 0.6245336319968514,
+    "one_side_silent": false,
+    "n_pairs_responding": 59
+   },
+   "optic": {
+    "r": 0.9960030246138736,
+    "one_side_silent": false,
+    "n_pairs_responding": 6
+   },
+   "visual_centrifugal": {
+    "r": 0.8741442085643475,
+    "one_side_silent": false,
+    "n_pairs_responding": 12
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC24",
+   "n_left": 40,
+   "n_right": 35,
+   "central": {
+    "r": 0.6417784313955841,
+    "one_side_silent": false,
+    "n_pairs_responding": 30
+   },
+   "descending": {
+    "r": 0.8687332424805576,
+    "one_side_silent": false,
+    "n_pairs_responding": 25
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC25",
+   "n_left": 32,
+   "n_right": 28
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC26",
+   "n_left": 26,
+   "n_right": 31,
+   "central": {
+    "r": 0.8725004942466208,
+    "one_side_silent": false,
+    "n_pairs_responding": 19
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC27",
+   "n_left": 18,
+   "n_right": 19,
+   "central": {
+    "r": 0.8070991931410616,
+    "one_side_silent": false,
+    "n_pairs_responding": 10
+   },
+   "visual_projection": {
+    "r": 0.8407917825182597,
+    "one_side_silent": false,
+    "n_pairs_responding": 5
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC28a",
+   "n_left": 19,
+   "n_right": 26,
+   "central": {
+    "r": 0.5282940711522108,
+    "one_side_silent": false,
+    "n_pairs_responding": 114
+   },
+   "descending": {
+    "r": 0.5304256882516062,
+    "one_side_silent": false,
+    "n_pairs_responding": 47
+   },
+   "optic": {
+    "r": 0.9322162925550407,
+    "one_side_silent": false,
+    "n_pairs_responding": 5
+   },
+   "visual_centrifugal": {
+    "r": 0.6226589395125528,
+    "one_side_silent": false,
+    "n_pairs_responding": 10
+   },
+   "visual_projection": {
+    "r": 0.9376042979451199,
+    "one_side_silent": false,
+    "n_pairs_responding": 10
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC28b",
+   "n_left": 7,
+   "n_right": 9,
+   "central": {
+    "r": 0.4186459853568683,
+    "one_side_silent": false,
+    "n_pairs_responding": 6
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC28c",
+   "n_left": 11,
+   "n_right": 13
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC28d",
+   "n_left": 10,
+   "n_right": 8,
+   "central": {
+    "r": -0.8546781281622823,
+    "one_side_silent": false,
+    "n_pairs_responding": 5
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC29",
+   "n_left": 22,
+   "n_right": 23,
+   "central": {
+    "r": 0.5498488742970686,
+    "one_side_silent": false,
+    "n_pairs_responding": 39
+   },
+   "descending": {
+    "r": 0.7764166310288958,
+    "one_side_silent": false,
+    "n_pairs_responding": 14
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC31a",
+   "n_left": 18,
+   "n_right": 17,
+   "central": {
+    "r": 0.6809172576385746,
+    "one_side_silent": false,
+    "n_pairs_responding": 524
+   },
+   "descending": {
+    "r": 0.804071810741927,
+    "one_side_silent": false,
+    "n_pairs_responding": 198
+   },
+   "motor": {
+    "r": 0.7768708949504993,
+    "one_side_silent": false,
+    "n_pairs_responding": 15
+   },
+   "optic": {
+    "r": 0.09503543030129376,
+    "one_side_silent": false,
+    "n_pairs_responding": 8
+   },
+   "visual_centrifugal": {
+    "r": 0.4544683014253221,
+    "one_side_silent": false,
+    "n_pairs_responding": 43
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC31b",
+   "n_left": 5,
+   "n_right": 5,
+   "central": {
+    "r": 0.7348612590133815,
+    "one_side_silent": false,
+    "n_pairs_responding": 232
+   },
+   "descending": {
+    "r": 0.7500790122821045,
+    "one_side_silent": false,
+    "n_pairs_responding": 110
+   },
+   "motor": {
+    "r": -0.020572570286369506,
+    "one_side_silent": false,
+    "n_pairs_responding": 6
+   },
+   "visual_centrifugal": {
+    "r": -0.20033215013738792,
+    "one_side_silent": false,
+    "n_pairs_responding": 16
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC33",
+   "n_left": 14,
+   "n_right": 15
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC34",
+   "n_left": 7,
+   "n_right": 7,
+   "central": {
+    "r": 0.3439361658898827,
+    "one_side_silent": false,
+    "n_pairs_responding": 59
+   },
+   "descending": {
+    "r": 0.1899292428661079,
+    "one_side_silent": false,
+    "n_pairs_responding": 19
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC36",
+   "n_left": 18,
+   "n_right": 17,
+   "central": {
+    "r": 0.7374509393288101,
+    "one_side_silent": false,
+    "n_pairs_responding": 101
+   },
+   "descending": {
+    "r": 0.8295561993465873,
+    "one_side_silent": false,
+    "n_pairs_responding": 62
+   },
+   "motor": {
+    "r": 0.0,
+    "one_side_silent": true,
+    "n_pairs_responding": 8
+   },
+   "visual_centrifugal": {
+    "r": 0.8900045416955584,
+    "one_side_silent": false,
+    "n_pairs_responding": 13
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC37",
+   "n_left": 9,
+   "n_right": 9
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC4",
+   "n_left": 54,
+   "n_right": 50,
+   "central": {
+    "r": 0.7532477650692142,
+    "one_side_silent": false,
+    "n_pairs_responding": 212
+   },
+   "descending": {
+    "r": 0.7643526778896026,
+    "one_side_silent": false,
+    "n_pairs_responding": 70
+   },
+   "visual_centrifugal": {
+    "r": 0.7385894474546959,
+    "one_side_silent": false,
+    "n_pairs_responding": 13
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC40",
+   "n_left": 19,
+   "n_right": 18,
+   "central": {
+    "r": 0.8244760345699881,
+    "one_side_silent": false,
+    "n_pairs_responding": 25
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC41",
+   "n_left": 6,
+   "n_right": 6,
+   "central": {
+    "r": 0.8973732742954027,
+    "one_side_silent": false,
+    "n_pairs_responding": 16
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC43",
+   "n_left": 6,
+   "n_right": 6,
+   "central": {
+    "r": 0.752221382954947,
+    "one_side_silent": false,
+    "n_pairs_responding": 19
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC45a",
+   "n_left": 7,
+   "n_right": 7,
+   "central": {
+    "r": 0.9612334402896453,
+    "one_side_silent": false,
+    "n_pairs_responding": 6
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC45b",
+   "n_left": 5,
+   "n_right": 5
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC46",
+   "n_left": 7,
+   "n_right": 7,
+   "central": {
+    "r": 0.7215015874480797,
+    "one_side_silent": false,
+    "n_pairs_responding": 34
+   },
+   "descending": {
+    "r": 0.7783632552213883,
+    "one_side_silent": false,
+    "n_pairs_responding": 19
+   },
+   "visual_centrifugal": {
+    "r": 0.7179665349151023,
+    "one_side_silent": false,
+    "n_pairs_responding": 8
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC6",
+   "n_left": 65,
+   "n_right": 60,
+   "central": {
+    "r": 0.7162176336812321,
+    "one_side_silent": false,
+    "n_pairs_responding": 413
+   },
+   "descending": {
+    "r": 0.7960573196202978,
+    "one_side_silent": false,
+    "n_pairs_responding": 165
+   },
+   "visual_centrifugal": {
+    "r": 0.5130327700525118,
+    "one_side_silent": false,
+    "n_pairs_responding": 22
+   },
+   "visual_projection": {
+    "r": 0.15731733342253645,
+    "one_side_silent": false,
+    "n_pairs_responding": 7
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LC9",
+   "n_left": 87,
+   "n_right": 92,
+   "central": {
+    "r": 0.6729931866681637,
+    "one_side_silent": false,
+    "n_pairs_responding": 480
+   },
+   "descending": {
+    "r": 0.5203891470025873,
+    "one_side_silent": false,
+    "n_pairs_responding": 171
+   },
+   "motor": {
+    "r": -0.0021148374559285987,
+    "one_side_silent": false,
+    "n_pairs_responding": 9
+   },
+   "optic": {
+    "r": -0.5050343142469784,
+    "one_side_silent": false,
+    "n_pairs_responding": 5
+   },
+   "visual_centrifugal": {
+    "r": 0.7017545521887298,
+    "one_side_silent": false,
+    "n_pairs_responding": 42
+   },
+   "visual_projection": {
+    "r": 0.9678310101259325,
+    "one_side_silent": false,
+    "n_pairs_responding": 18
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LCe01a",
+   "n_left": 10,
+   "n_right": 12
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LCe01b",
+   "n_left": 22,
+   "n_right": 23
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LCe02",
+   "n_left": 25,
+   "n_right": 28,
+   "central": {
+    "r": 0.9412307176215434,
+    "one_side_silent": false,
+    "n_pairs_responding": 10
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LCe03",
+   "n_left": 12,
+   "n_right": 25
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LCe04",
+   "n_left": 19,
+   "n_right": 18,
+   "central": {
+    "r": 0.3633626290107768,
+    "one_side_silent": false,
+    "n_pairs_responding": 145
+   },
+   "descending": {
+    "r": 0.5201982332699,
+    "one_side_silent": false,
+    "n_pairs_responding": 81
+   },
+   "motor": {
+    "r": -0.01378153781958748,
+    "one_side_silent": false,
+    "n_pairs_responding": 11
+   },
+   "visual_centrifugal": {
+    "r": 0.5939408325236519,
+    "one_side_silent": false,
+    "n_pairs_responding": 9
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LCe05",
+   "n_left": 11,
+   "n_right": 8
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LCe06",
+   "n_left": 5,
+   "n_right": 6,
+   "central": {
+    "r": 0.748721483371383,
+    "one_side_silent": false,
+    "n_pairs_responding": 20
+   },
+   "descending": {
+    "r": 0.8355118409823571,
+    "one_side_silent": false,
+    "n_pairs_responding": 20
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LCe07",
+   "n_left": 5,
+   "n_right": 5,
+   "central": {
+    "r": 0.5921343315170511,
+    "one_side_silent": false,
+    "n_pairs_responding": 73
+   },
+   "descending": {
+    "r": 0.5957536074198578,
+    "one_side_silent": false,
+    "n_pairs_responding": 47
+   },
+   "visual_centrifugal": {
+    "r": 0.7058561478889551,
+    "one_side_silent": false,
+    "n_pairs_responding": 7
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LCe09",
+   "n_left": 8,
+   "n_right": 8
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LLPC1",
+   "n_left": 106,
+   "n_right": 113,
+   "ascending": {
+    "r": -0.5744639265659002,
+    "one_side_silent": false,
+    "n_pairs_responding": 5
+   },
+   "central": {
+    "r": 0.7775324498062154,
+    "one_side_silent": false,
+    "n_pairs_responding": 683
+   },
+   "descending": {
+    "r": 0.7940396156522281,
+    "one_side_silent": false,
+    "n_pairs_responding": 139
+   },
+   "motor": {
+    "r": 0.7568887369310364,
+    "one_side_silent": false,
+    "n_pairs_responding": 11
+   },
+   "optic": {
+    "r": 0.5503616951497159,
+    "one_side_silent": false,
+    "n_pairs_responding": 7
+   },
+   "visual_centrifugal": {
+    "r": 0.6511473434041849,
+    "one_side_silent": false,
+    "n_pairs_responding": 28
+   },
+   "visual_projection": {
+    "r": 0.6569868308157892,
+    "one_side_silent": false,
+    "n_pairs_responding": 8
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LLPC2",
+   "n_left": 120,
+   "n_right": 115,
+   "central": {
+    "r": 0.6792861071837427,
+    "one_side_silent": false,
+    "n_pairs_responding": 292
+   },
+   "descending": {
+    "r": 0.683298467818933,
+    "one_side_silent": false,
+    "n_pairs_responding": 104
+   },
+   "visual_centrifugal": {
+    "r": 0.28491706119616456,
+    "one_side_silent": false,
+    "n_pairs_responding": 22
+   },
+   "visual_projection": {
+    "r": 0.8691118251618674,
+    "one_side_silent": false,
+    "n_pairs_responding": 10
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LLPC3",
+   "n_left": 102,
+   "n_right": 102,
+   "central": {
+    "r": 0.757971831454428,
+    "one_side_silent": false,
+    "n_pairs_responding": 370
+   },
+   "descending": {
+    "r": 0.7099314585479315,
+    "one_side_silent": false,
+    "n_pairs_responding": 136
+   },
+   "motor": {
+    "r": 0.3684256662640706,
+    "one_side_silent": false,
+    "n_pairs_responding": 10
+   },
+   "optic": {
+    "r": 0.9958422778345714,
+    "one_side_silent": false,
+    "n_pairs_responding": 8
+   },
+   "visual_centrifugal": {
+    "r": 0.6225150045306658,
+    "one_side_silent": false,
+    "n_pairs_responding": 28
+   },
+   "visual_projection": {
+    "r": 0.948868683516735,
+    "one_side_silent": false,
+    "n_pairs_responding": 14
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LPC1",
+   "n_left": 82,
+   "n_right": 82,
+   "central": {
+    "r": 0.7071249183806978,
+    "one_side_silent": false,
+    "n_pairs_responding": 274
+   },
+   "descending": {
+    "r": 0.6303475924926355,
+    "one_side_silent": false,
+    "n_pairs_responding": 83
+   },
+   "motor": {
+    "r": -0.16197257063534487,
+    "one_side_silent": false,
+    "n_pairs_responding": 5
+   },
+   "optic": {
+    "r": 0.874896991438329,
+    "one_side_silent": false,
+    "n_pairs_responding": 9
+   },
+   "visual_centrifugal": {
+    "r": 0.8366184615752228,
+    "one_side_silent": false,
+    "n_pairs_responding": 13
+   },
+   "visual_projection": {
+    "r": 0.874800101559723,
+    "one_side_silent": false,
+    "n_pairs_responding": 10
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LPC2",
+   "n_left": 54,
+   "n_right": 62,
+   "central": {
+    "r": 0.7559776107490181,
+    "one_side_silent": false,
+    "n_pairs_responding": 31
+   },
+   "descending": {
+    "r": 0.6803431352382979,
+    "one_side_silent": false,
+    "n_pairs_responding": 16
+   },
+   "visual_projection": {
+    "r": 0.5365554707676665,
+    "one_side_silent": false,
+    "n_pairs_responding": 7
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LPLC1",
+   "n_left": 68,
+   "n_right": 72,
+   "ascending": {
+    "r": -0.5371843667873061,
+    "one_side_silent": false,
+    "n_pairs_responding": 6
+   },
+   "central": {
+    "r": 0.7400538309612549,
+    "one_side_silent": false,
+    "n_pairs_responding": 759
+   },
+   "descending": {
+    "r": 0.64809584418719,
+    "one_side_silent": false,
+    "n_pairs_responding": 213
+   },
+   "motor": {
+    "r": -0.44860680820285015,
+    "one_side_silent": false,
+    "n_pairs_responding": 9
+   },
+   "optic": {
+    "r": -0.3731622182257318,
+    "one_side_silent": false,
+    "n_pairs_responding": 9
+   },
+   "visual_centrifugal": {
+    "r": 0.4232876543956967,
+    "one_side_silent": false,
+    "n_pairs_responding": 41
+   },
+   "visual_projection": {
+    "r": 0.9198229823987752,
+    "one_side_silent": false,
+    "n_pairs_responding": 18
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LPLC2",
+   "n_left": 108,
+   "n_right": 102,
+   "central": {
+    "r": 0.7498777308175417,
+    "one_side_silent": false,
+    "n_pairs_responding": 372
+   },
+   "descending": {
+    "r": 0.8485847231088371,
+    "one_side_silent": false,
+    "n_pairs_responding": 137
+   },
+   "visual_centrifugal": {
+    "r": 0.831748262851547,
+    "one_side_silent": false,
+    "n_pairs_responding": 20
+   },
+   "visual_projection": {
+    "r": 0.6623118492386078,
+    "one_side_silent": false,
+    "n_pairs_responding": 9
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LPLC4",
+   "n_left": 56,
+   "n_right": 54,
+   "ascending": {
+    "r": 0.7160888792641833,
+    "one_side_silent": false,
+    "n_pairs_responding": 6
+   },
+   "central": {
+    "r": 0.7159712458359249,
+    "one_side_silent": false,
+    "n_pairs_responding": 348
+   },
+   "descending": {
+    "r": 0.7393476759748977,
+    "one_side_silent": false,
+    "n_pairs_responding": 119
+   },
+   "motor": {
+    "r": 0.18972648895195177,
+    "one_side_silent": false,
+    "n_pairs_responding": 6
+   },
+   "optic": {
+    "r": 0.7602203873778391,
+    "one_side_silent": false,
+    "n_pairs_responding": 8
+   },
+   "visual_centrifugal": {
+    "r": 0.5454244140261225,
+    "one_side_silent": false,
+    "n_pairs_responding": 38
+   },
+   "visual_projection": {
+    "r": 0.961280129363117,
+    "one_side_silent": false,
+    "n_pairs_responding": 12
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LPTe01",
+   "n_left": 18,
+   "n_right": 20,
+   "central": {
+    "r": 0.6249935845909038,
+    "one_side_silent": false,
+    "n_pairs_responding": 110
+   },
+   "descending": {
+    "r": 0.7933268245565744,
+    "one_side_silent": false,
+    "n_pairs_responding": 42
+   },
+   "optic": {
+    "r": 0.4160147172316731,
+    "one_side_silent": false,
+    "n_pairs_responding": 10
+   },
+   "visual_centrifugal": {
+    "r": 0.6761979608156454,
+    "one_side_silent": false,
+    "n_pairs_responding": 13
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LPTe02",
+   "n_left": 5,
+   "n_right": 6,
+   "central": {
+    "r": 0.787449407681711,
+    "one_side_silent": false,
+    "n_pairs_responding": 8
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LT51",
+   "n_left": 11,
+   "n_right": 11
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LT52",
+   "n_left": 15,
+   "n_right": 16
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LT57",
+   "n_left": 11,
+   "n_right": 11,
+   "central": {
+    "r": 0.5807147445707979,
+    "one_side_silent": false,
+    "n_pairs_responding": 46
+   },
+   "descending": {
+    "r": 0.7264282679987938,
+    "one_side_silent": false,
+    "n_pairs_responding": 24
+   },
+   "visual_projection": {
+    "r": 0.6595388419895578,
+    "one_side_silent": false,
+    "n_pairs_responding": 5
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LT81",
+   "n_left": 5,
+   "n_right": 6,
+   "central": {
+    "r": 0.8053064271469417,
+    "one_side_silent": false,
+    "n_pairs_responding": 11
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LTe09",
+   "n_left": 8,
+   "n_right": 7
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LTe49",
+   "n_left": 13,
+   "n_right": 14,
+   "central": {
+    "r": 0.7825244061238446,
+    "one_side_silent": false,
+    "n_pairs_responding": 82
+   },
+   "descending": {
+    "r": 0.9618798137458864,
+    "one_side_silent": false,
+    "n_pairs_responding": 33
+   },
+   "visual_centrifugal": {
+    "r": 0.9174167288873532,
+    "one_side_silent": false,
+    "n_pairs_responding": 8
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LTe58",
+   "n_left": 6,
+   "n_right": 6,
+   "central": {
+    "r": 0.658118057282846,
+    "one_side_silent": false,
+    "n_pairs_responding": 48
+   },
+   "descending": {
+    "r": -0.4728686165285678,
+    "one_side_silent": false,
+    "n_pairs_responding": 14
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "LTe64",
+   "n_left": 8,
+   "n_right": 8,
+   "central": {
+    "r": 0.6833523742586474,
+    "one_side_silent": false,
+    "n_pairs_responding": 18
+   },
+   "descending": {
+    "r": 0.7899433793397824,
+    "one_side_silent": false,
+    "n_pairs_responding": 13
+   },
+   "visual_centrifugal": {
+    "r": -0.24520373904519974,
+    "one_side_silent": false,
+    "n_pairs_responding": 8
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "MTe01a",
+   "n_left": 41,
+   "n_right": 46
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "MTe01b",
+   "n_left": 23,
+   "n_right": 25,
+   "central": {
+    "r": 0.6423440958830144,
+    "one_side_silent": false,
+    "n_pairs_responding": 130
+   },
+   "descending": {
+    "r": 0.7399286744114427,
+    "one_side_silent": false,
+    "n_pairs_responding": 73
+   },
+   "motor": {
+    "r": 0.007207690354047093,
+    "one_side_silent": false,
+    "n_pairs_responding": 8
+   },
+   "optic": {
+    "r": 0.9905162580738676,
+    "one_side_silent": false,
+    "n_pairs_responding": 5
+   },
+   "visual_centrifugal": {
+    "r": 0.47636984645126923,
+    "one_side_silent": false,
+    "n_pairs_responding": 18
+   },
+   "visual_projection": {
+    "r": 0.9899369030328107,
+    "one_side_silent": false,
+    "n_pairs_responding": 10
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "MTe02",
+   "n_left": 37,
+   "n_right": 37,
+   "central": {
+    "r": 0.5072222664486095,
+    "one_side_silent": false,
+    "n_pairs_responding": 12
+   },
+   "visual_projection": {
+    "r": 0.9827707801074738,
+    "one_side_silent": false,
+    "n_pairs_responding": 5
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "MTe03",
+   "n_left": 23,
+   "n_right": 24,
+   "central": {
+    "r": 0.6161306189437031,
+    "one_side_silent": false,
+    "n_pairs_responding": 17
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "MTe04",
+   "n_left": 12,
+   "n_right": 18,
+   "central": {
+    "r": 0.9372017986795311,
+    "one_side_silent": false,
+    "n_pairs_responding": 6
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "MTe05",
+   "n_left": 13,
+   "n_right": 10
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "MTe06",
+   "n_left": 10,
+   "n_right": 8
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "MTe07",
+   "n_left": 9,
+   "n_right": 6,
+   "central": {
+    "r": -0.1530042252348537,
+    "one_side_silent": false,
+    "n_pairs_responding": 18
+   },
+   "descending": {
+    "r": 0.0,
+    "one_side_silent": true,
+    "n_pairs_responding": 7
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "MTe08",
+   "n_left": 6,
+   "n_right": 6
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "MTe50",
+   "n_left": 25,
+   "n_right": 29,
+   "central": {
+    "r": 0.8285503052695867,
+    "one_side_silent": false,
+    "n_pairs_responding": 38
+   },
+   "descending": {
+    "r": 0.5031450530129353,
+    "one_side_silent": false,
+    "n_pairs_responding": 8
+   },
+   "visual_projection": {
+    "r": 0.8629408608829929,
+    "one_side_silent": false,
+    "n_pairs_responding": 7
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "MTe51",
+   "n_left": 48,
+   "n_right": 50,
+   "central": {
+    "r": 0.8595816878884369,
+    "one_side_silent": false,
+    "n_pairs_responding": 75
+   },
+   "visual_projection": {
+    "r": 0.7567228610671426,
+    "one_side_silent": false,
+    "n_pairs_responding": 12
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "MTe52",
+   "n_left": 18,
+   "n_right": 24,
+   "central": {
+    "r": 0.7421046861818333,
+    "one_side_silent": false,
+    "n_pairs_responding": 20
+   },
+   "descending": {
+    "r": 0.7279239440210785,
+    "one_side_silent": false,
+    "n_pairs_responding": 13
+   },
+   "optic": {
+    "r": 0.8778646750664981,
+    "one_side_silent": false,
+    "n_pairs_responding": 7
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "MTe53",
+   "n_left": 7,
+   "n_right": 7
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "MTe54",
+   "n_left": 27,
+   "n_right": 27,
+   "central": {
+    "r": 0.7455382475516265,
+    "one_side_silent": false,
+    "n_pairs_responding": 5
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "MeMe_e07",
+   "n_left": 5,
+   "n_right": 5
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "MeMe_e08",
+   "n_left": 6,
+   "n_right": 6
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "MeTu1",
+   "n_left": 120,
+   "n_right": 124,
+   "central": {
+    "r": 0.46185132661882927,
+    "one_side_silent": false,
+    "n_pairs_responding": 93
+   },
+   "descending": {
+    "r": 0.6191212373210024,
+    "one_side_silent": false,
+    "n_pairs_responding": 64
+   },
+   "visual_centrifugal": {
+    "r": 0.9876000042133933,
+    "one_side_silent": false,
+    "n_pairs_responding": 5
+   },
+   "visual_projection": {
+    "r": 0.909234483913434,
+    "one_side_silent": false,
+    "n_pairs_responding": 12
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "MeTu2a",
+   "n_left": 33,
+   "n_right": 36
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "MeTu2b",
+   "n_left": 17,
+   "n_right": 14
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "MeTu3a",
+   "n_left": 20,
+   "n_right": 19
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "MeTu3b",
+   "n_left": 44,
+   "n_right": 41
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "MeTu3c",
+   "n_left": 81,
+   "n_right": 70
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "MeTu4a",
+   "n_left": 71,
+   "n_right": 60,
+   "central": {
+    "r": 0.6853288478522146,
+    "one_side_silent": false,
+    "n_pairs_responding": 16
+   },
+   "visual_projection": {
+    "r": 0.9257795896039178,
+    "one_side_silent": false,
+    "n_pairs_responding": 8
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "MeTu4b",
+   "n_left": 9,
+   "n_right": 12
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "MeTu4c",
+   "n_left": 41,
+   "n_right": 48,
+   "central": {
+    "r": 0.6725335396363031,
+    "one_side_silent": false,
+    "n_pairs_responding": 34
+   },
+   "descending": {
+    "r": 0.6213292275185426,
+    "one_side_silent": false,
+    "n_pairs_responding": 7
+   },
+   "visual_projection": {
+    "r": 0.8374679202054796,
+    "one_side_silent": false,
+    "n_pairs_responding": 15
+   }
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "MeTu4d",
+   "n_left": 19,
+   "n_right": 18
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "TmY14",
+   "n_left": 185,
+   "n_right": 185
+  },
+  {
+   "kind": "vpn",
+   "cell_type": "aMe5",
+   "n_left": 27,
+   "n_right": 28,
+   "central": {
+    "r": 0.6392205754572011,
+    "one_side_silent": false,
+    "n_pairs_responding": 28
+   },
+   "descending": {
+    "r": 0.2432754254220464,
+    "one_side_silent": false,
+    "n_pairs_responding": 12
+   },
+   "visual_projection": {
+    "r": 0.9148033393816949,
+    "one_side_silent": false,
+    "n_pairs_responding": 6
+   }
+  }
+ ],
+ "noise_corrected": {
+  "summary": {
+   "ascending": {
+    "n_stimulus_types": 25,
+    "median_r": 0.41506100651125466,
+    "median_r_noise_corrected": 0.49228916604677575,
+    "median_reliability": 0.9990838853248256
+   },
+   "central": {
+    "n_stimulus_types": 173,
+    "median_r": 0.7249836718131556,
+    "median_r_noise_corrected": 0.7288961510022103,
+    "median_reliability": 0.9986327472358187
+   },
+   "descending": {
+    "n_stimulus_types": 108,
+    "median_r": 0.6375376652913145,
+    "median_r_noise_corrected": 0.6535066746682736,
+    "median_reliability": 0.997859329142375
+   },
+   "motor": {
+    "n_stimulus_types": 37,
+    "median_r": 0.14400989274032547,
+    "median_r_noise_corrected": 0.1449755001267747,
+    "median_reliability": 0.9968013584936927
+   },
+   "optic": {
+    "n_stimulus_types": 16,
+    "median_r": 0.5685211343605632,
+    "median_r_noise_corrected": 0.7738471674848888,
+    "median_reliability": 0.9970039013702812
+   },
+   "visual_centrifugal": {
+    "n_stimulus_types": 54,
+    "median_r": 0.5641596351906473,
+    "median_r_noise_corrected": 0.5827248632267877,
+    "median_reliability": 0.9980475966703447
+   },
+   "visual_projection": {
+    "n_stimulus_types": 31,
+    "median_r": 0.8961880811311549,
+    "median_r_noise_corrected": 0.8969466756348075,
+    "median_reliability": 0.9996391227003423
+   },
+   "paired_DN_minus_central_noise_corrected": {
+    "n": 101,
+    "median_diff": -0.037562573006394095,
+    "frac_DN_more_symmetric": 0.43564356435643564
+   }
+  },
+  "rows": [
+   {
+    "kind": "sensory",
+    "cell_type": "BM_Ant",
+    "ascending": {
+     "r": 0.5892615559426465,
+     "rel_left": 0.9985038482559099,
+     "rel_right": 0.9984463164629794,
+     "n_pairs_responding": 13,
+     "one_side_silent": false,
+     "r_nc": 0.5901615038752279
+    },
+    "central": {
+     "r": 0.817692816840883,
+     "rel_left": 0.999066682506803,
+     "rel_right": 0.9974466831669663,
+     "n_pairs_responding": 104,
+     "one_side_silent": false,
+     "r_nc": 0.8191210738493567
+    },
+    "descending": {
+     "r": 0.7661512977779582,
+     "rel_left": 0.9986178091623582,
+     "rel_right": 0.9976168262888989,
+     "n_pairs_responding": 73,
+     "one_side_silent": false,
+     "r_nc": 0.767596534486923
+    },
+    "motor": {
+     "r": 0.8479477530299077,
+     "rel_left": 0.9999766486876476,
+     "rel_right": 0.995300923629165,
+     "n_pairs_responding": 7,
+     "one_side_silent": false,
+     "r_nc": 0.8499570115540999
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "BM_Fr",
+    "ascending": {
+     "r": 0.5889694296865172,
+     "rel_left": 0.9988538392386683,
+     "rel_right": 0.9999235596642319,
+     "n_pairs_responding": 7,
+     "one_side_silent": false,
+     "r_nc": 0.5893297716471589
+    },
+    "central": {
+     "r": 0.7616395641993217,
+     "rel_left": 0.9994778101969837,
+     "rel_right": 0.9972629865407063,
+     "n_pairs_responding": 36,
+     "one_side_silent": false,
+     "r_nc": 0.7628832285016637
+    },
+    "descending": {
+     "r": 0.6634229099439721,
+     "rel_left": 0.9981580718544418,
+     "rel_right": 0.9955841420574248,
+     "n_pairs_responding": 21,
+     "one_side_silent": false,
+     "r_nc": 0.6655057591461152
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "BM_FrOr",
+    "ascending": {
+     "r": 0.6688295199840857,
+     "rel_left": 0.995960293718686,
+     "rel_right": 0.9977490590262359,
+     "n_pairs_responding": 5,
+     "one_side_silent": false,
+     "r_nc": 0.670940112970156
+    },
+    "central": {
+     "r": 0.7750893621344661,
+     "rel_left": 0.996514759037412,
+     "rel_right": 0.9935468429681648,
+     "n_pairs_responding": 26,
+     "one_side_silent": false,
+     "r_nc": 0.7789610365070243
+    },
+    "descending": {
+     "r": 0.858071506237809,
+     "rel_left": 0.9995710941751705,
+     "rel_right": 0.9961475641095795,
+     "n_pairs_responding": 17,
+     "one_side_silent": false,
+     "r_nc": 0.8599135606741808
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "BM_Hau",
+    "ascending": {
+     "r": 0.0,
+     "r_nc": 0.0,
+     "rel_left": NaN,
+     "rel_right": NaN,
+     "one_side_silent": true,
+     "n_pairs_responding": 5
+    },
+    "central": {
+     "r": 0.5669700627824801,
+     "rel_left": 0.9989426089484652,
+     "rel_right": 0.9990373732591004,
+     "n_pairs_responding": 33,
+     "one_side_silent": false,
+     "r_nc": 0.5675432871892605
+    },
+    "descending": {
+     "r": 0.6523843673966342,
+     "rel_left": 0.9987935127014004,
+     "rel_right": 0.9977720253965651,
+     "n_pairs_responding": 41,
+     "one_side_silent": false,
+     "r_nc": 0.6535066746682736
+    },
+    "motor": {
+     "r": 0.7071379053545996,
+     "rel_left": 0.9976785854618055,
+     "rel_right": 1.0,
+     "n_pairs_responding": 11,
+     "one_side_silent": false,
+     "r_nc": 0.7079601172598531
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "BM_InOc",
+    "ascending": {
+     "r": -0.5213705153470372,
+     "rel_left": 0.9706466911461962,
+     "rel_right": 0.9572166732804289,
+     "n_pairs_responding": 8,
+     "one_side_silent": false,
+     "r_nc": -0.5408922397756616
+    },
+    "central": {
+     "r": 0.2126926909420248,
+     "rel_left": 0.9631811550453485,
+     "rel_right": 0.9816820701781181,
+     "n_pairs_responding": 7,
+     "one_side_silent": false,
+     "r_nc": 0.21873241499776336
+    },
+    "descending": {
+     "r": 0.6030018074542957,
+     "rel_left": 0.996689324675414,
+     "rel_right": 0.979843061464076,
+     "n_pairs_responding": 5,
+     "one_side_silent": false,
+     "r_nc": 0.6101834860739695
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "BM_InOm",
+    "ascending": {
+     "r": 0.7310744135155577,
+     "rel_left": 0.9999761402026748,
+     "rel_right": 0.9999235940675969,
+     "n_pairs_responding": 29,
+     "one_side_silent": false,
+     "r_nc": 0.7311110664601993
+    },
+    "central": {
+     "r": 0.7929591247538216,
+     "rel_left": 0.9995849942106793,
+     "rel_right": 0.9993265742112774,
+     "n_pairs_responding": 172,
+     "one_side_silent": false,
+     "r_nc": 0.793390907238933
+    },
+    "descending": {
+     "r": 0.8052815605942052,
+     "rel_left": 0.9994229413808696,
+     "rel_right": 0.9995859928723105,
+     "n_pairs_responding": 99,
+     "one_side_silent": false,
+     "r_nc": 0.8056808045971433
+    },
+    "motor": {
+     "r": -0.4850388627633179,
+     "rel_left": 0.9984792838991978,
+     "rel_right": 0.9853969562460332,
+     "n_pairs_responding": 7,
+     "one_side_silent": false,
+     "r_nc": -0.4889916006692636
+    },
+    "visual_centrifugal": {
+     "r": 0.928340486846623,
+     "rel_left": 0.9998867882764362,
+     "rel_right": 0.9991289564340485,
+     "n_pairs_responding": 10,
+     "one_side_silent": false,
+     "r_nc": 0.9287976405518737
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "BM_MaPa",
+    "ascending": {
+     "r": 0.41506100651125466,
+     "rel_left": 0.9997293105389472,
+     "rel_right": 1.0,
+     "n_pairs_responding": 9,
+     "one_side_silent": false,
+     "r_nc": 0.4151171942386595
+    },
+    "central": {
+     "r": 0.6008646566875335,
+     "rel_left": 0.9985614401911135,
+     "rel_right": 0.9997830985909816,
+     "n_pairs_responding": 42,
+     "one_side_silent": false,
+     "r_nc": 0.6013625351457824
+    },
+    "descending": {
+     "r": 0.4037975930473042,
+     "rel_left": 0.9985603877959144,
+     "rel_right": 0.9998357338009617,
+     "n_pairs_responding": 39,
+     "one_side_silent": false,
+     "r_nc": 0.4041217563552609
+    },
+    "motor": {
+     "r": 0.0,
+     "r_nc": 0.0,
+     "rel_left": NaN,
+     "rel_right": NaN,
+     "one_side_silent": true,
+     "n_pairs_responding": 6
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "BM_Or",
+    "ascending": {
+     "r": 0.7530098221045117,
+     "rel_left": 0.9936639473900336,
+     "rel_right": 0.9958002642736538,
+     "n_pairs_responding": 9,
+     "one_side_silent": false,
+     "r_nc": 0.7569980418145951
+    },
+    "central": {
+     "r": 0.8731629728034508,
+     "rel_left": 0.9945431634624083,
+     "rel_right": 0.9955361118872499,
+     "n_pairs_responding": 18,
+     "one_side_silent": false,
+     "r_nc": 0.8775158781924819
+    },
+    "descending": {
+     "r": 0.9754327410123664,
+     "rel_left": 0.9983567588276746,
+     "rel_right": 0.9995916217148676,
+     "n_pairs_responding": 13,
+     "one_side_silent": false,
+     "r_nc": 0.9764345633970699
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "BM_Taste",
+    "ascending": {
+     "r": 0.5688966825638854,
+     "rel_left": 0.9998252487405207,
+     "rel_right": 0.9981929989755418,
+     "n_pairs_responding": 12,
+     "one_side_silent": false,
+     "r_nc": 0.569461137854892
+    },
+    "central": {
+     "r": 0.6195550603971522,
+     "rel_left": 0.9995944940336798,
+     "rel_right": 0.9993752870637957,
+     "n_pairs_responding": 114,
+     "one_side_silent": false,
+     "r_nc": 0.6198743672674976
+    },
+    "descending": {
+     "r": 0.6670103289232531,
+     "rel_left": 0.9993860815990759,
+     "rel_right": 0.9996452785724522,
+     "n_pairs_responding": 59,
+     "one_side_silent": false,
+     "r_nc": 0.6673335374517836
+    },
+    "motor": {
+     "r": 0.64593059283606,
+     "rel_left": 0.9993128967536843,
+     "rel_right": 0.9995429059962911,
+     "n_pairs_responding": 21,
+     "one_side_silent": false,
+     "r_nc": 0.6463003446510309
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "BM_Vib",
+    "ascending": {
+     "r": 0.7986580144263928,
+     "rel_left": 0.9995657547278162,
+     "rel_right": 0.9995615160690992,
+     "n_pairs_responding": 16,
+     "one_side_silent": false,
+     "r_nc": 0.7990066726565315
+    },
+    "central": {
+     "r": 0.7694074421155153,
+     "rel_left": 0.9992110222982229,
+     "rel_right": 0.9985033450538208,
+     "n_pairs_responding": 103,
+     "one_side_silent": false,
+     "r_nc": 0.7702877878495001
+    },
+    "descending": {
+     "r": 0.8355052448431146,
+     "rel_left": 0.9991774141968467,
+     "rel_right": 0.9980978275344012,
+     "n_pairs_responding": 68,
+     "one_side_silent": false,
+     "r_nc": 0.8366451948552733
+    },
+    "motor": {
+     "r": 0.0,
+     "r_nc": 0.0,
+     "rel_left": NaN,
+     "rel_right": NaN,
+     "one_side_silent": true,
+     "n_pairs_responding": 5
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "BM_Vt_PoOc",
+    "ascending": {
+     "r": 0.7260899061222666,
+     "rel_left": 0.9989633485885244,
+     "rel_right": 0.9980505795710348,
+     "n_pairs_responding": 12,
+     "one_side_silent": false,
+     "r_nc": 0.7271756813786723
+    },
+    "central": {
+     "r": 0.7538864031211393,
+     "rel_left": 0.9952248549384923,
+     "rel_right": 0.9894895516551887,
+     "n_pairs_responding": 37,
+     "one_side_silent": false,
+     "r_nc": 0.7596957510171544
+    },
+    "descending": {
+     "r": 0.9464222418716028,
+     "rel_left": 0.9997656095861387,
+     "rel_right": 0.998718157150628,
+     "n_pairs_responding": 19,
+     "one_side_silent": false,
+     "r_nc": 0.947140414766243
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "BM_dOcci"
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "BM_dPoOr",
+    "central": {
+     "r": 0.817410755177739,
+     "rel_left": NaN,
+     "rel_right": 0.9972985582704227,
+     "n_pairs_responding": 22,
+     "one_side_silent": false,
+     "r_nc": NaN
+    },
+    "descending": {
+     "r": 0.8046211828992746,
+     "rel_left": 0.9996067643987347,
+     "rel_right": 0.9995708836993719,
+     "n_pairs_responding": 12,
+     "one_side_silent": false,
+     "r_nc": 0.8049521599987214
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "BM_vOcci_vPoOr",
+    "ascending": {
+     "r": 0.7456518085496248,
+     "rel_left": 0.9993307053788025,
+     "rel_right": 0.999920884483755,
+     "n_pairs_responding": 8,
+     "one_side_silent": false,
+     "r_nc": 0.745930972189523
+    },
+    "central": {
+     "r": 0.7281288301991428,
+     "rel_left": 0.9996250494711357,
+     "rel_right": 0.9969610150076431,
+     "n_pairs_responding": 42,
+     "one_side_silent": false,
+     "r_nc": 0.7293744971114102
+    },
+    "descending": {
+     "r": 0.5344876181125809,
+     "rel_left": 0.996927850832458,
+     "rel_right": 0.9984124836383925,
+     "n_pairs_responding": 37,
+     "one_side_silent": false,
+     "r_nc": 0.5357359412105539
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "CB4148",
+    "ascending": {
+     "r": 0.9864015792450036,
+     "rel_left": 0.9989524300874407,
+     "rel_right": 0.9998181312609378,
+     "n_pairs_responding": 6,
+     "one_side_silent": false,
+     "r_nc": 0.9870084049058798
+    },
+    "central": {
+     "r": 0.6582707248814512,
+     "rel_left": 0.9969390769989096,
+     "rel_right": 0.9977569803301191,
+     "n_pairs_responding": 34,
+     "one_side_silent": false,
+     "r_nc": 0.6600211373567445
+    },
+    "descending": {
+     "r": 0.5683044741121575,
+     "rel_left": 0.9886788032149804,
+     "rel_right": 0.9947238814897037,
+     "n_pairs_responding": 30,
+     "one_side_silent": false,
+     "r_nc": 0.5730627654009849
+    },
+    "motor": {
+     "r": 0.1945640116279373,
+     "rel_left": 0.9986200582891943,
+     "rel_right": 0.9990836749680609,
+     "n_pairs_responding": 8,
+     "one_side_silent": false,
+     "r_nc": 0.19478765907914103
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ENS1",
+    "central": {
+     "r": 0.8089633040627506,
+     "rel_left": 0.9996004742772957,
+     "rel_right": 0.9991936150211935,
+     "n_pairs_responding": 41,
+     "one_side_silent": false,
+     "r_nc": 0.8094513838649451
+    },
+    "descending": {
+     "r": 0.7049184759626973,
+     "rel_left": 0.9972595949658993,
+     "rel_right": 0.9995653800347973,
+     "n_pairs_responding": 9,
+     "one_side_silent": false,
+     "r_nc": 0.7060397929258004
+    },
+    "motor": {
+     "r": -0.5575665152792263,
+     "rel_left": 0.9887076283859256,
+     "rel_right": 0.9999999999999999,
+     "n_pairs_responding": 8,
+     "one_side_silent": false,
+     "r_nc": -0.5607415551705254
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ENS3",
+    "central": {
+     "r": 0.8683624034329239,
+     "rel_left": 0.9991698682355037,
+     "rel_right": 0.9979669373625313,
+     "n_pairs_responding": 26,
+     "one_side_silent": false,
+     "r_nc": 0.8696074885999716
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ENS4",
+    "central": {
+     "r": 0.7697671980127789,
+     "rel_left": 0.9995870549445838,
+     "rel_right": 0.9997619370136671,
+     "n_pairs_responding": 24,
+     "one_side_silent": false,
+     "r_nc": 0.7700178448621383
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ENS5",
+    "central": {
+     "r": 0.6902543847754875,
+     "rel_left": 0.9978569844612479,
+     "rel_right": 0.9975130931212268,
+     "n_pairs_responding": 68,
+     "one_side_silent": false,
+     "r_nc": 0.691856014863146
+    },
+    "descending": {
+     "r": -0.7429892099158586,
+     "rel_left": 0.8054775390526697,
+     "rel_right": 0.9986071793231911,
+     "n_pairs_responding": 8,
+     "one_side_silent": false,
+     "r_nc": -0.8284350165147379
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "HRN_VP1d",
+    "central": {
+     "r": 0.8603808737890761,
+     "rel_left": 0.9990731485708998,
+     "rel_right": 0.9994131160148156,
+     "n_pairs_responding": 49,
+     "one_side_silent": false,
+     "r_nc": 0.8610325739880857
+    },
+    "descending": {
+     "r": -0.01682351277951711,
+     "rel_left": 0.997326098572696,
+     "rel_right": NaN,
+     "n_pairs_responding": 11,
+     "one_side_silent": false,
+     "r_nc": NaN
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "HRN_VP1l",
+    "central": {
+     "r": 0.8803549736040662,
+     "rel_left": 0.9991489189601152,
+     "rel_right": 0.9992614465370254,
+     "n_pairs_responding": 19,
+     "one_side_silent": false,
+     "r_nc": 0.8810552529141948
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "HRN_VP4",
+    "central": {
+     "r": 0.7565399043042228,
+     "rel_left": 0.9993727457774365,
+     "rel_right": 0.9994595678222015,
+     "n_pairs_responding": 41,
+     "one_side_silent": false,
+     "r_nc": 0.7569818637317122
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "HRN_VP5",
+    "central": {
+     "r": 0.6501804784095165,
+     "rel_left": 0.9984707424425344,
+     "rel_right": 0.9982740372530119,
+     "n_pairs_responding": 53,
+     "one_side_silent": false,
+     "r_nc": 0.6512404471277377
+    },
+    "descending": {
+     "r": 0.9049395725906019,
+     "rel_left": 0.9994552079723412,
+     "rel_right": 0.9997476678244022,
+     "n_pairs_responding": 6,
+     "one_side_silent": false,
+     "r_nc": 0.9053004007038765
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "JO-A1"
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "JO-A2",
+    "central": {
+     "r": 0.0,
+     "r_nc": 0.0,
+     "rel_left": NaN,
+     "rel_right": NaN,
+     "one_side_silent": true,
+     "n_pairs_responding": 18
+    },
+    "descending": {
+     "r": 0.0,
+     "r_nc": 0.0,
+     "rel_left": NaN,
+     "rel_right": NaN,
+     "one_side_silent": true,
+     "n_pairs_responding": 11
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "JO-A3"
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "JO-A5",
+    "descending": {
+     "r": 0.0,
+     "r_nc": 0.0,
+     "rel_left": NaN,
+     "rel_right": NaN,
+     "one_side_silent": true,
+     "n_pairs_responding": 5
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "JO-B1_a"
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "JO-B1_b"
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "JO-B1_c"
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "JO-B2",
+    "central": {
+     "r": 0.0,
+     "r_nc": 0.0,
+     "rel_left": NaN,
+     "rel_right": NaN,
+     "one_side_silent": true,
+     "n_pairs_responding": 5
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "JO-B3",
+    "central": {
+     "r": 0.0,
+     "r_nc": 0.0,
+     "rel_left": NaN,
+     "rel_right": NaN,
+     "one_side_silent": true,
+     "n_pairs_responding": 7
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "JO-B4_a",
+    "central": {
+     "r": 0.9110458653734395,
+     "rel_left": 0.9990526435842043,
+     "rel_right": 0.9963980745127796,
+     "n_pairs_responding": 8,
+     "one_side_silent": false,
+     "r_nc": 0.9131237000873278
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "JO-B4_b",
+    "central": {
+     "r": 0.0,
+     "r_nc": 0.0,
+     "rel_left": NaN,
+     "rel_right": NaN,
+     "one_side_silent": true,
+     "n_pairs_responding": 11
+    },
+    "descending": {
+     "r": 0.4609301534994647,
+     "rel_left": 0.9999625530962098,
+     "rel_right": NaN,
+     "n_pairs_responding": 6,
+     "one_side_silent": false,
+     "r_nc": NaN
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "JO-CA1"
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "JO-CA2"
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "JO-CL"
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "JO-CM",
+    "central": {
+     "r": 0.0,
+     "r_nc": 0.0,
+     "rel_left": NaN,
+     "rel_right": NaN,
+     "one_side_silent": true,
+     "n_pairs_responding": 5
+    },
+    "descending": {
+     "r": 0.0,
+     "r_nc": 0.0,
+     "rel_left": NaN,
+     "rel_right": NaN,
+     "one_side_silent": true,
+     "n_pairs_responding": 7
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "JO-DA"
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "JO-DP"
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "JO-ED1"
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "JO-ED2_a",
+    "central": {
+     "r": 0.7491685633355073,
+     "rel_left": 0.9991136653872724,
+     "rel_right": 0.9996830091690075,
+     "n_pairs_responding": 26,
+     "one_side_silent": false,
+     "r_nc": 0.7496196119037205
+    },
+    "descending": {
+     "r": 0.6707783982401451,
+     "rel_left": 0.9998960464282701,
+     "rel_right": 0.9998546538353947,
+     "n_pairs_responding": 18,
+     "one_side_silent": false,
+     "r_nc": 0.6708620212463474
+    },
+    "visual_centrifugal": {
+     "r": 0.6742921563466641,
+     "rel_left": 0.9999572973086253,
+     "rel_right": 0.9998591399129081,
+     "n_pairs_responding": 5,
+     "one_side_silent": false,
+     "r_nc": 0.6743540503104758
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "JO-ED2_b",
+    "central": {
+     "r": 0.9223381338532797,
+     "rel_left": 0.9981570486259063,
+     "rel_right": 0.9993427135685167,
+     "n_pairs_responding": 9,
+     "one_side_silent": false,
+     "r_nc": 0.9234927721083435
+    },
+    "descending": {
+     "r": 0.408905390333645,
+     "rel_left": 0.999487197202384,
+     "rel_right": 0.9853315427150194,
+     "n_pairs_responding": 7,
+     "one_side_silent": false,
+     "r_nc": 0.4120434596597137
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "JO-ED2_c",
+    "descending": {
+     "r": 0.0,
+     "r_nc": 0.0,
+     "rel_left": NaN,
+     "rel_right": NaN,
+     "one_side_silent": true,
+     "n_pairs_responding": 5
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "JO-EV1",
+    "central": {
+     "r": 0.8131351590742766,
+     "rel_left": 0.9990711091824962,
+     "rel_right": 0.99919867095093,
+     "n_pairs_responding": 25,
+     "one_side_silent": false,
+     "r_nc": 0.8138392211253535
+    },
+    "descending": {
+     "r": 0.9759612863251523,
+     "rel_left": 0.9993526006011205,
+     "rel_right": 0.9999406764075871,
+     "n_pairs_responding": 10,
+     "one_side_silent": false,
+     "r_nc": 0.9763063176055566
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "JO-EV2",
+    "central": {
+     "r": 0.8069331836812409,
+     "rel_left": 0.9997374831376831,
+     "rel_right": 0.9980316500863717,
+     "n_pairs_responding": 52,
+     "one_side_silent": false,
+     "r_nc": 0.8078345634898216
+    },
+    "descending": {
+     "r": 0.5018637459597957,
+     "rel_left": 0.9991729267269995,
+     "rel_right": 0.9936530337901189,
+     "n_pairs_responding": 11,
+     "one_side_silent": false,
+     "r_nc": 0.5036723538586405
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "JO-EV3",
+    "central": {
+     "r": 0.7327267104875459,
+     "rel_left": 0.9994708120936865,
+     "rel_right": 0.9937819174184972,
+     "n_pairs_responding": 78,
+     "one_side_silent": false,
+     "r_nc": 0.7352100252628049
+    },
+    "descending": {
+     "r": 0.19784167890689378,
+     "rel_left": 0.9989292444979294,
+     "rel_right": 0.9987238784936804,
+     "n_pairs_responding": 25,
+     "one_side_silent": false,
+     "r_nc": 0.1980741077370501
+    },
+    "visual_centrifugal": {
+     "r": 0.8392173052477927,
+     "rel_left": 0.9998950188060753,
+     "rel_right": 0.9998318461030227,
+     "n_pairs_responding": 5,
+     "one_side_silent": false,
+     "r_nc": 0.8393319311682079
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "JO-EV4"
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "JO-EV5",
+    "central": {
+     "r": 0.10663370470936594,
+     "rel_left": 0.9963229860462353,
+     "rel_right": 0.9990812437535945,
+     "n_pairs_responding": 25,
+     "one_side_silent": false,
+     "r_nc": 0.10687940317369304
+    },
+    "descending": {
+     "r": -0.2341664063922701,
+     "rel_left": 0.9977776182783026,
+     "rel_right": 0.9993886257496406,
+     "n_pairs_responding": 11,
+     "one_side_silent": false,
+     "r_nc": -0.23449873867645066
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "JO-EV6",
+    "central": {
+     "r": -0.38594815258103204,
+     "rel_left": NaN,
+     "rel_right": 0.9796514842141734,
+     "n_pairs_responding": 10,
+     "one_side_silent": false,
+     "r_nc": NaN
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "JO-FD1"
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "JO-FD2",
+    "central": {
+     "r": -0.3750402752551298,
+     "rel_left": 0.9995723797651587,
+     "rel_right": 0.999789069338871,
+     "n_pairs_responding": 6,
+     "one_side_silent": false,
+     "r_nc": -0.37516005685297643
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "JO-FV",
+    "ascending": {
+     "r": 0.7308544172174567,
+     "rel_left": 0.9996671745186615,
+     "rel_right": 0.9992898573253256,
+     "n_pairs_responding": 5,
+     "one_side_silent": false,
+     "r_nc": 0.7312357580424304
+    },
+    "central": {
+     "r": 0.8347914473709768,
+     "rel_left": 0.9995615249686464,
+     "rel_right": 0.9999955553268726,
+     "n_pairs_responding": 10,
+     "one_side_silent": false,
+     "r_nc": 0.8349763807830967
+    },
+    "descending": {
+     "r": 0.3519843777550988,
+     "rel_left": 0.9994996667669004,
+     "rel_right": 0.998571788170942,
+     "n_pairs_responding": 11,
+     "one_side_silent": false,
+     "r_nc": 0.3523241522107785
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "JO-mz",
+    "ascending": {
+     "r": 0.0,
+     "r_nc": 0.0,
+     "rel_left": NaN,
+     "rel_right": NaN,
+     "one_side_silent": true,
+     "n_pairs_responding": 5
+    },
+    "central": {
+     "r": 0.2979623046763486,
+     "rel_left": 0.9971272381733166,
+     "rel_right": 0.9987726837680905,
+     "n_pairs_responding": 36,
+     "one_side_silent": false,
+     "r_nc": 0.2985744953009416
+    },
+    "descending": {
+     "r": 0.2402925119968769,
+     "rel_left": 0.9985097176305571,
+     "rel_right": 0.9998845144247064,
+     "n_pairs_responding": 25,
+     "one_side_silent": false,
+     "r_nc": 0.24048565093398278
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "JO-unclear",
+    "central": {
+     "r": 0.0,
+     "r_nc": 0.0,
+     "rel_left": NaN,
+     "rel_right": NaN,
+     "one_side_silent": true,
+     "n_pairs_responding": 16
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "LB1a"
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "LB1b",
+    "central": {
+     "r": 0.8828590909812539,
+     "rel_left": 0.9996827340620563,
+     "rel_right": 0.9998675413177914,
+     "n_pairs_responding": 9,
+     "one_side_silent": false,
+     "r_nc": 0.8830576611376789
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "LB1c",
+    "central": {
+     "r": 0.8059692320909342,
+     "rel_left": 0.9991819074167987,
+     "rel_right": 0.9992514622293464,
+     "n_pairs_responding": 11,
+     "one_side_silent": false,
+     "r_nc": 0.8066010554275378
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "LB1d"
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "LB1e",
+    "central": {
+     "r": 0.8087571764116244,
+     "rel_left": 0.999327299142644,
+     "rel_right": 0.9996194133042626,
+     "n_pairs_responding": 10,
+     "one_side_silent": false,
+     "r_nc": 0.8091833364154016
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "LB2c",
+    "central": {
+     "r": 0.8413267246597552,
+     "rel_left": 0.9978967914716117,
+     "rel_right": 0.9986306348672879,
+     "n_pairs_responding": 21,
+     "one_side_silent": false,
+     "r_nc": 0.8427901068549454
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "LB3a",
+    "central": {
+     "r": 0.67874725127262,
+     "rel_left": 0.9993102311639925,
+     "rel_right": 0.9892563344403179,
+     "n_pairs_responding": 35,
+     "one_side_silent": false,
+     "r_nc": 0.682658491923593
+    },
+    "descending": {
+     "r": 0.0,
+     "r_nc": 0.0,
+     "rel_left": NaN,
+     "rel_right": NaN,
+     "one_side_silent": true,
+     "n_pairs_responding": 7
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "LB3b",
+    "central": {
+     "r": 0.1811579356820229,
+     "rel_left": 0.9925360132855169,
+     "rel_right": 0.8989047479510076,
+     "n_pairs_responding": 98,
+     "one_side_silent": false,
+     "r_nc": 0.19179063151448555
+    },
+    "descending": {
+     "r": 0.4187813011529568,
+     "rel_left": 0.9940037768126043,
+     "rel_right": 0.9972556368117477,
+     "n_pairs_responding": 57,
+     "one_side_silent": false,
+     "r_nc": 0.4206200927054381
+    },
+    "motor": {
+     "r": 0.0,
+     "r_nc": 0.0,
+     "rel_left": NaN,
+     "rel_right": NaN,
+     "one_side_silent": true,
+     "n_pairs_responding": 15
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "LB3c",
+    "central": {
+     "r": 0.6043504628742643,
+     "rel_left": 0.9977173730131826,
+     "rel_right": 0.99953752948476,
+     "n_pairs_responding": 225,
+     "one_side_silent": false,
+     "r_nc": 0.6051813547498103
+    },
+    "descending": {
+     "r": 0.21841286086938166,
+     "rel_left": 0.9976721290437265,
+     "rel_right": 0.9999981652529855,
+     "n_pairs_responding": 63,
+     "one_side_silent": false,
+     "r_nc": 0.21866772465071738
+    },
+    "motor": {
+     "r": 0.0,
+     "r_nc": 0.0,
+     "rel_left": NaN,
+     "rel_right": NaN,
+     "one_side_silent": true,
+     "n_pairs_responding": 14
+    },
+    "visual_centrifugal": {
+     "r": 0.0,
+     "r_nc": 0.0,
+     "rel_left": NaN,
+     "rel_right": NaN,
+     "one_side_silent": true,
+     "n_pairs_responding": 6
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "LB3d",
+    "central": {
+     "r": 0.5336013083799466,
+     "rel_left": 0.9986871010680294,
+     "rel_right": 0.9979485286255093,
+     "n_pairs_responding": 157,
+     "one_side_silent": false,
+     "r_nc": 0.5345004736480578
+    },
+    "descending": {
+     "r": 0.44238523972608457,
+     "rel_left": 0.998317821948684,
+     "rel_right": 0.9981069665844099,
+     "n_pairs_responding": 70,
+     "one_side_silent": false,
+     "r_nc": 0.4431774687775772
+    },
+    "motor": {
+     "r": 0.5663066408722663,
+     "rel_left": 0.9990550740407309,
+     "rel_right": 0.8061098322047209,
+     "n_pairs_responding": 13,
+     "one_side_silent": false,
+     "r_nc": 0.6310442740169846
+    },
+    "visual_centrifugal": {
+     "r": 0.0,
+     "r_nc": 0.0,
+     "rel_left": NaN,
+     "rel_right": NaN,
+     "one_side_silent": true,
+     "n_pairs_responding": 7
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "LB4b",
+    "central": {
+     "r": 0.6676169533874902,
+     "rel_left": 0.9855821880654219,
+     "rel_right": 0.9938349835934774,
+     "n_pairs_responding": 92,
+     "one_side_silent": false,
+     "r_nc": 0.6745649837254125
+    },
+    "descending": {
+     "r": 0.1473645668705626,
+     "rel_left": 0.9905145054372115,
+     "rel_right": 0.9809653946529394,
+     "n_pairs_responding": 24,
+     "one_side_silent": false,
+     "r_nc": 0.14949814657805574
+    },
+    "motor": {
+     "r": -0.5625263949017195,
+     "rel_left": 0.9855194386404412,
+     "rel_right": 0.9636938603892546,
+     "n_pairs_responding": 11,
+     "one_side_silent": false,
+     "r_nc": -0.57721919096363
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_D",
+    "central": {
+     "r": 0.36632429848720593,
+     "rel_left": 0.9977907254192094,
+     "rel_right": 0.999603631014616,
+     "n_pairs_responding": 36,
+     "one_side_silent": false,
+     "r_nc": 0.36680232743888375
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_DA1",
+    "central": {
+     "r": 0.7149116715173569,
+     "rel_left": 0.9988243657688265,
+     "rel_right": 0.9999189918867871,
+     "n_pairs_responding": 23,
+     "one_side_silent": false,
+     "r_nc": 0.7153612553510305
+    },
+    "descending": {
+     "r": 0.8010384504527559,
+     "rel_left": 0.9925607631360374,
+     "rel_right": 0.9991874990681846,
+     "n_pairs_responding": 18,
+     "one_side_silent": false,
+     "r_nc": 0.8043615744646879
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_DA2",
+    "central": {
+     "r": -0.7445025469020676,
+     "rel_left": 0.9969628680700228,
+     "rel_right": 0.9919451811814638,
+     "n_pairs_responding": 5,
+     "one_side_silent": false,
+     "r_nc": -0.7486569491837177
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_DA3"
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_DA4l",
+    "central": {
+     "r": 0.930626468289223,
+     "rel_left": 0.9997552782177888,
+     "rel_right": 0.9999376992359101,
+     "n_pairs_responding": 15,
+     "one_side_silent": false,
+     "r_nc": 0.9307693557503294
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_DA4m",
+    "central": {
+     "r": 0.7366421555118893,
+     "rel_left": 0.9994419536901578,
+     "rel_right": 0.9998409564023004,
+     "n_pairs_responding": 20,
+     "one_side_silent": false,
+     "r_nc": 0.7369063842473512
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_DC1",
+    "central": {
+     "r": 0.7086557790634208,
+     "rel_left": 0.9996366693591549,
+     "rel_right": 0.9877775725948994,
+     "n_pairs_responding": 67,
+     "one_side_silent": false,
+     "r_nc": 0.7131562013932259
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_DC2",
+    "central": {
+     "r": 0.5670945028357338,
+     "rel_left": 0.9984900341017648,
+     "rel_right": 0.9991947162020905,
+     "n_pairs_responding": 31,
+     "one_side_silent": false,
+     "r_nc": 0.567751781688148
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_DC3",
+    "central": {
+     "r": 0.5444427274452076,
+     "rel_left": 0.9998504805715218,
+     "rel_right": 0.9996574791850559,
+     "n_pairs_responding": 17,
+     "one_side_silent": false,
+     "r_nc": 0.5445767068091755
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_DC4",
+    "ascending": {
+     "r": -0.6375377341968237,
+     "rel_left": 0.9999763643047583,
+     "rel_right": 0.9989643531333212,
+     "n_pairs_responding": 5,
+     "one_side_silent": false,
+     "r_nc": -0.637875661183755
+    },
+    "central": {
+     "r": 0.8177166177199807,
+     "rel_left": 0.9991370416052372,
+     "rel_right": 0.9989595644473126,
+     "n_pairs_responding": 437,
+     "one_side_silent": false,
+     "r_nc": 0.8184955807128587
+    },
+    "descending": {
+     "r": 0.6391903810847793,
+     "rel_left": 0.9967784611702827,
+     "rel_right": 0.9967086112389159,
+     "n_pairs_responding": 105,
+     "one_side_silent": false,
+     "r_nc": 0.6412786822887937
+    },
+    "visual_centrifugal": {
+     "r": 0.4035503250266731,
+     "rel_left": 0.9943276551554914,
+     "rel_right": 0.9862592873182453,
+     "n_pairs_responding": 21,
+     "one_side_silent": false,
+     "r_nc": 0.4075091730855352
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_DL1",
+    "central": {
+     "r": 0.3872612572245059,
+     "rel_left": 0.9994969196447941,
+     "rel_right": 0.9990974555643608,
+     "n_pairs_responding": 66,
+     "one_side_silent": false,
+     "r_nc": 0.38753362839754113
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_DL2d",
+    "central": {
+     "r": 0.44499967055946066,
+     "rel_left": 0.9990633340589014,
+     "rel_right": 0.9858721045381004,
+     "n_pairs_responding": 266,
+     "one_side_silent": false,
+     "r_nc": 0.44838687337307737
+    },
+    "descending": {
+     "r": 0.0,
+     "r_nc": 0.0,
+     "rel_left": NaN,
+     "rel_right": NaN,
+     "one_side_silent": true,
+     "n_pairs_responding": 42
+    },
+    "visual_centrifugal": {
+     "r": 0.0,
+     "r_nc": 0.0,
+     "rel_left": NaN,
+     "rel_right": NaN,
+     "one_side_silent": true,
+     "n_pairs_responding": 6
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_DL2v",
+    "central": {
+     "r": 0.3865748115947676,
+     "rel_left": 0.9788153837957316,
+     "rel_right": 0.9957188510716383,
+     "n_pairs_responding": 374,
+     "one_side_silent": false,
+     "r_nc": 0.3915748543105321
+    },
+    "descending": {
+     "r": 0.5100520842223278,
+     "rel_left": NaN,
+     "rel_right": 0.9820634807787393,
+     "n_pairs_responding": 84,
+     "one_side_silent": false,
+     "r_nc": NaN
+    },
+    "visual_centrifugal": {
+     "r": 0.10155230194386827,
+     "rel_left": NaN,
+     "rel_right": 0.9849595195126165,
+     "n_pairs_responding": 16,
+     "one_side_silent": false,
+     "r_nc": NaN
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_DL3"
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_DL4",
+    "central": {
+     "r": 0.6935571438451097,
+     "rel_left": 0.9998750847052188,
+     "rel_right": 0.9998012881432224,
+     "n_pairs_responding": 18,
+     "one_side_silent": false,
+     "r_nc": 0.69366938944171
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_DL5",
+    "central": {
+     "r": 0.8865132450757072,
+     "rel_left": 0.9997731043762124,
+     "rel_right": 0.9995694056722604,
+     "n_pairs_responding": 39,
+     "one_side_silent": false,
+     "r_nc": 0.8868047822934237
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_DM1",
+    "ascending": {
+     "r": -0.4822729406329845,
+     "rel_left": 0.9981992516115974,
+     "rel_right": 0.9970041495654326,
+     "n_pairs_responding": 8,
+     "one_side_silent": false,
+     "r_nc": -0.48343244289270737
+    },
+    "central": {
+     "r": 0.7706374696770042,
+     "rel_left": 0.998732081266006,
+     "rel_right": 0.9985442500359887,
+     "n_pairs_responding": 493,
+     "one_side_silent": false,
+     "r_nc": 0.7716883848340393
+    },
+    "descending": {
+     "r": 0.5258175086951826,
+     "rel_left": 0.9969607383971498,
+     "rel_right": 0.9966176461726177,
+     "n_pairs_responding": 112,
+     "one_side_silent": false,
+     "r_nc": 0.5275112536851462
+    },
+    "optic": {
+     "r": -0.17930533209906388,
+     "rel_left": NaN,
+     "rel_right": 0.8094530182457226,
+     "n_pairs_responding": 6,
+     "one_side_silent": false,
+     "r_nc": NaN
+    },
+    "visual_centrifugal": {
+     "r": 0.06722498512168781,
+     "rel_left": 0.9897452505002372,
+     "rel_right": 0.9878016204307885,
+     "n_pairs_responding": 24,
+     "one_side_silent": false,
+     "r_nc": 0.06798829254496466
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_DM2",
+    "ascending": {
+     "r": -0.632438047690836,
+     "rel_left": 0.999550902008902,
+     "rel_right": 0.9998698735213395,
+     "n_pairs_responding": 5,
+     "one_side_silent": false,
+     "r_nc": -0.6326212705987615
+    },
+    "central": {
+     "r": 0.7277210180231393,
+     "rel_left": 0.9981802709092842,
+     "rel_right": 0.9982030401240105,
+     "n_pairs_responding": 423,
+     "one_side_silent": false,
+     "r_nc": 0.7290393723976922
+    },
+    "descending": {
+     "r": 0.49915847663165747,
+     "rel_left": 0.9973694701575124,
+     "rel_right": 0.9933315366013005,
+     "n_pairs_responding": 99,
+     "one_side_silent": false,
+     "r_nc": 0.5014911850733168
+    },
+    "visual_centrifugal": {
+     "r": 0.15707919829211275,
+     "rel_left": 0.9886940788552757,
+     "rel_right": 0.9929659825517808,
+     "n_pairs_responding": 21,
+     "one_side_silent": false,
+     "r_nc": 0.15853330885155767
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_DM3",
+    "central": {
+     "r": 0.20678565430337595,
+     "rel_left": 0.9999599863631147,
+     "rel_right": 0.9999691148570609,
+     "n_pairs_responding": 19,
+     "one_side_silent": false,
+     "r_nc": 0.20679298499068605
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_DM4",
+    "central": {
+     "r": 0.8301015367914479,
+     "rel_left": 0.9976070222875045,
+     "rel_right": 0.9984988169913204,
+     "n_pairs_responding": 430,
+     "one_side_silent": false,
+     "r_nc": 0.8317210473527842
+    },
+    "descending": {
+     "r": 0.5485215689488834,
+     "rel_left": 0.988279940540353,
+     "rel_right": 0.9951748108740689,
+     "n_pairs_responding": 97,
+     "one_side_silent": false,
+     "r_nc": 0.5531004755529572
+    },
+    "visual_centrifugal": {
+     "r": 0.4128800155427204,
+     "rel_left": 0.9884121625514228,
+     "rel_right": 0.9929906383522047,
+     "n_pairs_responding": 20,
+     "one_side_silent": false,
+     "r_nc": 0.4167563684015909
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_DM5"
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_DM6",
+    "central": {
+     "r": 0.4180586912674805,
+     "rel_left": 0.9989901643980637,
+     "rel_right": 0.9991934021540674,
+     "n_pairs_responding": 21,
+     "one_side_silent": false,
+     "r_nc": 0.4184387264792569
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_DP1l",
+    "ascending": {
+     "r": -0.6541721516654103,
+     "rel_left": 0.9998452660737926,
+     "rel_right": 0.9999860610857362,
+     "n_pairs_responding": 5,
+     "one_side_silent": false,
+     "r_nc": -0.6542273284775639
+    },
+    "central": {
+     "r": 0.8281683785487968,
+     "rel_left": 0.9959775438093896,
+     "rel_right": 0.9981956419734073,
+     "n_pairs_responding": 442,
+     "one_side_silent": false,
+     "r_nc": 0.830588733971234
+    },
+    "descending": {
+     "r": 0.5651899219554317,
+     "rel_left": 0.9930312724305228,
+     "rel_right": 0.9930197986459139,
+     "n_pairs_responding": 111,
+     "one_side_silent": false,
+     "r_nc": 0.5691595047035034
+    },
+    "visual_centrifugal": {
+     "r": 0.26108854771241763,
+     "rel_left": 0.9810978333676551,
+     "rel_right": 0.9848240751398536,
+     "n_pairs_responding": 21,
+     "one_side_silent": false,
+     "r_nc": 0.2656148401194395
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_DP1m",
+    "ascending": {
+     "r": -0.5113526328532179,
+     "rel_left": 0.9991907766335228,
+     "rel_right": 0.9969695170919788,
+     "n_pairs_responding": 8,
+     "one_side_silent": false,
+     "r_nc": -0.5123365603971162
+    },
+    "central": {
+     "r": 0.826603510000243,
+     "rel_left": 0.9990545287853374,
+     "rel_right": 0.9991044003857228,
+     "n_pairs_responding": 540,
+     "one_side_silent": false,
+     "r_nc": 0.8273651291597944
+    },
+    "descending": {
+     "r": 0.5039702121196197,
+     "rel_left": 0.997926208925807,
+     "rel_right": 0.9970400690799368,
+     "n_pairs_responding": 110,
+     "one_side_silent": false,
+     "r_nc": 0.5052418854325735
+    },
+    "visual_centrifugal": {
+     "r": -0.14106490362021828,
+     "rel_left": 0.9912934213069008,
+     "rel_right": 0.9948064385935947,
+     "n_pairs_responding": 22,
+     "one_side_silent": false,
+     "r_nc": -0.14205239841252065
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_V",
+    "ascending": {
+     "r": -0.47716562976657706,
+     "rel_left": 0.9899504146154182,
+     "rel_right": 0.9936340755287968,
+     "n_pairs_responding": 6,
+     "one_side_silent": false,
+     "r_nc": -0.4811153292887877
+    },
+    "central": {
+     "r": 0.7315899861599676,
+     "rel_left": 0.9989335172138367,
+     "rel_right": 0.9908568445030064,
+     "n_pairs_responding": 522,
+     "one_side_silent": false,
+     "r_nc": 0.7353498409965604
+    },
+    "descending": {
+     "r": 0.5058505422346374,
+     "rel_left": 0.9954281045224656,
+     "rel_right": 0.9927307255431487,
+     "n_pairs_responding": 111,
+     "one_side_silent": false,
+     "r_nc": 0.5088637790340085
+    },
+    "visual_centrifugal": {
+     "r": 0.21220854443342893,
+     "rel_left": 0.9904339775044473,
+     "rel_right": 0.983911239826297,
+     "n_pairs_responding": 23,
+     "one_side_silent": false,
+     "r_nc": 0.2149671705650482
+    },
+    "visual_projection": {
+     "r": -0.42252970259490985,
+     "rel_left": 0.9992351814325433,
+     "rel_right": 0.9999999999999999,
+     "n_pairs_responding": 5,
+     "one_side_silent": false,
+     "r_nc": -0.4226913746190704
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_VA1d",
+    "central": {
+     "r": 0.7889904261256119,
+     "rel_left": 0.9984839154847817,
+     "rel_right": 0.9980660315300632,
+     "n_pairs_responding": 18,
+     "one_side_silent": false,
+     "r_nc": 0.7903538246936701
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_VA1v",
+    "central": {
+     "r": -0.14201118359447445,
+     "rel_left": 0.9997265792726562,
+     "rel_right": 0.999900305580954,
+     "n_pairs_responding": 15,
+     "one_side_silent": false,
+     "r_nc": -0.14203768233574512
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_VA2",
+    "central": {
+     "r": 0.6249623409974948,
+     "rel_left": 0.9991388931984054,
+     "rel_right": 0.9989606408506666,
+     "n_pairs_responding": 33,
+     "one_side_silent": false,
+     "r_nc": 0.6255567681535293
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_VA3",
+    "central": {
+     "r": 0.00039186458873881113,
+     "rel_left": 0.9973589117490118,
+     "rel_right": 0.9995513804821146,
+     "n_pairs_responding": 342,
+     "one_side_silent": false,
+     "r_nc": 0.0003924711354840655
+    },
+    "descending": {
+     "r": 0.0,
+     "r_nc": 0.0,
+     "rel_left": NaN,
+     "rel_right": NaN,
+     "one_side_silent": true,
+     "n_pairs_responding": 79
+    },
+    "visual_centrifugal": {
+     "r": 0.0,
+     "r_nc": 0.0,
+     "rel_left": NaN,
+     "rel_right": NaN,
+     "one_side_silent": true,
+     "n_pairs_responding": 12
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_VA4",
+    "central": {
+     "r": 0.47769476963064694,
+     "rel_left": 0.9999904069609961,
+     "rel_right": 0.9999081600343762,
+     "n_pairs_responding": 8,
+     "one_side_silent": false,
+     "r_nc": 0.4777189982712933
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_VA5"
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_VA6",
+    "central": {
+     "r": 0.5346763411361226,
+     "rel_left": 0.9987104114137131,
+     "rel_right": 0.9967397702655671,
+     "n_pairs_responding": 59,
+     "one_side_silent": false,
+     "r_nc": 0.5358957159414763
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_VA7l",
+    "central": {
+     "r": 0.7473720813965686,
+     "rel_left": 0.9991896692837978,
+     "rel_right": 0.9990271167068471,
+     "n_pairs_responding": 11,
+     "one_side_silent": false,
+     "r_nc": 0.7480390407179612
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_VA7m"
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_VC1",
+    "central": {
+     "r": 0.7249836718131556,
+     "rel_left": 0.9996819462395881,
+     "rel_right": 0.9997213811697563,
+     "n_pairs_responding": 35,
+     "one_side_silent": false,
+     "r_nc": 0.7252000254431311
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_VC2",
+    "central": {
+     "r": 0.7775050310830753,
+     "rel_left": 0.9995352639905505,
+     "rel_right": 0.9996330204412701,
+     "n_pairs_responding": 22,
+     "one_side_silent": false,
+     "r_nc": 0.7778284980482096
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_VC3",
+    "central": {
+     "r": 0.5614636279552538,
+     "rel_left": 0.9995839094395238,
+     "rel_right": 0.9990276192304709,
+     "n_pairs_responding": 18,
+     "one_side_silent": false,
+     "r_nc": 0.56185370858719
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_VC4",
+    "central": {
+     "r": 0.4923049842144019,
+     "rel_left": 0.9991509002959575,
+     "rel_right": 0.999844888669037,
+     "n_pairs_responding": 16,
+     "one_side_silent": false,
+     "r_nc": 0.4925523271232795
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_VC5",
+    "central": {
+     "r": 0.4428870738914932,
+     "rel_left": 0.998347252593345,
+     "rel_right": 0.9999113438282736,
+     "n_pairs_responding": 54,
+     "one_side_silent": false,
+     "r_nc": 0.4432731683022869
+    },
+    "descending": {
+     "r": 0.0,
+     "r_nc": 0.0,
+     "rel_left": NaN,
+     "rel_right": NaN,
+     "one_side_silent": true,
+     "n_pairs_responding": 9
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_VL1",
+    "central": {
+     "r": 0.7488033078403922,
+     "rel_left": 0.9996412037472364,
+     "rel_right": 0.9999984750053029,
+     "n_pairs_responding": 9,
+     "one_side_silent": false,
+     "r_nc": 0.7489382489741836
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_VL2a",
+    "central": {
+     "r": 0.7746376174754593,
+     "rel_left": 0.9989448698450851,
+     "rel_right": 0.99955972876772,
+     "n_pairs_responding": 44,
+     "one_side_silent": false,
+     "r_nc": 0.7752172846382914
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_VL2p",
+    "central": {
+     "r": 0.7649289132950408,
+     "rel_left": 0.9985783407938117,
+     "rel_right": 0.9997907803277986,
+     "n_pairs_responding": 47,
+     "one_side_silent": false,
+     "r_nc": 0.7655533164482374
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_VM1",
+    "central": {
+     "r": 0.43590493337520303,
+     "rel_left": 0.9977930186496827,
+     "rel_right": 0.9995780316618454,
+     "n_pairs_responding": 16,
+     "one_side_silent": false,
+     "r_nc": 0.43647884791218344
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_VM2",
+    "central": {
+     "r": 0.5877124632077916,
+     "rel_left": 0.9998550585429663,
+     "rel_right": 0.9998817660246238,
+     "n_pairs_responding": 7,
+     "one_side_silent": false,
+     "r_nc": 0.587789809178805
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_VM3",
+    "central": {
+     "r": -0.582214320557838,
+     "rel_left": 0.9945083807240855,
+     "rel_right": 0.9999384768863259,
+     "n_pairs_responding": 6,
+     "one_side_silent": false,
+     "r_nc": -0.5838375449381905
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_VM4",
+    "central": {
+     "r": 0.6349103531506674,
+     "rel_left": 0.9990580248422717,
+     "rel_right": 0.9991309378542349,
+     "n_pairs_responding": 30,
+     "one_side_silent": false,
+     "r_nc": 0.6354857978161975
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_VM5d",
+    "central": {
+     "r": -0.7490985601144592,
+     "rel_left": 0.9993468749434122,
+     "rel_right": 0.9988746356725753,
+     "n_pairs_responding": 9,
+     "one_side_silent": false,
+     "r_nc": -0.7497653058521797
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_VM5v",
+    "central": {
+     "r": 0.5111263562534064,
+     "rel_left": 0.9994006273870495,
+     "rel_right": 0.9999113772965281,
+     "n_pairs_responding": 6,
+     "one_side_silent": false,
+     "r_nc": 0.511302259711761
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_VM6l",
+    "central": {
+     "r": 0.8094467914137153,
+     "rel_left": 0.9971248354384327,
+     "rel_right": 0.9998997415454908,
+     "n_pairs_responding": 59,
+     "one_side_silent": false,
+     "r_nc": 0.8106535915183756
+    },
+    "descending": {
+     "r": 0.8387981484332938,
+     "rel_left": 0.995482380851714,
+     "rel_right": 0.9999915235532473,
+     "n_pairs_responding": 16,
+     "one_side_silent": false,
+     "r_nc": 0.8407028406793146
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_VM6m",
+    "central": {
+     "r": 0.7956367989975981,
+     "rel_left": 0.9896598144443685,
+     "rel_right": 0.9998672448757764,
+     "n_pairs_responding": 97,
+     "one_side_silent": false,
+     "r_nc": 0.7998355862485776
+    },
+    "descending": {
+     "r": 0.806874422120987,
+     "rel_left": 0.9848795073992042,
+     "rel_right": 0.9999358537174019,
+     "n_pairs_responding": 40,
+     "one_side_silent": false,
+     "r_nc": 0.813070731175834
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_VM6v",
+    "central": {
+     "r": 0.7835634612926173,
+     "rel_left": 0.9960916095941617,
+     "rel_right": 0.9970147479322938,
+     "n_pairs_responding": 263,
+     "one_side_silent": false,
+     "r_nc": 0.7862736901918526
+    },
+    "descending": {
+     "r": 0.7777869596679803,
+     "rel_left": 0.9973722651829359,
+     "rel_right": 0.9930852911274617,
+     "n_pairs_responding": 116,
+     "one_side_silent": false,
+     "r_nc": 0.7815175572740649
+    },
+    "visual_centrifugal": {
+     "r": 0.5779081001459552,
+     "rel_left": 0.997403274473623,
+     "rel_right": 0.9860970885622681,
+     "n_pairs_responding": 20,
+     "one_side_silent": false,
+     "r_nc": 0.5827248632267877
+    },
+    "visual_projection": {
+     "r": 0.9606650446400539,
+     "rel_left": 0.9999994221111534,
+     "rel_right": 0.9997056533806803,
+     "n_pairs_responding": 5,
+     "one_side_silent": false,
+     "r_nc": 0.9608067377335777
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_VM7d",
+    "central": {
+     "r": 0.7078113533041609,
+     "rel_left": 0.9990719417156557,
+     "rel_right": 0.9987509566265147,
+     "n_pairs_responding": 64,
+     "one_side_silent": false,
+     "r_nc": 0.7085826907152242
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "ORN_VM7v",
+    "central": {
+     "r": 0.48809552705742343,
+     "rel_left": 0.9972872446991189,
+     "rel_right": 0.99879657554723,
+     "n_pairs_responding": 41,
+     "one_side_silent": false,
+     "r_nc": 0.48905327686411065
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "R1-6"
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "R7"
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "R8"
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "TPMN1",
+    "central": {
+     "r": 0.795245629667556,
+     "rel_left": 0.9985460683435009,
+     "rel_right": 0.9980619062464678,
+     "n_pairs_responding": 162,
+     "one_side_silent": false,
+     "r_nc": 0.7965966911577592
+    },
+    "descending": {
+     "r": 0.553957691180703,
+     "rel_left": 0.9958084184650263,
+     "rel_right": 0.9924476807172685,
+     "n_pairs_responding": 52,
+     "one_side_silent": false,
+     "r_nc": 0.557230512472667
+    },
+    "motor": {
+     "r": 0.4402855877786693,
+     "rel_left": 0.9973305557293151,
+     "rel_right": 0.9988802471339916,
+     "n_pairs_responding": 22,
+     "one_side_silent": false,
+     "r_nc": 0.44112146855438794
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "TPMN2",
+    "central": {
+     "r": 0.8183173901833912,
+     "rel_left": 0.9994271451876812,
+     "rel_right": 0.999024949363048,
+     "n_pairs_responding": 16,
+     "one_side_silent": false,
+     "r_nc": 0.8189512362962381
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "TRN_VP1m",
+    "central": {
+     "r": 0.5674347065229618,
+     "rel_left": 0.9988891752150603,
+     "rel_right": 0.9991236374711465,
+     "n_pairs_responding": 106,
+     "one_side_silent": false,
+     "r_nc": 0.5679990707036626
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "TRN_VP2",
+    "central": {
+     "r": 0.7329492784796656,
+     "rel_left": 0.9982781789230719,
+     "rel_right": 0.9971840137247188,
+     "n_pairs_responding": 261,
+     "one_side_silent": false,
+     "r_nc": 0.734616161975182
+    },
+    "descending": {
+     "r": 0.6245730416063315,
+     "rel_left": 0.996442919649378,
+     "rel_right": 0.9901776334700637,
+     "n_pairs_responding": 101,
+     "one_side_silent": false,
+     "r_nc": 0.6287825288787086
+    },
+    "visual_centrifugal": {
+     "r": 0.5308278736756126,
+     "rel_left": 0.9949055345946196,
+     "rel_right": 0.9937259953769108,
+     "n_pairs_responding": 12,
+     "one_side_silent": false,
+     "r_nc": 0.5338625673507477
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "TRN_VP3a",
+    "central": {
+     "r": 0.8358698450945191,
+     "rel_left": 0.9988195769038746,
+     "rel_right": 0.997473056835025,
+     "n_pairs_responding": 31,
+     "one_side_silent": false,
+     "r_nc": 0.8374223509250796
+    },
+    "descending": {
+     "r": 0.9789773003824671,
+     "rel_left": 0.9995401873616275,
+     "rel_right": 0.9988268081702057,
+     "n_pairs_responding": 8,
+     "one_side_silent": false,
+     "r_nc": 0.9797773531584549
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "aPhM1",
+    "central": {
+     "r": 0.5853259002438932,
+     "rel_left": 0.9968731182966202,
+     "rel_right": 0.9984268474345035,
+     "n_pairs_responding": 38,
+     "one_side_silent": false,
+     "r_nc": 0.5867048441411763
+    },
+    "descending": {
+     "r": 0.0,
+     "r_nc": 0.0,
+     "rel_left": NaN,
+     "rel_right": NaN,
+     "one_side_silent": true,
+     "n_pairs_responding": 6
+    },
+    "motor": {
+     "r": 0.4316483041769871,
+     "rel_left": 0.9987782460937124,
+     "rel_right": 0.9985520645158321,
+     "n_pairs_responding": 16,
+     "one_side_silent": false,
+     "r_nc": 0.4322252605408361
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "aPhM3",
+    "central": {
+     "r": 0.8060489432173603,
+     "rel_left": 0.9937060667359037,
+     "rel_right": 0.9979855515302213,
+     "n_pairs_responding": 24,
+     "one_side_silent": false,
+     "r_nc": 0.8094132610741583
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "claw_tpGRN",
+    "central": {
+     "r": 0.7919860159687407,
+     "rel_left": 0.9991192367479733,
+     "rel_right": 0.9976806092469036,
+     "n_pairs_responding": 74,
+     "one_side_silent": false,
+     "r_nc": 0.793255491386648
+    },
+    "descending": {
+     "r": 0.7278023473021474,
+     "rel_left": 0.9990914631231786,
+     "rel_right": 0.9829979642829791,
+     "n_pairs_responding": 36,
+     "one_side_silent": false,
+     "r_nc": 0.7344031291910414
+    },
+    "motor": {
+     "r": 0.9123726014803177,
+     "rel_left": 0.9999657794506853,
+     "rel_right": 0.9740503974961142,
+     "n_pairs_responding": 7,
+     "one_side_silent": false,
+     "r_nc": 0.9244617612227031
+    }
+   },
+   {
+    "kind": "sensory",
+    "cell_type": "dorsal_tpGRN",
+    "central": {
+     "r": 0.7875706278798049,
+     "rel_left": 0.9988027906117277,
+     "rel_right": 0.9982677923647565,
+     "n_pairs_responding": 50,
+     "one_side_silent": false,
+     "r_nc": 0.78872590969352
+    },
+    "descending": {
+     "r": 0.9408956886874756,
+     "rel_left": 0.9970111791845994,
+     "rel_right": 0.9967954872164181,
+     "n_pairs_responding": 7,
+     "one_side_silent": false,
+     "r_nc": 0.9438183852515437
+    },
+    "motor": {
+     "r": 0.8585530641648966,
+     "rel_left": 0.9961843030180759,
+     "rel_right": 0.9983707937436996,
+     "n_pairs_responding": 11,
+     "one_side_silent": false,
+     "r_nc": 0.8608973313691298
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC10a",
+    "central": {
+     "r": 0.7823572527073946,
+     "rel_left": 0.9987316302070142,
+     "rel_right": 0.9985596141672759,
+     "n_pairs_responding": 261,
+     "one_side_silent": false,
+     "r_nc": 0.7834182999726131
+    },
+    "descending": {
+     "r": 0.71039429255558,
+     "rel_left": 0.9988634779892732,
+     "rel_right": 0.9977415568533026,
+     "n_pairs_responding": 98,
+     "one_side_silent": false,
+     "r_nc": 0.7116023372788263
+    },
+    "motor": {
+     "r": 0.525965851223227,
+     "rel_left": 0.9999260133498271,
+     "rel_right": 0.998600186248993,
+     "n_pairs_responding": 10,
+     "one_side_silent": false,
+     "r_nc": 0.5263538372109987
+    },
+    "visual_centrifugal": {
+     "r": 0.6065656479098837,
+     "rel_left": 0.9989826484250578,
+     "rel_right": 0.9972469731933937,
+     "n_pairs_responding": 22,
+     "one_side_silent": false,
+     "r_nc": 0.6077115283931733
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC10b",
+    "central": {
+     "r": 0.4519009634735392,
+     "rel_left": 0.9978850398005081,
+     "rel_right": 0.9918387358505018,
+     "n_pairs_responding": 49,
+     "one_side_silent": false,
+     "r_nc": 0.45423697044431144
+    },
+    "descending": {
+     "r": 0.5785066964219556,
+     "rel_left": 0.9969617468208312,
+     "rel_right": 0.9867085014137393,
+     "n_pairs_responding": 24,
+     "one_side_silent": false,
+     "r_nc": 0.5832768072245591
+    },
+    "visual_centrifugal": {
+     "r": 0.8866632355278133,
+     "rel_left": 0.9999442902074696,
+     "rel_right": 0.9998522661969301,
+     "n_pairs_responding": 6,
+     "one_side_silent": false,
+     "r_nc": 0.8867534386205657
+    },
+    "visual_projection": {
+     "r": 0.8961880811311549,
+     "rel_left": 0.9991764293258992,
+     "rel_right": 0.9991320670353174,
+     "n_pairs_responding": 8,
+     "one_side_silent": false,
+     "r_nc": 0.8969466756348075
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC10c-1",
+    "central": {
+     "r": 0.7930700716245823,
+     "rel_left": 0.9984094711043922,
+     "rel_right": 0.9977375092146366,
+     "n_pairs_responding": 120,
+     "one_side_silent": false,
+     "r_nc": 0.7946009230572258
+    },
+    "descending": {
+     "r": 0.8031732653634445,
+     "rel_left": 0.9973050857703133,
+     "rel_right": 0.99722409763377,
+     "n_pairs_responding": 51,
+     "one_side_silent": false,
+     "r_nc": 0.8053762990369361
+    },
+    "motor": {
+     "r": 0.6682226235272429,
+     "rel_left": 0.9993070679270599,
+     "rel_right": 0.9970356910211817,
+     "n_pairs_responding": 6,
+     "one_side_silent": false,
+     "r_nc": 0.6694472209701285
+    },
+    "visual_centrifugal": {
+     "r": 0.6865211017915227,
+     "rel_left": 0.9994616208241566,
+     "rel_right": 0.9994024779215853,
+     "n_pairs_responding": 13,
+     "one_side_silent": false,
+     "r_nc": 0.6869112337580302
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC10c-2",
+    "central": {
+     "r": 0.8087871155299445,
+     "rel_left": 0.999441315674953,
+     "rel_right": 0.9994977152050581,
+     "n_pairs_responding": 167,
+     "one_side_silent": false,
+     "r_nc": 0.8092163926538678
+    },
+    "descending": {
+     "r": 0.7626869981076713,
+     "rel_left": 0.9995075741914595,
+     "rel_right": 0.9991860249608313,
+     "n_pairs_responding": 71,
+     "one_side_silent": false,
+     "r_nc": 0.7631855210835616
+    },
+    "motor": {
+     "r": 0.6730073337311887,
+     "rel_left": 0.999941424930021,
+     "rel_right": 0.9995545801079044,
+     "n_pairs_responding": 8,
+     "one_side_silent": false,
+     "r_nc": 0.6731769852314593
+    },
+    "visual_centrifugal": {
+     "r": 0.6243108857246563,
+     "rel_left": 0.9994594988470418,
+     "rel_right": 0.9986603221725118,
+     "n_pairs_responding": 14,
+     "one_side_silent": false,
+     "r_nc": 0.624898396075236
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC10d",
+    "central": {
+     "r": 0.7762395110800479,
+     "rel_left": 0.9988462336887193,
+     "rel_right": 0.9986067753845325,
+     "n_pairs_responding": 204,
+     "one_side_silent": false,
+     "r_nc": 0.7772293146641959
+    },
+    "descending": {
+     "r": 0.8029072214796188,
+     "rel_left": 0.9987309614932375,
+     "rel_right": 0.9983069683659695,
+     "n_pairs_responding": 92,
+     "one_side_silent": false,
+     "r_nc": 0.8040981371166375
+    },
+    "motor": {
+     "r": 0.14400989274032547,
+     "rel_left": 0.9992910747800946,
+     "rel_right": 0.9874233980871262,
+     "n_pairs_responding": 9,
+     "one_side_silent": false,
+     "r_nc": 0.1449755001267747
+    },
+    "visual_centrifugal": {
+     "r": 0.6763170727134971,
+     "rel_left": 0.9988027826586274,
+     "rel_right": 0.9979233695181131,
+     "n_pairs_responding": 16,
+     "one_side_silent": false,
+     "r_nc": 0.6774260331803545
+    },
+    "visual_projection": {
+     "r": 0.9119677958486965,
+     "rel_left": 0.9969657326151501,
+     "rel_right": 0.9994241589317012,
+     "n_pairs_responding": 8,
+     "one_side_silent": false,
+     "r_nc": 0.91361761665964
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC10e",
+    "central": {
+     "r": 0.7750880317145012,
+     "rel_left": 0.9984252343897849,
+     "rel_right": 0.998076597823992,
+     "n_pairs_responding": 116,
+     "one_side_silent": false,
+     "r_nc": 0.7764461129220334
+    },
+    "descending": {
+     "r": 0.7932733130253261,
+     "rel_left": 0.9991400062066816,
+     "rel_right": 0.9974957922842072,
+     "n_pairs_responding": 58,
+     "one_side_silent": false,
+     "r_nc": 0.7946101964113422
+    },
+    "visual_centrifugal": {
+     "r": 0.6059943489650242,
+     "rel_left": 0.9999871994605405,
+     "rel_right": 0.9924378434252237,
+     "n_pairs_responding": 11,
+     "one_side_silent": false,
+     "r_nc": 0.608302632239327
+    },
+    "visual_projection": {
+     "r": 0.8588138801930628,
+     "rel_left": 0.9998598508363051,
+     "rel_right": 0.999796185993505,
+     "n_pairs_responding": 6,
+     "one_side_silent": false,
+     "r_nc": 0.8589616062069031
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC11",
+    "central": {
+     "r": 0.6982066173502226,
+     "rel_left": 0.9988334286724141,
+     "rel_right": 0.9983020220562353,
+     "n_pairs_responding": 392,
+     "one_side_silent": false,
+     "r_nc": 0.6992081000938809
+    },
+    "descending": {
+     "r": 0.5779225755542302,
+     "rel_left": 0.9939431868794562,
+     "rel_right": 0.9959111840419388,
+     "n_pairs_responding": 131,
+     "one_side_silent": false,
+     "r_nc": 0.5808695014549182
+    },
+    "motor": {
+     "r": -0.14879203293395535,
+     "rel_left": 0.9998923911119916,
+     "rel_right": 0.9783941314665353,
+     "n_pairs_responding": 6,
+     "one_side_silent": false,
+     "r_nc": -0.15043404253626314
+    },
+    "optic": {
+     "r": -0.5919321248813676,
+     "rel_left": 0.9999999734209793,
+     "rel_right": 0.938626120930173,
+     "n_pairs_responding": 9,
+     "one_side_silent": false,
+     "r_nc": -0.6109780359716097
+    },
+    "visual_centrifugal": {
+     "r": -0.1935215797385479,
+     "rel_left": 0.9980919696565536,
+     "rel_right": 0.9946481379782313,
+     "n_pairs_responding": 30,
+     "one_side_silent": false,
+     "r_nc": -0.19422690192981573
+    },
+    "visual_projection": {
+     "r": 0.886092467817256,
+     "rel_left": 0.9997847572885911,
+     "rel_right": 0.9988300835829599,
+     "n_pairs_responding": 13,
+     "one_side_silent": false,
+     "r_nc": 0.8867066838342261
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC12",
+    "central": {
+     "r": 0.7869691328668434,
+     "rel_left": 0.9993338160301115,
+     "rel_right": 0.9997895802206124,
+     "n_pairs_responding": 239,
+     "one_side_silent": false,
+     "r_nc": 0.7873142346234847
+    },
+    "descending": {
+     "r": 0.48713159655734906,
+     "rel_left": 0.9924964054810347,
+     "rel_right": 0.9993405310674991,
+     "n_pairs_responding": 80,
+     "one_side_silent": false,
+     "r_nc": 0.4891308754764139
+    },
+    "visual_centrifugal": {
+     "r": 0.9423132725482708,
+     "rel_left": 0.99828447233842,
+     "rel_right": 0.9997437342614074,
+     "n_pairs_responding": 14,
+     "one_side_silent": false,
+     "r_nc": 0.9432434644882751
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC13",
+    "central": {
+     "r": 0.7893455075547882,
+     "rel_left": 0.9996594296008128,
+     "rel_right": 0.9990638304700008,
+     "n_pairs_responding": 151,
+     "one_side_silent": false,
+     "r_nc": 0.7898497589635723
+    },
+    "descending": {
+     "r": 0.626215037603471,
+     "rel_left": 0.9985529560432284,
+     "rel_right": 0.9977611814142825,
+     "n_pairs_responding": 85,
+     "one_side_silent": false,
+     "r_nc": 0.6273712890244048
+    },
+    "visual_centrifugal": {
+     "r": 0.47651286923896424,
+     "rel_left": 0.9997103585197495,
+     "rel_right": 0.9991409214565946,
+     "n_pairs_responding": 10,
+     "one_side_silent": false,
+     "r_nc": 0.4767867358105633
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC15",
+    "central": {
+     "r": 0.6998802885378838,
+     "rel_left": 0.9981327426995674,
+     "rel_right": 0.9976976505433863,
+     "n_pairs_responding": 553,
+     "one_side_silent": false,
+     "r_nc": 0.7013424663117948
+    },
+    "descending": {
+     "r": 0.7339233325168966,
+     "rel_left": 0.9969334550867436,
+     "rel_right": 0.9966540820792243,
+     "n_pairs_responding": 202,
+     "one_side_silent": false,
+     "r_nc": 0.7362840367337298
+    },
+    "motor": {
+     "r": 0.6353936619566206,
+     "rel_left": 0.9763578191561596,
+     "rel_right": 0.9571906927101467,
+     "n_pairs_responding": 18,
+     "one_side_silent": false,
+     "r_nc": 0.6572629330966783
+    },
+    "optic": {
+     "r": -0.2725361065077809,
+     "rel_left": 0.9650660245069883,
+     "rel_right": 0.9895248465935342,
+     "n_pairs_responding": 8,
+     "one_side_silent": false,
+     "r_nc": -0.2788895118957657
+    },
+    "visual_centrifugal": {
+     "r": 0.43133583873770875,
+     "rel_left": 0.9885109031390807,
+     "rel_right": 0.9960859143538302,
+     "n_pairs_responding": 37,
+     "one_side_silent": false,
+     "r_nc": 0.43468676053475147
+    },
+    "visual_projection": {
+     "r": 0.9247678395060317,
+     "rel_left": 0.9998055674297406,
+     "rel_right": 0.999476881816107,
+     "n_pairs_responding": 9,
+     "one_side_silent": false,
+     "r_nc": 0.92509975501676
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC16",
+    "central": {
+     "r": 0.6788892922128329,
+     "rel_left": 0.9979553912288859,
+     "rel_right": 0.9959665595181945,
+     "n_pairs_responding": 234,
+     "one_side_silent": false,
+     "r_nc": 0.6809590813446393
+    },
+    "descending": {
+     "r": 0.4888000238457398,
+     "rel_left": 0.9948939382417609,
+     "rel_right": 0.9944696382800925,
+     "n_pairs_responding": 102,
+     "one_side_silent": false,
+     "r_nc": 0.4914134758797031
+    },
+    "motor": {
+     "r": 0.0,
+     "r_nc": 0.0,
+     "rel_left": NaN,
+     "rel_right": NaN,
+     "one_side_silent": true,
+     "n_pairs_responding": 8
+    },
+    "visual_centrifugal": {
+     "r": 0.4742106673466203,
+     "rel_left": 0.9921900952204784,
+     "rel_right": 0.993973439265558,
+     "n_pairs_responding": 18,
+     "one_side_silent": false,
+     "r_nc": 0.4775144143633216
+    },
+    "visual_projection": {
+     "r": 0.8684175305143339,
+     "rel_left": 0.9979749515575368,
+     "rel_right": 0.9982466458308271,
+     "n_pairs_responding": 6,
+     "one_side_silent": false,
+     "r_nc": 0.870061259425226
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC17",
+    "ascending": {
+     "r": -0.8945734076845795,
+     "rel_left": NaN,
+     "rel_right": NaN,
+     "n_pairs_responding": 7,
+     "one_side_silent": false,
+     "r_nc": NaN
+    },
+    "central": {
+     "r": 0.775182658821538,
+     "rel_left": 0.9966656089679501,
+     "rel_right": 0.9985299567402597,
+     "n_pairs_responding": 839,
+     "one_side_silent": false,
+     "r_nc": 0.7770496392090166
+    },
+    "descending": {
+     "r": 0.7382448936096653,
+     "rel_left": 0.9981999175225172,
+     "rel_right": 0.9984405450669275,
+     "n_pairs_responding": 202,
+     "one_side_silent": false,
+     "r_nc": 0.7394870662026225
+    },
+    "motor": {
+     "r": 0.25245907307493826,
+     "rel_left": 0.9964820537634969,
+     "rel_right": 0.9933989392716226,
+     "n_pairs_responding": 6,
+     "one_side_silent": false,
+     "r_nc": 0.2537431906626075
+    },
+    "visual_centrifugal": {
+     "r": 0.5896503986261938,
+     "rel_left": 0.9987614308156167,
+     "rel_right": 0.9973337625250727,
+     "n_pairs_responding": 36,
+     "one_side_silent": false,
+     "r_nc": 0.5908040372149178
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC18",
+    "central": {
+     "r": 0.8012771780107223,
+     "rel_left": 0.9982319060300078,
+     "rel_right": 0.9979499561378403,
+     "n_pairs_responding": 721,
+     "one_side_silent": false,
+     "r_nc": 0.8028098052481966
+    },
+    "descending": {
+     "r": 0.6776094441593953,
+     "rel_left": 0.9964052931432641,
+     "rel_right": 0.9976804322116564,
+     "n_pairs_responding": 209,
+     "one_side_silent": false,
+     "r_nc": 0.6796193103276772
+    },
+    "motor": {
+     "r": 0.06521515653321085,
+     "rel_left": 0.9797667109818595,
+     "rel_right": 0.9697748772718644,
+     "n_pairs_responding": 26,
+     "one_side_silent": false,
+     "r_nc": 0.06690394652331759
+    },
+    "optic": {
+     "r": 0.009777505162467198,
+     "rel_left": 0.9616974884926335,
+     "rel_right": 0.9817453983777928,
+     "n_pairs_responding": 7,
+     "one_side_silent": false,
+     "r_nc": 0.010062580687931722
+    },
+    "visual_centrifugal": {
+     "r": 0.33135268153761294,
+     "rel_left": 0.9956720246049123,
+     "rel_right": 0.9963887872006583,
+     "n_pairs_responding": 41,
+     "one_side_silent": false,
+     "r_nc": 0.33267328087863896
+    },
+    "visual_projection": {
+     "r": 0.9809229834879206,
+     "rel_left": 0.9997486289806528,
+     "rel_right": 0.9999562397502042,
+     "n_pairs_responding": 8,
+     "one_side_silent": false,
+     "r_nc": 0.9810677606611367
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC19",
+    "central": {
+     "r": 0.6560701204435521,
+     "rel_left": 0.9980710950681831,
+     "rel_right": 0.996169753744368,
+     "n_pairs_responding": 51,
+     "one_side_silent": false,
+     "r_nc": 0.6579650788108302
+    },
+    "descending": {
+     "r": 0.9025931595799203,
+     "rel_left": 0.9987444680705108,
+     "rel_right": 0.9975075449013163,
+     "n_pairs_responding": 45,
+     "one_side_silent": false,
+     "r_nc": 0.9042879626241537
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC20a",
+    "central": {
+     "r": 0.5979690052946554,
+     "rel_left": 0.9995316638656957,
+     "rel_right": 0.9980068932181767,
+     "n_pairs_responding": 29,
+     "one_side_silent": false,
+     "r_nc": 0.5987060198481446
+    },
+    "descending": {
+     "r": 0.7143772703265509,
+     "rel_left": 0.998668362602449,
+     "rel_right": 0.9940626350004683,
+     "n_pairs_responding": 25,
+     "one_side_silent": false,
+     "r_nc": 0.7169850614803499
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC20b"
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC21",
+    "central": {
+     "r": 0.774284792490379,
+     "rel_left": 0.9994336789789658,
+     "rel_right": 0.9961381667133964,
+     "n_pairs_responding": 314,
+     "one_side_silent": false,
+     "r_nc": 0.7760039809785934
+    },
+    "descending": {
+     "r": 0.4284735503391438,
+     "rel_left": 0.9941644061906864,
+     "rel_right": 0.9757949333872701,
+     "n_pairs_responding": 118,
+     "one_side_silent": false,
+     "r_nc": 0.4350264203232099
+    },
+    "motor": {
+     "r": 0.0,
+     "r_nc": 0.0,
+     "rel_left": NaN,
+     "rel_right": NaN,
+     "one_side_silent": true,
+     "n_pairs_responding": 6
+    },
+    "visual_centrifugal": {
+     "r": 0.2902368504815877,
+     "rel_left": 0.9999438053547307,
+     "rel_right": 0.9854064567223374,
+     "n_pairs_responding": 18,
+     "one_side_silent": false,
+     "r_nc": 0.2923863229969671
+    },
+    "visual_projection": {
+     "r": 0.9749085524791731,
+     "rel_left": 0.9994260235338596,
+     "rel_right": 0.9987480322789615,
+     "n_pairs_responding": 6,
+     "one_side_silent": false,
+     "r_nc": 0.9757994862988202
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC22",
+    "central": {
+     "r": 0.7314554807991551,
+     "rel_left": 0.9989177192340003,
+     "rel_right": 0.9991505107306684,
+     "n_pairs_responding": 134,
+     "one_side_silent": false,
+     "r_nc": 0.7321626707177497
+    },
+    "descending": {
+     "r": 0.6314722415836912,
+     "rel_left": 0.9994179995001757,
+     "rel_right": 0.997971893494277,
+     "n_pairs_responding": 59,
+     "one_side_silent": false,
+     "r_nc": 0.6322975892677435
+    },
+    "optic": {
+     "r": 0.9965630458556266,
+     "rel_left": 1.0,
+     "rel_right": 0.9984671784620182,
+     "n_pairs_responding": 6,
+     "one_side_silent": false,
+     "r_nc": 0.9973277016790082
+    },
+    "visual_centrifugal": {
+     "r": 0.8777120972451498,
+     "rel_left": 0.999910070245702,
+     "rel_right": 0.9982294981169408,
+     "n_pairs_responding": 12,
+     "one_side_silent": false,
+     "r_nc": 0.8785296298492441
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC24",
+    "central": {
+     "r": 0.6405258374683312,
+     "rel_left": 0.9994946785159182,
+     "rel_right": 0.9990524046675605,
+     "n_pairs_responding": 30,
+     "one_side_silent": false,
+     "r_nc": 0.6409915068222156
+    },
+    "descending": {
+     "r": 0.8553048101680083,
+     "rel_left": 0.9977487246421235,
+     "rel_right": 0.9984288425899657,
+     "n_pairs_responding": 25,
+     "one_side_silent": false,
+     "r_nc": 0.8569426626683612
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC25"
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC26",
+    "central": {
+     "r": 0.8715914107105492,
+     "rel_left": 0.9997133675649268,
+     "rel_right": 0.9990838630904533,
+     "n_pairs_responding": 19,
+     "one_side_silent": false,
+     "r_nc": 0.8721159310897943
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC27",
+    "central": {
+     "r": 0.8034878581449422,
+     "rel_left": 0.9991893795470927,
+     "rel_right": 0.9999309534733878,
+     "n_pairs_responding": 10,
+     "one_side_silent": false,
+     "r_nc": 0.8038414698254028
+    },
+    "visual_projection": {
+     "r": 0.8422837609609534,
+     "rel_left": 0.999721857190434,
+     "rel_right": 0.999870254480931,
+     "n_pairs_responding": 5,
+     "one_side_silent": false,
+     "r_nc": 0.8424555771791328
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC28a",
+    "central": {
+     "r": 0.5311306922330113,
+     "rel_left": 0.9945565920263969,
+     "rel_right": 0.9861458015988688,
+     "n_pairs_responding": 114,
+     "one_side_silent": false,
+     "r_nc": 0.5363102327591197
+    },
+    "descending": {
+     "r": 0.5068145694875874,
+     "rel_left": 0.988705389755167,
+     "rel_right": 0.9785050997636802,
+     "n_pairs_responding": 47,
+     "one_side_silent": false,
+     "r_nc": 0.5152690933576279
+    },
+    "optic": {
+     "r": 0.9508831317876552,
+     "rel_left": 0.9999974879133864,
+     "rel_right": 0.9996132253731042,
+     "n_pairs_responding": 5,
+     "one_side_silent": false,
+     "r_nc": 0.9510682684654189
+    },
+    "visual_centrifugal": {
+     "r": 0.635075114425956,
+     "rel_left": 0.9984060254438611,
+     "rel_right": 0.9952217873183584,
+     "n_pairs_responding": 10,
+     "one_side_silent": false,
+     "r_nc": 0.6371058032232431
+    },
+    "visual_projection": {
+     "r": 0.9407879704957185,
+     "rel_left": 0.9995294522017785,
+     "rel_right": 0.9968895825364413,
+     "n_pairs_responding": 10,
+     "one_side_silent": false,
+     "r_nc": 0.9424762803830252
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC28b",
+    "central": {
+     "r": 0.4915045015420859,
+     "rel_left": 0.9866218979680139,
+     "rel_right": 0.9923537649704619,
+     "n_pairs_responding": 6,
+     "one_side_silent": false,
+     "r_nc": 0.4967282542991349
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC28c"
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC28d",
+    "central": {
+     "r": -0.8454900078002763,
+     "rel_left": 0.9950768704682801,
+     "rel_right": 0.9991383971644365,
+     "n_pairs_responding": 5,
+     "one_side_silent": false,
+     "r_nc": -0.8479443268315996
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC29",
+    "central": {
+     "r": 0.557484534423077,
+     "rel_left": 0.9997654517382756,
+     "rel_right": 0.9990639646459777,
+     "n_pairs_responding": 39,
+     "one_side_silent": false,
+     "r_nc": 0.5578110509929057
+    },
+    "descending": {
+     "r": 0.77717373720192,
+     "rel_left": 0.999371282070687,
+     "rel_right": 0.9990987643687932,
+     "n_pairs_responding": 14,
+     "one_side_silent": false,
+     "r_nc": 0.777768719438442
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC31a",
+    "central": {
+     "r": 0.6849329036201842,
+     "rel_left": 0.9973673177657596,
+     "rel_right": 0.9977829583001028,
+     "n_pairs_responding": 524,
+     "one_side_silent": false,
+     "r_nc": 0.6865978234317639
+    },
+    "descending": {
+     "r": 0.8055985948648544,
+     "rel_left": 0.9984191342709775,
+     "rel_right": 0.9982708002888859,
+     "n_pairs_responding": 198,
+     "one_side_silent": false,
+     "r_nc": 0.8069340994253899
+    },
+    "motor": {
+     "r": 0.7889800957002403,
+     "rel_left": 0.9962829299443912,
+     "rel_right": 0.994290962558619,
+     "n_pairs_responding": 15,
+     "one_side_silent": false,
+     "r_nc": 0.7927166067178865
+    },
+    "optic": {
+     "r": -0.04093203475347539,
+     "rel_left": 0.9388489238734985,
+     "rel_right": 0.9563980956075502,
+     "n_pairs_responding": 8,
+     "one_side_silent": false,
+     "r_nc": -0.043196258001535516
+    },
+    "visual_centrifugal": {
+     "r": 0.4680364916069908,
+     "rel_left": 0.99726687385183,
+     "rel_right": 0.9939755150789312,
+     "n_pairs_responding": 43,
+     "one_side_silent": false,
+     "r_nc": 0.47009558814094765
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC31b",
+    "central": {
+     "r": 0.7374027782466588,
+     "rel_left": 0.9979353489641827,
+     "rel_right": 0.9974726782261829,
+     "n_pairs_responding": 232,
+     "one_side_silent": false,
+     "r_nc": 0.7390997610722475
+    },
+    "descending": {
+     "r": 0.7555796001304036,
+     "rel_left": 0.9976952336393244,
+     "rel_right": 0.996792847786934,
+     "n_pairs_responding": 110,
+     "one_side_silent": false,
+     "r_nc": 0.7576677790166118
+    },
+    "motor": {
+     "r": -0.07234765796507242,
+     "rel_left": 0.957242330130967,
+     "rel_right": 0.9943950393509706,
+     "n_pairs_responding": 6,
+     "one_side_silent": false,
+     "r_nc": -0.07415390983124723
+    },
+    "visual_centrifugal": {
+     "r": -0.23813923011743232,
+     "rel_left": 0.9957534841175409,
+     "rel_right": 0.9952408722126409,
+     "n_pairs_responding": 16,
+     "one_side_silent": false,
+     "r_nc": -0.23921638678002416
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC33"
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC34",
+    "central": {
+     "r": 0.3776272130510025,
+     "rel_left": 0.9916743449235539,
+     "rel_right": 0.9978840772672697,
+     "n_pairs_responding": 59,
+     "one_side_silent": false,
+     "r_nc": 0.3796109209037809
+    },
+    "descending": {
+     "r": 0.20139264719010808,
+     "rel_left": 0.9946168537578561,
+     "rel_right": 0.9750073202630417,
+     "n_pairs_responding": 19,
+     "one_side_silent": false,
+     "r_nc": 0.20450868927952043
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC36",
+    "central": {
+     "r": 0.7460705091801142,
+     "rel_left": 0.9986155144864545,
+     "rel_right": 0.9986605719588777,
+     "n_pairs_responding": 101,
+     "one_side_silent": false,
+     "r_nc": 0.7470880109497408
+    },
+    "descending": {
+     "r": 0.8403343638674534,
+     "rel_left": 0.9986153831885601,
+     "rel_right": 0.9971019813488007,
+     "n_pairs_responding": 62,
+     "one_side_silent": false,
+     "r_nc": 0.842137890284067
+    },
+    "motor": {
+     "r": 0.0,
+     "r_nc": 0.0,
+     "rel_left": NaN,
+     "rel_right": NaN,
+     "one_side_silent": true,
+     "n_pairs_responding": 8
+    },
+    "visual_centrifugal": {
+     "r": 0.8910356934055645,
+     "rel_left": 0.9995542486909686,
+     "rel_right": 0.9994574316390485,
+     "n_pairs_responding": 13,
+     "one_side_silent": false,
+     "r_nc": 0.8914762261954526
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC37"
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC4",
+    "central": {
+     "r": 0.7566640930377015,
+     "rel_left": 0.9987133781649747,
+     "rel_right": 0.9983873565168797,
+     "n_pairs_responding": 212,
+     "one_side_silent": false,
+     "r_nc": 0.7577625805046743
+    },
+    "descending": {
+     "r": 0.7698103491126651,
+     "rel_left": 0.9992798446943099,
+     "rel_right": 0.998883302343267,
+     "n_pairs_responding": 70,
+     "one_side_silent": false,
+     "r_nc": 0.7705180284332457
+    },
+    "visual_centrifugal": {
+     "r": 0.7471554135575623,
+     "rel_left": 0.9996000740783209,
+     "rel_right": 0.9994753008993698,
+     "n_pairs_responding": 13,
+     "one_side_silent": false,
+     "r_nc": 0.7475009940745657
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC40",
+    "central": {
+     "r": 0.8313058853925638,
+     "rel_left": 0.9955267943630296,
+     "rel_right": 0.9984484209964846,
+     "n_pairs_responding": 25,
+     "one_side_silent": false,
+     "r_nc": 0.8338185664013069
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC41",
+    "central": {
+     "r": 0.9024516398444484,
+     "rel_left": 0.9989307448353926,
+     "rel_right": 0.9989584186098424,
+     "n_pairs_responding": 16,
+     "one_side_silent": false,
+     "r_nc": 0.9034051101962044
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC43",
+    "central": {
+     "r": 0.760404519324489,
+     "rel_left": 0.9939950165747248,
+     "rel_right": 0.9978292376174829,
+     "n_pairs_responding": 19,
+     "one_side_silent": false,
+     "r_nc": 0.7635271300518608
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC45a",
+    "central": {
+     "r": 0.9613577612921708,
+     "rel_left": 0.9999522206879133,
+     "rel_right": 0.9998525826933969,
+     "n_pairs_responding": 6,
+     "one_side_silent": false,
+     "r_nc": 0.9614515985359502
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC45b"
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC46",
+    "central": {
+     "r": 0.7248664656593548,
+     "rel_left": 0.9909605565419608,
+     "rel_right": 0.998387238802407,
+     "n_pairs_responding": 34,
+     "one_side_silent": false,
+     "r_nc": 0.7287529296067284
+    },
+    "descending": {
+     "r": 0.7710060606739931,
+     "rel_left": 0.9904667068940368,
+     "rel_right": 0.9976670934054191,
+     "n_pairs_responding": 19,
+     "one_side_silent": false,
+     "r_nc": 0.775612906019192
+    },
+    "visual_centrifugal": {
+     "r": 0.8780228491810275,
+     "rel_left": 0.9036960473613317,
+     "rel_right": 0.9615303136018395,
+     "n_pairs_responding": 8,
+     "one_side_silent": false,
+     "r_nc": 0.9419180866082182
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC6",
+    "central": {
+     "r": 0.718508809965236,
+     "rel_left": 0.999266750910738,
+     "rel_right": 0.9980393065457689,
+     "n_pairs_responding": 413,
+     "one_side_silent": false,
+     "r_nc": 0.7194780619255468
+    },
+    "descending": {
+     "r": 0.7977828056733964,
+     "rel_left": 0.9992589835111169,
+     "rel_right": 0.9983349168375255,
+     "n_pairs_responding": 165,
+     "one_side_silent": false,
+     "r_nc": 0.7987438196449177
+    },
+    "visual_centrifugal": {
+     "r": 0.5295242835695652,
+     "rel_left": 0.9980434130457306,
+     "rel_right": 0.9960998522407913,
+     "n_pairs_responding": 22,
+     "one_side_silent": false,
+     "r_nc": 0.5310797316204863
+    },
+    "visual_projection": {
+     "r": 0.17440845149635045,
+     "rel_left": 0.9991643442025914,
+     "rel_right": 0.9988038166570958,
+     "n_pairs_responding": 7,
+     "one_side_silent": false,
+     "r_nc": 0.1745858194865088
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LC9",
+    "central": {
+     "r": 0.6755335429543511,
+     "rel_left": 0.9992307263172542,
+     "rel_right": 0.998661301744101,
+     "n_pairs_responding": 480,
+     "one_side_silent": false,
+     "r_nc": 0.6762463245297614
+    },
+    "descending": {
+     "r": 0.5240852863822417,
+     "rel_left": 0.9985431567642603,
+     "rel_right": 0.9986948416204801,
+     "n_pairs_responding": 171,
+     "one_side_silent": false,
+     "r_nc": 0.5248100509979826
+    },
+    "motor": {
+     "r": 0.009432935580633406,
+     "rel_left": 0.9996020070534406,
+     "rel_right": 0.9979695825167968,
+     "n_pairs_responding": 9,
+     "one_side_silent": false,
+     "r_nc": 0.009444406177634083
+    },
+    "optic": {
+     "r": -0.42794666305168966,
+     "rel_left": 0.999712783251717,
+     "rel_right": 0.9955228005868649,
+     "n_pairs_responding": 5,
+     "one_side_silent": false,
+     "r_nc": -0.4289695012841069
+    },
+    "visual_centrifugal": {
+     "r": 0.7076234356287473,
+     "rel_left": 0.9992899624618266,
+     "rel_right": 0.9992557060790563,
+     "n_pairs_responding": 42,
+     "one_side_silent": false,
+     "r_nc": 0.7081383696869197
+    },
+    "visual_projection": {
+     "r": 0.9677222366670126,
+     "rel_left": 0.999843753643926,
+     "rel_right": 0.9998780911345576,
+     "n_pairs_responding": 18,
+     "one_side_silent": false,
+     "r_nc": 0.9678568440271013
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LCe01a"
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LCe01b"
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LCe02",
+    "central": {
+     "r": 0.9406750100969584,
+     "rel_left": 0.9999961027637498,
+     "rel_right": 0.9986661079249367,
+     "n_pairs_responding": 10,
+     "one_side_silent": false,
+     "r_nc": 0.9413048521538967
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LCe03"
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LCe04",
+    "central": {
+     "r": 0.3829207792695351,
+     "rel_left": 0.9985293183986833,
+     "rel_right": 0.9961911678045726,
+     "n_pairs_responding": 145,
+     "one_side_silent": false,
+     "r_nc": 0.3839345361732126
+    },
+    "descending": {
+     "r": 0.5301593364978818,
+     "rel_left": 0.9982777463255026,
+     "rel_right": 0.9982523805160857,
+     "n_pairs_responding": 81,
+     "one_side_silent": false,
+     "r_nc": 0.5310807279220531
+    },
+    "motor": {
+     "r": -0.05284580468267227,
+     "rel_left": 0.9992726676683384,
+     "rel_right": 0.9958650401457256,
+     "n_pairs_responding": 11,
+     "one_side_silent": false,
+     "r_nc": -0.052974670926610234
+    },
+    "visual_centrifugal": {
+     "r": 0.616001409458137,
+     "rel_left": 0.9996542488333291,
+     "rel_right": 0.9994391478378462,
+     "n_pairs_responding": 9,
+     "one_side_silent": false,
+     "r_nc": 0.6162807741247031
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LCe05"
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LCe06",
+    "central": {
+     "r": 0.7517865978267458,
+     "rel_left": 0.9967822217995048,
+     "rel_right": 0.9971773779738342,
+     "n_pairs_responding": 20,
+     "one_side_silent": false,
+     "r_nc": 0.7540640368792104
+    },
+    "descending": {
+     "r": 0.8250362693521589,
+     "rel_left": 0.9990955884996682,
+     "rel_right": 0.9972952850514377,
+     "n_pairs_responding": 20,
+     "one_side_silent": false,
+     "r_nc": 0.8265281270764477
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LCe07",
+    "central": {
+     "r": 0.5958615339438211,
+     "rel_left": 0.997854417865625,
+     "rel_right": 0.9973543333577108,
+     "n_pairs_responding": 73,
+     "one_side_silent": false,
+     "r_nc": 0.5972924409989816
+    },
+    "descending": {
+     "r": 0.6087226914933623,
+     "rel_left": 0.9972408829978544,
+     "rel_right": 0.996995716623498,
+     "n_pairs_responding": 47,
+     "one_side_silent": false,
+     "r_nc": 0.6104819219634644
+    },
+    "visual_centrifugal": {
+     "r": 0.7235276364233353,
+     "rel_left": 0.9922241312430048,
+     "rel_right": 0.997345056440017,
+     "n_pairs_responding": 7,
+     "one_side_silent": false,
+     "r_nc": 0.727323319601557
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LCe09"
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LLPC1",
+    "ascending": {
+     "r": -0.46550244988235456,
+     "rel_left": 0.9962348572995458,
+     "rel_right": 1.0,
+     "n_pairs_responding": 5,
+     "one_side_silent": false,
+     "r_nc": -0.46638127391149625
+    },
+    "central": {
+     "r": 0.7832965690692163,
+     "rel_left": 0.9978865164636077,
+     "rel_right": 0.9990484826162144,
+     "n_pairs_responding": 683,
+     "one_side_silent": false,
+     "r_nc": 0.7844989466695639
+    },
+    "descending": {
+     "r": 0.800881888183569,
+     "rel_left": 0.9984343690789416,
+     "rel_right": 0.9992558881160237,
+     "n_pairs_responding": 139,
+     "one_side_silent": false,
+     "r_nc": 0.8018079409649854
+    },
+    "motor": {
+     "r": 0.7767529215782811,
+     "rel_left": 0.9994689509410096,
+     "rel_right": 0.9995598674012197,
+     "n_pairs_responding": 11,
+     "one_side_silent": false,
+     "r_nc": 0.7771302897231606
+    },
+    "optic": {
+     "r": 0.7349824156083559,
+     "rel_left": 0.9990764373820398,
+     "rel_right": 0.8876015370633433,
+     "n_pairs_responding": 7,
+     "one_side_silent": false,
+     "r_nc": 0.7804922008303621
+    },
+    "visual_centrifugal": {
+     "r": 0.6455385632752465,
+     "rel_left": 0.9972812912863559,
+     "rel_right": 0.9964880525491914,
+     "n_pairs_responding": 28,
+     "one_side_silent": false,
+     "r_nc": 0.6475559636452914
+    },
+    "visual_projection": {
+     "r": 0.6431980817413832,
+     "rel_left": 0.9996760501498742,
+     "rel_right": 0.9960760230306884,
+     "n_pairs_responding": 8,
+     "one_side_silent": false,
+     "r_nc": 0.6445681673835876
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LLPC2",
+    "central": {
+     "r": 0.6809737672338426,
+     "rel_left": 0.9992002416690862,
+     "rel_right": 0.9978902861631337,
+     "n_pairs_responding": 292,
+     "one_side_silent": false,
+     "r_nc": 0.681965994267107
+    },
+    "descending": {
+     "r": 0.6881422681071573,
+     "rel_left": 0.9976277480954667,
+     "rel_right": 0.9972921619454975,
+     "n_pairs_responding": 104,
+     "one_side_silent": false,
+     "r_nc": 0.6898946412636515
+    },
+    "visual_centrifugal": {
+     "r": 0.28169840558901804,
+     "rel_left": 0.998995714754324,
+     "rel_right": 0.9974928958114413,
+     "n_pairs_responding": 22,
+     "one_side_silent": false,
+     "r_nc": 0.282193931790022
+    },
+    "visual_projection": {
+     "r": 0.8710638392146308,
+     "rel_left": 0.9997031204498169,
+     "rel_right": 0.9996809192862817,
+     "n_pairs_responding": 10,
+     "one_side_silent": false,
+     "r_nc": 0.8713321922718802
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LLPC3",
+    "central": {
+     "r": 0.7602081107073102,
+     "rel_left": 0.9982888438464542,
+     "rel_right": 0.9981019695856552,
+     "n_pairs_responding": 370,
+     "one_side_silent": false,
+     "r_nc": 0.7615824606314433
+    },
+    "descending": {
+     "r": 0.7119087561504416,
+     "rel_left": 0.9960989984702037,
+     "rel_right": 0.9978246255106388,
+     "n_pairs_responding": 136,
+     "one_side_silent": false,
+     "r_nc": 0.7140785275777474
+    },
+    "motor": {
+     "r": 0.39966139235809517,
+     "rel_left": 0.9879410800642651,
+     "rel_right": 0.995692437067833,
+     "n_pairs_responding": 10,
+     "one_side_silent": false,
+     "r_nc": 0.40296197892481295
+    },
+    "optic": {
+     "r": 0.9961251289133566,
+     "rel_left": 0.9999999989182063,
+     "rel_right": 0.9974715205736552,
+     "n_pairs_responding": 8,
+     "one_side_silent": false,
+     "r_nc": 0.9973868636065346
+    },
+    "visual_centrifugal": {
+     "r": 0.6381731642675458,
+     "rel_left": 0.9983502816581475,
+     "rel_right": 0.9973297877338965,
+     "n_pairs_responding": 28,
+     "one_side_silent": false,
+     "r_nc": 0.6395546635857661
+    },
+    "visual_projection": {
+     "r": 0.9513212408193803,
+     "rel_left": 0.9998812746450836,
+     "rel_right": 0.9998034344331608,
+     "n_pairs_responding": 14,
+     "one_side_silent": false,
+     "r_nc": 0.9514712366617417
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LPC1",
+    "central": {
+     "r": 0.7080825186542961,
+     "rel_left": 0.9997065273231234,
+     "rel_right": 0.9990660302337434,
+     "n_pairs_responding": 274,
+     "one_side_silent": false,
+     "r_nc": 0.7085173871654246
+    },
+    "descending": {
+     "r": 0.6358849494978497,
+     "rel_left": 0.9991716303369961,
+     "rel_right": 0.9985785056164492,
+     "n_pairs_responding": 83,
+     "one_side_silent": false,
+     "r_nc": 0.6366011104989214
+    },
+    "motor": {
+     "r": -0.1469657455397269,
+     "rel_left": 1.0,
+     "rel_right": 0.9982721899698843,
+     "n_pairs_responding": 5,
+     "one_side_silent": false,
+     "r_nc": -0.14709287474942379
+    },
+    "optic": {
+     "r": 0.8785598268797653,
+     "rel_left": 0.9997198532069089,
+     "rel_right": 0.9998170417287467,
+     "n_pairs_responding": 9,
+     "one_side_silent": false,
+     "r_nc": 0.8787633077866603
+    },
+    "visual_centrifugal": {
+     "r": 0.843570803138816,
+     "rel_left": 0.9996190653832523,
+     "rel_right": 0.9996831929194754,
+     "n_pairs_responding": 13,
+     "one_side_silent": false,
+     "r_nc": 0.8438652035424445
+    },
+    "visual_projection": {
+     "r": 0.8770990567370486,
+     "rel_left": 0.9999801868393451,
+     "rel_right": 0.9999295832094317,
+     "n_pairs_responding": 10,
+     "one_side_silent": false,
+     "r_nc": 0.8771386291056854
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LPC2",
+    "central": {
+     "r": 0.761245975132529,
+     "rel_left": 0.9957288278001801,
+     "rel_right": 0.9987605420513351,
+     "n_pairs_responding": 31,
+     "one_side_silent": false,
+     "r_nc": 0.7633501246833194
+    },
+    "descending": {
+     "r": 0.6790907322915795,
+     "rel_left": 0.9977063824481124,
+     "rel_right": 0.999194344888749,
+     "n_pairs_responding": 16,
+     "one_side_silent": false,
+     "r_nc": 0.6801448980613584
+    },
+    "visual_projection": {
+     "r": 0.558735880325752,
+     "rel_left": 0.9981324323688839,
+     "rel_right": 0.9950344907651335,
+     "n_pairs_responding": 7,
+     "one_side_silent": false,
+     "r_nc": 0.5606520444786419
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LPLC1",
+    "ascending": {
+     "r": -0.4011380618241428,
+     "rel_left": 0.9925000567025489,
+     "rel_right": 0.9998934256666103,
+     "n_pairs_responding": 6,
+     "one_side_silent": false,
+     "r_nc": -0.4026722906310748
+    },
+    "central": {
+     "r": 0.7499241058025806,
+     "rel_left": 0.9981647935299582,
+     "rel_right": 0.9987632295903295,
+     "n_pairs_responding": 759,
+     "one_side_silent": false,
+     "r_nc": 0.7510777862739881
+    },
+    "descending": {
+     "r": 0.65361132801763,
+     "rel_left": 0.9983020751922866,
+     "rel_right": 0.9978896367125119,
+     "n_pairs_responding": 213,
+     "one_side_silent": false,
+     "r_nc": 0.654858286476786
+    },
+    "motor": {
+     "r": -0.28544629646723046,
+     "rel_left": NaN,
+     "rel_right": 0.9431550805969783,
+     "n_pairs_responding": 9,
+     "one_side_silent": false,
+     "r_nc": NaN
+    },
+    "optic": {
+     "r": -0.35256283202308963,
+     "rel_left": 0.9991415677512572,
+     "rel_right": 0.9544450893479609,
+     "n_pairs_responding": 9,
+     "one_side_silent": false,
+     "r_nc": -0.36103353058496235
+    },
+    "visual_centrifugal": {
+     "r": 0.43870344600422817,
+     "rel_left": 0.9990909612646374,
+     "rel_right": 0.9982759696623984,
+     "n_pairs_responding": 41,
+     "one_side_silent": false,
+     "r_nc": 0.43928181220131474
+    },
+    "visual_projection": {
+     "r": 0.9227197943127754,
+     "rel_left": 0.9997441183832294,
+     "rel_right": 0.9995631009592008,
+     "n_pairs_responding": 18,
+     "one_side_silent": false,
+     "r_nc": 0.9230395300610749
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LPLC2",
+    "central": {
+     "r": 0.7528828147841777,
+     "rel_left": 0.9993200249004676,
+     "rel_right": 0.9991387607084555,
+     "n_pairs_responding": 372,
+     "one_side_silent": false,
+     "r_nc": 0.7534634422312638
+    },
+    "descending": {
+     "r": 0.8525317311139141,
+     "rel_left": 0.9989196621012474,
+     "rel_right": 0.9994409051718258,
+     "n_pairs_responding": 137,
+     "one_side_silent": false,
+     "r_nc": 0.8532311676648989
+    },
+    "visual_centrifugal": {
+     "r": 0.8438887244956454,
+     "rel_left": 0.9992025734228805,
+     "rel_right": 0.9994109762277444,
+     "n_pairs_responding": 20,
+     "one_side_silent": false,
+     "r_nc": 0.8444741398165407
+    },
+    "visual_projection": {
+     "r": 0.6695606144415785,
+     "rel_left": 0.9993777918070366,
+     "rel_right": 0.9999867612802584,
+     "n_pairs_responding": 9,
+     "one_side_silent": false,
+     "r_nc": 0.6697734482340609
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LPLC4",
+    "ascending": {
+     "r": 0.7210629252412544,
+     "rel_left": 0.9998253640280205,
+     "rel_right": 0.9984919295552196,
+     "n_pairs_responding": 6,
+     "one_side_silent": false,
+     "r_nc": 0.7216702653649931
+    },
+    "central": {
+     "r": 0.720275633469693,
+     "rel_left": 0.999057463963235,
+     "rel_right": 0.9991758645097262,
+     "n_pairs_responding": 348,
+     "one_side_silent": false,
+     "r_nc": 0.7209124424768969
+    },
+    "descending": {
+     "r": 0.7422913586818424,
+     "rel_left": 0.9994352556876439,
+     "rel_right": 0.9992667403377075,
+     "n_pairs_responding": 119,
+     "one_side_silent": false,
+     "r_nc": 0.742773422747656
+    },
+    "motor": {
+     "r": 0.2657954937909753,
+     "rel_left": -4.828427124746189,
+     "rel_right": 0.9980117503157278,
+     "n_pairs_responding": 6,
+     "one_side_silent": false,
+     "r_nc": NaN
+    },
+    "optic": {
+     "r": 0.7734217058911396,
+     "rel_left": 0.9999131018972294,
+     "rel_right": 0.9989875113118222,
+     "n_pairs_responding": 8,
+     "one_side_silent": false,
+     "r_nc": 0.7738471674848888
+    },
+    "visual_centrifugal": {
+     "r": 0.5504111702353394,
+     "rel_left": 0.9982683664909894,
+     "rel_right": 0.9995690170516636,
+     "n_pairs_responding": 38,
+     "one_side_silent": false,
+     "r_nc": 0.5510070953845542
+    },
+    "visual_projection": {
+     "r": 0.9640264191535722,
+     "rel_left": 0.9996336117665464,
+     "rel_right": 0.9991561046104591,
+     "n_pairs_responding": 12,
+     "one_side_silent": false,
+     "r_nc": 0.9646101726104295
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LPTe01",
+    "central": {
+     "r": 0.6219981622716906,
+     "rel_left": 0.9985624375891946,
+     "rel_right": 0.996130748767574,
+     "n_pairs_responding": 110,
+     "one_side_silent": false,
+     "r_nc": 0.6236534307321348
+    },
+    "descending": {
+     "r": 0.7832567577407268,
+     "rel_left": 0.9975543083398773,
+     "rel_right": 0.9967902261663674,
+     "n_pairs_responding": 42,
+     "one_side_silent": false,
+     "r_nc": 0.7854779369098007
+    },
+    "optic": {
+     "r": 0.4020598531127706,
+     "rel_left": 0.9816696200947551,
+     "rel_right": 0.9997733763968559,
+     "n_pairs_responding": 10,
+     "one_side_silent": false,
+     "r_nc": 0.40584224379528683
+    },
+    "visual_centrifugal": {
+     "r": 0.6823049215625789,
+     "rel_left": 0.9993778767360428,
+     "rel_right": 0.9992950052488339,
+     "n_pairs_responding": 13,
+     "one_side_silent": false,
+     "r_nc": 0.6827579723516273
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LPTe02",
+    "central": {
+     "r": 0.7923493548162818,
+     "rel_left": 0.9977973729123699,
+     "rel_right": 0.9981244649588552,
+     "n_pairs_responding": 8,
+     "one_side_silent": false,
+     "r_nc": 0.7939683312462003
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LT51"
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LT52"
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LT57",
+    "central": {
+     "r": 0.5750256822195103,
+     "rel_left": 0.9982683594532406,
+     "rel_right": 0.9902223055918754,
+     "n_pairs_responding": 46,
+     "one_side_silent": false,
+     "r_nc": 0.5783586513432294
+    },
+    "descending": {
+     "r": 0.7265298997459877,
+     "rel_left": 0.9977528835087689,
+     "rel_right": 0.9771402468857315,
+     "n_pairs_responding": 24,
+     "one_side_silent": false,
+     "r_nc": 0.735806373722062
+    },
+    "visual_projection": {
+     "r": 0.6720264165742731,
+     "rel_left": 0.9996310115155942,
+     "rel_right": 0.9996472338850905,
+     "n_pairs_responding": 5,
+     "one_side_silent": false,
+     "r_nc": 0.6722690232261411
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LT81",
+    "central": {
+     "r": 0.8235033145128094,
+     "rel_left": 0.9994431786862913,
+     "rel_right": 0.9964095746776096,
+     "n_pairs_responding": 11,
+     "one_side_silent": false,
+     "r_nc": 0.8252154517708847
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LTe09"
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LTe49",
+    "central": {
+     "r": 0.7854268380918435,
+     "rel_left": 0.9959016106940113,
+     "rel_right": 0.997315438203116,
+     "n_pairs_responding": 82,
+     "one_side_silent": false,
+     "r_nc": 0.7880998570767589
+    },
+    "descending": {
+     "r": 0.957170139326533,
+     "rel_left": 0.9989410124417143,
+     "rel_right": 0.9963279342614725,
+     "n_pairs_responding": 33,
+     "one_side_silent": false,
+     "r_nc": 0.9594405423428904
+    },
+    "visual_centrifugal": {
+     "r": 0.9141447577091963,
+     "rel_left": 0.9999128510207284,
+     "rel_right": 0.9990794528116791,
+     "n_pairs_responding": 8,
+     "one_side_silent": false,
+     "r_nc": 0.9146056594633925
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LTe58",
+    "central": {
+     "r": 0.6630780035897061,
+     "rel_left": 0.9987799647345672,
+     "rel_right": 0.9981551533939891,
+     "n_pairs_responding": 48,
+     "one_side_silent": false,
+     "r_nc": 0.6640957235183781
+    },
+    "descending": {
+     "r": -0.46812436671497787,
+     "rel_left": 0.9917929894791991,
+     "rel_right": 0.9942652415019672,
+     "n_pairs_responding": 14,
+     "one_side_silent": false,
+     "r_nc": -0.4714108802054529
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "LTe64",
+    "central": {
+     "r": 0.6753377730760711,
+     "rel_left": 0.9992487063614016,
+     "rel_right": 0.998070267428335,
+     "n_pairs_responding": 18,
+     "one_side_silent": false,
+     "r_nc": 0.6762444051101005
+    },
+    "descending": {
+     "r": 0.7941879511073199,
+     "rel_left": 0.9993605268665599,
+     "rel_right": 0.9974003537439065,
+     "n_pairs_responding": 13,
+     "one_side_silent": false,
+     "r_nc": 0.7954766557122702
+    },
+    "visual_centrifugal": {
+     "r": -0.2092873036224145,
+     "rel_left": 0.9991853470330927,
+     "rel_right": 0.9971644174004665,
+     "n_pairs_responding": 8,
+     "one_side_silent": false,
+     "r_nc": -0.20967008345676866
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "MTe01a"
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "MTe01b",
+    "central": {
+     "r": 0.6612874432846603,
+     "rel_left": 0.998536071666814,
+     "rel_right": 0.9969323362948996,
+     "n_pairs_responding": 130,
+     "one_side_silent": false,
+     "r_nc": 0.6627894024422509
+    },
+    "descending": {
+     "r": 0.7445567303324688,
+     "rel_left": 0.9989059095097117,
+     "rel_right": 0.9983851176033551,
+     "n_pairs_responding": 73,
+     "one_side_silent": false,
+     "r_nc": 0.7455666155171368
+    },
+    "motor": {
+     "r": 0.031731603455907,
+     "rel_left": 0.9987309339692649,
+     "rel_right": 0.9948717830181204,
+     "n_pairs_responding": 8,
+     "one_side_silent": false,
+     "r_nc": 0.03183348682056243
+    },
+    "optic": {
+     "r": 0.9959578416374918,
+     "rel_left": 0.9970260713252498,
+     "rel_right": 0.9969817314153125,
+     "n_pairs_responding": 5,
+     "one_side_silent": false,
+     "r_nc": 0.9989507969977667
+    },
+    "visual_centrifugal": {
+     "r": 0.5383880488766882,
+     "rel_left": 0.9944212387816568,
+     "rel_right": 0.9949334898704666,
+     "n_pairs_responding": 18,
+     "one_side_silent": false,
+     "r_nc": 0.5412690446516565
+    },
+    "visual_projection": {
+     "r": 0.9928398179636151,
+     "rel_left": 0.9973536898371494,
+     "rel_right": 0.9992198392874971,
+     "n_pairs_responding": 10,
+     "one_side_silent": false,
+     "r_nc": 0.9945441399107462
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "MTe02",
+    "central": {
+     "r": 0.5148305888985482,
+     "rel_left": 0.9956619179920091,
+     "rel_right": 0.9992991862848916,
+     "n_pairs_responding": 12,
+     "one_side_silent": false,
+     "r_nc": 0.5161318117795535
+    },
+    "visual_projection": {
+     "r": 0.9846992181965066,
+     "rel_left": 0.9993973613663035,
+     "rel_right": 0.9977662635729349,
+     "n_pairs_responding": 5,
+     "one_side_silent": false,
+     "r_nc": 0.986098018512644
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "MTe03",
+    "central": {
+     "r": 0.6191535379183198,
+     "rel_left": 0.9993672342205775,
+     "rel_right": 0.9997395598418636,
+     "n_pairs_responding": 17,
+     "one_side_silent": false,
+     "r_nc": 0.6194301880177058
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "MTe04",
+    "central": {
+     "r": 0.9435768611171569,
+     "rel_left": 0.9999672858994864,
+     "rel_right": 0.9993972228506368,
+     "n_pairs_responding": 6,
+     "one_side_silent": false,
+     "r_nc": 0.943876812198579
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "MTe05"
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "MTe06"
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "MTe07",
+    "central": {
+     "r": -0.14996906841566007,
+     "rel_left": 0.9981271497879051,
+     "rel_right": NaN,
+     "n_pairs_responding": 18,
+     "one_side_silent": false,
+     "r_nc": NaN
+    },
+    "descending": {
+     "r": 0.0,
+     "r_nc": 0.0,
+     "rel_left": NaN,
+     "rel_right": NaN,
+     "one_side_silent": true,
+     "n_pairs_responding": 7
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "MTe08"
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "MTe50",
+    "central": {
+     "r": 0.8362744212632882,
+     "rel_left": 0.9990511668580853,
+     "rel_right": 0.9983874788622952,
+     "n_pairs_responding": 38,
+     "one_side_silent": false,
+     "r_nc": 0.8373468383809174
+    },
+    "descending": {
+     "r": 0.49871931026257427,
+     "rel_left": 1.0,
+     "rel_right": 0.9968114084919819,
+     "n_pairs_responding": 8,
+     "one_side_silent": false,
+     "r_nc": 0.49951632285933306
+    },
+    "visual_projection": {
+     "r": 0.8640615396431188,
+     "rel_left": 0.9998587262230888,
+     "rel_right": 0.9999377478819255,
+     "n_pairs_responding": 7,
+     "one_side_silent": false,
+     "r_nc": 0.8641494787157303
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "MTe51",
+    "central": {
+     "r": 0.8637665003141031,
+     "rel_left": 0.999863203711127,
+     "rel_right": 0.9993279344116545,
+     "n_pairs_responding": 75,
+     "one_side_silent": false,
+     "r_nc": 0.8641160065217924
+    },
+    "visual_projection": {
+     "r": 0.7458599414443847,
+     "rel_left": 0.9996358415421077,
+     "rel_right": 0.9999278089708579,
+     "n_pairs_responding": 12,
+     "one_side_silent": false,
+     "r_nc": 0.7460227127094593
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "MTe52",
+    "central": {
+     "r": 0.7608032989408364,
+     "rel_left": 0.9975398955798487,
+     "rel_right": 0.9983626600736071,
+     "n_pairs_responding": 20,
+     "one_side_silent": false,
+     "r_nc": 0.7623652381503784
+    },
+    "descending": {
+     "r": 0.7350797644027285,
+     "rel_left": 0.998920406387082,
+     "rel_right": 0.9991508004614759,
+     "n_pairs_responding": 13,
+     "one_side_silent": false,
+     "r_nc": 0.7357893620307296
+    },
+    "optic": {
+     "r": 0.8773098159398024,
+     "rel_left": 0.999273079412289,
+     "rel_right": 0.9998012663520699,
+     "n_pairs_responding": 7,
+     "one_side_silent": false,
+     "r_nc": 0.8777160773646396
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "MTe53"
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "MTe54",
+    "central": {
+     "r": 0.723531958861386,
+     "rel_left": 0.9997667931073684,
+     "rel_right": 0.9993285009484617,
+     "n_pairs_responding": 5,
+     "one_side_silent": false,
+     "r_nc": 0.7238594162092221
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "MeMe_e07"
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "MeMe_e08"
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "MeTu1",
+    "central": {
+     "r": 0.46361530887443975,
+     "rel_left": 0.9990427127062013,
+     "rel_right": 0.9995408890180576,
+     "n_pairs_responding": 93,
+     "one_side_silent": false,
+     "r_nc": 0.4639438879387769
+    },
+    "descending": {
+     "r": 0.6352600079627808,
+     "rel_left": 0.9990748852743869,
+     "rel_right": 0.999080742628188,
+     "n_pairs_responding": 64,
+     "one_side_silent": false,
+     "r_nc": 0.6358463766231565
+    },
+    "visual_centrifugal": {
+     "r": 0.9877208658507877,
+     "rel_left": 0.9999996663895542,
+     "rel_right": 0.9999447040911896,
+     "n_pairs_responding": 5,
+     "one_side_silent": false,
+     "r_nc": 0.9877483402064344
+    },
+    "visual_projection": {
+     "r": 0.911014886303874,
+     "rel_left": 0.9998013417548934,
+     "rel_right": 0.9998843990959875,
+     "n_pairs_responding": 12,
+     "one_side_silent": false,
+     "r_nc": 0.9111580569675507
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "MeTu2a"
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "MeTu2b"
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "MeTu3a"
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "MeTu3b"
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "MeTu3c"
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "MeTu4a",
+    "central": {
+     "r": 0.684303129505364,
+     "rel_left": 0.9992553940695408,
+     "rel_right": 0.9981845269403598,
+     "n_pairs_responding": 16,
+     "one_side_silent": false,
+     "r_nc": 0.6851802856750075
+    },
+    "visual_projection": {
+     "r": 0.9235365887132537,
+     "rel_left": 0.9993329358192727,
+     "rel_right": 0.9999344390306093,
+     "n_pairs_responding": 8,
+     "one_side_silent": false,
+     "r_nc": 0.92387505756289
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "MeTu4b"
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "MeTu4c",
+    "central": {
+     "r": 0.6943287079868578,
+     "rel_left": 0.9989950979108658,
+     "rel_right": 0.9990426179691623,
+     "n_pairs_responding": 34,
+     "one_side_silent": false,
+     "r_nc": 0.6950106123271215
+    },
+    "descending": {
+     "r": 0.6312103683294422,
+     "rel_left": 0.9949155485957616,
+     "rel_right": 0.9960612477414764,
+     "n_pairs_responding": 7,
+     "one_side_silent": false,
+     "r_nc": 0.6340711493971258
+    },
+    "visual_projection": {
+     "r": 0.832911551016316,
+     "rel_left": 0.9997569203077815,
+     "rel_right": 0.9994084811659258,
+     "n_pairs_responding": 15,
+     "one_side_silent": false,
+     "r_nc": 0.8332592821517811
+    }
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "MeTu4d"
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "TmY14"
+   },
+   {
+    "kind": "vpn",
+    "cell_type": "aMe5",
+    "central": {
+     "r": 0.6391868790539185,
+     "rel_left": 0.9981509848525008,
+     "rel_right": 0.9985423368307238,
+     "n_pairs_responding": 28,
+     "one_side_silent": false,
+     "r_nc": 0.6402454341787325
+    },
+    "descending": {
+     "r": 0.42089290183098826,
+     "rel_left": 0.8930435851999248,
+     "rel_right": 0.9988006817772266,
+     "n_pairs_responding": 12,
+     "one_side_silent": false,
+     "r_nc": 0.44565199902286273
+    },
+    "visual_projection": {
+     "r": 0.9178307947058466,
+     "rel_left": 0.9998334316543884,
+     "rel_right": 0.9995721607639598,
+     "n_pairs_responding": 6,
+     "one_side_silent": false,
+     "r_nc": 0.9181036664322143
+    }
+   }
+  ]
+ }
+}

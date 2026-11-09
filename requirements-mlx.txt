@@ -1,0 +1,24 @@
+# Python 3.13 environment for the MLX port (Apple Silicon) and the analyses of parts 2 and 3. Create it from the
+# repo root, after `git submodule update --init`, with:
+#   uv venv --python 3.13 .venv-mlx && uv pip install --python .venv-mlx/bin/python -r requirements-mlx.txt
+-e ./external/drosophila-brain-mlx[dev]
+contourpy==1.4.0
+cycler==0.12.1
+fonttools==4.67.0
+iniconfig==2.3.1
+kiwisolver==1.5.1
+matplotlib==3.11.2
+mlx==0.32.4
+mlx-metal==0.32.4
+numpy==2.5.4
+packaging==26.3
+pandas==3.0.6
+pillow==13.0.0
+pluggy==1.7.0
+pyarrow==26.0.0
+pygments==2.21.0
+pyparsing==3.3.3
+pytest==9.1.1
+python-dateutil==2.9.0.post0
+scipy==1.18.1
+six==1.17.0

@@ -1,0 +1,817 @@
+{
+ "rows": [
+  {
+   "set": "DNp09",
+   "n_cells": 2,
+   "braun_class": "broadcaster",
+   "braun_downstream_DNs": 32,
+   "connectome_downstream_DNs_ge5": 38,
+   "recruited_25Hz": 6,
+   "recruited_gng_25Hz": 3,
+   "summed_rate_25Hz": 15.599999999999998,
+   "n_active_25Hz": 18,
+   "recruited_gng_25Hz_thr0.5": 4,
+   "recruited_gng_25Hz_thr2.0": 1,
+   "recruited_gng_25Hz_ci95": [
+    3.0,
+    4.0
+   ],
+   "recruited_25Hz_ci95": [
+    5.0,
+    8.0
+   ],
+   "recruited_50Hz": 13,
+   "recruited_gng_50Hz": 6,
+   "summed_rate_50Hz": 57.8,
+   "n_active_50Hz": 37,
+   "recruited_gng_50Hz_thr0.5": 6,
+   "recruited_gng_50Hz_thr2.0": 5,
+   "recruited_gng_50Hz_ci95": [
+    5.0,
+    6.0
+   ],
+   "recruited_50Hz_ci95": [
+    11.0,
+    16.0
+   ],
+   "recruited_100Hz": 24,
+   "recruited_gng_100Hz": 12,
+   "summed_rate_100Hz": 179.8,
+   "n_active_100Hz": 92,
+   "recruited_gng_100Hz_thr0.5": 16,
+   "recruited_gng_100Hz_thr2.0": 8,
+   "recruited_gng_100Hz_ci95": [
+    9.0,
+    13.0
+   ],
+   "recruited_100Hz_ci95": [
+    20.0,
+    26.0
+   ],
+   "recruited_200Hz": 33,
+   "recruited_gng_200Hz": 21,
+   "summed_rate_200Hz": 441.8,
+   "n_active_200Hz": 126,
+   "recruited_gng_200Hz_thr0.5": 28,
+   "recruited_gng_200Hz_thr2.0": 17,
+   "recruited_gng_200Hz_ci95": [
+    18.0,
+    25.0
+   ],
+   "recruited_200Hz_ci95": [
+    28.0,
+    39.0
+   ],
+   "set_sign": "excitatory",
+   "signed_count_baseline": 38
+  },
+  {
+   "set": "aDN2",
+   "n_cells": 2,
+   "braun_class": "broadcaster",
+   "braun_downstream_DNs": 23,
+   "connectome_downstream_DNs_ge5": 25,
+   "recruited_25Hz": 5,
+   "recruited_gng_25Hz": 5,
+   "summed_rate_25Hz": 18.4,
+   "n_active_25Hz": 12,
+   "recruited_gng_25Hz_thr0.5": 6,
+   "recruited_gng_25Hz_thr2.0": 4,
+   "recruited_gng_25Hz_ci95": [
+    4.0,
+    5.0
+   ],
+   "recruited_25Hz_ci95": [
+    4.0,
+    5.0
+   ],
+   "recruited_50Hz": 9,
+   "recruited_gng_50Hz": 9,
+   "summed_rate_50Hz": 68.0,
+   "n_active_50Hz": 19,
+   "recruited_gng_50Hz_thr0.5": 10,
+   "recruited_gng_50Hz_thr2.0": 8,
+   "recruited_gng_50Hz_ci95": [
+    8.0,
+    10.0
+   ],
+   "recruited_50Hz_ci95": [
+    8.0,
+    10.0
+   ],
+   "recruited_100Hz": 16,
+   "recruited_gng_100Hz": 16,
+   "summed_rate_100Hz": 262.8,
+   "n_active_100Hz": 66,
+   "recruited_gng_100Hz_thr0.5": 16,
+   "recruited_gng_100Hz_thr2.0": 14,
+   "recruited_gng_100Hz_ci95": [
+    15.0,
+    16.0
+   ],
+   "recruited_100Hz_ci95": [
+    15.0,
+    16.0
+   ],
+   "recruited_200Hz": 25,
+   "recruited_gng_200Hz": 24,
+   "summed_rate_200Hz": 685.9,
+   "n_active_200Hz": 128,
+   "recruited_gng_200Hz_thr0.5": 25,
+   "recruited_gng_200Hz_thr2.0": 23,
+   "recruited_gng_200Hz_ci95": [
+    24.0,
+    25.0
+   ],
+   "recruited_200Hz_ci95": [
+    25.0,
+    26.0
+   ],
+   "set_sign": "excitatory",
+   "signed_count_baseline": 25
+  },
+  {
+   "set": "DNp42",
+   "n_cells": 2,
+   "braun_class": "broadcaster",
+   "braun_downstream_DNs": 29,
+   "connectome_downstream_DNs_ge5": 37,
+   "recruited_25Hz": 6,
+   "recruited_gng_25Hz": 5,
+   "summed_rate_25Hz": 14.5,
+   "n_active_25Hz": 11,
+   "recruited_gng_25Hz_thr0.5": 5,
+   "recruited_gng_25Hz_thr2.0": 4,
+   "recruited_gng_25Hz_ci95": [
+    4.0,
+    5.0
+   ],
+   "recruited_25Hz_ci95": [
+    4.0,
+    6.0
+   ],
+   "recruited_50Hz": 14,
+   "recruited_gng_50Hz": 11,
+   "summed_rate_50Hz": 69.3,
+   "n_active_50Hz": 29,
+   "recruited_gng_50Hz_thr0.5": 12,
+   "recruited_gng_50Hz_thr2.0": 6,
+   "recruited_gng_50Hz_ci95": [
+    10.0,
+    13.0
+   ],
+   "recruited_50Hz_ci95": [
+    13.0,
+    16.0
+   ],
+   "recruited_100Hz": 25,
+   "recruited_gng_100Hz": 19,
+   "summed_rate_100Hz": 282.5,
+   "n_active_100Hz": 51,
+   "recruited_gng_100Hz_thr0.5": 23,
+   "recruited_gng_100Hz_thr2.0": 16,
+   "recruited_gng_100Hz_ci95": [
+    17.0,
+    21.0
+   ],
+   "recruited_100Hz_ci95": [
+    21.0,
+    27.0
+   ],
+   "recruited_200Hz": 50,
+   "recruited_gng_200Hz": 37,
+   "summed_rate_200Hz": 850.0000000000001,
+   "n_active_200Hz": 111,
+   "recruited_gng_200Hz_thr0.5": 39,
+   "recruited_gng_200Hz_thr2.0": 31,
+   "recruited_gng_200Hz_ci95": [
+    34.0,
+    38.0
+   ],
+   "recruited_200Hz_ci95": [
+    47.0,
+    53.0
+   ],
+   "set_sign": "excitatory",
+   "signed_count_baseline": 37
+  },
+  {
+   "set": "aDN1",
+   "n_cells": 2,
+   "braun_class": "broadcaster",
+   "braun_downstream_DNs": 26,
+   "connectome_downstream_DNs_ge5": 30,
+   "recruited_25Hz": 0,
+   "recruited_gng_25Hz": 0,
+   "summed_rate_25Hz": 1.1,
+   "n_active_25Hz": 4,
+   "recruited_gng_25Hz_thr0.5": 0,
+   "recruited_gng_25Hz_thr2.0": 0,
+   "recruited_gng_25Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_25Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_50Hz": 4,
+   "recruited_gng_50Hz": 4,
+   "summed_rate_50Hz": 10.400000000000002,
+   "n_active_50Hz": 12,
+   "recruited_gng_50Hz_thr0.5": 7,
+   "recruited_gng_50Hz_thr2.0": 2,
+   "recruited_gng_50Hz_ci95": [
+    2.0,
+    7.0
+   ],
+   "recruited_50Hz_ci95": [
+    2.0,
+    7.0
+   ],
+   "recruited_100Hz": 11,
+   "recruited_gng_100Hz": 11,
+   "summed_rate_100Hz": 90.8,
+   "n_active_100Hz": 21,
+   "recruited_gng_100Hz_thr0.5": 12,
+   "recruited_gng_100Hz_thr2.0": 10,
+   "recruited_gng_100Hz_ci95": [
+    10.0,
+    12.0
+   ],
+   "recruited_100Hz_ci95": [
+    10.0,
+    12.0
+   ],
+   "recruited_200Hz": 14,
+   "recruited_gng_200Hz": 14,
+   "summed_rate_200Hz": 337.09999999999997,
+   "n_active_200Hz": 25,
+   "recruited_gng_200Hz_thr0.5": 15,
+   "recruited_gng_200Hz_thr2.0": 13,
+   "recruited_gng_200Hz_ci95": [
+    13.0,
+    15.0
+   ],
+   "recruited_200Hz_ci95": [
+    13.0,
+    15.0
+   ],
+   "set_sign": "excitatory",
+   "signed_count_baseline": 30
+  },
+  {
+   "set": "DNa01",
+   "n_cells": 2,
+   "braun_class": "broadcaster",
+   "braun_downstream_DNs": 25,
+   "connectome_downstream_DNs_ge5": 13,
+   "recruited_25Hz": 0,
+   "recruited_gng_25Hz": 0,
+   "summed_rate_25Hz": 0.0,
+   "n_active_25Hz": 2,
+   "recruited_gng_25Hz_thr0.5": 0,
+   "recruited_gng_25Hz_thr2.0": 0,
+   "recruited_gng_25Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_25Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_50Hz": 0,
+   "recruited_gng_50Hz": 0,
+   "summed_rate_50Hz": 0.0,
+   "n_active_50Hz": 2,
+   "recruited_gng_50Hz_thr0.5": 0,
+   "recruited_gng_50Hz_thr2.0": 0,
+   "recruited_gng_50Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_50Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_100Hz": 0,
+   "recruited_gng_100Hz": 0,
+   "summed_rate_100Hz": 0.0,
+   "n_active_100Hz": 2,
+   "recruited_gng_100Hz_thr0.5": 0,
+   "recruited_gng_100Hz_thr2.0": 0,
+   "recruited_gng_100Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_100Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_200Hz": 0,
+   "recruited_gng_200Hz": 0,
+   "summed_rate_200Hz": 1.8,
+   "n_active_200Hz": 3,
+   "recruited_gng_200Hz_thr0.5": 1,
+   "recruited_gng_200Hz_thr2.0": 0,
+   "recruited_gng_200Hz_ci95": [
+    0.0,
+    1.0
+   ],
+   "recruited_200Hz_ci95": [
+    0.0,
+    2.0
+   ],
+   "set_sign": "excitatory",
+   "signed_count_baseline": 13
+  },
+  {
+   "set": "DNb02",
+   "n_cells": 4,
+   "braun_class": "broadcaster",
+   "braun_downstream_DNs": 20,
+   "connectome_downstream_DNs_ge5": 21,
+   "recruited_25Hz": 0,
+   "recruited_gng_25Hz": 0,
+   "summed_rate_25Hz": 0.0,
+   "n_active_25Hz": 4,
+   "recruited_gng_25Hz_thr0.5": 0,
+   "recruited_gng_25Hz_thr2.0": 0,
+   "recruited_gng_25Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_25Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_50Hz": 0,
+   "recruited_gng_50Hz": 0,
+   "summed_rate_50Hz": 0.0,
+   "n_active_50Hz": 4,
+   "recruited_gng_50Hz_thr0.5": 0,
+   "recruited_gng_50Hz_thr2.0": 0,
+   "recruited_gng_50Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_50Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_100Hz": 0,
+   "recruited_gng_100Hz": 0,
+   "summed_rate_100Hz": 0.0,
+   "n_active_100Hz": 4,
+   "recruited_gng_100Hz_thr0.5": 0,
+   "recruited_gng_100Hz_thr2.0": 0,
+   "recruited_gng_100Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_100Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_200Hz": 0,
+   "recruited_gng_200Hz": 0,
+   "summed_rate_200Hz": 0.0,
+   "n_active_200Hz": 4,
+   "recruited_gng_200Hz_thr0.5": 0,
+   "recruited_gng_200Hz_thr2.0": 0,
+   "recruited_gng_200Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_200Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "set_sign": "inhibitory",
+   "signed_count_baseline": 0
+  },
+  {
+   "set": "DNa02",
+   "n_cells": 2,
+   "braun_class": "broadcaster",
+   "braun_downstream_DNs": 18,
+   "connectome_downstream_DNs_ge5": 29,
+   "recruited_25Hz": 0,
+   "recruited_gng_25Hz": 0,
+   "summed_rate_25Hz": 0.1,
+   "n_active_25Hz": 2,
+   "recruited_gng_25Hz_thr0.5": 0,
+   "recruited_gng_25Hz_thr2.0": 0,
+   "recruited_gng_25Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_25Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_50Hz": 1,
+   "recruited_gng_50Hz": 1,
+   "summed_rate_50Hz": 2.3,
+   "n_active_50Hz": 7,
+   "recruited_gng_50Hz_thr0.5": 1,
+   "recruited_gng_50Hz_thr2.0": 0,
+   "recruited_gng_50Hz_ci95": [
+    0.0,
+    1.0
+   ],
+   "recruited_50Hz_ci95": [
+    0.0,
+    1.0
+   ],
+   "recruited_100Hz": 4,
+   "recruited_gng_100Hz": 3,
+   "summed_rate_100Hz": 16.6,
+   "n_active_100Hz": 13,
+   "recruited_gng_100Hz_thr0.5": 3,
+   "recruited_gng_100Hz_thr2.0": 1,
+   "recruited_gng_100Hz_ci95": [
+    3.0,
+    3.0
+   ],
+   "recruited_100Hz_ci95": [
+    4.0,
+    4.0
+   ],
+   "recruited_200Hz": 5,
+   "recruited_gng_200Hz": 3,
+   "summed_rate_200Hz": 55.2,
+   "n_active_200Hz": 26,
+   "recruited_gng_200Hz_thr0.5": 4,
+   "recruited_gng_200Hz_thr2.0": 3,
+   "recruited_gng_200Hz_ci95": [
+    3.0,
+    4.0
+   ],
+   "recruited_200Hz_ci95": [
+    4.0,
+    7.0
+   ],
+   "set_sign": "excitatory",
+   "signed_count_baseline": 29
+  },
+  {
+   "set": "MDN",
+   "n_cells": 4,
+   "braun_class": "standalone",
+   "braun_downstream_DNs": 14,
+   "connectome_downstream_DNs_ge5": 20,
+   "recruited_25Hz": 4,
+   "recruited_gng_25Hz": 4,
+   "summed_rate_25Hz": 5.800000000000001,
+   "n_active_25Hz": 9,
+   "recruited_gng_25Hz_thr0.5": 4,
+   "recruited_gng_25Hz_thr2.0": 1,
+   "recruited_gng_25Hz_ci95": [
+    1.0,
+    4.0
+   ],
+   "recruited_25Hz_ci95": [
+    1.0,
+    4.0
+   ],
+   "recruited_50Hz": 6,
+   "recruited_gng_50Hz": 6,
+   "summed_rate_50Hz": 40.6,
+   "n_active_50Hz": 13,
+   "recruited_gng_50Hz_thr0.5": 6,
+   "recruited_gng_50Hz_thr2.0": 4,
+   "recruited_gng_50Hz_ci95": [
+    6.0,
+    6.0
+   ],
+   "recruited_50Hz_ci95": [
+    6.0,
+    7.0
+   ],
+   "recruited_100Hz": 10,
+   "recruited_gng_100Hz": 8,
+   "summed_rate_100Hz": 151.5,
+   "n_active_100Hz": 17,
+   "recruited_gng_100Hz_thr0.5": 8,
+   "recruited_gng_100Hz_thr2.0": 8,
+   "recruited_gng_100Hz_ci95": [
+    8.0,
+    8.0
+   ],
+   "recruited_100Hz_ci95": [
+    10.0,
+    10.0
+   ],
+   "recruited_200Hz": 11,
+   "recruited_gng_200Hz": 9,
+   "summed_rate_200Hz": 380.9,
+   "n_active_200Hz": 25,
+   "recruited_gng_200Hz_thr0.5": 9,
+   "recruited_gng_200Hz_thr2.0": 9,
+   "recruited_gng_200Hz_ci95": [
+    9.0,
+    9.0
+   ],
+   "recruited_200Hz_ci95": [
+    11.0,
+    13.0
+   ],
+   "set_sign": "excitatory",
+   "signed_count_baseline": 20
+  },
+  {
+   "set": "giant fibre (DNp01)",
+   "n_cells": 2,
+   "braun_class": "standalone",
+   "braun_downstream_DNs": 4,
+   "connectome_downstream_DNs_ge5": 8,
+   "recruited_25Hz": 0,
+   "recruited_gng_25Hz": 0,
+   "summed_rate_25Hz": 0.5,
+   "n_active_25Hz": 2,
+   "recruited_gng_25Hz_thr0.5": 0,
+   "recruited_gng_25Hz_thr2.0": 0,
+   "recruited_gng_25Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_25Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_50Hz": 2,
+   "recruited_gng_50Hz": 0,
+   "summed_rate_50Hz": 9.0,
+   "n_active_50Hz": 4,
+   "recruited_gng_50Hz_thr0.5": 0,
+   "recruited_gng_50Hz_thr2.0": 0,
+   "recruited_gng_50Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_50Hz_ci95": [
+    2.0,
+    2.0
+   ],
+   "recruited_100Hz": 10,
+   "recruited_gng_100Hz": 4,
+   "summed_rate_100Hz": 57.0,
+   "n_active_100Hz": 15,
+   "recruited_gng_100Hz_thr0.5": 4,
+   "recruited_gng_100Hz_thr2.0": 2,
+   "recruited_gng_100Hz_ci95": [
+    4.0,
+    4.0
+   ],
+   "recruited_100Hz_ci95": [
+    10.0,
+    10.0
+   ],
+   "recruited_200Hz": 14,
+   "recruited_gng_200Hz": 5,
+   "summed_rate_200Hz": 334.9,
+   "n_active_200Hz": 38,
+   "recruited_gng_200Hz_thr0.5": 5,
+   "recruited_gng_200Hz_thr2.0": 4,
+   "recruited_gng_200Hz_ci95": [
+    4.0,
+    5.0
+   ],
+   "recruited_200Hz_ci95": [
+    13.0,
+    14.0
+   ],
+   "set_sign": "excitatory",
+   "signed_count_baseline": 8
+  },
+  {
+   "set": "oviDN",
+   "n_cells": 6,
+   "braun_class": "standalone",
+   "braun_downstream_DNs": 4,
+   "connectome_downstream_DNs_ge5": 8,
+   "recruited_25Hz": 0,
+   "recruited_gng_25Hz": 0,
+   "summed_rate_25Hz": 0.0,
+   "n_active_25Hz": 8,
+   "recruited_gng_25Hz_thr0.5": 0,
+   "recruited_gng_25Hz_thr2.0": 0,
+   "recruited_gng_25Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_25Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_50Hz": 1,
+   "recruited_gng_50Hz": 0,
+   "summed_rate_50Hz": 1.1,
+   "n_active_50Hz": 13,
+   "recruited_gng_50Hz_thr0.5": 0,
+   "recruited_gng_50Hz_thr2.0": 0,
+   "recruited_gng_50Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_50Hz_ci95": [
+    0.0,
+    1.0
+   ],
+   "recruited_100Hz": 1,
+   "recruited_gng_100Hz": 0,
+   "summed_rate_100Hz": 8.4,
+   "n_active_100Hz": 18,
+   "recruited_gng_100Hz_thr0.5": 0,
+   "recruited_gng_100Hz_thr2.0": 0,
+   "recruited_gng_100Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_100Hz_ci95": [
+    1.0,
+    2.0
+   ],
+   "recruited_200Hz": 6,
+   "recruited_gng_200Hz": 2,
+   "summed_rate_200Hz": 50.699999999999996,
+   "n_active_200Hz": 31,
+   "recruited_gng_200Hz_thr0.5": 2,
+   "recruited_gng_200Hz_thr2.0": 2,
+   "recruited_gng_200Hz_ci95": [
+    2.0,
+    2.0
+   ],
+   "recruited_200Hz_ci95": [
+    6.0,
+    6.0
+   ],
+   "set_sign": "excitatory",
+   "signed_count_baseline": 8
+  },
+  {
+   "set": "DNg11",
+   "n_cells": 6,
+   "braun_class": "standalone",
+   "braun_downstream_DNs": 4,
+   "connectome_downstream_DNs_ge5": 5,
+   "recruited_25Hz": 0,
+   "recruited_gng_25Hz": 0,
+   "summed_rate_25Hz": 0.0,
+   "n_active_25Hz": 6,
+   "recruited_gng_25Hz_thr0.5": 0,
+   "recruited_gng_25Hz_thr2.0": 0,
+   "recruited_gng_25Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_25Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_50Hz": 0,
+   "recruited_gng_50Hz": 0,
+   "summed_rate_50Hz": 0.0,
+   "n_active_50Hz": 6,
+   "recruited_gng_50Hz_thr0.5": 0,
+   "recruited_gng_50Hz_thr2.0": 0,
+   "recruited_gng_50Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_50Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_100Hz": 0,
+   "recruited_gng_100Hz": 0,
+   "summed_rate_100Hz": 0.0,
+   "n_active_100Hz": 6,
+   "recruited_gng_100Hz_thr0.5": 0,
+   "recruited_gng_100Hz_thr2.0": 0,
+   "recruited_gng_100Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_100Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_200Hz": 0,
+   "recruited_gng_200Hz": 0,
+   "summed_rate_200Hz": 0.0,
+   "n_active_200Hz": 6,
+   "recruited_gng_200Hz_thr0.5": 0,
+   "recruited_gng_200Hz_thr2.0": 0,
+   "recruited_gng_200Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_200Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "set_sign": "inhibitory",
+   "signed_count_baseline": 0
+  },
+  {
+   "set": "DNg14",
+   "n_cells": 2,
+   "braun_class": "standalone",
+   "braun_downstream_DNs": 0,
+   "connectome_downstream_DNs_ge5": 0,
+   "recruited_25Hz": 0,
+   "recruited_gng_25Hz": 0,
+   "summed_rate_25Hz": 0.0,
+   "n_active_25Hz": 2,
+   "recruited_gng_25Hz_thr0.5": 0,
+   "recruited_gng_25Hz_thr2.0": 0,
+   "recruited_gng_25Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_25Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_50Hz": 0,
+   "recruited_gng_50Hz": 0,
+   "summed_rate_50Hz": 0.0,
+   "n_active_50Hz": 2,
+   "recruited_gng_50Hz_thr0.5": 0,
+   "recruited_gng_50Hz_thr2.0": 0,
+   "recruited_gng_50Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_50Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_100Hz": 0,
+   "recruited_gng_100Hz": 0,
+   "summed_rate_100Hz": 0.0,
+   "n_active_100Hz": 2,
+   "recruited_gng_100Hz_thr0.5": 0,
+   "recruited_gng_100Hz_thr2.0": 0,
+   "recruited_gng_100Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_100Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_200Hz": 0,
+   "recruited_gng_200Hz": 0,
+   "summed_rate_200Hz": 0.0,
+   "n_active_200Hz": 2,
+   "recruited_gng_200Hz_thr0.5": 0,
+   "recruited_gng_200Hz_thr2.0": 0,
+   "recruited_gng_200Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "recruited_200Hz_ci95": [
+    0.0,
+    0.0
+   ],
+   "set_sign": "excitatory",
+   "signed_count_baseline": 0
+  }
+ ],
+ "spearman_LIF_vs_baselines": {
+  "all >=5-synapse DN partners": {
+   "25Hz": 0.6350722396589277,
+   "50Hz": 0.7269016198305522,
+   "100Hz": 0.7661935992808524,
+   "200Hz": 0.6947536366439432,
+   "gng_25Hz": 0.5347976755022548,
+   "gng_50Hz": 0.7792393952359694,
+   "gng_100Hz": 0.7627040392731282,
+   "gng_200Hz": 0.7451939409723054
+  },
+  "signed count": {
+   "25Hz": 0.6774460071063932,
+   "50Hz": 0.8327823046100119,
+   "100Hz": 0.8615609587650015,
+   "200Hz": 0.8004063186856485,
+   "gng_25Hz": 0.5848757452657681,
+   "gng_50Hz": 0.8300409456949995,
+   "gng_100Hz": 0.8339516431797325,
+   "gng_200Hz": 0.8402492943660561
+  },
+  "Braun et al. counts": {
+   "25Hz": 0.6006388986346543,
+   "50Hz": 0.5925063964103966,
+   "100Hz": 0.6320068228377564,
+   "200Hz": 0.5781426049822658,
+   "gng_25Hz": 0.4914318261556262,
+   "gng_50Hz": 0.6590881300103707,
+   "gng_100Hz": 0.6499121106834949,
+   "gng_200Hz": 0.6093542242940654
+  }
+ },
+ "braun_vs_wiring_counts_rho": 0.9030108761960217
+}

@@ -1,0 +1,14 @@
+{
+ "level": "hemilineage",
+ "seed": 2,
+ "n_groups": 4140,
+ "edges_in": 15091983,
+ "edges_out": 14454524,
+ "self_loops_dropped": 6819,
+ "synapses_dropped_self_loops": 22335,
+ "duplicates_merged": 630640,
+ "frac_edges_also_in_real": 0.08401985426846294,
+ "seconds": 76.5,
+ "pack_ok": true,
+ "seconds_total": 154.4
+}
